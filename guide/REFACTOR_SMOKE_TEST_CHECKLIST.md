@@ -1,7 +1,7 @@
 # Refactor Smoke Test Checklist
 
 Date: 2026-03-02
-Scope: `main.dart` split, dashboard/home-tab split, teacher dashboard split.
+Scope: `main.dart` split, `main_app_shell.dart` split, dashboard/home-tab split, teacher dashboard split, games hub split.
 
 ## 1. App Boot And Routing
 
@@ -48,5 +48,12 @@ Scope: `main.dart` split, dashboard/home-tab split, teacher dashboard split.
 
 - [ ] Watch logs while navigating dashboard cards; verify no `ParentDataWidget Positioned` error.
 - [ ] Run daily verbs "mark all complete" path and verify no `Bad state: No element` pop crash.
-- [ ] Run `flutter analyze lib/main.dart lib/features/dashboard/widgets/home_tab.dart lib/teacher_dashboard`.
+- [ ] Run `flutter analyze lib/main.dart lib/main_app_shell.dart lib/main_app_shell_runtime.dart lib/features/dashboard/widgets/home_tab.dart lib/teacher_dashboard lib/widgets/games_hub_card.dart`.
 
+## 8. App Shell Recovery And Resume
+
+- [ ] Launch app, login as student, open a lesson, send app to background for 5-10 seconds, resume, verify screen restores without black frame.
+- [ ] Repeat background/resume from dashboard (no active lesson) and verify no forced restart to wrong screen.
+- [ ] During resume, verify loading/recovery overlay appears only when needed and interaction is blocked only in recovery phase.
+- [ ] Kill app while logged in, relaunch, verify route resolves correctly (`dashboard` for student, `teacher_dashboard` for teacher, `placement_entry` when placement incomplete).
+- [ ] Force a stale snapshot condition (very old background timestamp) and verify app falls back to safe home without crash.
