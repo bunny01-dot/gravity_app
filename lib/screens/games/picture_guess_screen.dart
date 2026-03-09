@@ -302,7 +302,7 @@ class _PictureGuessScreenState extends State<PictureGuessScreen> {
                   border: Border.all(color: Colors.white10),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.3),
+                      color: Colors.black.withValues(alpha: 0.3),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -341,7 +341,7 @@ class _PictureGuessScreenState extends State<PictureGuessScreen> {
 
                 if (_answered) {
                   if (isCorrect) {
-                    color = Colors.greenAccent.withOpacity(0.2);
+                    color = Colors.greenAccent.withValues(alpha: 0.2);
                     textColor = Colors.greenAccent;
                   } else {
                     color = Colors.white10;

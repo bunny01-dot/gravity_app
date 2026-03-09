@@ -165,7 +165,7 @@ class _ListenAndTapScreenState extends State<ListenAndTapScreen> {
                 borderRadius: BorderRadius.circular(30),
                 boxShadow: [
                   BoxShadow(
-                    color: const Color(0xFFFFD700).withOpacity(0.4),
+                    color: const Color(0xFFFFD700).withValues(alpha: 0.4),
                     blurRadius: 20,
                   ),
                 ],
