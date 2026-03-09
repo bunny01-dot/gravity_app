@@ -91,7 +91,7 @@ extension DashboardTutorial on _DashboardScreenState {
       return true;
     }
 
-    // Auto-dismiss: â‰¥ 3 days completed
+    // Auto-dismiss: >= 3 days completed
     return false;
   }
 
@@ -210,5 +210,53 @@ extension DashboardTutorial on _DashboardScreenState {
         );
       });
     }
+  }
+
+  Future<void> _showFeatureHighlightsIfNeeded() async {
+    if (!mounted || _userRole != 'student') return;
+    if (_currentIndex != 0) return;
+    if (TutorialHelper.isShowingTutorial || _isNoticeActive || _isLoggingOut) {
+      return;
+    }
+
+    final shouldShow = await FeatureHighlightService().shouldShow(
+      featureId: _DashboardScreenState._blackHoleFeatureHighlightId,
+      version: 1,
+    );
+    if (!shouldShow || !mounted) return;
+
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted || TutorialHelper.isShowingTutorial || _isLoggingOut) return;
+      if (_blackHoleFeatureKey.currentContext == null) return;
+
+      setState(() {
+        _highlightBlackHoleFeature = true;
+      });
+      FeatureHighlightService().markShownThisSession();
+
+      TutorialHelper.showTutorial(
+        context: context,
+        targetKey: _blackHoleFeatureKey,
+        title: "New: Focused Black Hole Quiz",
+        message: "Tap here to launch a focused quiz from your difficult words.",
+        accentColor: const Color(0xFF4FACFE),
+        allowTargetInteraction: true,
+        highlightShape: CoachMarkHighlightShape.circle,
+        highlightPadding: const EdgeInsets.all(12),
+        onDismiss: () {
+          if (mounted) {
+            setState(() {
+              _highlightBlackHoleFeature = false;
+            });
+          }
+          unawaited(
+            FeatureHighlightService().markSeen(
+              featureId: _DashboardScreenState._blackHoleFeatureHighlightId,
+              version: 1,
+            ),
+          );
+        },
+      );
+    });
   }
 }

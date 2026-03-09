@@ -1,0 +1,29 @@
+﻿Lesson: Lesson_14_Question_Types
+Asset Folder: assets/Lessons/Lesson_14_Question_Types
+Generated On: 2026-02-25 21:59:16
+
+Total Images: 5
+Matched Existing Prompts: 0
+Auto-generated 3D Pixar Prompts: 5
+Upgraded to explicit 3D Pixar style: 0
+
+1. 5_question_types_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_14_Question_Types' focused on '5 question types square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+2. choice_questions_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_14_Question_Types' focused on 'choice questions square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+3. question_types_hook_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_14_Question_Types' focused on 'question types hook square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+4. wh_questions_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_14_Question_Types' focused on 'wh questions square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+5. yes_no_questions_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_14_Question_Types' focused on 'yes no questions square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+

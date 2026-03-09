@@ -123,6 +123,7 @@ extension DashboardActions on _DashboardScreenState {
 
   Future<void> _handlePopInvokedWithResult(bool didPop, dynamic result) async {
     if (didPop) return;
+    final colorScheme = Theme.of(context).colorScheme;
 
     // If not on dashboard (index 0), navigate back to dashboard
     if (_currentIndex != 0) {
@@ -143,19 +144,19 @@ extension DashboardActions on _DashboardScreenState {
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Row(
+          content: Row(
             children: [
-              Icon(Icons.info_outline, color: Colors.white),
-              SizedBox(width: 12),
+              Icon(Icons.info_outline, color: colorScheme.onPrimary),
+              const SizedBox(width: 12),
               Expanded(
                 child: Text(
                   'Press back again to exit',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: colorScheme.onPrimary),
                 ),
               ),
             ],
           ),
-          backgroundColor: const Color(0xFF4FACFE),
+          backgroundColor: colorScheme.primary,
           behavior: SnackBarBehavior.floating,
           margin: const EdgeInsets.all(16),
           shape: RoundedRectangleBorder(
@@ -273,6 +274,20 @@ extension DashboardActions on _DashboardScreenState {
   }
 
   void _handleAppBarBlackHoleTap() {
+    if (_highlightBlackHoleFeature || TutorialHelper.isShowingTutorial) {
+      TutorialHelper.dismissCurrentTutorial();
+      if (mounted) {
+        setState(() {
+          _highlightBlackHoleFeature = false;
+        });
+      }
+      unawaited(
+        FeatureHighlightService().markSeen(
+          featureId: _DashboardScreenState._blackHoleFeatureHighlightId,
+          version: 1,
+        ),
+      );
+    }
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => const BlackHoleScreen()),
@@ -314,10 +329,14 @@ extension DashboardActions on _DashboardScreenState {
     } catch (e) {
       debugPrint("Error deleting announcement: $e");
       if (mounted) {
+        final colorScheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text("Failed to delete: $e"),
-            backgroundColor: Colors.redAccent,
+            content: Text(
+              "Failed to delete: $e",
+              style: TextStyle(color: colorScheme.onErrorContainer),
+            ),
+            backgroundColor: colorScheme.errorContainer,
             behavior: SnackBarBehavior.floating,
           ),
         );
@@ -332,6 +351,7 @@ extension DashboardActions on _DashboardScreenState {
 
     // 2. Show Input Dialog
     if (!mounted) return;
+    final colorScheme = Theme.of(context).colorScheme;
     TextEditingController controller = TextEditingController(text: currentUrl);
     final newUrl = await showModernDialog<String>(
       context,
@@ -339,12 +359,12 @@ extension DashboardActions on _DashboardScreenState {
       message: "Enter the 'Published to Web' CSV link of your Google Sheet.",
       content: TextField(
         controller: controller,
-        style: const TextStyle(color: Colors.white),
+        style: TextStyle(color: colorScheme.onSurface),
         decoration: InputDecoration(
           hintText: "https://docs.google.com/.../pub?output=csv",
-          hintStyle: TextStyle(color: Colors.white.withValues(alpha: 0.3)),
+          hintStyle: TextStyle(color: colorScheme.onSurfaceVariant),
           filled: true,
-          fillColor: Colors.white.withValues(alpha: 0.05),
+          fillColor: colorScheme.surfaceContainerHighest.withValues(alpha: 0.5),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
             borderSide: BorderSide.none,
@@ -356,7 +376,7 @@ extension DashboardActions on _DashboardScreenState {
       secondaryButtonText: "Cancel",
       onSecondaryPressed: () => Navigator.pop(context),
       icon: Icons.link_rounded,
-      accentColor: const Color(0xFF4FACFE),
+      accentColor: colorScheme.primary,
     );
 
     if (newUrl == null || newUrl.isEmpty) return;
@@ -384,17 +404,25 @@ extension DashboardActions on _DashboardScreenState {
       Navigator.pop(context); // Close loading
 
       if (success) {
+        final scheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text("Cloud synced successfully from Google Sheet!"),
-            backgroundColor: Colors.green,
+          SnackBar(
+            content: Text(
+              "Cloud synced successfully from Google Sheet!",
+              style: TextStyle(color: scheme.onPrimaryContainer),
+            ),
+            backgroundColor: scheme.primaryContainer,
           ),
         );
       } else {
+        final scheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text("Sync failed. Check the URL and try again."),
-            backgroundColor: Colors.redAccent,
+          SnackBar(
+            content: Text(
+              "Sync failed. Check the URL and try again.",
+              style: TextStyle(color: scheme.onErrorContainer),
+            ),
+            backgroundColor: scheme.errorContainer,
           ),
         );
       }
@@ -421,20 +449,28 @@ extension DashboardActions on _DashboardScreenState {
 
       if (mounted) {
         Navigator.pop(context); // Close loading
+        final colorScheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text("Data cache cleared and reloaded successfully!"),
-            backgroundColor: Colors.green,
+          SnackBar(
+            content: Text(
+              "Data cache cleared and reloaded successfully!",
+              style: TextStyle(color: colorScheme.onPrimaryContainer),
+            ),
+            backgroundColor: colorScheme.primaryContainer,
           ),
         );
       }
     } catch (e) {
       if (mounted) {
         Navigator.pop(context);
+        final colorScheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text("Error refreshing data: $e"),
-            backgroundColor: Colors.redAccent,
+            content: Text(
+              "Error refreshing data: $e",
+              style: TextStyle(color: colorScheme.onErrorContainer),
+            ),
+            backgroundColor: colorScheme.errorContainer,
           ),
         );
       }
@@ -457,6 +493,7 @@ extension DashboardActions on _DashboardScreenState {
 
     if (!hasVocab || !hasVerbs || !hasSpeaking) {
       if (mounted) {
+        final colorScheme = Theme.of(context).colorScheme;
         showModernDialog(
           context,
           title: "Finish Level $reviewStage Plan",
@@ -465,7 +502,7 @@ extension DashboardActions on _DashboardScreenState {
           primaryButtonText: "I Understand",
           onPrimaryPressed: () => Navigator.pop(context),
           icon: Icons.hourglass_empty_rounded,
-          accentColor: const Color(0xFFFF6B6B),
+          accentColor: colorScheme.error,
         );
       }
       return;
@@ -504,12 +541,14 @@ extension DashboardActions on _DashboardScreenState {
     if (completed) return true;
 
     if (mounted) {
+      final colorScheme = Theme.of(context).colorScheme;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
             "Please complete the Level $previousStage review to confirm your learning.",
+            style: TextStyle(color: colorScheme.onErrorContainer),
           ),
-          backgroundColor: Colors.redAccent,
+          backgroundColor: colorScheme.errorContainer,
           behavior: SnackBarBehavior.floating,
           duration: const Duration(seconds: 3),
         ),
@@ -700,14 +739,31 @@ extension DashboardActions on _DashboardScreenState {
 
     // 2. Load a full daily pronunciation set.
     bool isLoading = true;
+    BuildContext? loaderDialogContext;
+    Future<void> closeLoaderIfVisible() async {
+      if (!isLoading) return;
+      isLoading = false;
+      final dialogContext = loaderDialogContext;
+      if (dialogContext == null) return;
+      final navigator = Navigator.of(dialogContext, rootNavigator: true);
+      if (navigator.canPop()) {
+        navigator.pop();
+      }
+    }
+
     showDialog(
       context: context,
-      barrierDismissible: true,
-      builder: (c) => const RefreshLottieLoader(
-        message: "Loading speaking task...",
-        subtitle: "Picking today’s pronunciation set",
-      ),
+      barrierDismissible: false,
+      useRootNavigator: true,
+      builder: (dialogContext) {
+        loaderDialogContext = dialogContext;
+        return const RefreshLottieLoader(
+          message: "Loading speaking task...",
+          subtitle: "Picking today's pronunciation set",
+        );
+      },
     );
+    await Future<void>.delayed(const Duration(milliseconds: 16));
 
     try {
       final stage = await _stageService.getCurrentStage();
@@ -716,8 +772,7 @@ extension DashboardActions on _DashboardScreenState {
         targetCount: targetSentenceCount,
       );
 
-      if (context.mounted) Navigator.pop(context); // Close loading
-      isLoading = false;
+      await closeLoaderIfVisible();
 
       if (items.isEmpty) {
         if (context.mounted) {
@@ -747,7 +802,7 @@ extension DashboardActions on _DashboardScreenState {
         _showDailySpeakingLoop(context, items);
       }
     } catch (e) {
-      if (isLoading && context.mounted) Navigator.pop(context);
+      await closeLoaderIfVisible();
       debugPrint("Error loading daily speaking: $e");
     }
   }
@@ -934,7 +989,7 @@ extension DashboardActions on _DashboardScreenState {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                '💡 What is this?',
+                                ' What is this?',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 14,
@@ -952,7 +1007,7 @@ extension DashboardActions on _DashboardScreenState {
                               ),
                               SizedBox(height: 12),
                               Text(
-                                '✨ How it works:',
+                                ' How it works:',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 14,
@@ -961,13 +1016,13 @@ extension DashboardActions on _DashboardScreenState {
                               ),
                               SizedBox(height: 6),
                               Text(
-                                r'• Mark words you find difficult during lessons'
+                                r'| Mark words you find difficult during lessons'
                                 '\n'
-                                r'• They automatically appear here'
+                                r'| They automatically appear here'
                                 '\n'
-                                r'• Review and master them at your own pace'
+                                r'| Review and master them at your own pace'
                                 '\n'
-                                r'• Only uses words you'
+                                r'| Only uses words you'
                                 "'"
                                 r've already learned',
                                 style: TextStyle(
@@ -1082,10 +1137,14 @@ extension DashboardActions on _DashboardScreenState {
     } catch (e) {
       debugPrint("Error logging out: $e");
       if (mounted) {
+        final colorScheme = Theme.of(context).colorScheme;
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text("Error logging out: $e"),
-            backgroundColor: Colors.redAccent,
+            content: Text(
+              "Error logging out: $e",
+              style: TextStyle(color: colorScheme.onErrorContainer),
+            ),
+            backgroundColor: colorScheme.errorContainer,
           ),
         );
       }

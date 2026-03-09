@@ -55,6 +55,8 @@ extension DashboardNotifications on _DashboardScreenState {
       _isAttentionModalActive = false;
       return;
     }
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
     final acknowledgedIds =
         prefs.getStringList('acknowledged_important_announcements') ?? [];
 
@@ -68,7 +70,7 @@ extension DashboardNotifications on _DashboardScreenState {
           if (didPop) return;
         },
         child: AlertDialog(
-          backgroundColor: const Color(0xFF1E1E2C),
+          backgroundColor: colorScheme.surfaceContainerHigh,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(24),
           ),
@@ -90,8 +92,8 @@ extension DashboardNotifications on _DashboardScreenState {
               Expanded(
                 child: Text(
                   title,
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: colorScheme.onSurface,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
@@ -102,8 +104,8 @@ extension DashboardNotifications on _DashboardScreenState {
           content: SingleChildScrollView(
             child: Text(
               message,
-              style: const TextStyle(
-                color: Colors.white70,
+              style: TextStyle(
+                color: colorScheme.onSurfaceVariant,
                 fontSize: 16,
                 height: 1.5,
               ),
@@ -134,7 +136,8 @@ extension DashboardNotifications on _DashboardScreenState {
                   );
                 },
                 style: FilledButton.styleFrom(
-                  backgroundColor: const Color(0xFF4FACFE),
+                  backgroundColor: colorScheme.primary,
+                  foregroundColor: colorScheme.onPrimary,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 24,
                     vertical: 12,
@@ -165,7 +168,8 @@ extension DashboardNotifications on _DashboardScreenState {
                 Navigator.of(dialogContext).pop();
               },
               style: FilledButton.styleFrom(
-                backgroundColor: const Color(0xFF4FACFE),
+                backgroundColor: colorScheme.primary,
+                foregroundColor: colorScheme.onPrimary,
                 padding: const EdgeInsets.symmetric(
                   horizontal: 24,
                   vertical: 12,

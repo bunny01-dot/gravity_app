@@ -1,0 +1,165 @@
+﻿Analyzing dashboard.dart...
+
+  error - dashboard.dart:197:19 - The method '_showTutorialIfNeeded' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_showTutorialIfNeeded'. - undefined_method
+  error - dashboard.dart:420:19 - The name 'SpaceDustBackground' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - dashboard.dart:632:47 - Undefined name '_markAnnouncementRead'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:653:27 - The method '_buildMasteryTab' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_buildMasteryTab'. - undefined_method
+  error - dashboard.dart:655:47 - Undefined name '_handleLogout'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:721:15 - The method '_showDailyTasksTutorialIfNeeded' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_showDailyTasksTutorialIfNeeded'. - undefined_method
+  error - dashboard.dart:728:15 - The method '_showMasteryTutorialIfNeeded' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_showMasteryTutorialIfNeeded'. - undefined_method
+  error - dashboard.dart:733:15 - The method '_showSettingsDifficultyTutorialIfNeeded' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_showSettingsDifficultyTutorialIfNeeded'. - undefined_method
+  error - dashboard.dart:1481:11 - The method '_buildTaskCard' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_buildTaskCard'. - undefined_method
+  error - dashboard.dart:1560:11 - The method '_buildTaskCard' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_buildTaskCard'. - undefined_method
+  error - dashboard.dart:1573:11 - The method '_buildTaskCard' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_buildTaskCard'. - undefined_method
+  error - dashboard.dart:1586:11 - The method '_buildTaskCard' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_buildTaskCard'. - undefined_method
+  error - dashboard.dart:2124:19 - The method '_markTaskDone' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_markTaskDone'. - undefined_method
+  error - dashboard.dart:2158:15 - Local variable '_markAttendance' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_markAttendance' is here at dashboard.dart:2190:16.
+  error - dashboard.dart:2234:9 - Local variable '_showMasteryIntroIfNeeded' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_showMasteryIntroIfNeeded' is here at dashboard.dart:2476:16.
+  error - dashboard.dart:2266:21 - Local variable '_shouldShowMasteryRecommendationHint' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_shouldShowMasteryRecommendationHint' is here at dashboard.dart:2556:16.
+  error - dashboard.dart:2271:26 - Local variable '_buildRecommendationHint' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_buildRecommendationHint' is here at dashboard.dart:2591:10.
+  error - dashboard.dart:2366:30 - Local variable '_handleBlackHoleTap' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_handleBlackHoleTap' is here at dashboard.dart:2694:16.
+  error - dashboard.dart:2458:15 - Local variable '_showDashboardHintIfNeeded' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_showDashboardHintIfNeeded' is here at dashboard.dart:2465:16.
+  error - dashboard.dart:2549:11 - Local variable '_showMasteryTutorialIfNeeded' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_showMasteryTutorialIfNeeded' is here at dashboard.dart:2662:16.
+  error - dashboard.dart:2995:1 - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:2995:1 - Expected to find ','. - expected_token
+  error - dashboard.dart:2995:1 - Too many positional arguments: 0 expected, but 19 found. Try removing the extra positional arguments, or specifying the name for named arguments. - extra_positional_arguments_could_be_named
+  error - dashboard.dart:2995:1 - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:2995:7 - Expected to find ','. - expected_token
+  error - dashboard.dart:2995:7 - Undefined name 'SpaceDustBackground'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:2995:27 - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:2995:27 - Expected to find ','. - expected_token
+  error - dashboard.dart:2995:27 - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:2995:35 - Expected to find ','. - expected_token
+  error - dashboard.dart:2995:50 - Expected to find ','. - expected_token
+  error - dashboard.dart:2996:9 - The name 'SpaceDustBackground' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - dashboard.dart:2996:36 - The getter 'key' isn't defined in a superclass of '_DashboardScreenState'. Try correcting the name to the name of an existing getter, or defining a getter or field named 'key' in a superclass. - undefined_super_member
+  error - dashboard.dart:2996:41 - Expected to find '}'. - expected_token
+  error - dashboard.dart:3002:1 - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3002:1 - Expected to find ','. - expected_token
+  error - dashboard.dart:3002:1 - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3002:7 - Expected to find ','. - expected_token
+  error - dashboard.dart:3002:7 - Undefined name '_SpaceDustBackgroundState'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3002:33 - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3002:33 - Expected to find ','. - expected_token
+  error - dashboard.dart:3002:33 - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3002:41 - Expected to find ','. - expected_token
+  error - dashboard.dart:3002:46 - The operator '<' isn't defined for the type 'Type'. Try defining the operator '<'. - undefined_operator
+  error - dashboard.dart:3002:47 - Undefined name 'SpaceDustBackground'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3002:66 - A comparison expression can't be an operand of another comparison expression. Try putting parentheses around one of the comparisons. - equality_cannot_be_equality_operand
+  error - dashboard.dart:3003:5 - 'with' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3003:5 - Undefined name 'with'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3003:10 - Expected to find ','. - expected_token
+  error - dashboard.dart:3003:41 - Expected to find ','. - expected_token
+  error - dashboard.dart:3004:3 - Undefined name 'late'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3004:8 - Expected to find '}'. - expected_token
+  error - dashboard.dart:3056:1 - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3056:1 - Expected to find ','. - expected_token
+  error - dashboard.dart:3056:1 - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3056:7 - Expected to find ','. - expected_token
+  error - dashboard.dart:3056:7 - Undefined name 'Particle'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3056:16 - Expected to find ','. - expected_token
+  error - dashboard.dart:3057:10 - Expected to find ','. - expected_token
+  error - dashboard.dart:3057:10 - Undefined name 'x'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3057:15 - Expected to find '}'. - expected_token
+  error - dashboard.dart:3094:1 - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3094:1 - Expected to find ','. - expected_token
+  error - dashboard.dart:3094:1 - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3094:7 - Expected to find ','. - expected_token
+  error - dashboard.dart:3094:7 - Undefined name 'SpaceDustPainter'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3094:24 - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword. - expected_identifier_but_got_keyword
+  error - dashboard.dart:3094:24 - Expected to find ','. - expected_token
+  error - dashboard.dart:3094:24 - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - dashboard.dart:3094:32 - Expected to find ','. - expected_token
+  error - dashboard.dart:3094:46 - Expected to find ','. - expected_token
+  error - dashboard.dart:3095:3 - Expected an identifier. - missing_identifier
+  error - dashboard.dart:3095:3 - Expected to find '}'. - expected_token
+  error - dashboard.dart:3113:1 - Expected to find ';'. - expected_token
+  error - dashboard.dart:3114:1 - Expected to find ')'. - expected_token
+  error - dashboard.dart:3114:1 - Expected to find '}'. - expected_token
+warning - dashboard.dart:93:8 - The value of the field '_isLoggingOut' isn't used. Try removing the field, or using it. - unused_field
+warning - dashboard.dart:2126:16 - The declaration '_syncTaskToCloud' isn't referenced. Try removing the declaration of '_syncTaskToCloud'. - unused_element
+warning - dashboard.dart:2228:10 - The declaration '_buildMasteryTab' isn't referenced. Try removing the declaration of '_buildMasteryTab'. - unused_element
+warning - dashboard.dart:2440:16 - The declaration '_showTutorialIfNeeded' isn't referenced. Try removing the declaration of '_showTutorialIfNeeded'. - unused_element
+warning - dashboard.dart:2629:16 - The declaration '_showDailyTasksTutorialIfNeeded' isn't referenced. Try removing the declaration of '_showDailyTasksTutorialIfNeeded'. - unused_element
+warning - dashboard.dart:2874:16 - The declaration '_showSettingsDifficultyTutorialIfNeeded' isn't referenced. Try removing the declaration of '_showSettingsDifficultyTutorialIfNeeded'. - unused_element
+warning - dashboard.dart:2918:16 - The declaration '_handleLogout' isn't referenced. Try removing the declaration of '_handleLogout'. - unused_element
+warning - dashboard.dart:2978:16 - The declaration '_markAnnouncementRead' isn't referenced. Try removing the declaration of '_markAnnouncementRead'. - unused_element
+   info - dashboard.dart:338:7 - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:402:50 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:414:50 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:470:45 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:520:53 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:856:37 - 'WillPopScope' is deprecated and shouldn't be used. Use PopScope instead. The Android predictive back feature will not work with WillPopScope. This feature was deprecated after v3.12.0-1.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:868:52 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:914:32 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - dashboard.dart:966:19 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - dashboard.dart:969:47 - 'WillPopScope' is deprecated and shouldn't be used. Use PopScope instead. The Android predictive back feature will not work with WillPopScope. This feature was deprecated after v3.12.0-1.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:981:62 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1021:42 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - dashboard.dart:1136:34 - 'scheduleDailyNineAMNotification' is deprecated and shouldn't be used. Use server-side Cloud Scheduler via FCM. See functions/index.js. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use_from_same_package
+   info - dashboard.dart:1272:26 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1319:52 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1321:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1421:38 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1423:46 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1426:31 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1546:17 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - dashboard.dart:1682:59 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1727:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1817:54 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1828:45 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:1891:49 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2086:42 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2091:32 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2101:32 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2104:55 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2126:16 - The local variable '_syncTaskToCloud' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2178:28 - 'notifyAllTeachers' is deprecated and shouldn't be used. Use notifyAllStudents instead. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use_from_same_package
+   info - dashboard.dart:2190:16 - The local variable '_markAttendance' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2192:7 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - dashboard.dart:2228:10 - The local variable '_buildMasteryTab' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2344:43 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2352:48 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2356:39 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2378:58 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2382:62 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2415:53 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2424:45 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2440:16 - The local variable '_showTutorialIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2449:13 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2465:16 - The local variable '_showDashboardHintIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2474:8 - The local variable '_isNoticeActive' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2476:16 - The local variable '_showMasteryIntroIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2489:9 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2556:16 - The local variable '_shouldShowMasteryRecommendationHint' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2591:10 - The local variable '_buildRecommendationHint' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2595:29 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2597:48 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2629:16 - The local variable '_showDailyTasksTutorialIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2646:11 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2662:16 - The local variable '_showMasteryTutorialIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2678:11 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2694:16 - The local variable '_handleBlackHoleTap' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2701:9 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2713:51 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2714:51 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2721:45 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2726:58 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2741:53 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2767:49 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - dashboard.dart:2867:9 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2874:16 - The local variable '_showSettingsDifficultyTutorialIfNeeded' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2899:11 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2918:16 - The local variable '_handleLogout' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - dashboard.dart:2955:22 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2968:30 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - dashboard.dart:2978:16 - The local variable '_markAnnouncementRead' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+
+154 issues found.

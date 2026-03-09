@@ -62,8 +62,11 @@ extension TeacherDashboardShell on _TeacherDashboardState {
     required String label,
     double size = 78,
     double fontSize = 12,
-    Color textColor = Colors.white70,
+    Color? textColor,
   }) {
+    final resolvedTextColor =
+        textColor ??
+        Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.72);
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -81,7 +84,7 @@ extension TeacherDashboardShell on _TeacherDashboardState {
           Text(
             label,
             style: TextStyle(
-              color: textColor,
+              color: resolvedTextColor,
               fontSize: fontSize,
               fontWeight: FontWeight.w600,
             ),

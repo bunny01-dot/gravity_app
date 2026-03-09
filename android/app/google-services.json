@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "633936751414",
+    "project_id": "english-app-ece16",
+    "storage_bucket": "english-app-ece16.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633936751414:android:e14e05b98375c32b412197",
+        "android_client_info": {
+          "package_name": "com.example.gravity_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633936751414-77610fnr103lrjghq8c36hf58au1bnj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gravity_app",
+            "certificate_hash": "4853dfd260919e9d9a2b11718744a7205a6c1c62"
+          }
+        },
+        {
+          "client_id": "633936751414-pq57hiq361ct7d67j405mgce5am7tljj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gravity_app",
+            "certificate_hash": "653f71e286d5f502e19d6c8cfb5ab8629ca09a1f"
+          }
+        },
+        {
+          "client_id": "633936751414-naa6t718ah8hn6r93t867ke23249n4dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCocayPv8Q7sylQzTt0Km6VHLLFjhkvegY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633936751414-naa6t718ah8hn6r93t867ke23249n4dk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "633936751414-rqetl1muj6s8phhq22stvrap7paugsto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gravityApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

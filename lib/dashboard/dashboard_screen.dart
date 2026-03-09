@@ -20,7 +20,6 @@ import 'package:gravity_app/screens/daily_verbs_list_screen.dart';
 import 'package:gravity_app/screens/daily_review_screen.dart'; // Import DailyReviewScreen
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gravity_app/main.dart';
-import 'package:gravity_app/services/analytics_service.dart';
 import 'package:gravity_app/services/stage_progress_service.dart';
 import 'package:gravity_app/services/daily_task_completion_service.dart';
 import 'package:gravity_app/widgets/games_hub_card.dart';
@@ -56,6 +55,7 @@ import 'package:confetti/confetti.dart';
 import 'package:gravity_app/features/dashboard/widgets/home_tab.dart'; // Import HomeTab
 import 'package:gravity_app/features/dashboard/widgets/settings_tab.dart'; // Extracted SettingsTab
 import 'package:gravity_app/services/tutorial_service.dart';
+import 'package:gravity_app/services/feature_highlight_service.dart';
 import 'package:gravity_app/features/tutorial/onboarding_screen.dart';
 import 'package:gravity_app/utils/tutorial_helper.dart';
 import 'package:gravity_app/widgets/coach_mark_overlay.dart'
@@ -72,6 +72,7 @@ import 'package:gravity_app/dashboard/shared/dashboard_library_action_header.dar
 import 'package:gravity_app/dashboard/shared/dashboard_section_header.dart';
 import 'package:gravity_app/widgets/recovery_debug_panel.dart';
 
+import 'package:gravity_app/services/analytics_service.dart';
 part 'dashboard_init.dart';
 part 'dashboard_shell_helpers.dart';
 part 'dashboard_notifications.dart';
@@ -81,7 +82,14 @@ part 'dashboard_actions.dart';
 part '../dashboard_helpers.dart';
 
 class DashboardScreen extends StatefulWidget {
-  const DashboardScreen({super.key});
+  const DashboardScreen({
+    super.key,
+    this.themeMode = ThemeMode.system,
+    this.onThemeModeChanged,
+  });
+
+  final ThemeMode themeMode;
+  final ValueChanged<ThemeMode>? onThemeModeChanged;
 
   @override
   State<DashboardScreen> createState() => _DashboardScreenState();
@@ -148,6 +156,9 @@ class _DashboardScreenState extends State<DashboardScreen>
   // Tutorial GlobalKeys
   final GlobalKey _dailyChecklistKey = GlobalKey();
   final GlobalKey _masteryCardKey = GlobalKey();
+  final GlobalKey _blackHoleFeatureKey = GlobalKey();
+  static const String _blackHoleFeatureHighlightId = 'black_hole_focus_quiz';
+  bool _highlightBlackHoleFeature = false;
 
   // Assessment Status
   bool _isAssessmentCompleted = false;
@@ -217,6 +228,7 @@ class _DashboardScreenState extends State<DashboardScreen>
       _checkDailyProgress();
       _checkLevelUpgradeCelebration();
       _fetchStreak();
+      unawaited(_fetchPlacementState());
       _navigateToPendingDailyTasks();
     }
   }
@@ -227,18 +239,35 @@ class _DashboardScreenState extends State<DashboardScreen>
     _checkDailyProgress();
     _checkLevelUpgradeCelebration();
     _fetchStreak();
+    unawaited(_fetchPlacementState());
   }
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
     final bool showMastery = _isMasteryFeatureEnabled && _userRole == 'student';
     return PopScope(
       canPop: false, // We'll handle the pop manually
       onPopInvokedWithResult: _handlePopInvokedWithResult,
       child: Scaffold(
-        backgroundColor: const Color(0xFF030305),
+        backgroundColor: theme.scaffoldBackgroundColor,
         body: Stack(
           children: [
+            Positioned.fill(
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: isDark
+                        ? const [Color(0xFF030305), Color(0xFF0B1220)]
+                        : const [Color(0xFFF4F8FF), Color(0xFFEAF2FF)],
+                  ),
+                ),
+              ),
+            ),
             // Background Blobs
             Positioned(
               top: -100,
@@ -248,7 +277,9 @@ class _DashboardScreenState extends State<DashboardScreen>
                 height: 300,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: const Color(0xFF4FACFE).withValues(alpha: 0.15),
+                  color: theme.colorScheme.primary.withValues(
+                    alpha: isDark ? 0.15 : 0.1,
+                  ),
                 ),
               ),
             ),
@@ -260,15 +291,18 @@ class _DashboardScreenState extends State<DashboardScreen>
                 height: 250,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: const Color(0xFF00F2FE).withValues(alpha: 0.1),
+                  color: theme.colorScheme.secondary.withValues(
+                    alpha: isDark ? 0.1 : 0.08,
+                  ),
                 ),
               ),
             ),
 
             // Space Dust Particles
-            const Positioned.fill(
-              child: IgnorePointer(child: SpaceDustBackground()),
-            ),
+            if (isDark)
+              const Positioned.fill(
+                child: IgnorePointer(child: SpaceDustBackground()),
+              ),
 
             SafeArea(
               child: Column(
@@ -295,6 +329,8 @@ class _DashboardScreenState extends State<DashboardScreen>
                         photoUrl: _photoUrl,
                         avatarSeed: _avatarSeed,
                         notificationsReady: _announcementFiltersReady,
+                        blackHoleKey: _blackHoleFeatureKey,
+                        highlightBlackHole: _highlightBlackHoleFeature,
                         onBlackHoleTap: _handleAppBarBlackHoleTap,
                         onNotificationsTap: _handleNotificationsTap,
                         onProfileTap: _handleProfileTap,
@@ -327,11 +363,11 @@ class _DashboardScreenState extends State<DashboardScreen>
                           onGoToDailyTasks: _handleGoToDailyTasksTab,
                         ),
                         if (_userRole == 'teacher') ...[
-                          const Center(
+                          Center(
                             child: Text(
                               "Students Management (Coming Soon)",
                               style: TextStyle(
-                                color: Colors.white,
+                                color: onSurface,
                                 fontSize: 18,
                               ),
                             ),
@@ -345,6 +381,8 @@ class _DashboardScreenState extends State<DashboardScreen>
                         SettingsTab(
                           onLogout: _handleLogout,
                           onLanguageChanged: _handleLanguageChanged,
+                          currentThemeMode: widget.themeMode,
+                          onThemeModeChanged: widget.onThemeModeChanged,
                         ),
                       ],
                     ),

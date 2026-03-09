@@ -41,6 +41,7 @@ import 'package:gravity_app/screens/lesson_articles_screen.dart';
 import 'package:gravity_app/widgets/recovery_debug_panel.dart';
 import 'package:gravity_app/widgets/global_xp_overlay.dart';
 import 'package:gravity_app/services/auth_service.dart';
+import 'package:gravity_app/services/app_theme_service.dart';
 import 'package:lottie/lottie.dart';
 
 // ...
@@ -100,6 +101,14 @@ Future<void> main() async {
   ErrorWidget.builder = (FlutterErrorDetails details) {
     return SystemCrashCard(details: details);
   };
+  // First install launch gets full intro; later cold launches use a shorter one.
+  final prefs = await SharedPreferences.getInstance();
+  _isInitialAppLaunch = !(prefs.getBool('has_launched_once') ?? false);
+  if (_isInitialAppLaunch) {
+    await prefs.setBool('has_launched_once', true);
+  }
+  // Load saved theme before first frame to avoid light->dark flash.
+  await AppThemeService.loadThemeModePreference();
 
   runApp(const AppBootstrapShell());
 }
@@ -115,7 +124,7 @@ void _reportErrorToTeacher(dynamic error, StackTrace? stack) async {
         user.email?.split('@')[0] ??
         'Student';
 
-    // âœ… FIX: Abstract error into teacher-friendly category
+    //  FIX: Abstract error into teacher-friendly category
     String errorCategory = _categorizeError(error.toString());
     String severity = _getErrorSeverity(error.toString());
 
@@ -127,7 +136,7 @@ void _reportErrorToTeacher(dynamic error, StackTrace? stack) async {
       details: '$errorCategory|$severity', // Format: category|severity
     );
 
-    // âœ… Store full technical details in Firestore for developers
+    //  Store full technical details in Firestore for developers
     try {
       await FirebaseFirestore.instance.collection('app_errors').add({
         'studentId': user.uid,
@@ -146,7 +155,7 @@ void _reportErrorToTeacher(dynamic error, StackTrace? stack) async {
   }
 }
 
-// âœ… Categorize errors into user-friendly types
+//  Categorize errors into user-friendly types
 String _categorizeError(String errorMsg) {
   final msg = errorMsg.toLowerCase();
 
@@ -171,7 +180,7 @@ String _categorizeError(String errorMsg) {
   }
 }
 
-// âœ… Determine error severity
+//  Determine error severity
 String _getErrorSeverity(String errorMsg) {
   final msg = errorMsg.toLowerCase();
 

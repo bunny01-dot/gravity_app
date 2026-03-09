@@ -22,6 +22,13 @@ extension GamesHubCardActions on _GamesHubCardState {
 
   void _showGamesGrid(BuildContext context) async {
     SoundService().playTap();
+
+    final preloadFuture =
+        _gamesReadinessPreloadFuture ?? _preloadGamesReadiness();
+    _gamesReadinessPreloadFuture = preloadFuture;
+    await preloadFuture;
+
+    if (!context.mounted) return;
     final result = await showModalBottomSheet(
       context: context,
       backgroundColor: Colors.transparent,
@@ -43,6 +50,16 @@ extension GamesHubCardActions on _GamesHubCardState {
   }
 
   Widget _buildSlideItem(Map<String, dynamic> game) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+    final titleColor = isDark
+        ? Colors.white
+        : colorScheme.onPrimaryContainer.withValues(alpha: 0.95);
+    final subtitleColor = isDark
+        ? Colors.white70
+        : colorScheme.onPrimaryContainer.withValues(alpha: 0.78);
+
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
@@ -77,8 +94,8 @@ extension GamesHubCardActions on _GamesHubCardState {
                 const SizedBox(height: 12),
                 Text(
                   game['title'] as String,
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: titleColor,
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
@@ -86,7 +103,7 @@ extension GamesHubCardActions on _GamesHubCardState {
                 const SizedBox(height: 4),
                 Text(
                   game['subtitle'] as String,
-                  style: const TextStyle(color: Colors.white70, fontSize: 13),
+                  style: TextStyle(color: subtitleColor, fontSize: 13),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ).animate().fadeIn(delay: 100.ms),

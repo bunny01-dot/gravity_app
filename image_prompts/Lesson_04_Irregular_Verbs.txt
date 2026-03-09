@@ -1,0 +1,45 @@
+﻿Lesson: Lesson_04_Irregular_Verbs
+Asset Folder: assets/Lessons/Lesson_04_Irregular_Verbs
+Generated On: 2026-02-25 21:59:16
+
+Total Images: 9
+Matched Existing Prompts: 0
+Auto-generated 3D Pixar Prompts: 9
+Upgraded to explicit 3D Pixar style: 0
+
+1. irregular_chart_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'irregular chart square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+2. irregular_hook_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'irregular hook square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+3. learning_strategy_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'learning strategy square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+4. no_change_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'no change square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+5. past_equals_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'past equals square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+6. perfect_tense_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'perfect tense square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+7. three_forms_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'three forms square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+8. top10_irregular_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'top10 irregular square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+9. vowel_change_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_04_Irregular_Verbs' focused on 'vowel change square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+

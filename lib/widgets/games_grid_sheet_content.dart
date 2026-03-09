@@ -4,13 +4,19 @@ part of 'games_hub_card.dart';
 
 extension GamesGridSheetContent on _GamesGridSheetState {
   Widget _buildContent() {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+
+    int levelForFilter(GameFilter filter) => filter.difficulty.levelIndex;
+
     // REMOVED LockedGamesView entirely
     // REMOVED Info Banner entirely
 
     // ... Definitions ...
     final List<Map<String, dynamic>> categories = [
       {
-        'title': 'ðŸ§  Vocabulary Games',
+        'title': 'Vocabulary Games',
         'color': const Color(0xFF4FACFE),
         'games': [
           {
@@ -18,12 +24,18 @@ extension GamesGridSheetContent on _GamesGridSheetState {
             'subtitle': _availabilitySubtitle('Match words to meanings', true),
             'hasContent': true,
             'icon': Icons.extension_rounded,
-            'onTap': () async {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const WordMatchEntryScreen()),
-              );
-            },
+            'onTap': () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => GameFilterSelectionScreen(
+                  gameTitle: 'Word Match',
+                  gameBuilder: (filter) => WordMatchScreen(
+                    level: levelForFilter(filter),
+                    difficulty: filter.difficulty.label,
+                  ),
+                ),
+              ),
+            ),
           },
           {
             'title': 'Flashcard Flip',
@@ -38,7 +50,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
               MaterialPageRoute(
                 builder: (_) => GameFilterSelectionScreen(
                   gameTitle: 'Flashcard Flip',
-                  gameBuilder: (filter) => FlashcardFlipScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      FlashcardFlipScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -56,7 +69,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
               MaterialPageRoute(
                 builder: (_) => GameFilterSelectionScreen(
                   gameTitle: 'Word Builder',
-                  gameBuilder: (filter) => WordBuilderScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      WordBuilderScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -78,7 +92,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
                     source: GameContentSource.learned,
                     difficulty: GameDifficulty.medium,
                   ),
-                  gameBuilder: (filter) => SynonymSwapScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      SynonymSwapScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -100,7 +115,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
                     source: GameContentSource.learned,
                     difficulty: GameDifficulty.medium,
                   ),
-                  gameBuilder: (filter) => AntonymAttackScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      AntonymAttackScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -118,7 +134,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
               MaterialPageRoute(
                 builder: (_) => GameFilterSelectionScreen(
                   gameTitle: 'Word Search',
-                  gameBuilder: (filter) => WordSearchScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      WordSearchScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -136,7 +153,8 @@ extension GamesGridSheetContent on _GamesGridSheetState {
               MaterialPageRoute(
                 builder: (_) => GameFilterSelectionScreen(
                   gameTitle: 'Fill the Gap',
-                  gameBuilder: (filter) => FillTheGapScreen(filter: filter),
+                  gameBuilder: (filter) =>
+                      FillTheGapScreen(level: levelForFilter(filter)),
                 ),
               ),
             ),
@@ -167,7 +185,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸ§© Grammar Games',
+        'title': 'Grammar Games',
         'color': const Color(0xFFC779D0),
         'games': [
           {
@@ -253,7 +271,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸ—£ï¸ Speaking & Pronunciation',
+        'title': 'Speaking and Pronunciation',
         'color': const Color(0xFF00E5FF),
         'games': [
           {
@@ -323,7 +341,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸŽ® Fun & Casual Games',
+        'title': 'Fun and Casual Games',
         'color': const Color(0xFFFF6B6B),
         'games': [
           {
@@ -391,7 +409,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸŽ§ Listening Games',
+        'title': 'Listening Games',
         'color': const Color(0xFFFFD700),
         'games': [
           {
@@ -438,7 +456,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸ§‘â€ðŸ¤â€ðŸ§‘ Multiplayer',
+        'title': 'Multiplayer',
         'color': const Color(0xFF00FF7F),
         'games': [
           {
@@ -476,7 +494,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
         ],
       },
       {
-        'title': 'ðŸ“š Reading & Writing',
+        'title': 'Reading and Writing',
         'color': const Color(0xFFE040FB),
         'games': [
           {
@@ -527,11 +545,15 @@ extension GamesGridSheetContent on _GamesGridSheetState {
 
     return Container(
       height: MediaQuery.of(context).size.height * 0.85, // Taller sheet
-      decoration: const BoxDecoration(
-        color: Color(0xFF1E1E2C),
-        borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
+      decoration: BoxDecoration(
+        color: isDark ? colorScheme.surfaceContainerHigh : colorScheme.surface,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
         boxShadow: [
-          BoxShadow(color: Colors.black54, blurRadius: 40, spreadRadius: 10),
+          BoxShadow(
+            color: colorScheme.shadow.withValues(alpha: isDark ? 0.35 : 0.12),
+            blurRadius: 40,
+            spreadRadius: 10,
+          ),
         ],
       ),
       child: Column(
@@ -542,7 +564,7 @@ extension GamesGridSheetContent on _GamesGridSheetState {
             width: 40,
             height: 4,
             decoration: BoxDecoration(
-              color: Colors.white24,
+              color: colorScheme.onSurfaceVariant.withValues(alpha: 0.45),
               borderRadius: BorderRadius.circular(2),
             ),
           ),
@@ -552,12 +574,12 @@ extension GamesGridSheetContent on _GamesGridSheetState {
             padding: const EdgeInsets.all(24.0),
             child: Row(
               children: [
-                const Icon(Icons.grid_view_rounded, color: Color(0xFF4FACFE)),
+                Icon(Icons.grid_view_rounded, color: colorScheme.primary),
                 const SizedBox(width: 12),
-                const Text(
+                Text(
                   "Game Library",
                   style: TextStyle(
-                    color: Colors.white,
+                    color: colorScheme.onSurface,
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
@@ -566,13 +588,19 @@ extension GamesGridSheetContent on _GamesGridSheetState {
 
                 IconButton(
                   onPressed: () => Navigator.pop(context),
-                  icon: const Icon(Icons.close_rounded, color: Colors.white54),
+                  icon: Icon(
+                    Icons.close_rounded,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
                 ),
               ],
             ),
           ),
 
-          const Divider(color: Colors.white10, height: 1),
+          Divider(
+            color: colorScheme.outlineVariant.withValues(alpha: 0.5),
+            height: 1,
+          ),
 
           // Scrollable List of Categories
           Expanded(
@@ -658,6 +686,9 @@ extension GamesGridSheetContent on _GamesGridSheetState {
     Map<String, dynamic> game,
     Color color,
   ) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
     final hasContent = game['hasContent'] != false;
 
     return GestureDetector(
@@ -714,8 +745,10 @@ extension GamesGridSheetContent on _GamesGridSheetState {
                     game['title'] as String,
                     maxLines: 2,
                     overflow: TextOverflow.visible, // Allow wrap
-                    style: const TextStyle(
-                      color: Colors.white,
+                    style: TextStyle(
+                      color: isDark
+                          ? Colors.white
+                          : colorScheme.onSurface.withValues(alpha: 0.92),
                       fontSize: 14,
                       fontWeight: FontWeight.bold,
                     ),
@@ -729,7 +762,12 @@ extension GamesGridSheetContent on _GamesGridSheetState {
                     game['subtitle'] as String,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(color: Colors.white54, fontSize: 11),
+                    style: TextStyle(
+                      color: isDark
+                          ? Colors.white54
+                          : colorScheme.onSurfaceVariant,
+                      fontSize: 11,
+                    ),
                   ),
                 ],
               ),

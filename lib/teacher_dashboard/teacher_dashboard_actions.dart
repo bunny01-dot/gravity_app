@@ -60,22 +60,29 @@ extension TeacherDashboardActions on _TeacherDashboardState {
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => const Center(
-        child: Card(
-          color: Color(0xFF1E1E2C),
-          child: Padding(
-            padding: EdgeInsets.all(24.0),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                CircularProgressIndicator(color: Color(0xFFFFD700)),
-                SizedBox(height: 16),
-                Text("Syncing data...", style: TextStyle(color: Colors.white)),
-              ],
+      builder: (dialogContext) {
+        final theme = Theme.of(dialogContext);
+        final isDark = theme.brightness == Brightness.dark;
+        final onSurface = theme.colorScheme.onSurface;
+        return Center(
+          child: Card(
+            color: isDark
+                ? const Color(0xFF1E1E2C)
+                : Colors.white.withValues(alpha: 0.96),
+            child: Padding(
+              padding: const EdgeInsets.all(24.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const CircularProgressIndicator(color: Color(0xFFFFD700)),
+                  const SizedBox(height: 16),
+                  Text("Syncing data...", style: TextStyle(color: onSurface)),
+                ],
+              ),
             ),
           ),
-        ),
-      ),
+        );
+      },
     );
 
     // 2. Perform Sync
@@ -96,8 +103,10 @@ extension TeacherDashboardActions on _TeacherDashboardState {
         content: SingleChildScrollView(
           child: Text(
             log,
-            style: const TextStyle(
-              color: Colors.white70,
+            style: TextStyle(
+              color: Theme.of(
+                context,
+              ).colorScheme.onSurface.withValues(alpha: 0.72),
               fontFamily: 'Courier', // Monospace for logs
               fontSize: 12,
             ),
@@ -258,7 +267,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
     final message = messageController.text.trim();
     final important = isImportant;
 
-    // ✅ FIX: Capture ScaffoldMessenger before popping
+    // OK: FIX: Capture ScaffoldMessenger before popping
     final scaffoldMessenger = ScaffoldMessenger.of(dialogContext);
 
     Navigator.pop(dialogContext);
@@ -279,7 +288,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
           isImportant: important,
         );
       } catch (fcmError) {
-        debugPrint("⚠️ Notification send failed: $fcmError");
+        debugPrint("[WARN] Notification send failed: $fcmError");
         scaffoldMessenger.showSnackBar(
           SnackBar(
             content: Text("Saved to DB, but Push failed: $fcmError"),
@@ -296,7 +305,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
         ),
       );
     } catch (e) {
-      debugPrint("❌ Error posting announcement: $e");
+      debugPrint("Error: Error posting announcement: $e");
       scaffoldMessenger.showSnackBar(
         SnackBar(content: Text("Error: $e"), backgroundColor: Colors.red),
       );
@@ -349,7 +358,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
       if (success) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text("✅ Import successful!"),
+            content: Text("OK: Import successful!"),
             backgroundColor: Colors.green,
           ),
         );
@@ -357,7 +366,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text("❌ Import failed."),
+            content: Text("Error: Import failed."),
             backgroundColor: Colors.red,
           ),
         );
@@ -461,7 +470,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
 
         // Update UI
         dialogSetState(() {
-          setResultMessage("✅ ACCOUNT FIXED! Refreshing list...");
+          setResultMessage("OK: ACCOUNT FIXED! Refreshing list...");
           setIsSearching(false);
         });
 
@@ -507,7 +516,9 @@ extension TeacherDashboardActions on _TeacherDashboardState {
       dialogSetState(() {
         setIsSearching(false);
         if (snap.docs.isEmpty) {
-          setResultMessage("❌ Not Found: No account exists with this email.");
+          setResultMessage(
+            "Error: Not Found: No account exists with this email.",
+          );
         } else {
           final data = snap.docs.first.data();
           final role = data['role'];
@@ -516,7 +527,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
           if (role == 'student') {
             if (createdAt == null) {
               setResultMessage(
-                "⚠️ Found but MISSING DATE. The 'createdAt' field is missing, so they are hidden from the sorted list.",
+                " Found but MISSING DATE. The 'createdAt' field is missing, so they are hidden from the sorted list.",
               );
             } else {
               // FORCE ADD to cache if it's correct but missing
@@ -524,7 +535,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
 
               // Update UI
               setResultMessage(
-                "✅ Found & Added! Account is healthy. Refreshing list...",
+                "OK: Found & Added! Account is healthy. Refreshing list...",
               );
 
               // Close dialog and refresh
@@ -537,11 +548,11 @@ extension TeacherDashboardActions on _TeacherDashboardState {
             }
           } else if (role == null) {
             setResultMessage(
-              "⚠️ Found but MISSING ROLE. This is why they aren't in the list.",
+              " Found but MISSING ROLE. This is why they aren't in the list.",
             );
           } else {
             setResultMessage(
-              "⚠️ Found but Wrong Role: '$role'. Only 'student' role appears in this list.",
+              " Found but Wrong Role: '$role'. Only 'student' role appears in this list.",
             );
           }
         }
@@ -605,15 +616,13 @@ extension TeacherDashboardActions on _TeacherDashboardState {
           });
           final data = result.data;
           if (data is Map && data['success'] == false) {
-            debugPrint(
-              "⚠️ Push skipped (no token). In-app notification saved.",
-            );
+            debugPrint(" Push skipped (no token). In-app notification saved.");
           }
         } catch (e) {
-          debugPrint("⚠️ Cloud Function Push Failed: $e");
+          debugPrint("[WARN] Cloud Function Push Failed: $e");
         }
       } catch (notiError) {
-        debugPrint("⚠️ Notification failed: $notiError");
+        debugPrint("[WARN] Notification failed: $notiError");
         // Proceed anyway since DB update succeeded
       }
 
@@ -622,7 +631,7 @@ extension TeacherDashboardActions on _TeacherDashboardState {
         ScaffoldMessenger.of(dialogContext).showSnackBar(
           SnackBar(
             content: Text(
-              "✅ Difficulty updated to $selectedLevel. Student notified.",
+              "OK: Difficulty updated to $selectedLevel. Student notified.",
             ),
             backgroundColor: const Color(0xFF4FACFE),
           ),

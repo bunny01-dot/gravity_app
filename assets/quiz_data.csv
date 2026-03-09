@@ -1,0 +1,868 @@
+No,Question,A,B,C,D,Answer
+1,What is the subject of a sentence?,Action word,Person or thing the sentence is about,Object,Describing word,B
+2,Identify the subject: The boy is playing in the park.,playing,park,is,The boy,D
+3,"In “She sings well”, the subject is",sings,well,she,song,C
+4,Which can be a subject?,Noun,Pronoun,Gerund,All of the above,D
+5,Identify the subject: My best friend lives nearby.,lives,nearby,friend,My best friend,D
+6,Running is good for health. Subject is,health,good,Running,is,C
+7,Which sentence has a compound subject?,The dog barked,John and Mary went,She is reading,The sun rises,B
+8,He and I are classmates. Type of subject,Simple,Complete,Compound,Implied,C
+9,Simple subject: The little children are laughing.,little children,the little,children,laughing,C
+10,Complete subject: The tall man with a hat is my uncle.,man,tall man,The tall man with a hat,uncle,C
+11,Which has an implied subject?,She is happy,Close the door,John ran fast,They won,B
+12,"In imperative sentences, subject is",he,they,we,you (understood),D
+13,There are five students in the class. Subject is,there,students,five,class,B
+14,“There” in There is a problem is,Simple subject,Real subject,Dummy subject,Compound subject,C
+15,Which is NOT a subject?,Noun,Pronoun,Verb,Gerund,C
+16,To help others is a noble act. Subject is,others,act,noble,To help others,D
+17,Subject in The teacher and the students are ready,teacher,students,ready,teacher and students,D
+18,Sentence with pronoun as subject,The cat sleeps,John runs,She is my sister,The book is new,C
+19,Honesty is the best policy. Subject is,best,policy,honesty,is,C
+20,Subject usually comes,At the end,Before the verb,After object,In the middle,B
+21,Identify the subject: Birds fly in the sky.,fly,sky,Birds,in,C
+22,"In “The phone rang suddenly”, the subject is",rang,suddenly,phone,The phone,D
+23,Which sentence has a simple subject?,The old man walks,John and Tom run,Close the gate,There are books,A
+24,Identify the subject: Our school won the match.,match,won,school,Our school,D
+25,"In “Learning English is easy”, the subject is",English,easy,Learning English,is,C
+26,What type of subject is “John or Peter”?,Simple,Compound,Alternative,Implied,C
+27,Identify the subject: Each of the students was ready.,students,ready,Each,Each of the students,D
+28,Which word is the subject? The glass broke.,glass,broke,the,none,A
+29,Which sentence has an introductory “there”?,She is late,There is hope,John came,We won,B
+30,The real subject in “There was a noise” is,there,was,noise,a,C
+31,Identify the subject: Swimming is my hobby.,hobby,my,Swimming,is,C
+32,"In “The red car is fast”, the subject is",car,red,fast,The red car,D
+33,Which is a compound subject?,The boy runs,The girl sings,Tom and Jerry play,He sleeps,C
+34,Identify the subject: What she said surprised me.,she,said,What she said,me,C
+35,"In “We must obey rules”, the subject is",obey,rules,must,We,D
+36,Which sentence has an implied subject?,You are kind,Read carefully,She laughed,They came,B
+37,Identify the subject: A bunch of keys is missing.,keys,bunch,missing,A bunch of keys,D
+38,"In “Neither Ram nor Ravi came”, the subject is",Ram,Ravi,came,Neither Ram nor Ravi,D
+39,What type of subject is “You” in commands?,Simple,Understood,Compound,Dummy,B
+40,Identify the subject: The teacher who teaches us is kind.,teacher,who,teaches,The teacher who teaches us,D
+41,Which is NOT a complete subject?,The happy child,A red ball,Running fast,My new pen,C
+42,Identify the subject: Ten years is a long time.,years,long,Ten years,time,C
+43,Which sentence has a gerund as subject?,He is running,Running is fun,She ran,They run,B
+44,Identify the subject: The news shocked everyone.,news,shocked,everyone,The news,D
+45,"In “Someone is knocking”, the subject is",knocking,is,Someone,none,C
+46,Identify the subject: Helping the poor is important.,poor,important,Helping the poor,is,C
+47,Which sentence has a pronoun subject?,Books are useful,The boy ran,It is raining,Apples are sweet,C
+48,Identify the subject: My father’s advice helped me.,advice,father,helped,My father’s advice,D
+49,The subject answers which question?,Why?,How?,Who/What?,When?,C
+50,Identify the subject: Every child needs love.,needs,love,child,Every child,D
+,,,,,,
+,,,,,,
+Lesson 2 - Parts of Speech,,,,,,
+No,Question,A,B,C,D,Answer
+1,How many main parts of speech are there in English?,6,7,8,9,C
+2,"Which part of speech names a person, place, or thing?",Verb,Noun,Adjective,Adverb,B
+3,Identify the noun: The child is happy.,child,is,happy,the,A
+4,Which word is a pronoun?,John,Book,He,School,C
+5,Pronouns are used to replace,Nouns,Verbs,Adverbs,Prepositions,A
+6,Identify the verb: She writes a letter.,she,writes,letter,a,B
+7,A verb shows,name,action or state,description,place,B
+8,Identify the adjective: She has a beautiful dress.,she,has,beautiful,dress,C
+9,An adjective describes a,noun or pronoun,verb,adverb,conjunction,A
+10,Identify the adverb: He runs quickly.,he,runs,quickly,none,C
+11,An adverb usually describes,noun,pronoun,verb,article,C
+12,Which word is a preposition?,under,run,happy,quickly,A
+13,A preposition shows,action,position or relation,quality,time only,B
+14,Identify the preposition: The cat is on the table.,cat,is,on,table,C
+15,Which word is a conjunction?,and,very,in,tall,A
+16,A conjunction joins,sentences or words,nouns only,verbs only,subjects only,A
+17,Identify the conjunction: John and Mary came.,John,and,Mary,came,B
+18,Which word is an article?,a,big,run,slowly,A
+19,Articles are,"a, an, the","this, that","he, she","in, on",A
+20,Identify the article: She bought an umbrella.,she,bought,an,umbrella,C
+21,Which part of speech shows strong feeling?,Interjection,Verb,Adverb,Noun,A
+22,Identify the interjection: Wow! That’s great.,wow,that’s,great,none,A
+23,Which is NOT a part of speech?,Noun,Verb,Sentence,Adjective,C
+24,Identify the noun: Honesty is the best policy.,honesty,is,best,policy,A
+25,Identify the verb: They are playing.,they,are,playing,both B & C,D
+26,Identify the adjective: It is a cold day.,it,is,cold,day,C
+27,Identify the adverb: She spoke softly.,she,spoke,softly,none,C
+28,Which word is a pronoun?,teacher,student,we,school,C
+29,Identify the conjunction: I was tired but happy.,I,was,but,happy,C
+30,Identify the preposition: He sat beside me.,sat,beside,me,he,B
+31,Which word is an interjection?,oh,run,blue,table,A
+32,Identify the article: The sun is bright.,the,sun,is,bright,A
+33,Which part of speech describes a verb?,Adjective,Adverb,Noun,Pronoun,B
+34,Identify the adjective: She wore a red dress.,wore,red,dress,she,B
+35,Which word is a verb?,jump,quickly,tall,under,A
+36,Identify the noun: The teacher teaches well.,teacher,teaches,well,the,A
+37,Which part of speech replaces a noun?,Adjective,Pronoun,Verb,Adverb,B
+38,Identify the adverb: He arrived late.,he,arrived,late,none,C
+39,Identify the preposition: The book is in the bag.,book,is,in,bag,C
+40,Which word joins two clauses?,Preposition,Article,Conjunction,Interjection,C
+41,Identify the conjunction: She sang because she was happy.,sang,because,was,happy,B
+42,Which part of speech expresses emotion?,Noun,Verb,Interjection,Adverb,C
+43,Identify the interjection: Oh! I forgot.,oh,I,forgot,none,A
+44,Which word is an adjective?,beauty,beautiful,beautifully,beautify,B
+45,Identify the noun: Freedom is precious.,freedom,is,precious,none,A
+46,Which part of speech comes before a noun?,Verb,Article,Adverb,Interjection,B
+47,Identify the pronoun: They won the match.,they,won,match,the,A
+48,Identify the verb: Birds fly.,birds,fly,none,the,B
+49,Which sentence has all major parts of speech?,She runs,Wow!,The boy runs fast,Run!,C
+50,Parts of speech help us to,write correct sentences,count words,memorize rules,avoid grammar,A
+,,,,,,
+,,,,,,
+Lesson - 3 - Present Tense,,,,,,
+No,Question,A,B,C,D,Answer
+1,Present tense is used to show,past action,future action,present time action,completed action,C
+2,Which sentence is in simple present tense?,She is eating,She eats rice,She was eating,She will eat,B
+3,Simple present tense is mainly used to show,habits,past events,future plans,completed work,A
+4,Identify the present tense verb: He plays cricket.,he,plays,cricket,none,B
+5,Which sentence shows a habit?,I am reading,I read daily,I was reading,I will read,B
+6,"In present continuous tense, the verb form is",V1,V2,is/am/are + V-ing,has + V3,C
+7,Identify the tense: She is cooking food.,Simple present,Present continuous,Past continuous,Future,B
+8,Which is a present continuous sentence?,He eats now,He is eating now,He ate now,He will eat now,B
+9,Identify the present tense sentence,They played well,They play well,They will play,They had played,B
+10,Simple present tense of “go” (he/she) is,go,goes,going,gone,B
+11,Which verb agrees in present tense?,He go,He goes,He going,He gone,B
+12,Present continuous tense shows,routine,action happening now,past habit,future result,B
+13,Identify the tense: We are learning English.,Simple present,Present continuous,Past,Future,B
+14,Which word is used with present continuous tense?,yesterday,tomorrow,now,last year,C
+15,Choose the correct sentence,She cook food,She cooks food,She cooked food,She cooking food,B
+16,Simple present tense is used for,universal truths,past stories,future plans,imagination,A
+17,Which is a universal truth?,Water boils at 100°C,Water boiled,Water will boil,Water is boiling,A
+18,Identify the present tense verb: Birds fly.,birds,fly,none,the,B
+19,Which sentence is NOT in present tense?,I read books,She sings well,They played chess,We live here,C
+20,Present tense form of “have” (he),have,has,having,had,B
+21,Identify the tense: He has a car.,Simple present,Present continuous,Past,Future,A
+22,Which sentence is present continuous?,She writes,She is writing,She wrote,She will write,B
+23,"In simple present tense, plural subjects take",verb + s,base verb,past verb,helping verb,B
+24,Choose the correct sentence,They plays football,They play football,They playing football,They played football,B
+25,Identify the present tense sentence,I was tired,I am tired,I will be tired,I had tired,B
+26,Present tense of “do” (she),do,does,doing,did,B
+27,Which helping verb is used in present continuous?,was,were,is/am/are,has,C
+28,Identify the tense: The sun rises in the east.,Simple present,Present continuous,Past,Future,A
+29,Which sentence shows an action happening now?,I eat rice,I am eating rice,I ate rice,I will eat rice,B
+30,Simple present tense verb form for “run” (he),run,runs,running,ran,B
+31,Which adverb is commonly used with simple present?,yesterday,always,last night,tomorrow,B
+32,Identify the present tense verb: She teaches math.,she,teaches,math,none,B
+33,Present continuous tense uses,V1,V2,V3,V-ing,D
+34,Choose the correct sentence,He walk fast,He walks fast,He walking fast,He walked fast,B
+35,Which sentence is correct?,She are singing,She is singing,She were singing,She be singing,B
+36,Identify the tense: I know the answer.,Simple present,Present continuous,Past,Future,A
+37,Simple present tense is used to show,feelings,habits,facts,all of the above,D
+38,Which sentence is present tense?,We had lunch,We have lunch,We will have lunch,We were having lunch,B
+39,Present tense of “be” (I),is,are,am,was,C
+40,Identify the tense: They are watching TV.,Simple present,Present continuous,Past,Future,B
+41,Choose the correct form,He go to school,He goes to school,He going to school,He went to school,B
+42,Present tense verb form for “eat” (she),eat,eats,eating,ate,B
+43,Which sentence is incorrect?,She plays,He runs,They eats,I read,C
+44,Present tense shows actions that are,always true or regular,already finished,yet to happen,imagined,A
+45,Identify the present tense sentence,She is happy,She was happy,She will be happy,She had been happy,A
+46,Present continuous tense needs,main verb only,helping verb only,helping verb + main verb,noun,C
+47,Which helping verb is correct? They ___ playing.,is,am,are,was,C
+48,Identify the tense: I am learning grammar.,Simple present,Present continuous,Past,Future,B
+49,Simple present tense verb for “study” (he),study,studys,studies,studying,C
+50,Present tense helps us talk about,now and habits,only past,only future,only stories,A
+,,,,,,
+Lesson 4 - Past Tense,,,,,,
+No,Question,A,B,C,D,Answer
+1,Past tense is used to show,present action,future action,action already completed,habit,C
+2,Which sentence is in simple past tense?,She eats rice,She ate rice,She is eating,She will eat,B
+3,Simple past tense verb of “go” is,go,goes,went,going,C
+4,Identify the past tense verb: He played well.,he,played,well,none,B
+5,Which word shows past time?,now,tomorrow,yesterday,always,C
+6,Simple past tense is used for,completed actions,habits,future plans,universal truths,A
+7,Identify the tense: They watched a movie.,Present,Past,Future,Present continuous,B
+8,Past tense of “eat” is,eat,eats,ate,eaten,C
+9,Which sentence is in past tense?,I read books,I am reading,I read yesterday,I will read,C
+10,Identify the past tense verb: She wrote a letter.,she,wrote,letter,a,B
+11,Past tense of “run” is,run,runs,running,ran,D
+12,Which helping verb is used in past continuous tense?,is,are,was/were,has,C
+13,Identify the tense: He was sleeping.,Simple past,Past continuous,Present,Future,B
+14,Past continuous tense shows,habit,action happening now,action in progress in past,future action,C
+15,Choose the correct sentence,She write a letter,She wrote a letter,She writes a letter,She writing a letter,B
+16,Identify the past tense sentence,They play football,They played football,They are playing,They will play,B
+17,Past tense of “see” is,saw,see,seen,sees,A
+18,Which sentence uses past continuous tense?,He eats,He was eating,He ate,He will eat,B
+19,Identify the tense: We were studying English.,Simple past,Past continuous,Present continuous,Future,B
+20,Which adverb is commonly used with past tense?,now,tomorrow,yesterday,always,C
+21,Simple past tense uses,V1,V2,V-ing,has + V3,B
+22,Past tense of “have” is,have,has,had,having,C
+23,Choose the correct sentence,She was sing,She was singing,She were singing,She is singing,B
+24,Identify the past tense verb: The teacher explained well.,teacher,explained,well,none,B
+25,Which sentence is NOT past tense?,I went home,I was tired,I eat rice,I slept early,C
+26,Past tense of “take” is,take,takes,took,taken,C
+27,Identify the tense: It rained heavily.,Present,Past,Future,Continuous,B
+28,Which sentence shows action completed in the past?,I am reading,I read daily,I read yesterday,I will read,C
+29,Past tense verb of “come” is,come,comes,came,coming,C
+30,Identify the past continuous sentence,He slept,He sleeps,He was sleeping,He is sleeping,C
+31,Which helping verb is correct? They ___ playing. (past),is,are,were,has,C
+32,Identify the tense: She danced beautifully.,Present,Past,Future,Continuous,B
+33,Simple past tense is often used in,stories,future plans,commands,questions only,A
+34,Past tense of “make” is,make,makes,made,making,C
+35,Choose the correct sentence,They was late,They were late,They are late,They be late,B
+36,Identify the tense: We visited the museum.,Present,Past,Future,Present perfect,B
+37,Past tense verb of “buy” is,buy,buys,bought,buying,C
+38,Which sentence uses “was”?,I was happy,I am happy,I will be happy,I have happy,A
+39,Past continuous tense structure is,was/were + V1,was/were + V-ing,is/am/are + V-ing,has + V3,B
+40,Identify the tense: He was watching TV.,Simple past,Past continuous,Present,Future,B
+41,Which sentence is correct?,She did went,She went,She goes,She going,B
+42,Past tense of “teach” is,teach,teaches,taught,teaching,C
+43,Which word indicates past time?,today,now,last night,always,C
+44,Identify the past tense sentence,They are tired,They were tired,They will be tired,They have tired,B
+45,Past tense of “sleep” is,sleep,sleeps,slept,sleeping,C
+46,Choose the correct past tense form,He break,He broke,He broken,He breaking,B
+47,Past tense helps us talk about,habits,present,completed actions,future plans,C
+48,Identify the tense: She was reading when I called.,Simple past,Past continuous,Present,Future,B
+49,Past tense verb of “give” is,give,gives,gave,giving,C
+50,Which sentence is past tense?,I eat,I ate,I am eating,I will eat,B
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 5 - Future Tense,,,,,,
+No,Question,A,B,C,D,Answer
+1,Future tense is used to show,past action,present action,action yet to happen,habit,C
+2,Which sentence is in simple future tense?,She eats rice,She ate rice,She will eat rice,She is eating rice,C
+3,Simple future tense uses,has,was,will + V1,V2,C
+4,Identify the future tense verb: He will play well.,he,will,play,will play,D
+5,Which word indicates future time?,yesterday,now,tomorrow,always,C
+6,Choose the correct sentence,She will cooks food,She will cook food,She cooked food,She is cooking food,B
+7,Future tense of “go” is,went,goes,will go,going,C
+8,Identify the tense: They will visit us.,Present,Past,Future,Continuous,C
+9,Which sentence is future tense?,I read,I am reading,I will read,I read yesterday,C
+10,Simple future tense shows,completed action,habit,future plan,past action,C
+11,Identify the helping verb used in future tense,is,was,will,has,C
+12,Which sentence uses “shall”?,I shall go,I go,I went,I am going,A
+13,“Will” is used with,V2,V-ing,base verb,past participle,C
+14,Identify the future tense sentence,She sings,She sang,She will sing,She is singing,C
+15,Which adverb is common with future tense?,yesterday,always,tomorrow,now,C
+16,Choose the correct sentence,He will goes,He will go,He goes,He went,B
+17,Identify the tense: We shall meet again.,Present,Past,Future,Continuous,C
+18,Future tense of “have” is,had,has,will have,having,C
+19,Which sentence is NOT future tense?,I will come,I shall come,I am coming tomorrow,I came,D
+20,Identify the future tense verb: She will study hard.,will,study,hard,will study,D
+21,Future tense is used to express,promise,decision,prediction,all of the above,D
+22,Choose the correct form,They will plays,They will play,They played,They playing,B
+23,Identify the tense: It will rain today.,Present,Past,Future,Continuous,C
+24,Which word helps form future tense?,do,did,will,was,C
+25,Simple future tense structure is,will + V1,is + V-ing,was + V-ing,has + V3,A
+26,Identify the future tense sentence,We eat now,We ate earlier,We will eat later,We are eating,C
+27,Future tense of “be” is,is,was,will be,being,C
+28,Choose the correct sentence,She will be happy,She was happy,She is happy,She had happy,A
+29,Which sentence shows future plan?,I read books,I will read books,I read yesterday,I am reading now,B
+30,Identify the tense: He will help me.,Present,Past,Future,Continuous,C
+31,Future tense of “see” is,saw,sees,will see,seeing,C
+32,Which sentence uses correct future tense?,She will went,She will go,She going,She gone,B
+33,Identify the future tense verb,will,eat,will eat,none,C
+34,Choose the correct sentence,I shall helping you,I shall help you,I shall helped you,I shall helps you,B
+35,Which sentence is correct?,They will arrive soon,They arrived soon,They arrive soon,They arriving soon,A
+36,Identify the tense: Tomorrow is a holiday.,Present,Past,Future,Continuous,A
+37,Future tense helps us talk about,past,present,things yet to happen,habits,C
+38,Choose the correct form,He will finish,He finished,He finishing,He finishes,A
+39,Identify the future tense sentence,We shall win,We win,We won,We winning,A
+40,Future tense verb of “take”,took,takes,will take,taking,C
+41,Which is a future tense sentence?,She is tired,She was tired,She will be tired,She has tired,C
+42,Identify the tense: I will call you later.,Present,Past,Future,Continuous,C
+43,Future tense of “come” is,came,comes,will come,coming,C
+44,Choose the correct sentence,He will be late,He is be late,He was be late,He be late,A
+45,Which word often comes with future tense?,now,yesterday,soon,already,C
+46,Identify the tense: They will start soon.,Present,Past,Future,Continuous,C
+47,Future tense form of “do”,did,does,will do,doing,C
+48,Choose the correct sentence,I will go tomorrow,I go tomorrow,I went tomorrow,I going tomorrow,A
+49,Future tense expresses,completed work,habit,intention,past fact,C
+50,Which sentence is future tense?,He runs,He ran,He will run,He is running,C
+,,,,,,
+,,,,,,
+Lesson 6 - Article,,,,,,
+No,Question,A,B,C,D,Answer
+1,Articles are used before,verbs,nouns,adverbs,conjunctions,B
+2,How many articles are there in English?,1,2,3,4,C
+3,Which are articles?,"this, that","a, an, the","he, she","in, on",B
+4,“A” is used before words beginning with,vowel sound,consonant sound,vowel letter,silent letters,B
+5,“An” is used before words beginning with,consonant sound,vowel sound,plural nouns,proper nouns,B
+6,Choose the correct article: ___ boy is playing,a,an,the,no article,C
+7,Choose the correct article: She has ___ pen,a,an,the,no article,A
+8,Choose the correct article: He ate ___ apple,a,an,the,no article,B
+9,“The” is called,indefinite article,definite article,demonstrative,pronoun,B
+10,“A” and “An” are called,definite articles,indefinite articles,pronouns,prepositions,B
+11,Choose the correct article: ___ sun rises in the east,a,an,the,no article,C
+12,Choose the correct article: I saw ___ elephant,a,an,the,no article,B
+13,“An” is used before,consonant sounds,vowel sounds,plural nouns,proper nouns,B
+14,Choose the correct article: She is ___ honest girl,a,an,the,no article,B
+15,Choose the correct article: ___ book you gave me is interesting,a,an,the,no article,C
+16,Articles are not used before,common nouns,singular nouns,proper nouns,countable nouns,C
+17,Choose the correct article: He bought ___ umbrella,a,an,the,no article,B
+18,Choose the correct article: ___ Ganga is a holy river,a,an,the,no article,C
+19,Which word does NOT need an article?,boy,apple,school,book,C
+20,Choose the correct article: She is ___ teacher,a,an,the,no article,A
+21,“The” is used when the noun is,mentioned first time,known,unknown,general,B
+22,Choose the correct article: I saw ___ dog. ___ dog was barking,"a, a","the, the","a, the","the, a",C
+23,Choose the correct article: He is ___ European,a,an,the,no article,A
+24,Choose the correct article: She bought ___ one-rupee coin,a,an,the,no article,A
+25,“An” is used before “hour” because,spelling,vowel sound,plural,silent h,B
+26,Choose the correct article: ___ Bible is a holy book,a,an,the,no article,C
+27,Articles are used before,singular countable nouns,plural nouns always,verbs,adjectives,A
+28,Choose the correct article: He plays ___ football,a,an,the,no article,D
+29,Choose the correct article: She wants to be ___ doctor,a,an,the,no article,A
+30,“The” is NOT used with,rivers,mountains,countries (plural),proper names (general),D
+31,Choose the correct article: ___ Mount Everest is high,a,an,the,no article,C
+32,Choose the correct article: He is ___ MBA graduate,a,an,the,no article,A
+33,Choose the correct article: She drank ___ glass of milk,a,an,the,no article,A
+34,Choose the correct article: ___ Taj Mahal is beautiful,a,an,the,no article,C
+35,Which article is used with superlatives?,a,an,the,no article,C
+36,Choose the correct article: He is ___ best player,a,an,the,no article,C
+37,Choose the correct article: She has ___ unique idea,a,an,the,no article,A
+38,Choose the correct article: ___ rich should help the poor,a,an,the,no article,C
+39,Choose the correct article: I saw ___ owl last night,a,an,the,no article,B
+40,Articles are not used before,abstract nouns (general),common nouns,singular nouns,countable nouns,A
+41,Choose the correct article: ___ honesty is the best policy,a,an,the,no article,D
+42,Choose the correct article: She is ___ engineer,a,an,the,no article,B
+43,Choose the correct article: He is ___ university student,a,an,the,no article,A
+44,Choose the correct article: ___ milk is good for health,a,an,the,no article,D
+45,“The” is used with,musical instruments,meals,games,languages,A
+46,Choose the correct article: She plays ___ piano,a,an,the,no article,C
+47,Choose the correct article: I met ___ old friend yesterday,a,an,the,no article,B
+48,Choose the correct article: He is ___ man of honor,a,an,the,no article,A
+49,Choose the correct article: ___ English is easy to learn,a,an,the,no article,D
+50,Articles help us to make sentences,longer,clearer,complex,confusing,B
+,,,,,,
+,,,,,,
+Lesson 7 - Sentence Pattern,,,,,,
+No,Question,A,B,C,D,Answer
+1,A sentence pattern shows,word meaning,sentence structure,spelling,punctuation,B
+2,The basic sentence pattern is,S + O,S + V,V + O,O + S,B
+3,Identify the pattern: Birds fly.,S + V,S + V + O,S + V + C,S + V + A,A
+4,Identify the pattern: She reads books.,S + V,S + V + O,S + V + C,S + V + A,B
+5,What does “S” stand for?,Sentence,Subject,Sound,Statement,B
+6,What does “V” stand for?,Voice,Verb,Value,Vowel,B
+7,Identify the pattern: He is a teacher.,S + V,S + V + O,S + V + C,S + V + A,C
+8,"In She is happy, “happy” is a",object,complement,adverb,subject,B
+9,Identify the pattern: The baby slept well.,S + V,S + V + O,S + V + A,S + V + C,C
+10,What does “O” stand for?,Object,Order,Opinion,Option,A
+11,Identify the pattern: They play football.,S + V,S + V + O,S + V + C,S + V + A,B
+12,Identify the pattern: The sky is blue.,S + V,S + V + O,S + V + C,S + V + A,C
+13,A complement completes the meaning of,subject,verb,object,adverb,A
+14,Identify the pattern: She sings beautifully.,S + V,S + V + O,S + V + A,S + V + C,C
+15,Which pattern has an object?,S + V,S + V + O,S + V + C,S + V + A,B
+16,Identify the pattern: He became angry.,S + V,S + V + O,S + V + C,S + V + A,C
+17,"Words like “happy, sad, tall” are usually",objects,complements,verbs,adverbs,B
+18,Identify the pattern: The children laughed loudly.,S + V,S + V + O,S + V + A,S + V + C,C
+19,Which verb usually takes a complement?,run,eat,be,play,C
+20,Identify the pattern: She is in the room.,S + V,S + V + O,S + V + A,S + V + C,C
+21,What does “A” stand for in patterns?,Action,Article,Adverbial,Adjective,C
+22,Identify the pattern: He works hard.,S + V,S + V + O,S + V + A,S + V + C,C
+23,Identify the pattern: I found the book.,S + V,S + V + O,S + V + C,S + V + A,B
+24,Which sentence follows S + V + C?,She runs fast,He is tired,They play games,Birds fly,B
+25,Identify the pattern: The food smells good.,S + V,S + V + O,S + V + C,S + V + A,C
+26,A sentence must have at least,subject only,verb only,subject and verb,object,C
+27,Identify the pattern: The boy kicked the ball.,S + V,S + V + O,S + V + C,S + V + A,B
+28,Identify the pattern: She looks beautiful.,S + V,S + V + O,S + V + C,S + V + A,C
+29,Which sentence has S + V + A?,He is tall,She reads books,They arrived late,Birds fly,C
+30,Identify the pattern: The teacher spoke clearly.,S + V,S + V + O,S + V + A,S + V + C,C
+31,Objects usually come,before subject,after verb,before verb,at beginning,B
+32,Identify the pattern: The sun rises.,S + V,S + V + O,S + V + C,S + V + A,A
+33,Which is NOT a basic sentence pattern?,S + V,S + V + O,S + V + C,V + S,D
+34,Identify the pattern: He put the book on the table.,S + V,S + V + O,S + V + O + A,S + V + C,C
+35,Complements usually come after,subject,object,linking verb,adverb,C
+36,Identify the pattern: She stayed at home.,S + V,S + V + O,S + V + A,S + V + C,C
+37,Which sentence has no object?,She reads books,He eats rice,They sleep,I bought a pen,C
+38,Identify the pattern: The baby is asleep.,S + V,S + V + O,S + V + C,S + V + A,C
+39,Sentence patterns help us,spell correctly,form correct sentences,read faster,memorize words,B
+40,Identify the pattern: He ran quickly.,S + V,S + V + O,S + V + A,S + V + C,C
+41,Which pattern uses a linking verb?,S + V,S + V + O,S + V + C,S + V + A,C
+42,Identify the pattern: The flowers smell nice.,S + V,S + V + O,S + V + C,S + V + A,C
+43,Which sentence has an object?,Birds fly,She is tired,He reads books,I am happy,C
+44,Identify the pattern: She danced gracefully.,S + V,S + V + O,S + V + A,S + V + C,C
+45,Sentence pattern S + V + O means,subject + verb,subject + verb + object,subject + verb + complement,subject + verb + adverb,B
+46,Identify the pattern: The child cried loudly.,S + V,S + V + O,S + V + A,S + V + C,C
+47,Which verb does NOT take an object?,eat,read,sleep,buy,C
+48,Identify the pattern: He became a leader.,S + V,S + V + O,S + V + C,S + V + A,C
+49,Sentence patterns are important for,grammar accuracy,decoration,handwriting,speed,A
+50,Identify the pattern: They lived happily.,S + V,S + V + O,S + V + A,S + V + C,C
+,,,,,,
+,,,,,,
+Lesson 8 - Types of Sentences,,,,,,
+No,Question,A,B,C,D,Answer
+1,Sentences are classified based on,spelling,meaning or purpose,words count,tense,B
+2,A sentence that gives information is called,Interrogative,Imperative,Declarative,Exclamatory,C
+3,Which sentence is declarative?,What is your name?,Please sit down.,The sun rises in the east.,How beautiful!,C
+4,A sentence that asks a question is,Declarative,Imperative,Interrogative,Exclamatory,C
+5,Which punctuation is used in interrogative sentences?,.,!,?,",",C
+6,Identify the interrogative sentence,Shut the door.,How are you?,He is a teacher.,Wow!,B
+7,A sentence that gives a command or request is,Declarative,Interrogative,Imperative,Exclamatory,C
+8,Which is an imperative sentence?,She is kind.,Please help me.,What is this?,How nice!,B
+9,An exclamatory sentence shows,question,command,strong feeling,information,C
+10,Which punctuation is used in exclamatory sentences?,.,?,",",!,D
+11,Identify the exclamatory sentence,He is late.,Sit down.,How cold it is!,Where are you?,C
+12,Which sentence ends with a full stop?,Question,Exclamation,Statement,Command,C
+13,Declarative sentences usually end with,?,!,.,",",C
+14,Imperative sentences often have,subject written,implied subject,two verbs,no verb,B
+15,Identify the type: Please open the window.,Declarative,Interrogative,Imperative,Exclamatory,C
+16,Identify the type: What a beautiful day!,Declarative,Interrogative,Imperative,Exclamatory,D
+17,Identify the type: Do you like coffee?,Declarative,Interrogative,Imperative,Exclamatory,B
+18,Identify the type: The train arrives at 6 PM.,Declarative,Interrogative,Imperative,Exclamatory,A
+19,Which sentence gives advice?,Shut the door.,You should rest.,Where are you?,How smart!,B
+20,A negative command is called,advice,request,prohibition,question,C
+21,Which sentence is a command?,The boy is running.,Open your book.,What is this?,How sad!,B
+22,Interrogative sentences always end with,.,!,?,;,C
+23,Which sentence expresses joy?,Sit down.,He is happy.,What a surprise!,Are you ready?,C
+24,Identify the type: Don’t make noise.,Declarative,Interrogative,Imperative,Exclamatory,C
+25,Which sentence shows strong emotion?,She sings well.,Please help me.,How brave you are!,Where is he?,C
+26,Declarative sentences are also called,statements,questions,commands,emotions,A
+27,Which sentence is a request?,Close the door.,Could you help me?,The door is closed.,How nice!,B
+28,Identify the type: Is it raining?,Declarative,Interrogative,Imperative,Exclamatory,B
+29,Which sentence gives information?,Please listen.,Where are you?,The earth is round.,How big!,C
+30,Imperative sentences can end with,. or !,? only,", only",no punctuation,A
+31,Identify the type: Be careful!,Declarative,Interrogative,Imperative,Exclamatory,C
+32,Which sentence uses an exclamation mark?,She is kind.,What is your name?,Wow!,Sit down.,C
+33,Which type of sentence asks for information?,Declarative,Imperative,Interrogative,Exclamatory,C
+34,Identify the type: Please be quiet.,Declarative,Interrogative,Imperative,Exclamatory,C
+35,Which sentence shows surprise?,He is late.,Are you ready?,What a shock!,Open the book.,C
+36,Declarative sentences state,facts,commands,emotions,questions,A
+37,Identify the type: How fast he runs!,Declarative,Interrogative,Imperative,Exclamatory,D
+38,Which sentence is NOT interrogative?,Who are you?,Where is he?,He is my friend.,What time is it?,C
+39,Which sentence gives an order?,She sings well.,Please wait.,How cold!,Is it hot?,B
+40,Exclamatory sentences often start with,Who,Why,How / What,When,C
+41,Identify the type: The flowers are beautiful.,Declarative,Interrogative,Imperative,Exclamatory,A
+42,Which sentence shows anger?,Sit down.,He is angry.,How dare you!,Where are you?,C
+43,Imperative sentences usually have the subject,he,she,they,you (understood),D
+44,Which sentence is a polite request?,Close the door.,Shut up.,Could you pass the salt?,How nice!,C
+45,Identify the type: Do not touch the wire.,Declarative,Interrogative,Imperative,Exclamatory,C
+46,Which punctuation ends most declarative sentences?,?,!,.,",",C
+47,Identify the type: What is your problem?,Declarative,Interrogative,Imperative,Exclamatory,B
+48,Which sentence expresses excitement?,He won the prize.,Sit here.,What a win!,Are you ready?,C
+49,Imperative sentences are used to,tell facts,ask questions,give orders,show feelings,C
+50,Types of sentences help us,understand meaning,spell better,write faster,count words,A
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 9 - Modal Verbs,,,,,,
+No,Question,A,B,C,D,Answer
+1,Modal verbs are used to show,action only,tense only,"ability, permission, possibility",nouns,C
+2,Which of the following is a modal verb?,play,can,played,playing,B
+3,Identify the modal verb: She can swim.,she,can,swim,none,B
+4,Modal verbs are followed by,V2,V-ing,base verb (V1),to + verb,C
+5,Which modal shows ability?,must,can,should,might,B
+6,Choose the correct sentence,He can swims,He can swim,He can swimming,He can swam,B
+7,Which modal verb shows permission?,must,may,should,would,B
+8,Identify the modal verb: You may go now.,you,may,go,now,B
+9,Which modal shows obligation?,can,may,must,might,C
+10,Choose the correct sentence,You must to study,You must study,You must studying,You must studied,B
+11,Which modal verb shows advice?,can,should,may,will,B
+12,Identify the modal verb: You should rest.,you,should,rest,none,B
+13,Which modal verb shows possibility?,must,might,will,can,B
+14,Choose the correct sentence,It might rains,It might rain,It might raining,It might rained,B
+15,Which modal verb shows certainty?,might,could,must,may,C
+16,Identify the modal verb: She must be tired.,she,must,be,tired,B
+17,Which modal verb is used for polite request?,must,can,could,may,C
+18,Choose the correct sentence,Could you help me?,Could you helped me?,Could you helping me?,Could you helps me?,A
+19,Which modal verb shows future intention?,could,would,will,might,C
+20,Identify the modal verb: I will call you.,I,will,call,you,B
+21,Modal verbs do NOT change for,person,number,tense,all of the above,D
+22,Which modal verb shows past ability?,can,could,may,should,B
+23,Choose the correct sentence,She could sings,She could sing,She could singing,She could sang,B
+24,Which modal verb shows request?,should,must,could,might,C
+25,Identify the modal verb: We ought to obey rules.,we,ought to,obey,rules,B
+26,“Ought to” expresses,advice,obligation,possibility,both A & B,D
+27,Which modal verb shows prohibition?,must,must not,may,could,B
+28,Choose the correct sentence,You must not smoke,You must not smoking,You must not smoked,You must not smokes,A
+29,Which modal verb shows suggestion?,should,can,must,will,A
+30,Identify the modal verb: He would help you.,he,would,help,you,B
+31,Which modal verb is used in offers?,shall,must,might,can,A
+32,Choose the correct sentence,Shall I help you?,Shall I helped you?,Shall I helping you?,Shall I helps you?,A
+33,Which modal verb shows probability?,might,can,must,shall,A
+34,Identify the modal verb: They may arrive late.,they,may,arrive,late,B
+35,Modal verbs are also called,helping verbs,main verbs,action verbs,linking verbs,A
+36,Which modal verb shows necessity?,should,must,might,could,B
+37,Choose the correct sentence,He should to go,He should go,He should going,He should went,B
+38,Which modal verb shows willingness?,will,might,must,should,A
+39,Identify the modal verb: I can finish this work.,I,can,finish,work,B
+40,Which modal verb is used for polite permission?,can,may,must,will,B
+41,Modal verbs are followed by,base verb,past verb,gerund,noun,A
+42,Choose the correct sentence,She may comes,She may come,She may coming,She may came,B
+43,Which modal verb shows strong advice?,might,should,must,could,C
+44,Identify the modal verb: You need not worry.,need not,worry,you,none,A
+45,Which modal verb shows expectation?,would,should,may,can,B
+46,Choose the correct sentence,He will goes,He will go,He will going,He will went,B
+47,Modal verbs do not take,-s,-ed,both A & B,none,C
+48,Which modal verb is used in conditionals?,would,must,may,shall,A
+49,Identify the modal verb: She could dance well.,she,could,dance,well,B
+50,Modal verbs help express,mood and meaning,spelling,punctuation,sentence length,A
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 10 - Subject–Verb Agreement,,,,,,
+No,Question,A,B,C,D,Answer
+1,Subject–verb agreement means,matching tense,matching subject and verb,matching object,matching adjective,B
+2,A singular subject takes a,plural verb,singular verb,past verb,modal verb,B
+3,Choose the correct sentence,He play football,He plays football,He playing football,He played football,B
+4,A plural subject takes a,singular verb,plural verb,helping verb only,modal verb,B
+5,Choose the correct sentence,They plays chess,They play chess,They playing chess,They played chess,B
+6,Identify the correct verb: She ___ to school.,go,goes,going,gone,B
+7,Identify the correct verb: We ___ ready.,is,am,are,was,C
+8,Choose the correct sentence,The boy run fast,The boy runs fast,The boy running fast,The boy ran fast,B
+9,Subjects joined by “and” usually take a,singular verb,plural verb,modal verb,no verb,B
+10,Choose the correct sentence,Ram and Ravi is friends,Ram and Ravi are friends,Ram and Ravi was friends,Ram and Ravi be friends,B
+11,“Each” and “Every” take a,plural verb,singular verb,modal verb,past verb,B
+12,Choose the correct sentence,Each boy have a pen,Each boy has a pen,Each boy having a pen,Each boy had a pen,B
+13,“Everyone” takes a,plural verb,singular verb,helping verb only,no verb,B
+14,Choose the correct sentence,Everyone know the answer,Everyone knows the answer,Everyone knowing the answer,Everyone knew the answer,B
+15,Collective nouns usually take a,plural verb,singular verb,two verbs,no verb,B
+16,Choose the correct sentence,The team are winning,The team is winning,The team were winning,The team have winning,B
+17,Words like “news” take a,plural verb,singular verb,past verb,modal verb,B
+18,Choose the correct sentence,The news are good,The news is good,The news were good,The news be good,B
+19,Subjects joined by “or / nor” agree with the,first subject,last subject,both subjects,verb only,B
+20,Choose the correct sentence,Either Ram or Ravi are coming,Either Ram or Ravi is coming,Either Ram or Ravi come,Either Ram or Ravi were coming,B
+21,Identify the correct verb: There ___ many students.,is,was,are,has,C
+22,Identify the correct verb: There ___ a problem.,are,were,is,have,C
+23,“One of the” takes a,plural verb,singular verb,modal verb,past verb,B
+24,Choose the correct sentence,One of the boys are late,One of the boys is late,One of the boys were late,One of the boys be late,B
+25,Amounts of money take a,plural verb,singular verb,helping verb,modal verb,B
+26,Choose the correct sentence,Ten rupees are enough,Ten rupees is enough,Ten rupees were enough,Ten rupees be enough,B
+27,Titles of books take a,plural verb,singular verb,helping verb,modal verb,B
+28,Choose the correct sentence,The Bible are holy,The Bible is holy,The Bible were holy,The Bible be holy,B
+29,“None” can take,singular only,plural only,singular or plural,no verb,C
+30,Choose the correct sentence,None of them is ready,None of them are ready,Both A & B,None of them be ready,C
+31,Subjects with “as well as” take verb according to,second subject,first subject,both,verb,B
+32,Choose the correct sentence,The teacher as well as students are ready,The teacher as well as students is ready,The teacher as well as students were ready,The teacher as well as students be ready,B
+33,“Every one of” takes a,plural verb,singular verb,past verb,modal verb,B
+34,Choose the correct sentence,Every one of the boys are present,Every one of the boys is present,Every one of the boys were present,Every one of the boys be present,B
+35,Plural nouns ending in “s” may take,plural verb always,singular verb always,singular or plural,no verb,C
+36,Choose the correct sentence,Physics are difficult,Physics is difficult,Physics were difficult,Physics be difficult,B
+37,Which sentence is correct?,The scissors is sharp,The scissors are sharp,The scissors was sharp,The scissors be sharp,B
+38,“A number of” takes a,singular verb,plural verb,modal verb,past verb,B
+39,Choose the correct sentence,A number of students is absent,A number of students are absent,A number of students was absent,A number of students be absent,B
+40,“The number of” takes a,plural verb,singular verb,helping verb,modal verb,B
+41,Choose the correct sentence,The number of students are high,The number of students is high,The number of students were high,The number of students be high,B
+42,Identify the correct verb: She ___ very kind.,are,am,is,were,C
+43,Choose the correct sentence,I is ready,I am ready,I are ready,I be ready,B
+44,Which sentence is incorrect?,He runs fast,They play well,She go home,We are friends,C
+45,“Either…or” agrees with,first subject,last subject,both subjects,verb only,B
+46,Choose the correct sentence,Either you or he are wrong,Either you or he is wrong,Either you or he were wrong,Either you or he be wrong,B
+47,Subjects with “along with” agree with,second subject,first subject,both,verb,B
+48,Choose the correct sentence,The principal along with teachers are present,The principal along with teachers is present,The principal along with teachers were present,The principal along with teachers be present,B
+49,Subject–verb agreement helps us write,correct grammar,long sentences,fast sentences,stories,A
+50,Choose the correct sentence,She don't like coffee,She doesn't like coffee,She didn't like coffee,She not like coffee,B
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 11 - Phrasal Verbs,,,,,,
+No,Question,A,B,C,D,Answer
+1,A phrasal verb is formed by,verb + verb,verb + adverb/preposition,noun + verb,adjective + verb,B
+2,Which is a phrasal verb?,look,look after,looking,looked,B
+3,Identify the phrasal verb: She gave up smoking.,gave,up,gave up,smoking,C
+4,Phrasal verbs often have meaning,literal only,different from main verb,same as verb,grammatical,B
+5,Choose the correct meaning of “give up”,start,stop,continue,look,B
+6,Choose the correct sentence,He put off the meeting,He put the meeting,He put on meeting,He put meeting off,A
+7,Which phrasal verb means “take care of”?,look for,look after,look into,look up,B
+8,Identify the phrasal verb: He looked after the child.,looked,after,looked after,child,C
+9,Which phrasal verb means “continue”?,give up,go on,break down,turn off,B
+10,Choose the correct meaning of “turn off”,start,switch off,increase,repair,B
+11,Which phrasal verb means “postpone”?,put off,put on,put up,put down,A
+12,Identify the phrasal verb: They called off the match.,called,off,called off,match,C
+13,“Call off” means,start,cancel,phone,continue,B
+14,Choose the correct sentence,She ran into an old friend,She ran an old friend,She ran on an old friend,She ran up an old friend,A
+15,Which phrasal verb means “meet by chance”?,run into,run out,run away,run over,A
+16,Identify the phrasal verb: The car broke down.,broke,down,broke down,car,C
+17,“Break down” means,stop working,start working,speed up,slow down,A
+18,Choose the correct meaning of “look up”,search,improve,respect,repair,A
+19,Which phrasal verb means “search for information”?,look up,look after,look out,look into,A
+20,Identify the phrasal verb: Please turn on the light.,turn,on,turn on,light,C
+21,“Turn on” means,stop,start,switch on,repair,C
+22,Choose the correct sentence,He ran out of money,He ran out money,He ran of money,He ran into money,A
+23,“Run out of” means,have plenty,finish,save,buy,B
+24,Which phrasal verb means “tolerate”?,put up with,put off,put on,put down,A
+25,Identify the phrasal verb: I can’t put up with noise.,put,up,put up with,noise,C
+26,Which phrasal verb means “wear”?,put on,put off,take off,turn on,A
+27,Choose the correct sentence,She put on her dress,She put her dress,She put off her dress,She put up her dress,A
+28,“Take off” means,remove,start,land,all of the above,D
+29,Identify the phrasal verb: The plane took off.,took,off,took off,plane,C
+30,Which phrasal verb means “investigate”?,look after,look into,look out,look up,B
+31,Choose the correct meaning of “look into”,ignore,investigate,admire,avoid,B
+32,Identify the phrasal verb: He turned down the offer.,turned,down,turned down,offer,C
+33,“Turn down” means,accept,reject,increase,raise,B
+34,Which phrasal verb means “wake up”?,get up,stand up,pick up,look up,A
+35,Choose the correct sentence,She got up early,She got early,She got on early,She got off early,A
+36,Identify the phrasal verb: Please fill in the form.,fill,in,fill in,form,C
+37,“Fill in” means,complete,tear,submit,start,A
+38,Which phrasal verb means “return”?,come back,go away,turn off,give up,A
+39,Identify the phrasal verb: He gave back the book.,gave,back,gave back,book,C
+40,“Give back” means,borrow,return,keep,sell,B
+41,Which phrasal verb means “enter”?,go in,go out,get off,come up,A
+42,Choose the correct sentence,He went in quietly,He went quietly,He went off quietly,He went up quietly,A
+43,Identify the phrasal verb: She picked up the phone.,picked,up,picked up,phone,C
+44,“Pick up” means,drop,lift/receive,break,ignore,B
+45,Which phrasal verb means “reduce volume”?,turn up,turn down,turn on,turn off,B
+46,Choose the correct sentence,Turn down the TV,Turn off down the TV,Turn TV down off,Turn the down TV,A
+47,Identify the phrasal verb: He ran away from home.,ran,away,ran away,home,C
+48,“Run away” means,stay,escape,return,stop,B
+49,Phrasal verbs are common in,spoken English,formal writing only,poetry only,exams only,A
+50,Learning phrasal verbs helps improve,fluency,spelling,punctuation,handwriting,A
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 12 - Active and Passive Voice,,,,,,
+No,Question,A,B,C,D,Answer
+1,"In active voice, the subject",receives the action,does the action,is hidden,is changed,B
+2,"In passive voice, the subject",does the action,receives the action,is omitted always,is a verb,B
+3,Identify the voice: The boy kicks the ball.,Active,Passive,Both,None,A
+4,Identify the voice: The ball is kicked by the boy.,Active,Passive,Both,None,B
+5,Which sentence is active?,The song was sung by her,The letter is written,She sings a song,The work was done,C
+6,Which sentence is passive?,He wrote a letter,She reads a book,A letter was written,They play football,C
+7,Passive voice uses,only main verb,has + verb,be + past participle (V3),will + verb,C
+8,Identify the passive verb: The cake was eaten.,was,eaten,was eaten,cake,C
+9,Choose the passive form of: She writes a letter.,A letter writes her,A letter is written by her,A letter was written,A letter writing by her,B
+10,Choose the active form of: The work was finished by him.,The work finished him,He finished the work,He was finishing work,The work finished,B
+11,"In passive voice, “by” shows",place,time,doer of action,object,C
+12,Which tense is used here? The room is cleaned.,Past,Present,Future,Continuous,B
+13,Choose the correct passive form,The book is read by me,The book read by me,The book is reading by me,The book was read by me,A
+14,Identify the voice: They are painting the house.,Active,Passive,Both,None,A
+15,Passive of “They are painting the house”,The house is painting,The house was painted,The house is being painted,The house has painted,C
+16,Which verb form is used in passive voice?,V1,V2,V3,V-ing,C
+17,Identify the passive sentence,She cooks food,Food is cooked by her,She is cooking,She cooked food,B
+18,Choose the correct active sentence,The match was won by them,They won the match,The match wins them,They winning match,B
+19,Passive voice is used when,doer is important,action is important,subject is known,sentence is short,B
+20,Identify the voice: English is spoken here.,Active,Passive,Both,None,B
+21,Change to passive: He will help me.,I will be helped by him,I am helped by him,I was helped by him,I help him,A
+22,Passive of “She ate an apple”,An apple eats,An apple is eaten,An apple was eaten,An apple has eaten,C
+23,Identify the voice: The door was closed.,Active,Passive,Both,None,B
+24,Which sentence is active?,The book was opened,The work is done,The teacher teaches English,The song was sung,C
+25,Choose the correct passive,The work is done by him,The work done by him,The work doing by him,The work has do,A
+26,Active voice is preferred in,spoken English,unclear writing,passive forms,complex rules,A
+27,Identify the tense: The letter was posted.,Present,Past,Future,Continuous,B
+28,Passive of “They are watching TV”,TV is watched,TV was watched,TV is being watched,TV has watched,C
+29,Which sentence is passive?,She helped me,He is helping,I was helped,They help us,C
+30,Change to active: The prize was given to her.,She gave the prize,Someone gave her the prize,The prize gave her,She was giving prize,B
+31,Passive voice often avoids mentioning,verb,object,doer,subject,C
+32,Identify the voice: The car is repaired.,Active,Passive,Both,None,B
+33,Choose the correct passive,The song sung by her,The song was sung by her,The song is sing,The song singing,B
+34,Passive of “He makes a cake”,A cake is made by him,A cake made by him,A cake was make,A cake making,A
+35,Which auxiliary verb is used in passive?,do,have,be,will,C
+36,Identify the voice: She was praised.,Active,Passive,Both,None,B
+37,Choose the active sentence,The window was broken,The child broke the window,The window broke by child,The child was breaking,B
+38,Passive of “We will finish the work”,The work finishes,The work will be finished,The work is finishing,The work was finish,B
+39,Which sentence focuses on the action?,He did the work,The work was done,He is doing work,He will do work,B
+40,Passive voice is common in,science writing,personal letters,stories only,poems only,A
+41,Identify the passive sentence,They clean the room,The room is cleaned,They are cleaning,Clean the room,B
+42,Change to passive: She sings a song.,A song is sung by her,A song sings her,A song was sung,A song is singing,A
+43,Which is NOT passive?,The cake was baked,The letter is written,He was punished,He punished the boy,D
+44,Passive of “Someone stole my bag”,My bag was stolen,My bag is stolen,My bag steals,My bag stealing,A
+45,Identify the voice: The rules must be followed.,Active,Passive,Both,None,B
+46,Modal passive structure is,modal + V1,modal + be + V3,modal + V-ing,modal + V2,B
+47,Choose the correct sentence,The work must done,The work must be done,The work must doing,The work must do,B
+48,Passive voice uses “by” to show,place,time,agent,tense,C
+49,Which sentence is passive?,She teaches us,We are taught by her,She is teaching,Teach us,B
+50,Active and passive voice help us,change sentence focus,learn spelling,count words,memorize verbs,A
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 13 - Correlative Conjunctions,,,,,,
+No,Question,A,B,C,D,Answer
+1,Correlative conjunctions work,alone,in pairs,in groups,randomly,B
+2,Which is a pair of correlative conjunctions?,and / but,either / or,because / so,if / then,B
+3,Identify the correlative conjunction: Either you or I am wrong.,either,or,either…or,wrong,C
+4,Correlative conjunctions connect,nouns only,verbs only,equal parts,sentences only,C
+5,Which pair shows choice?,both…and,either…or,not only…but also,whether…or,B
+6,Choose the correct sentence,Either he or she are coming,Either he or she is coming,Either he and she is coming,Either he or she be coming,B
+7,Which pair shows addition?,either…or,neither…nor,both…and,whether…or,C
+8,Identify the correlative conjunction: Both Ram and Ravi passed.,both,and,both…and,passed,C
+9,Which pair shows negative idea?,both…and,either…or,neither…nor,not only…but also,C
+10,Choose the correct sentence,Neither he nor I is ready,Neither he nor I am ready,Neither he and I am ready,Neither he nor I be ready,B
+11,Which pair shows emphasis?,both…and,either…or,not only…but also,neither…nor,C
+12,Identify the correlative conjunction: She is not only smart but also kind.,not only,but also,not only…but also,kind,C
+13,Correlative conjunctions must be,close together,balanced,separated,hidden,B
+14,Choose the correct sentence,Both the teacher or students came,Both the teacher and students came,Both teacher but students came,Both teacher and came,B
+15,Which pair shows alternatives?,both…and,either…or,not only…but also,neither…nor,B
+16,Identify the correlative conjunction: Neither rain nor storm stopped us.,neither,nor,neither…nor,storm,C
+17,Which pair joins two subjects?,either…or,both…and,not only…but also,all of the above,D
+18,Choose the correct sentence,Not only he but also she are invited,Not only he but also she is invited,Not only he and she is invited,Not only he but she also invited,B
+19,Which pair expresses contrast?,both…and,not only…but also,either…or,neither…nor,D
+20,Identify the correlative conjunction: Whether you like it or not.,whether,or,whether…or,like,C
+21,Which pair is used in questions?,both…and,either…or,whether…or,neither…nor,C
+22,Choose the correct sentence,Either you or he are responsible,Either you or he is responsible,Either you and he is responsible,Either you or he be responsible,B
+23,Correlative conjunctions help maintain,tense,balance,punctuation,spelling,B
+24,Identify the correlative conjunction: Both singing and dancing are fun.,both,and,both…and,fun,C
+25,Which pair means “not this and not that”?,both…and,either…or,neither…nor,not only…but also,C
+26,Choose the correct sentence,Neither the teacher nor the students is late,Neither the teacher nor the students are late,Neither teacher and students are late,Neither teacher nor students be late,B
+27,Which pair is used for emphasis and addition?,either…or,both…and,not only…but also,neither…nor,C
+28,Identify the correlative conjunction: Not only did he apologize but also promised to help.,not only,but also,not only…but also,help,C
+29,Which sentence is correct?,Both Ram or Ravi came,Both Ram and Ravi came,Both Ram but Ravi came,Both Ram nor Ravi came,B
+30,Correlative conjunctions usually connect,unequal parts,balanced elements,verbs only,nouns only,B
+31,Choose the correct sentence,Either the boys or the girl are winning,Either the boys or the girl is winning,Either boys or girl are winning,Either boys or girl be winning,B
+32,"Identify the correlative conjunction: Whether now or later, decide.",whether,or,whether…or,decide,C
+33,Which pair is used to show two positives?,neither…nor,either…or,both…and,whether…or,C
+34,Choose the correct sentence,Not only the book but also the pens is missing,Not only the book but also the pens are missing,Not only book but also pens are missing,Not only the book and pens are missing,B
+35,Correlative conjunctions agree with,first subject,second subject,nearest subject,verb only,C
+36,Identify the correlative conjunction: Either rain or wind caused the delay.,either,or,either…or,delay,C
+37,Which pair joins two actions?,both…and,either…or,neither…nor,all of the above,D
+38,Choose the correct sentence,Neither she nor her friends is coming,Neither she nor her friends are coming,Neither she and friends are coming,Neither she nor friends be coming,B
+39,Which pair is commonly tested in exams?,both…and,either…or,neither…nor,all of the above,D
+40,Identify the correlative conjunction: Not only did he fail but also tried again.,not only,but also,not only…but also,tried,C
+41,Which sentence shows correct balance?,Both he and she is ready,Both he and she are ready,Both he or she are ready,Both he but she ready,B
+42,Correlative conjunctions are important for,clarity,balance,correctness,all of the above,D
+43,Choose the correct sentence,Either my brother or my parents is coming,Either my brother or my parents are coming,Either brother or parents is coming,Either brother or parents be coming,B
+44,Identify the correlative conjunction: Neither rich nor poor were spared.,neither,nor,neither…nor,spared,C
+45,Which pair means “one or the other”?,both…and,either…or,neither…nor,not only…but also,B
+46,Choose the correct sentence,Not only the teacher but also the students was present,Not only the teacher but also the students were present,Not only teacher but also students were present,Not only teacher and students were present,B
+47,Correlative conjunctions help avoid,confusion,imbalance,errors,all of the above,D
+48,Identify the correlative conjunction: Both reading and writing improve skills.,both,and,both…and,improve,C
+49,Which sentence is incorrect?,Both Ram and Ravi came,Either you or I am wrong,Neither she nor I are late,Not only he but also she are invited,D
+50,Correlative conjunctions always come,before nouns,in pairs,at the end,alone,B
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 14 - Question Types,,,,,,
+No,Question,A,B,C,D,Answer
+1,Questions are used to,give commands,ask information,show emotion,give advice,B
+2,A question that can be answered with “Yes/No” is called,WH-question,Tag question,Yes/No question,Alternative question,C
+3,Which is a Yes/No question?,Where are you?,Do you like tea?,Why are you late?,How old are you?,B
+4,WH-questions usually begin with,verbs,auxiliaries,question words,nouns,C
+5,Which is a WH-word?,do,is,what,will,C
+6,Identify the WH-question,Are you ready?,Did he come?,Where is she?,Will you go?,C
+7,Which question asks about a person?,What,Where,Who,When,C
+8,Which question asks about time?,Why,When,Where,How,B
+9,Which question asks about place?,What,When,Where,Who,C
+10,Which question asks about reason?,How,Where,Why,When,C
+11,A question tag is added to,statement,command,exclamation,phrase,A
+12,Which is a tag question?,Are you coming?,"You are coming, aren’t you?",Where are you?,Come here.,B
+13,Tag questions are used to,give order,confirm information,ask reason,show emotion,B
+14,"Identify the tag: She is happy, ___?",is she,isn’t she,doesn’t she,wasn’t she,B
+15,"Choose the correct tag: You like coffee, ___?",do you,don’t you,aren’t you,didn’t you,B
+16,Which question gives choices?,Yes/No,WH,Tag,Alternative,D
+17,Which is an alternative question?,Do you like tea?,Where are you?,Do you want tea or coffee?,Are you ready?,C
+18,Which auxiliary verb is used in Yes/No questions?,noun,main verb,helping verb,adjective,C
+19,Identify the question type: Why are you sad?,Yes/No,WH,Tag,Alternative,B
+20,Which question begins with “How”?,How old are you?,Do you know him?,"You are fine, aren’t you?",Tea or coffee?,A
+21,Choose the correct question,Where you are?,Where are you?,Where is you?,Where you is?,B
+22,Which question asks about manner?,What,Where,How,When,C
+23,"Identify the question type: You finished the work, didn’t you?",Yes/No,WH,Tag,Alternative,C
+24,Which question asks about quantity?,How many,How,Why,Where,A
+25,WH-questions cannot be answered with,yes/no,full sentence,information,explanation,A
+26,Identify the question word: ___ is your name?,Where,What,Who,When,B
+27,Choose the correct question,What you are doing?,What are you doing?,What is you doing?,What you doing?,B
+28,Which question is polite?,Give me water,Can you help me?,You help me,Help me,B
+29,Identify the question type: Can you help me?,WH,Yes/No,Tag,Alternative,B
+30,Which question uses rising tone?,WH,Yes/No,Tag,All,B
+31,Choose the correct tag,"He went home, ___?",didn’t he,doesn’t he,isn’t he,wasn’t he
+32,Which question expects agreement?,WH,Alternative,Tag,Yes/No,C
+33,Identify the question word: ___ did you come?,Where,When,Why,Who,B
+34,Which question asks about possession?,Who,Whose,Which,When,B
+35,Choose the correct question,Who did you meet?,Who you met?,Who did met you?,Who you did meet?,A
+36,Which question uses “or”?,Yes/No,WH,Tag,Alternative,D
+37,Identify the question type: Is he a doctor?,WH,Yes/No,Tag,Alternative,B
+38,Which WH-word asks about choice?,What,Which,Who,Why,B
+39,Choose the correct question,How much it costs?,How much does it cost?,How much it cost?,How much did cost it?,B
+40,Question tags usually repeat the,noun,verb,auxiliary verb,adjective,C
+41,Identify the question type: Tea or coffee?,Yes/No,WH,Tag,Alternative,D
+42,Which question is indirect?,Where are you?,Can you tell me where you are?,Are you here?,When will you go?,B
+43,Choose the correct tag,"She can swim, ___?",can she,can’t she,doesn’t she,isn’t she
+44,Which question asks about frequency?,How long,How often,How much,How many,B
+45,Identify the WH-word: ___ are you late?,When,Why,Where,Who,B
+46,Which question uses falling tone?,WH,Yes/No,Tag,Alternative,A
+47,Choose the correct question,Did you finished the work?,Did you finish the work?,Did you finishing the work?,Did you finishes the work?,B
+48,Question words are also called,interrogatives,adjectives,pronouns,verbs,A
+49,"Identify the question type: You don’t like coffee, do you?",Yes/No,WH,Tag,Alternative,C
+50,Question types help us,ask correctly,write stories,form nouns,change tense,A
+,,,,,,
+,,,,,,
+,,,,,,
+Lesson 15 - Irregular Verbs,,,,,,
+No,Question,A,B,C,D,Answer
+1,Irregular verbs are verbs that,follow -ed rule,do not follow -ed rule,are nouns,are adjectives,B
+2,Which is an irregular verb?,play,walk,go,jump,C
+3,Past tense of “go” is,goed,went,gone,going,B
+4,Past tense of “eat” is,eated,eats,ate,eaten,C
+5,Past participle of “eat” is,eat,ate,eating,eaten,D
+6,Which verb is irregular?,talk,finish,see,clean,C
+7,Past tense of “see” is,seed,saw,seen,seeing,B
+8,Past participle of “see” is,see,saw,seen,seeing,C
+9,Choose the correct past tense,He buy a book,He buys a book,He bought a book,He buying a book,C
+10,Past tense of “buy” is,buyed,bought,buys,buying,B
+11,Past participle of “buy” is,buyed,bought,buys,buying,B
+12,Which is the past tense of “take”?,taked,took,taken,taking,B
+13,Past participle of “take” is,take,took,taken,taking,C
+14,Which sentence is correct?,She goed home,She went home,She go home,She going home,B
+15,Past tense of “come” is,comed,came,coming,come,B
+16,Past participle of “come” is,came,coming,come,comes,C
+17,Which verb does NOT change in past tense?,cut,go,eat,see,A
+18,Past tense of “cut” is,cutted,cut,cuts,cutting,B
+19,Past participle of “cut” is,cut,cutting,cuts,cutted,A
+20,Which verb has the same form in all tenses?,run,put,sing,drink,B
+21,Past tense of “put” is,putted,put,puts,putting,B
+22,Past participle of “put” is,putting,put,puts,putted,B
+23,Which is an irregular verb?,open,close,give,help,C
+24,Past tense of “give” is,gived,gave,given,giving,B
+25,Past participle of “give” is,give,gave,given,giving,C
+26,Which sentence uses past participle?,He eats rice,He ate rice,He has eaten rice,He is eating rice,C
+27,Past tense of “drink” is,drinked,drank,drunk,drinking,B
+28,Past participle of “drink” is,drink,drank,drunk,drinking,C
+29,Past tense of “write” is,write,wrote,written,writing,B
+30,Past participle of “write” is,write,wrote,written,writing,C
+31,Which verb is irregular?,play,walk,run,clean,C
+32,Past tense of “run” is,runned,ran,runs,running,B
+33,Past participle of “run” is,ran,run,running,runs,B
+34,Past tense of “sing” is,singed,sang,sung,singing,B
+35,Past participle of “sing” is,sing,sang,sung,singing,C
+36,Which sentence is correct?,He has went home,He has gone home,He have gone home,He went gone home,B
+37,Past tense of “break” is,breaked,broke,broken,breaking,B
+38,Past participle of “break” is,break,broke,broken,breaking,C
+39,Which irregular verb changes vowel sound?,walk,talk,sit,open,C
+40,Past tense of “sit” is,sitted,sat,set,sitting,B
+41,Past participle of “sit” is,sit,sat,set,sat,D
+42,Which sentence is correct?,She has ate food,She has eaten food,She have eaten food,She eaten food,B
+43,Past tense of “fly” is,flyed,flew,flown,flying,B
+44,Past participle of “fly” is,fly,flew,flown,flying,C
+45,Which irregular verb stays the same in present & past?,hit,sing,drive,eat,A
+46,Past tense of “hit” is,hitted,hit,hits,hitting,B
+47,Past participle of “hit” is,hit,hits,hitting,hitted,A
+48,Irregular verbs are important for,correct tense usage,spelling only,punctuation,sentence length,A
+49,Which sentence is correct?,He has drank water,He has drunk water,He has drink water,He dranked water,B
+50,Learning irregular verbs helps improve,grammar accuracy,handwriting,pronunciation only,speed writing,A
+,,,,,,
+,,,,,,
+Lesson 16 - Relative Pronoun,,,,,,
+No,Question,A,B,C,D,Answer
+1,A relative pronoun is used to,ask questions,join clauses,replace nouns,show tense,B
+2,Which is a relative pronoun?,he,which,very,and,B
+3,Relative pronouns refer to a,verb,adjective,noun,adverb,C
+4,Which word is a relative pronoun?,who,when,where,why,A
+5,Identify the relative pronoun: The boy who won the prize is happy.,boy,who,prize,happy,B
+6,“Who” is used for,things,animals,people,places,C
+7,“Which” is used for,people,places,things,time,C
+8,“That” can be used for,people,things,both A & B,places only,C
+9,Choose the correct sentence,This is the man which helped me,This is the man who helped me,This is the man whom help me,This is the man helped me,B
+10,Identify the relative pronoun: The book that I bought is new.,book,that,bought,new,B
+11,“Whom” is used as,subject,object,verb,adjective,B
+12,Choose the correct sentence,The girl whom sings well,The girl who sings well,The girl which sings well,The girl that sings she,B
+13,Which relative pronoun shows possession?,who,whom,whose,which,C
+14,Identify the relative pronoun: The man whose car was stolen reported it.,man,whose,car,stolen,B
+15,“Whose” is used for,possession,place,time,reason,A
+16,Choose the correct sentence,I met a man who dog is cute,I met a man whose dog is cute,I met a man which dog is cute,I met a man whom dog is cute,B
+17,Which relative pronoun is used for objects?,who,whom,whose,where,B
+18,Identify the relative pronoun: The teacher whom we respect is kind.,teacher,whom,respect,kind,B
+19,“That” is commonly used in,formal English only,informal English,both,poetry only,C
+20,Which is NOT a relative pronoun?,who,which,that,when,D
+21,Choose the correct sentence,The house where I live is big,The house which I live is big,The house who I live is big,The house that I live,A
+22,“Where” is used for,people,time,place,reason,C
+23,Identify the relative pronoun: This is the place where we met.,place,where,met,this,B
+24,Which relative pronoun is used for time?,where,why,when,that,C
+25,Choose the correct sentence,I remember the day which we met,I remember the day when we met,I remember the day who we met,I remember the day that we meeting,B
+26,“Why” is used for,time,place,reason,person,C
+27,Identify the relative pronoun: This is the reason why he left.,reason,why,left,this,B
+28,Which relative pronoun can replace “who” and “which”?,whom,whose,that,when,C
+29,Choose the correct sentence,The movie which we saw was good,The movie who we saw was good,The movie whom we saw was good,The movie where we saw was good,A
+30,Relative pronouns help avoid,repetition,punctuation,spelling,tense errors,A
+31,Identify the relative pronoun: She is the girl that won the race.,girl,that,race,won,B
+32,Which sentence is correct?,The man who I spoke is kind,The man whom I spoke is kind,The man whom I spoke to is kind,The man which I spoke is kind,C
+33,“Who” is used as,subject,object,possession,adverb,A
+34,Choose the correct sentence,The boy who you met is here,The boy whom you met is here,The boy which you met is here,The boy that you metted,B
+35,Which relative pronoun refers to animals?,who,which,whose,both B & C,D
+36,Identify the relative pronoun: The dog which barked loudly ran away.,dog,which,barked,away,B
+37,Relative clauses begin with,conjunctions,verbs,relative pronouns,nouns,C
+38,Choose the correct sentence,This is the book whose cover is torn,This is the book who cover is torn,This is the book which cover torn,This is the book that cover torn,A
+39,Which relative pronoun is used in formal writing?,who,whom,that,where,B
+40,Identify the relative pronoun: The man whom she called didn’t answer.,man,whom,called,answer,B
+41,Relative pronouns usually come,before noun,after noun,at end,at beginning,B
+42,Choose the correct sentence,I know the person who lives here,I know the person which lives here,I know the person whom lives here,I know the person where lives here,A
+43,“Which” cannot be used for,things,animals,people,objects,C
+44,Identify the relative pronoun: The pen that you gave me works well.,pen,that,gave,well,B
+45,Relative pronouns connect,phrases,clauses,sentences only,words only,B
+46,Choose the correct sentence,She is the woman whose son won,She is the woman who son won,She is the woman whom son won,She is the woman that son won,A
+47,Which sentence is incorrect?,The boy who is playing is my brother,The book that I bought is new,The man which helped me is kind,The girl whose bag is lost is crying,C
+48,Relative pronouns help make sentences,longer,clearer,confusing,incomplete,B
+49,Identify the relative pronoun: This is the time when we act.,time,when,act,this,B
+50,Relative pronouns are important for,sentence clarity,spelling,handwriting,speed writing,A

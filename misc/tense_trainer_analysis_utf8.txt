@@ -1,0 +1,19 @@
+﻿Analyzing tense_trainer_screen.dart...                          
+
+warning - The value of the field '_auxiliaries' isn't used - lib\screens\games\grammar\tense_trainer_screen.dart:44:28 - unused_field
+  error - The method '_sentenceIsLearned' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:196:14 - undefined_method
+  error - The method '_countVerbForms' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:197:13 - undefined_method
+  error - The method '_isFutureEligible' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:200:16 - undefined_method
+  error - The method '_buildFutureQuestion' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:201:28 - undefined_method
+  error - The method '_containsAuxiliary' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:204:15 - undefined_method
+  error - The method '_buildSimpleTenseQuestion' isn't defined for the type '_TenseTrainerScreenState' - lib\screens\games\grammar\tense_trainer_screen.dart:206:15 - undefined_method
+  error - Expected a class member - lib\screens\games\grammar\tense_trainer_screen.dart:213:4 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\tense_trainer_screen.dart:213:5 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\tense_trainer_screen.dart:213:5 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\tense_trainer_screen.dart:213:5 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\games\grammar\tense_trainer_screen.dart:213:6 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\tense_trainer_screen.dart:213:7 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\tense_trainer_screen.dart:213:7 - expected_token
+  error - The name 'n' is already defined - lib\screens\games\grammar\tense_trainer_screen.dart:213:7 - duplicate_definition
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\tense_trainer_screen.dart:213:7 - missing_const_final_var_or_type
+

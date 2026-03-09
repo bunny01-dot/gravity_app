@@ -75,6 +75,7 @@ class _GamesHubCardState extends State<GamesHubCard> {
   final PageController _pageController = PageController();
   int _currentIndex = 0;
   Timer? _timer;
+  Future<void>? _gamesReadinessPreloadFuture;
 
   // Featured games for the carousel (Highlighting key playable/featured ones)
   List<Map<String, dynamic>> get _featuredGames => [
@@ -110,6 +111,7 @@ class _GamesHubCardState extends State<GamesHubCard> {
   void initState() {
     super.initState();
     _startAutoScroll();
+    _gamesReadinessPreloadFuture = _preloadGamesReadiness();
   }
 
   @override
@@ -119,8 +121,40 @@ class _GamesHubCardState extends State<GamesHubCard> {
     super.dispose();
   }
 
+  Future<void> _preloadGamesReadiness() async {
+    try {
+      final dataService = DataService();
+      await Future.wait([
+        dataService.getLearnedVocabularyItems(),
+        dataService.getLearnedVerbItems(),
+        DailySentenceService().getDailySentences(),
+        TongueTwisterContentService().getEligiblePhrases(),
+        ReadAloudContentService().getEligibleItems(),
+        DictationContentService().getEligibleSentences(),
+        AudioGuessContentService().getEligibleQuestions(),
+        ConversationCatchContentService().getEligibleConversations(),
+        HangmanContentService().getEligibleWords(),
+        QuizBattleContentService().getEligibleQuestions(),
+        StoryAdventureContentService().getEligibleStories(),
+      ]);
+    } catch (e) {
+      // Best-effort warmup; Games Grid has its own guarded readiness loader.
+      debugPrint('GamesHubCard: readiness preload failed: $e');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+    final bgStart = isDark
+        ? const Color(0xFF1E1E2C)
+        : colorScheme.primaryContainer;
+    final bgEnd = isDark
+        ? const Color(0xFF2A2A35)
+        : colorScheme.secondaryContainer;
+
     return GestureDetector(
       onTap: () => _handleTap(context),
       child: Opacity(
@@ -132,7 +166,9 @@ class _GamesHubCardState extends State<GamesHubCard> {
             borderRadius: BorderRadius.circular(24),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withValues(alpha: 0.3),
+                color: isDark
+                    ? Colors.black.withValues(alpha: 0.3)
+                    : colorScheme.shadow.withValues(alpha: 0.12),
                 blurRadius: 15,
                 offset: const Offset(0, 8),
               ),
@@ -147,10 +183,7 @@ class _GamesHubCardState extends State<GamesHubCard> {
                   child: Container(
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
-                        colors: [
-                          const Color(0xFF1E1E2C).withValues(alpha: 0.85),
-                          const Color(0xFF2A2A35).withValues(alpha: 0.85),
-                        ],
+                        colors: [bgStart, bgEnd],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
@@ -187,7 +220,9 @@ class _GamesHubCardState extends State<GamesHubCard> {
                         decoration: BoxDecoration(
                           color: _currentIndex == index
                               ? (_featuredGames[index]['color'] as Color)
-                              : Colors.white24,
+                              : colorScheme.onSurfaceVariant.withValues(
+                                  alpha: 0.5,
+                                ),
                           borderRadius: BorderRadius.circular(4),
                         ),
                       );
@@ -205,9 +240,15 @@ class _GamesHubCardState extends State<GamesHubCard> {
                       vertical: 4,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.black54,
+                      color: isDark
+                          ? Colors.black54
+                          : colorScheme.surface.withValues(alpha: 0.85),
                       borderRadius: BorderRadius.circular(12),
-                      border: Border.all(color: Colors.white10),
+                      border: Border.all(
+                        color: isDark
+                            ? Colors.white10
+                            : colorScheme.outlineVariant.withValues(alpha: 0.6),
+                      ),
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -215,13 +256,15 @@ class _GamesHubCardState extends State<GamesHubCard> {
                         Icon(
                           Icons.sports_esports,
                           size: 20,
-                          color: Colors.white,
+                          color: isDark ? Colors.white : colorScheme.onSurface,
                         ),
                         const SizedBox(width: 8),
-                        const Text(
+                        Text(
                           "GAMES HUB",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: isDark
+                                ? Colors.white
+                                : colorScheme.onSurface,
                             fontSize: 10,
                             fontWeight: FontWeight.bold,
                             letterSpacing: 1,
@@ -254,11 +297,8 @@ class _GamesGridSheetState extends State<GamesGridSheet> {
   bool _isAvailabilityLoading = true;
   bool _isFlashcardLocked = true;
   bool _isWordBuilderLocked = true;
-  static const int _minWordBuilderWords = 5;
   bool _isSynonymSwapLocked = true;
-  static const int _minSynonymSwapWords = 3;
   bool _isAntonymAttackLocked = true;
-  static const int _minAntonymAttackWords = 3;
   bool _isWordSearchLocked = true;
   static const int _minWordSearchWords = 5;
   bool _isFillTheGapLocked = true;
@@ -280,7 +320,6 @@ class _GamesGridSheetState extends State<GamesGridSheet> {
   bool _isQuizBattleLocked = true;
   bool _isStoryAdventureLocked = true;
   bool _isWordRaceLocked = true;
-  static const int _minSpeedVocabWords = 8;
   static const int _minGrammarWarmupWords = 8;
   static const int _minSentenceScrambleWarmupWords = 6;
   static const int _minTenseWarmupVerbs = 3;
@@ -351,6 +390,37 @@ class _GamesGridSheetState extends State<GamesGridSheet> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isAvailabilityLoading) {
+      final theme = Theme.of(context);
+      final colorScheme = theme.colorScheme;
+      final isDark = theme.brightness == Brightness.dark;
+
+      return Container(
+        height: MediaQuery.of(context).size.height * 0.85,
+        decoration: BoxDecoration(
+          color: isDark
+              ? colorScheme.surfaceContainerHigh
+              : colorScheme.surface,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
+        ),
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              CircularProgressIndicator(color: colorScheme.primary),
+              const SizedBox(height: 14),
+              Text(
+                'Checking game readiness...',
+                style: TextStyle(
+                  color: colorScheme.onSurfaceVariant,
+                  fontSize: 14,
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
     return _buildContent();
   }
 }

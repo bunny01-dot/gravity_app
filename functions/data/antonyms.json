@@ -1,0 +1,310 @@
+[
+  {
+    "word": "arrival",
+    "antonym": "departure"
+  },
+  {
+    "word": "arrive",
+    "antonym": "depart"
+  },
+  {
+    "word": "ask",
+    "antonym": "answer"
+  },
+  {
+    "word": "big",
+    "antonym": "small"
+  },
+  {
+    "word": "board",
+    "antonym": "leave"
+  },
+  {
+    "word": "brave",
+    "antonym": "scared"
+  },
+  {
+    "word": "busy",
+    "antonym": "free"
+  },
+  {
+    "word": "buy",
+    "antonym": "sell"
+  },
+  {
+    "word": "calm",
+    "antonym": "angry"
+  },
+  {
+    "word": "cheap",
+    "antonym": "expensive"
+  },
+  {
+    "word": "clean",
+    "antonym": "dirty"
+  },
+  {
+    "word": "connect",
+    "antonym": "disconnect"
+  },
+  {
+    "word": "construct",
+    "antonym": "destroy"
+  },
+  {
+    "word": "create",
+    "antonym": "destroy"
+  },
+  {
+    "word": "day",
+    "antonym": "night"
+  },
+  {
+    "word": "deep",
+    "antonym": "shallow"
+  },
+  {
+    "word": "dry",
+    "antonym": "wet"
+  },
+  {
+    "word": "early",
+    "antonym": "late"
+  },
+  {
+    "word": "empty",
+    "antonym": "full"
+  },
+  {
+    "word": "enter",
+    "antonym": "exit"
+  },
+  {
+    "word": "fail",
+    "antonym": "succeed"
+  },
+  {
+    "word": "fast",
+    "antonym": "slow"
+  },
+  {
+    "word": "fresh",
+    "antonym": "rotten"
+  },
+  {
+    "word": "friend",
+    "antonym": "enemy"
+  },
+  {
+    "word": "full",
+    "antonym": "empty"
+  },
+  {
+    "word": "go",
+    "antonym": "come"
+  },
+  {
+    "word": "good",
+    "antonym": "bad"
+  },
+  {
+    "word": "happy",
+    "antonym": "sad"
+  },
+  {
+    "word": "hard",
+    "antonym": "easy"
+  },
+  {
+    "word": "high",
+    "antonym": "low"
+  },
+  {
+    "word": "hire",
+    "antonym": "fire"
+  },
+  {
+    "word": "hot",
+    "antonym": "cold"
+  },
+  {
+    "word": "hungry",
+    "antonym": "full"
+  },
+  {
+    "word": "input",
+    "antonym": "output"
+  },
+  {
+    "word": "land",
+    "antonym": "takeoff"
+  },
+  {
+    "word": "laugh",
+    "antonym": "cry"
+  },
+  {
+    "word": "lead",
+    "antonym": "follow"
+  },
+  {
+    "word": "leader",
+    "antonym": "follower"
+  },
+  {
+    "word": "life",
+    "antonym": "death"
+  },
+  {
+    "word": "love",
+    "antonym": "hate"
+  },
+  {
+    "word": "near",
+    "antonym": "far"
+  },
+  {
+    "word": "north",
+    "antonym": "south"
+  },
+  {
+    "word": "on",
+    "antonym": "off"
+  },
+  {
+    "word": "online",
+    "antonym": "offline"
+  },
+  {
+    "word": "open",
+    "antonym": "close"
+  },
+  {
+    "word": "pack",
+    "antonym": "unpack"
+  },
+  {
+    "word": "pass",
+    "antonym": "fail"
+  },
+  {
+    "word": "peace",
+    "antonym": "war"
+  },
+  {
+    "word": "pro",
+    "antonym": "amateur"
+  },
+  {
+    "word": "public",
+    "antonym": "private"
+  },
+  {
+    "word": "quiet",
+    "antonym": "noisy"
+  },
+  {
+    "word": "raw",
+    "antonym": "cooked"
+  },
+  {
+    "word": "real",
+    "antonym": "virtual"
+  },
+  {
+    "word": "remember",
+    "antonym": "forget"
+  },
+  {
+    "word": "rich",
+    "antonym": "poor"
+  },
+  {
+    "word": "right",
+    "antonym": "wrong"
+  },
+  {
+    "word": "rise",
+    "antonym": "fall"
+  },
+  {
+    "word": "rude",
+    "antonym": "polite"
+  },
+  {
+    "word": "safe",
+    "antonym": "dangerous"
+  },
+  {
+    "word": "save",
+    "antonym": "delete"
+  },
+  {
+    "word": "send",
+    "antonym": "receive"
+  },
+  {
+    "word": "simple",
+    "antonym": "complex"
+  },
+  {
+    "word": "sit",
+    "antonym": "stand"
+  },
+  {
+    "word": "smile",
+    "antonym": "frown"
+  },
+  {
+    "word": "soft",
+    "antonym": "hard"
+  },
+  {
+    "word": "spend",
+    "antonym": "save"
+  },
+  {
+    "word": "start",
+    "antonym": "finish"
+  },
+  {
+    "word": "strong",
+    "antonym": "weak"
+  },
+  {
+    "word": "sunny",
+    "antonym": "cloudy"
+  },
+  {
+    "word": "sweet",
+    "antonym": "sour"
+  },
+  {
+    "word": "teach",
+    "antonym": "learn"
+  },
+  {
+    "word": "true",
+    "antonym": "false"
+  },
+  {
+    "word": "up",
+    "antonym": "down"
+  },
+  {
+    "word": "wet",
+    "antonym": "dry"
+  },
+  {
+    "word": "wild",
+    "antonym": "tame"
+  },
+  {
+    "word": "win",
+    "antonym": "lose"
+  },
+  {
+    "word": "work",
+    "antonym": "rest"
+  }
+]

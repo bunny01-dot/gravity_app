@@ -13,6 +13,10 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
         opaque: false,
         pageBuilder: (context, _, __) => StatefulBuilder(
           builder: (context, setState) {
+            final theme = Theme.of(context);
+            final isDark = theme.brightness == Brightness.dark;
+            final onSurface = theme.colorScheme.onSurface;
+            final colorScheme = theme.colorScheme;
             return Stack(
               children: [
                 // Blurred & Darkened Background
@@ -29,21 +33,29 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                       margin: const EdgeInsets.symmetric(horizontal: 24),
                       constraints: const BoxConstraints(maxWidth: 500),
                       decoration: BoxDecoration(
-                        gradient: const LinearGradient(
-                          colors: [Color(0xFF1E1E2C), Color(0xFF2C2C3E)],
+                        gradient: LinearGradient(
+                          colors: isDark
+                              ? const [Color(0xFF1E1E2C), Color(0xFF2C2C3E)]
+                              : const [Color(0xFFFFFFFF), Color(0xFFF1F6FF)],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ),
                         borderRadius: BorderRadius.circular(24),
                         border: Border.all(
-                          color: const Color(0xFFFFD700).withValues(alpha: 0.3),
+                          color:
+                              (isDark
+                                      ? const Color(0xFFFFD700)
+                                      : colorScheme.primary)
+                                  .withValues(alpha: 0.3),
                           width: 2,
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: const Color(
-                              0xFFFFD700,
-                            ).withValues(alpha: 0.3),
+                            color:
+                                (isDark
+                                        ? const Color(0xFFFFD700)
+                                        : colorScheme.primary)
+                                    .withValues(alpha: isDark ? 0.3 : 0.18),
                             blurRadius: 30,
                             spreadRadius: 5,
                           ),
@@ -69,7 +81,9 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                 Container(
                                   padding: const EdgeInsets.all(12),
                                   decoration: BoxDecoration(
-                                    color: Colors.black.withValues(alpha: 0.2),
+                                    color:
+                                        (isDark ? Colors.black : Colors.white)
+                                            .withValues(alpha: 0.2),
                                     borderRadius: BorderRadius.circular(12),
                                   ),
                                   child: const Icon(
@@ -110,27 +124,25 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                   decoration: InputDecoration(
                                     hintText: "Announcement Title",
                                     hintStyle: TextStyle(
-                                      color: Colors.white.withValues(
-                                        alpha: 0.5,
-                                      ),
+                                      color: onSurface.withValues(alpha: 0.5),
                                     ),
                                     filled: true,
-                                    fillColor: Colors.white.withValues(
-                                      alpha: 0.05,
-                                    ),
+                                    fillColor: isDark
+                                        ? Colors.white.withValues(alpha: 0.05)
+                                        : Colors.white.withValues(alpha: 0.9),
                                     border: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(12),
                                       borderSide: BorderSide(
-                                        color: Colors.white.withValues(
-                                          alpha: 0.1,
+                                        color: onSurface.withValues(
+                                          alpha: 0.12,
                                         ),
                                       ),
                                     ),
                                     enabledBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(12),
                                       borderSide: BorderSide(
-                                        color: Colors.white.withValues(
-                                          alpha: 0.1,
+                                        color: onSurface.withValues(
+                                          alpha: 0.12,
                                         ),
                                       ),
                                     ),
@@ -142,7 +154,7 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                       ),
                                     ),
                                   ),
-                                  style: const TextStyle(color: Colors.white),
+                                  style: TextStyle(color: onSurface),
                                   autofocus: true,
                                 ),
                                 const SizedBox(height: 16),
@@ -151,27 +163,25 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                   decoration: InputDecoration(
                                     hintText: "Message body...",
                                     hintStyle: TextStyle(
-                                      color: Colors.white.withValues(
-                                        alpha: 0.5,
-                                      ),
+                                      color: onSurface.withValues(alpha: 0.5),
                                     ),
                                     filled: true,
-                                    fillColor: Colors.white.withValues(
-                                      alpha: 0.05,
-                                    ),
+                                    fillColor: isDark
+                                        ? Colors.white.withValues(alpha: 0.05)
+                                        : Colors.white.withValues(alpha: 0.9),
                                     border: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(12),
                                       borderSide: BorderSide(
-                                        color: Colors.white.withValues(
-                                          alpha: 0.1,
+                                        color: onSurface.withValues(
+                                          alpha: 0.12,
                                         ),
                                       ),
                                     ),
                                     enabledBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(12),
                                       borderSide: BorderSide(
-                                        color: Colors.white.withValues(
-                                          alpha: 0.1,
+                                        color: onSurface.withValues(
+                                          alpha: 0.12,
                                         ),
                                       ),
                                     ),
@@ -183,7 +193,7 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                       ),
                                     ),
                                   ),
-                                  style: const TextStyle(color: Colors.white),
+                                  style: TextStyle(color: onSurface),
                                   maxLines: 4,
                                 ),
                                 const SizedBox(height: 16),
@@ -230,8 +240,8 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                             ? "Sent as High Priority (Heads-up)"
                                             : "Sent as Standard Notification",
                                         style: TextStyle(
-                                          color: Colors.white.withValues(
-                                            alpha: 0.5,
+                                          color: onSurface.withValues(
+                                            alpha: 0.62,
                                           ),
                                           fontSize: 11,
                                         ),
@@ -261,10 +271,12 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                       color: Colors.white54,
                                       size: 16,
                                     ),
-                                    label: const Text(
+                                    label: Text(
                                       "Manage History",
                                       style: TextStyle(
-                                        color: Colors.white54,
+                                        color: onSurface.withValues(
+                                          alpha: 0.62,
+                                        ),
                                         fontSize: 12,
                                       ),
                                     ),
@@ -284,11 +296,9 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                     onPressed: () =>
                                         _handleCloseDialog(context),
                                     style: OutlinedButton.styleFrom(
-                                      foregroundColor: Colors.white,
+                                      foregroundColor: onSurface,
                                       side: BorderSide(
-                                        color: Colors.white.withValues(
-                                          alpha: 0.3,
-                                        ),
+                                        color: onSurface.withValues(alpha: 0.3),
                                       ),
                                       padding: const EdgeInsets.symmetric(
                                         vertical: 16,
@@ -353,6 +363,8 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
   }
 
   void _showClearHistoryDialog() {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     showModernDialog(
       context,
       title: "History",
@@ -376,7 +388,7 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                       child: Text(
                         "No history",
                         style: TextStyle(
-                          color: Colors.white.withValues(alpha: 0.5),
+                          color: onSurface.withValues(alpha: 0.5),
                         ),
                       ),
                     );
@@ -401,8 +413,8 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                         child: ListTile(
                           title: Text(
                             title,
-                            style: const TextStyle(
-                              color: Colors.white,
+                            style: TextStyle(
+                              color: onSurface,
                               fontWeight: FontWeight.bold,
                               fontSize: 14,
                             ),
@@ -414,15 +426,15 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
                                 message,
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
-                                style: const TextStyle(
-                                  color: Colors.white70,
+                                style: TextStyle(
+                                  color: onSurface.withValues(alpha: 0.72),
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 dateStr,
                                 style: TextStyle(
-                                  color: Colors.white.withValues(alpha: 0.3),
+                                  color: onSurface.withValues(alpha: 0.3),
                                   fontSize: 10,
                                 ),
                               ),
@@ -445,7 +457,11 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
               ),
             ),
             const SizedBox(height: 16),
-            const Divider(color: Colors.white10),
+            Divider(
+              color: isDark
+                  ? Colors.white10
+                  : onSurface.withValues(alpha: 0.12),
+            ),
             const SizedBox(height: 8),
             Row(
               children: [
@@ -513,13 +529,21 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
 
       if (snapshot.docs.isEmpty) {
         if (mounted) {
+          final isDark = Theme.of(context).brightness == Brightness.dark;
+          final onSurface = Theme.of(context).colorScheme.onSurface;
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: const Row(
+              content: Row(
                 children: [
-                  Icon(Icons.info_outline, color: Colors.white),
-                  SizedBox(width: 12),
-                  Text("No announcements found to delete."),
+                  Icon(
+                    Icons.info_outline,
+                    color: isDark ? Colors.white : onSurface,
+                  ),
+                  const SizedBox(width: 12),
+                  Text(
+                    "No announcements found to delete.",
+                    style: TextStyle(color: isDark ? Colors.white : onSurface),
+                  ),
                 ],
               ),
               backgroundColor: Colors.blueGrey,
@@ -539,24 +563,35 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
         showDialog(
           context: context,
           barrierDismissible: false,
-          builder: (context) => Center(
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 18),
-              decoration: BoxDecoration(
-                color: const Color(0xFF11131A).withValues(alpha: 0.92),
-                borderRadius: BorderRadius.circular(18),
-                border: Border.all(
-                  color: const Color(0xFFFF4757).withValues(alpha: 0.36),
+          builder: (context) {
+            final isDark = Theme.of(context).brightness == Brightness.dark;
+            final onSurface = Theme.of(context).colorScheme.onSurface;
+            return Center(
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 24,
+                  vertical: 18,
+                ),
+                decoration: BoxDecoration(
+                  color: isDark
+                      ? const Color(0xFF11131A).withValues(alpha: 0.92)
+                      : Colors.white.withValues(alpha: 0.96),
+                  borderRadius: BorderRadius.circular(18),
+                  border: Border.all(
+                    color: const Color(0xFFFF4757).withValues(alpha: 0.36),
+                  ),
+                ),
+                child: _buildAsyncLoader(
+                  label: "Deleting announcements...",
+                  size: 88,
+                  fontSize: 13,
+                  textColor: isDark
+                      ? const Color(0xFFFF8A93)
+                      : onSurface.withValues(alpha: 0.72),
                 ),
               ),
-              child: _buildAsyncLoader(
-                label: "Deleting announcements...",
-                size: 88,
-                fontSize: 13,
-                textColor: const Color(0xFFFF8A93),
-              ),
-            ),
-          ),
+            );
+          },
         );
       }
 
@@ -631,7 +666,7 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
         data: data,
       );
     } catch (e) {
-      debugPrint("âš ï¸ In-app notification failed: $e");
+      debugPrint("In-app notification failed: $e");
     }
 
     // Attempt push via Cloud Function (best-effort)
@@ -650,10 +685,10 @@ extension TeacherDashboardNotifications on _TeacherDashboardState {
       });
       final resData = result.data;
       if (resData is Map && resData['success'] == false) {
-        debugPrint("âš ï¸ Push skipped (no token). In-app saved.");
+        debugPrint("Push skipped (no token). In-app saved.");
       }
     } catch (e) {
-      debugPrint("âš ï¸ Cloud Function Push Failed: $e");
+      debugPrint("Cloud Function push failed: $e");
     }
   }
 

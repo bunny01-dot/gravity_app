@@ -1,0 +1,15 @@
+﻿Analyzing grammar_choice_screen.dart...                         
+
+warning - The value of the field '_presentBeForms' isn't used - lib\screens\games\grammar\grammar_choice_screen.dart:108:28 - unused_field
+  error - The method '_buildBeAgreementQuestion' isn't defined for the type '_GrammarChoiceScreenState' - lib\screens\games\grammar\grammar_choice_screen.dart:306:11 - undefined_method
+  error - The method '_buildArticleQuestion' isn't defined for the type '_GrammarChoiceScreenState' - lib\screens\games\grammar\grammar_choice_screen.dart:307:15 - undefined_method
+  error - Expected a class member - lib\screens\games\grammar\grammar_choice_screen.dart:314:4 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\grammar_choice_screen.dart:314:5 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\grammar_choice_screen.dart:314:5 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\grammar_choice_screen.dart:314:5 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\games\grammar\grammar_choice_screen.dart:314:6 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\grammar_choice_screen.dart:314:7 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\grammar_choice_screen.dart:314:7 - expected_token
+  error - The name 'n' is already defined - lib\screens\games\grammar\grammar_choice_screen.dart:314:7 - duplicate_definition
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\grammar_choice_screen.dart:314:7 - missing_const_final_var_or_type
+

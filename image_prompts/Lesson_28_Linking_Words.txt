@@ -1,0 +1,49 @@
+﻿Lesson: Lesson_28_Linking_Words
+Asset Folder: assets/Lessons/Lesson_28_Linking_Words
+Generated On: 2026-02-25 21:59:16
+
+Total Images: 10
+Matched Existing Prompts: 0
+Auto-generated 3D Pixar Prompts: 10
+Upgraded to explicit 3D Pixar style: 0
+
+1. 4_linking_families_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on '4 linking families square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+2. addition_links_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'addition links square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+3. contrast_links_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'contrast links square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+4. essay_flow_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'essay flow square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+5. linker_quiz_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'linker quiz square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+6. linking_chart_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'linking chart square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+7. linking_hook_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'linking hook square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+8. position_rules_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'position rules square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+9. result_links_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'result links square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+10. sequence_links_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_28_Linking_Words' focused on 'sequence links square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+

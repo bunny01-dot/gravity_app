@@ -1,0 +1,339 @@
+﻿ERROR|COMPILE_TIME_ERROR|NON_ABSTRACT_CLASS_INHERITS_ABSTRACT_MEMBER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|38|7|25|Missing concrete implementation of 'State.build'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|214|9|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|214|34|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|219|22|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|219|33|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|220|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|221|7|12|Undefined name '_currentItem'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|222|7|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|223|7|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|224|7|18|Undefined name '_correctAnswerText'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|225|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|226|7|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|231|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|234|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|235|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|236|7|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|239|18|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|246|5|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|253|16|7|Undefined name 'context'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|262|34|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|276|15|9|The function '_loadData' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|287|9|10|Undefined name '_isLoading'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|294|9|12|Undefined name '_currentItem'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|323|15|12|Undefined name '_currentItem'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|332|27|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|332|59|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|345|43|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|354|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|354|30|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|354|54|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|358|37|18|Undefined name '_correctAnswerText'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|375|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|376|20|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|379|27|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|386|14|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|397|11|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|412|19|6|Undefined name 'widget'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_EXECUTABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|418|1|1|Expected a method, getter, setter or operator declaration.
+ERROR|COMPILE_TIME_ERROR|NON_ABSTRACT_CLASS_INHERITS_ABSTRACT_MEMBER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|42|7|22|Missing concrete implementation of 'State.build'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|170|20|9|The method '_hashSeed' isn't defined for the type '_FillTheGapScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|196|9|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|196|34|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|201|22|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|201|33|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|202|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|203|7|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|204|7|15|Undefined name '_maskedSentence'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|205|7|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|206|7|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|207|7|18|Undefined name '_correctAnswerText'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|208|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|209|7|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|214|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|217|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|218|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|219|7|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|222|18|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|224|7|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|225|9|15|Undefined name '_maskedSentence'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|225|27|15|Undefined name '_maskedSentence'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|226|11|9|Undefined name '_gapToken'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|227|11|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|235|5|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|242|16|7|Undefined name 'context'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|251|35|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|265|15|9|The function '_loadData' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|277|19|6|Undefined name 'widget'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|286|9|10|Undefined name '_isLoading'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|293|9|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|320|27|21|Undefined name '_currentQuestionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|320|59|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|358|25|15|Undefined name '_maskedSentence'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|370|40|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|374|17|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|378|28|16|Undefined name '_currentQuestion'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|391|39|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|395|21|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|396|32|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|398|39|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|409|28|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|421|25|8|Undefined name '_options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|440|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|440|30|20|Undefined name '_selectedOptionIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|440|54|13|Undefined name '_correctIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|444|37|18|Undefined name '_correctAnswerText'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_EXECUTABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|458|1|1|Expected a method, getter, setter or operator declaration.
+ERROR|COMPILE_TIME_ERROR|NON_ABSTRACT_CLASS_INHERITS_ABSTRACT_MEMBER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|53|7|25|Missing concrete implementation of 'State.build'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|347|18|9|The method '_hashSeed' isn't defined for the type '_GrammarChoiceScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|393|20|9|The method '_hashSeed' isn't defined for the type '_GrammarChoiceScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|453|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|455|26|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|455|37|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|463|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|464|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|465|7|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|466|7|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|470|10|7|Undefined name 'mounted'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|475|9|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|475|25|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|476|7|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|477|9|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|478|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|479|9|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|480|9|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|490|16|7|Undefined name 'context'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|513|15|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|514|17|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|515|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|516|17|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|517|17|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|529|9|10|Undefined name '_isLoading'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|536|9|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|540|22|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|540|33|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|555|27|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|555|51|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|561|23|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|561|44|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|609|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|609|30|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|628|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|632|27|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|639|14|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|647|20|9|Undefined name '_answered'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_EXECUTABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|662|1|1|Expected a method, getter, setter or operator declaration.
+ERROR|COMPILE_TIME_ERROR|NON_ABSTRACT_CLASS_INHERITS_ABSTRACT_MEMBER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|51|7|31|Missing concrete implementation of 'State.build'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|349|18|9|The method '_hashSeed' isn't defined for the type '_SentenceBuilderGameScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|350|5|7|Undefined name 'options'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|395|9|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|395|26|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|400|22|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|400|33|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|401|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|402|7|15|Undefined name '_availableWords'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|403|7|13|Undefined name '_shuffledSeed'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|404|7|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|405|7|13|Undefined name '_correctOrder'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|406|7|10|Undefined name '_isCorrect'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|407|7|13|Undefined name '_showFeedback'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|412|13|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|418|23|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|418|44|14|The function '_normalizeWord' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|419|46|13|Undefined name '_correctOrder'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|427|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|428|7|10|Undefined name '_isCorrect'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|429|7|13|Undefined name '_showFeedback'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|433|10|7|Undefined name 'mounted'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|436|7|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|444|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|445|7|15|Undefined name '_availableWords'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|445|43|13|Undefined name '_shuffledSeed'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|446|7|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|446|37|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|447|7|10|Undefined name '_isCorrect'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|448|7|13|Undefined name '_showFeedback'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|461|18|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|463|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|464|7|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|465|7|15|Undefined name '_availableWords'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|472|16|7|Undefined name 'context'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|495|15|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|496|17|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|509|9|10|Undefined name '_isLoading'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|516|9|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|520|25|13|Undefined name '_showFeedback'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|521|12|10|Undefined name '_isCorrect'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|536|27|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|536|51|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|568|41|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|569|32|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|574|23|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|576|27|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|578|27|15|Undefined name '_availableWords'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|580|25|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|629|19|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|630|21|6|Undefined name '_slots'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|631|21|15|Undefined name '_availableWords'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|652|31|15|Undefined name '_availableWords'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_EXECUTABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|717|1|1|Expected a method, getter, setter or operator declaration.
+ERROR|COMPILE_TIME_ERROR|NON_ABSTRACT_CLASS_INHERITS_ABSTRACT_MEMBER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|42|7|24|Missing concrete implementation of 'State.build'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|286|18|9|The method '_hashSeed' isn't defined for the type '_TenseTrainerScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_METHOD|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|320|18|9|The method '_hashSeed' isn't defined for the type '_TenseTrainerScreenState'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|411|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|413|26|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|413|37|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|421|5|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|422|7|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|423|7|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|424|7|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|428|10|7|Undefined name 'mounted'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|433|9|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|433|25|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|434|7|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|435|9|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|436|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|437|9|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|438|9|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|448|16|7|Undefined name 'context'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_FUNCTION|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|471|15|8|The function 'setState' isn't defined.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|472|17|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|473|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|474|17|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|475|17|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|487|9|10|Undefined name '_isLoading'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|494|9|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|498|22|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|498|33|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|513|27|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|513|51|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|519|23|13|Undefined name '_currentIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|519|44|10|Undefined name '_questions'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|563|17|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|563|30|18|Undefined name '_showCorrectAnswer'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|582|9|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|586|27|14|Undefined name '_selectedIndex'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|593|14|9|Undefined name '_answered'.
+ERROR|COMPILE_TIME_ERROR|UNDEFINED_IDENTIFIER|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|601|20|9|Undefined name '_answered'.
+ERROR|SYNTACTIC_ERROR|EXPECTED_EXECUTABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|616|1|1|Expected a method, getter, setter or operator declaration.
+ERROR|COMPILE_TIME_ERROR|BODY_MIGHT_COMPLETE_NORMALLY|E:\\Apps\\gravity_app\\lib\\screens\\games\\speaking\\pronunciation_match_screen.dart|298|7|13|The body might complete normally, causing 'null' to be returned, but the return type, 'int', is a potentially non-nullable type.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|170|13|4|The value of the local variable 'seed' isn't used.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|347|11|4|The value of the local variable 'seed' isn't used.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|393|13|4|The value of the local variable 'seed' isn't used.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|349|11|4|The value of the local variable 'seed' isn't used.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|286|11|4|The value of the local variable 'seed' isn't used.
+WARNING|STATIC_WARNING|UNUSED_LOCAL_VARIABLE|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|320|11|4|The value of the local variable 'seed' isn't used.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\announcements_cache.dart|30|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\announcements_cache.dart|51|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\announcements_cache.dart|148|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\announcements_cache.dart|154|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|29|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|70|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|72|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|121|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|127|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|176|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|179|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\attendance_cache.dart|189|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\cache_manager.dart|37|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\cache_manager.dart|46|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\cache_manager.dart|51|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\cache_manager.dart|60|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\leaderboard_cache.dart|30|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\leaderboard_cache.dart|49|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\leaderboard_cache.dart|111|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\leaderboard_cache.dart|117|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\students_cache.dart|168|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\students_cache.dart|208|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\students_cache.dart|212|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\cache\\teacher_notifications_cache.dart|90|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\core\\services\\content_service.dart|24|7|5|Don't invoke 'print' in production code.
+INFO|LINT|LIBRARY_PRIVATE_TYPES_IN_PUBLIC_API|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|4|31|21|Invalid use of a private type in a public API.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|649|28|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|665|7|16|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|680|42|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|685|32|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|697|30|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|708|32|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\dashboard\\dashboard_actions.dart|711|55|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\mastery\\reading_screen.dart|153|9|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\profile_screen.dart|208|21|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\profile_screen.dart|221|21|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\profile_screen.dart|641|40|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\account_blocked_screen.dart|33|20|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|45|7|18|The private field _correctIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|48|8|17|The private field _answered could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|49|7|25|The private field _selectedOptionIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\antonym_attack_screen.dart|50|10|23|The private field _correctAnswerText could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|50|8|17|The private field _answered could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|51|7|25|The private field _selectedOptionIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|53|7|18|The private field _correctIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|54|10|20|The private field _maskedSentence could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\fill_the_gap_screen.dart|55|10|23|The private field _correctAnswerText could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|113|8|17|The private field _answered could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|114|7|19|The private field _selectedIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\grammar_choice_screen.dart|115|8|26|The private field _showCorrectAnswer could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|56|16|20|The private field _availableWords could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|57|17|11|The private field _slots could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|58|16|18|The private field _correctOrder could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|59|16|18|The private field _shuffledSeed could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|60|8|18|The private field _isCorrect could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\sentence_builder_screen.dart|61|8|21|The private field _showFeedback could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|73|8|17|The private field _answered could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|74|7|19|The private field _selectedIndex could be 'final'.
+INFO|LINT|PREFER_FINAL_FIELDS|E:\\Apps\\gravity_app\\lib\\screens\\games\\grammar\\tense_trainer_screen.dart|75|8|26|The private field _showCorrectAnswer could be 'final'.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_articles_screen.dart|1729|37|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_articles_screen.dart|1754|41|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_articles_screen.dart|1921|35|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_articles_screen.dart|1965|35|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_future_perfect_continuous_screen.dart|652|25|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_future_perfect_screen.dart|627|25|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_parts_of_speech_screen.dart|1876|37|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_parts_of_speech_screen.dart|1901|41|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_parts_of_speech_screen.dart|2096|33|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\screens\\lesson_present_perfect_screen.dart|1316|17|42|Statements in an if should be enclosed in a block.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_subjects_screen.dart|1737|37|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_subjects_screen.dart|1762|41|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\screens\\lesson_subjects_screen.dart|1957|33|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\audio_guess_content_service.dart|264|33|13|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|747|9|28|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|749|9|31|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|751|9|31|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|753|9|32|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|755|9|33|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|757|9|28|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|819|7|19|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|821|7|19|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|823|7|20|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|825|7|20|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|982|13|11|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|984|13|13|Statements in an if should be enclosed in a block.
+INFO|LINT|CURLY_BRACES_IN_FLOW_CONTROL_STRUCTURES|E:\\Apps\\gravity_app\\lib\\services\\data_service_cloud_sync.dart|986|13|12|Statements in an if should be enclosed in a block.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|75|26|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|77|22|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|85|7|16|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|134|52|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|135|52|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|152|28|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|194|50|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\services\\gamification_service.dart|195|52|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\lib\\services\\word_match_unlock_service.dart|39|5|5|Don't invoke 'print' in production code.
+INFO|LINT|LIBRARY_PRIVATE_TYPES_IN_PUBLIC_API|E:\\Apps\\gravity_app\\lib\\teacher_dashboard\\teacher_dashboard_actions.dart|5|38|22|Invalid use of a private type in a public API.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\teacher_dashboard\\teacher_dashboard_screen.dart|2356|7|16|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\widgets\\lesson_scaffold.dart|230|11|7|Don't use 'BuildContext's across async gaps.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\widgets\\lesson_scaffold.dart|1484|39|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|E:\\Apps\\gravity_app\\lib\\widgets\\lesson_scaffold.dart|1726|37|7|Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check.
+INFO|LINT|UNINTENDED_HTML_IN_DOC_COMMENT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|5|49|12|Angle brackets will be interpreted as HTML.
+INFO|LINT|UNINTENDED_HTML_IN_DOC_COMMENT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|5|62|13|Angle brackets will be interpreted as HTML.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|10|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|11|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|21|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|25|3|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|26|3|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|50|5|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\scripts\\generate_asset_map.dart|53|3|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\tools\\probe_links.dart|38|3|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\tools\\probe_links.dart|92|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\tools\\probe_links.dart|96|9|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\tools\\probe_links.dart|101|7|5|Don't invoke 'print' in production code.
+INFO|LINT|AVOID_PRINT|E:\\Apps\\gravity_app\\tools\\probe_links.dart|104|5|5|Don't invoke 'print' in production code.

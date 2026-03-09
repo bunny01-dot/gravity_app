@@ -1,0 +1,45 @@
+﻿Lesson: Lesson_05_Tense_Future\03_Future_Perfect
+Asset Folder: assets/Lessons/Lesson_05_Tense_Future\03_Future_Perfect
+Generated On: 2026-02-25 21:59:16
+
+Total Images: 9
+Matched Existing Prompts: 0
+Auto-generated 3D Pixar Prompts: 9
+Upgraded to explicit 3D Pixar style: 0
+
+1. by_time_markers_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'by time markers square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+2. future_perfect_negative_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'future perfect negative square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+3. future_perfect_qa_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'future perfect qa square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+4. future_perfect_quiz_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'future perfect quiz square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+5. future_perfect_speaking_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'future perfect speaking square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+6. future_perfect_timeline_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'future perfect timeline square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+7. ravi_completion_timeline_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'ravi completion timeline square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+8. ravi_future_perfect_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'ravi future perfect square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+9. will_have_verb_table_square.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\03_Future_Perfect' focused on 'will have verb table square'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+

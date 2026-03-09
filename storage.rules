@@ -1,0 +1,40 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isTeacherEmail() {
+      return isSignedIn() &&
+             request.auth.token.email in ['teacher@english.com'];
+    }
+
+    function isTeacher() {
+      return isSignedIn() &&
+             (
+               request.auth.token.role == 'teacher' ||
+               request.auth.token.admin == true ||
+               isTeacherEmail()
+             );
+    }
+
+    // Teacher-managed shared data files (e.g. quiz CSV)
+    match /data/{allPaths=**} {
+      allow read: if isSignedIn();
+      allow write: if isTeacher();
+    }
+
+    // Per-user profile photo uploads
+    match /user_photos/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn() &&
+                      fileName == (request.auth.uid + '_profile.jpg');
+    }
+
+    // Default deny
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

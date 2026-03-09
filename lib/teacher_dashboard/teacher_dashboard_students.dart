@@ -26,24 +26,34 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
       context: context,
       builder: (context) => StatefulBuilder(
         builder: (context, setState) {
+          final theme = Theme.of(context);
+          final isDark = theme.brightness == Brightness.dark;
+          final onSurface = theme.colorScheme.onSurface;
           return ModernGlassDialog(
             title: "Find Missing Student",
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Text(
+                Text(
                   "Search the database for a student who isn't appearing.",
-                  style: TextStyle(color: Colors.white70, fontSize: 13),
+                  style: TextStyle(
+                    color: onSurface.withValues(alpha: 0.72),
+                    fontSize: 13,
+                  ),
                 ),
                 const SizedBox(height: 16),
                 TextField(
                   controller: emailController,
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(color: onSurface),
                   decoration: InputDecoration(
                     labelText: "Student Email",
-                    labelStyle: const TextStyle(color: Colors.white54),
+                    labelStyle: TextStyle(
+                      color: onSurface.withValues(alpha: 0.62),
+                    ),
                     filled: true,
-                    fillColor: Colors.white.withValues(alpha: 0.05),
+                    fillColor: isDark
+                        ? Colors.white.withValues(alpha: 0.05)
+                        : Colors.white.withValues(alpha: 0.9),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -143,23 +153,32 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
   }
 
   Widget _buildStageProgressBadge(_StageMetrics metrics) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
     final assessmentLabel =
         "${metrics.assessmentCompleted}/${metrics.assessmentTotal}";
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
       margin: const EdgeInsets.symmetric(horizontal: 4),
       decoration: BoxDecoration(
-        color: const Color(0xFF232336),
+        color: isDark
+            ? const Color(0xFF232336)
+            : Colors.white.withValues(alpha: 0.92),
         borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
+        border: Border.all(
+          color: isDark
+              ? Colors.white.withValues(alpha: 0.08)
+              : onSurface.withValues(alpha: 0.12),
+        ),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             "Level ${metrics.currentStage}",
-            style: const TextStyle(
-              color: Colors.white,
+            style: TextStyle(
+              color: onSurface,
               fontSize: 11,
               fontWeight: FontWeight.bold,
             ),
@@ -168,7 +187,7 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
           Text(
             "Done ${metrics.completedStages}",
             style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.7),
+              color: onSurface.withValues(alpha: 0.72),
               fontSize: 9,
               fontWeight: FontWeight.w600,
             ),
@@ -176,7 +195,7 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
           Text(
             "Assess $assessmentLabel",
             style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.6),
+              color: onSurface.withValues(alpha: 0.62),
               fontSize: 9,
             ),
           ),
@@ -218,6 +237,9 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
       context: context,
       builder: (context) => StatefulBuilder(
         builder: (context, setState) {
+          final theme = Theme.of(context);
+          final isDark = theme.brightness == Brightness.dark;
+          final onSurface = theme.colorScheme.onSurface;
           return ModernGlassDialog(
             title: "Change Difficulty Level",
             content: Column(
@@ -226,8 +248,8 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
               children: [
                 Text(
                   "Student: $name",
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: onSurface,
                     fontWeight: FontWeight.bold,
                     fontSize: 15,
                   ),
@@ -235,7 +257,10 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
                 const SizedBox(height: 4),
                 Text(
                   email,
-                  style: const TextStyle(color: Colors.white54, fontSize: 12),
+                  style: TextStyle(
+                    color: onSurface.withValues(alpha: 0.62),
+                    fontSize: 12,
+                  ),
                 ),
                 const SizedBox(height: 20),
                 Text(
@@ -243,15 +268,15 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
                   style: TextStyle(
                     color: currentLevel.isEmpty
                         ? Colors.orangeAccent
-                        : Colors.white70,
+                        : onSurface.withValues(alpha: 0.72),
                     fontSize: 13,
                   ),
                 ),
                 const SizedBox(height: 16),
-                const Text(
+                Text(
                   "Select new difficulty level:",
                   style: TextStyle(
-                    color: Colors.white,
+                    color: onSurface,
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
                   ),
@@ -289,12 +314,16 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
                             decoration: BoxDecoration(
                               color: selectedLevel == level
                                   ? levelColor.withValues(alpha: 0.15)
-                                  : Colors.white.withValues(alpha: 0.03),
+                                  : (isDark
+                                        ? Colors.white.withValues(alpha: 0.03)
+                                        : Colors.white.withValues(alpha: 0.9)),
                               borderRadius: BorderRadius.circular(12),
                               border: Border.all(
                                 color: selectedLevel == level
                                     ? levelColor
-                                    : Colors.white.withValues(alpha: 0.1),
+                                    : (isDark
+                                          ? Colors.white.withValues(alpha: 0.1)
+                                          : onSurface.withValues(alpha: 0.12)),
                                 width: selectedLevel == level ? 2 : 1,
                               ),
                             ),
@@ -307,7 +336,7 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
                                   Text(
                                     level,
                                     style: TextStyle(
-                                      color: Colors.white,
+                                      color: onSurface,
                                       fontWeight: selectedLevel == level
                                           ? FontWeight.bold
                                           : FontWeight.normal,
@@ -346,7 +375,7 @@ extension TeacherDashboardStudents on _TeacherDashboardState {
                         child: Text(
                           "The student will be notified about this change.",
                           style: TextStyle(
-                            color: Colors.white.withValues(alpha: 0.7),
+                            color: onSurface.withValues(alpha: 0.72),
                             fontSize: 12,
                           ),
                         ),

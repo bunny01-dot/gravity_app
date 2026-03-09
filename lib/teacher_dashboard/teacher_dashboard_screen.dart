@@ -24,7 +24,7 @@ import 'package:gravity_app/teacher_dashboard/widgets/teacher_student_list.dart'
 import 'package:gravity_app/teacher_dashboard/shared/teacher_panel.dart';
 import 'package:gravity_app/teacher_dashboard/shared/teacher_translucent_card.dart';
 
-// âœ… ZERO-COST: Cache imports
+// ZERO-COST: Cache imports
 import 'package:gravity_app/core/cache/students_cache.dart';
 import 'package:gravity_app/core/cache/attendance_cache.dart';
 import 'package:gravity_app/core/cache/teacher_notifications_cache.dart';
@@ -76,7 +76,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
   // Double-back press to exit
   DateTime? _lastBackPressed;
 
-  // âœ… ZERO-COST: Cache refresh timer (replaces real-time listeners)
+  // ZERO-COST: Cache refresh timer (replaces real-time listeners)
   Timer? _cacheRefreshTimer;
   int _notificationCount = 0;
   bool _notificationsReady = false;
@@ -89,7 +89,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
     super.initState();
     _loadTeacherInfo();
     _notificationService.init();
-    _setupCacheRefreshTimer(); // âœ… ZERO-COST: Periodic cache refresh
+    _setupCacheRefreshTimer(); // ZERO-COST: Periodic cache refresh
     FCMService().subscribeToTopic('teachers');
     _ensureTeacherRole();
   }
@@ -153,7 +153,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
     super.dispose();
   }
 
-  /// âœ… ZERO-COST: Periodic cache refresh instead of real-time listeners
+  /// ZERO-COST: Periodic cache refresh instead of real-time listeners
   /// Refreshes every 5 minutes to check for new notifications
   void _setupCacheRefreshTimer() {
     // Initial load
@@ -185,7 +185,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
         });
       }
     } catch (e) {
-      debugPrint('âŒ Failed to refresh notification count: $e');
+      debugPrint('Failed to refresh notification count: $e');
       if (mounted) {
         setState(() {
           _notificationsReady = true;
@@ -229,6 +229,10 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final colorScheme = theme.colorScheme;
+
     return PopScope(
       canPop: false, // We'll handle the pop manually
       onPopInvokedWithResult: (bool didPop, Object? result) async {
@@ -255,14 +259,14 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
           ScaffoldMessenger.of(context).clearSnackBars();
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: const Row(
+              content: Row(
                 children: [
-                  Icon(Icons.info_outline, color: Colors.white),
-                  SizedBox(width: 12),
+                  const Icon(Icons.info_outline, color: Colors.black87),
+                  const SizedBox(width: 12),
                   Expanded(
                     child: Text(
                       'Press back again to exit',
-                      style: TextStyle(color: Colors.white),
+                      style: const TextStyle(color: Colors.black87),
                     ),
                   ),
                 ],
@@ -283,7 +287,9 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
         Navigator.of(context).pop();
       },
       child: Scaffold(
-        backgroundColor: const Color(0xFF030305),
+        backgroundColor: isDark
+            ? const Color(0xFF030305)
+            : theme.scaffoldBackgroundColor,
         body: Stack(
           children: [
             // Background Blobs
@@ -295,7 +301,9 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                 height: 300,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: const Color(0xFFFFD700).withValues(alpha: 0.15),
+                  color:
+                      (isDark ? const Color(0xFFFFD700) : colorScheme.primary)
+                          .withValues(alpha: isDark ? 0.15 : 0.12),
                 ),
               ),
             ),
@@ -307,7 +315,9 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                 height: 250,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: const Color(0xFFFFA500).withValues(alpha: 0.1),
+                  color:
+                      (isDark ? const Color(0xFFFFA500) : colorScheme.secondary)
+                          .withValues(alpha: isDark ? 0.1 : 0.08),
                 ),
               ),
             ),

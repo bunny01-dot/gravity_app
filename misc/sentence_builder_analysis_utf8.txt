@@ -1,0 +1,15 @@
+﻿Analyzing sentence_builder_screen.dart...                       
+
+warning - The declaration '_hasPlaceholder' isn't referenced - lib\screens\games\grammar\sentence_builder_screen.dart:236:8 - unused_element
+warning - The declaration '_tokenize' isn't referenced - lib\screens\games\grammar\sentence_builder_screen.dart:240:16 - unused_element
+  error - The method '_buildQuestionFromSentence' isn't defined for the type '_SentenceBuilderGameScreenState' - lib\screens\games\grammar\sentence_builder_screen.dart:274:24 - undefined_method
+  error - Expected a class member - lib\screens\games\grammar\sentence_builder_screen.dart:281:4 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\sentence_builder_screen.dart:281:5 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\sentence_builder_screen.dart:281:5 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\sentence_builder_screen.dart:281:5 - missing_const_final_var_or_type
+  error - Expected a class member - lib\screens\games\grammar\sentence_builder_screen.dart:281:6 - expected_class_member
+   info - An uninitialized field should have an explicit type annotation - lib\screens\games\grammar\sentence_builder_screen.dart:281:7 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\screens\games\grammar\sentence_builder_screen.dart:281:7 - expected_token
+  error - The name 'n' is already defined - lib\screens\games\grammar\sentence_builder_screen.dart:281:7 - duplicate_definition
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\screens\games\grammar\sentence_builder_screen.dart:281:7 - missing_const_final_var_or_type
+

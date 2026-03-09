@@ -122,6 +122,12 @@ extension DashboardInit on _DashboardScreenState {
           _handlePostTutorialFlow().catchError((e) {
             debugPrint("Dashboard: Error in post-tutorial flow: $e");
           });
+          Future.delayed(const Duration(milliseconds: 700), () {
+            if (!mounted) return;
+            _showFeatureHighlightsIfNeeded().catchError((e) {
+              debugPrint("Dashboard: Error showing feature highlights: $e");
+            });
+          });
         }
       });
     } catch (e) {
@@ -321,13 +327,13 @@ extension DashboardInit on _DashboardScreenState {
       }
     });
 
-    debugPrint('âœ… Started progress polling for Core Tasks tab');
+    debugPrint('Started progress polling for Core Tasks tab');
   }
 
   /// Stop the progress polling timer
   void _stopProgressPolling() {
     _progressPollingTimer?.cancel();
     _progressPollingTimer = null;
-    debugPrint('â¹ï¸ Stopped progress polling');
+    debugPrint('Stopped progress polling');
   }
 }

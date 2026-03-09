@@ -1,0 +1,14 @@
+
+  void _startProgressPolling() {
+    _stopProgressPolling();
+    _progressPollingTimer = Timer.periodic(const Duration(seconds: 3), (timer) {
+      if (mounted) _checkDailyProgress();
+    });
+    debugPrint('📊 Started daily progress polling');
+  }
+
+  void _stopProgressPolling() {
+    _progressPollingTimer?.cancel();
+    _progressPollingTimer = null;
+    debugPrint('⏹️ Stopped daily progress polling');
+  }

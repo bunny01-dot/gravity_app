@@ -1,0 +1,45 @@
+﻿Lesson: Lesson_05_Tense_Future\02_Future_Continuous
+Asset Folder: assets/Lessons/Lesson_05_Tense_Future\02_Future_Continuous
+Generated On: 2026-02-25 21:59:16
+
+Total Images: 9
+Matched Existing Prompts: 0
+Auto-generated 3D Pixar Prompts: 9
+Upgraded to explicit 3D Pixar style: 0
+
+1. future_continuous_formation.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous formation'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+2. future_continuous_hook.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous hook'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+3. future_continuous_negative.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous negative'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+4. future_continuous_positive.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous positive'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+5. future_continuous_questions.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous questions'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+6. future_continuous_reference.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous reference'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+7. future_continuous_time.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous time'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+8. future_continuous_uses.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous uses'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+
+9. future_continuous_vs_simple.webp
+Prompt: Cute 3D Pixar-style educational illustration for lesson 'Lesson_05_Tense_Future\02_Future_Continuous' focused on 'future continuous vs simple'. Show Ravi (friendly Indian school boy) demonstrating the concept with clear visual cues and readable labels. Warm cinematic lighting, rounded shapes, vibrant classroom palette, premium 3D render, child-friendly storybook look, square 1:1 composition.
+Source: AUTO_GENERATED_FROM_ASSET
+

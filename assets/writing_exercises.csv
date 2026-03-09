@@ -1,0 +1,301 @@
+Exercise_ID,Level,Writing_Focus,Task_Type,Input_Example,Correct_Output,Tamil Translation,Hindi Translation
+W101,Beginner,Beginner (A1),Fill in Blank,She ___ (go) to the market every day.,She goes to the market every day.,அவள் தினமும் சந்தைக்குச் செல்கிறாள்.,वह रोज बाजार जाती है।
+W102,Beginner,Beginner (A1),Selection,I saw ___ elephant at the zoo.,I saw an elephant at the zoo.,நான் மிருகக்காட்சிசாலையில் ஒரு யானையைப் பார்த்தேன்.,मैंने चिड़ियाघर में एक हाथी देखा।
+W103,Beginner,Beginner (A1),Correction,Two childs are playing in the park.,Two children are playing in the park.,இரண்டு குழந்தைகள் பூங்காவில் விளையாடுகிறார்கள்.,दो बच्चे पार्क में खेल रहे हैं।
+W104,Beginner,Beginner (A1),Selection,This book belongs to ___ (I/me).,This book belongs to me.,இந்தப் புத்தகம் எனக்குச் சொந்தமானது.,यह किताब मेरी है।
+W105,Beginner,Beginner (A1),Fill in Blank,The cat is ___ the table.,The cat is under the table.,பூனை மேசைக்கு அடியில் இருக்கிறது.,बिल्ली मेज के नीचे है।
+W106,Beginner,Beginner (A1),Completion,I like tea ___ I don't like coffee.,I like tea but I don't like coffee.,எனக்குத் தேநீர் பிடிக்கும் ஆனால் காபி பிடிக்காது.,मुझे चाय पसंद है लेकिन कॉफी पसंद नहीं है।
+W107,Beginner,Beginner (A1),Correction,He is a tallest man.,He is a tall man.,அவர் ஒரு உயரமான மனிதர்.,वह एक लंबा आदमी है।
+W108,Beginner,Beginner (A1),Fill in Blank,This is ___ (John) car.,This is John's car.,இது ஜானுடைய கார்.,यह जॉन की कार है।
+W109,Beginner,Beginner (A1),Selection,___ is your name?,What is your name?,உங்கள் பெயர் என்ன?,आपका नाम क्या है?
+W110,Beginner,Beginner (A1),Transformation,I have a pen.,I do not have a pen.,என்னிடம் பேனா இல்லை.,मेरे पास पेन नहीं है।
+W111,Beginner,Beginner (A1),Fill in Blank,They ___ (play) football now.,They are playing football now.,அவர்கள் இப்போது கால்பந்து விளையாடிக்கொண்டிருக்கிறார்கள்.,वे अब फुटबॉल खेल रहे हैं।
+W112,Beginner,Beginner (A1),Correction,i live in london.,I live in London.,நான் லண்டனில் வசிக்கிறேன்.,मैं लंदन में रहता हूँ।
+W113,Beginner,Beginner (A1),Fill in Blank,"Yesterday, I ___ (see) a movie.","Yesterday, I saw a movie.",நேற்று நான் ஒரு படம் பார்த்தேன்.,कल मैंने एक फिल्म देखी।
+W114,Beginner,Beginner (A1),Selection,___ (This/These) apples are sweet.,These apples are sweet.,இந்த ஆப்பிள்கள் இனிப்பானவை.,ये सेब मीठे हैं।
+W115,Beginner,Beginner (A1),Fill in Blank,He runs very ___ (quick).,He runs very quickly.,அவர் மிக வேகமாக ஓடுகிறார்.,वह बहुत तेज दौड़ता है।
+W116,Intermediate,Beginner (A1),Completion,I ___ (finish) my work already.,I have finished my work already.,நான் ஏற்கனவே என் வேலையை முடித்துவிட்டேன்.,मैंने अपना काम पहले ही पूरा कर लिया है।
+W117,Intermediate,Beginner (A1),Completion,"If I were you, I ___ (go).","If I were you, I would go.","நான் உன்னாக இருந்தால், நான் செல்வேன்.","अगर मैं तुम्हारी जगह होता, तो मैं जाता।"
+W118,Intermediate,Beginner (A1),Transformation,The chef cooked the meal.,The meal was cooked by the chef.,அந்த உணவு சமையல்காரரால் சமைக்கப்பட்டது.,भोजन रसोइए द्वारा पकाया गया था।
+W119,Intermediate,Beginner (A1),Selection,The man ___ stole the bag ran away.,The man who stole the bag ran away.,பையைத் திருடிய மனிதன் ஓடிவிட்டான்.,जिस आदमी ने बैग चुराया वह भाग गया।
+W120,Intermediate,Beginner (A1),Selection,You ___ (should/must) see a doctor.,You should see a doctor.,நீ ஒரு மருத்துவரைப் பார்க்க வேண்டும்.,तुम्हें डॉक्टर को दिखाना चाहिए।
+W121,Intermediate,Beginner (A1),Transformation,"He said, ""I am tired.""",He said that he was tired.,தான் சோர்வாக இருப்பதாக அவர் கூறினார்.,उसने कहा कि वह थक गया था।
+W122,Intermediate,Beginner (A1),Fill in Blank,I am interested in ___ (learn) music.,I am interested in learning music.,எனக்கு இசை கற்பதில் ஆர்வம் உள்ளது.,मुझे संगीत सीखने में दिलचस्पी है।
+W123,Intermediate,Beginner (A1),Correction,She is more smarter than him.,She is smarter than him.,அவள் அவனை விட புத்திசாலி.,वह उससे ज्यादा समझदार है।
+W124,Intermediate,Beginner (A1),Punctuation,"I am busy now, however, I can help later.","I am busy now**;** however, I can help later.","நான் இப்போது வேலையாக இருக்கிறேன்; இருந்தாலும், பிறகு உதவுகிறேன்.","मैं अभी व्यस्त हूँ; हालाँकि, मैं बाद में मदद कर सकता हूँ।"
+W125,Intermediate,Beginner (A1),Selection,There isn't ___ (many/much) sugar left.,There isn't much sugar left.,அதிக சர்க்கரை மிச்சமில்லை.,ज्यादा चीनी नहीं बची है।
+W126,Intermediate,Beginner (A1),Fill in Blank,Please ___ (turn) the lights.,Please turn off the lights.,தயவுசெய்து விளக்குகளை அணைக்கவும்.,कृपया लाइट बंद कर दें।
+W127,Intermediate,Beginner (A1),Transformation,I smoked in the past.,I used to smoke.,நான் முன்பு புகைபிடிக்கும் பழக்கம் கொண்டிருந்தேன்.,मैं धूम्रपान किया करता था।
+W128,Intermediate,Beginner (A1),Completion,"It's a beautiful day, ___?","It's a beautiful day, isn't it?","இது ஒரு அழகான நாள், அல்லவா?","यह एक खूबसूरत दिन है, है ना?"
+W129,Intermediate,Beginner (A1),Selection,It is difficult ___ (understand) this.,It is difficult to understand this.,இதைப் புரிந்துகொள்வது கடினம்.,इसे समझना मुश्किल है।
+W130,Intermediate,Beginner (A1),Fill in Blank,I ___ (sleep) when the phone rang.,I was sleeping when the phone rang.,போன் ஒலித்தபோது நான் தூங்கிக்கொண்டிருந்தேன்.,जब फोन बजा तब मैं सो रहा था।
+W131,Advanced,Beginner (A1),Correction,I suggest that he goes there.,I suggest that he go there.,அவர் அங்கு செல்ல வேண்டும் என்று நான் பரிந்துரைக்கிறேன்.,मेरा सुझाव है कि वह वहां जाए।
+W132,Advanced,Beginner (A1),Transformation,He had never seen such beauty.,Never had he seen such beauty.,இத்தகைய அழகை அவர் பார்த்ததே இல்லை.,ऐसी सुंदरता उसने कभी नहीं देखी थी।
+W133,Advanced,Beginner (A1),Correction,"He likes hiking, swimming, and to bike.","He likes hiking, swimming, and bicycling.","அவருக்கு மலையேற்றம், நீச்சல் மற்றும் மிதிவண்டி ஓட்டுதல் பிடிக்கும்.","उसे हाइकिंग, स्विमिंग और साइकिल चलाना पसंद है।"
+W134,Advanced,Beginner (A1),Correction,"Walking down the street, the tree fell.","While I was walking down the street, the tree fell.","நான் தெருவில் நடந்து சென்றபோது, மரம் விழுந்தது.","जब मैं सड़क पर चल रहा था, तब पेड़ गिर गया।"
+W135,Advanced,Beginner (A1),Transformation,Please revert back to my email.,Please revert to my email.,எனது மின்னஞ்சலுக்கு பதில் அளிக்கவும்.,कृपया मेरे ईमेल का उत्तर दें।
+W136,Advanced,Beginner (A1),Completion,"Some like tea, others ___ coffee.","Some like tea, others [like] coffee.","சிலருக்குத் தேநீர் பிடிக்கும், மற்றவர்களுக்குக் காபி.","कुछ को चाय पसंद है, दूसरों को कॉफी।"
+W137,Advanced,Beginner (A1),Transformation,The news was very sad.,The news was heartbreaking.,அந்த செய்தி மனதை உடைப்பதாக இருந்தது.,खबर दिल दहला देने वाली थी।
+W138,Advanced,Beginner (A1),Correction,Neither of the players were ready.,Neither of the players was ready.,வீரர்களில் ஒருவரும் தயாராக இல்லை.,दोनों में से कोई भी खिलाड़ी तैयार नहीं था।
+W139,Advanced,Beginner (A1),Selection,"___ the rain, the event continued.","Notwithstanding the rain, the event continued.","மழையையும் மீறி, நிகழ்ச்சி தொடர்ந்தது.",बारिश के बावजूद कार्यक्रम जारी रहा।
+W140,Advanced,Beginner (A1),Completion,"Hard though it was, he ___ (succeed).","Hard though it was, he succeeded.","அது கடினமாக இருந்தபோதிலும், அவர் வெற்றி பெற்றார்.","हालाँकि यह कठिन था, फिर भी वह सफल रहा।"
+W141,Advanced,Beginner (A1),Transformation,I like your hair.,I do like your hair.,எனக்கு உன் தலைமுடி நிஜமாகவே பிடித்துள்ளது.,मुझे तुम्हारे बाल सचमुच पसंद हैं।
+W142,Advanced,Beginner (A1),Fill in Blank,"If I had studied, I ___ (be) a doctor now.","If I had studied, I would be a doctor now.","நான் படித்திருந்தால், இப்போது மருத்துவராக இருப்பேன்.","अगर मैंने पढ़ाई की होती, तो मैं अब डॉक्टर होता।"
+W143,Advanced,Beginner (A1),Transformation,He denied that he saw her.,He denied having seen her.,அவளைப் பார்த்ததை அவர் மறுத்தார்.,उसने उसे देखने से इनकार कर दिया।
+W144,Advanced,Beginner (A1),Transformation,I need a vacation.,What I need is a vacation.,எனக்குத் தேவையானது ஒரு விடுமுறை.,मुझे जिसकी ज़रूरत है वह है एक छुट्टी।
+W145,Advanced,Beginner (A1),Completion,She was talented—everyone knew it.,She was talented**—everyone knew it.**,அவள் திறமையானவள்—அது அனைவருக்கும் தெரிந்திருந்தது.,वह प्रतिभाशाली थी—यह हर कोई जानता था।
+W146,Advanced,Beginner (A1),Transformation,They analyzed the data.,Their analysis of the data was thorough.,தரவுகள் பற்றிய அவர்களின் பகுப்பாய்வு முழுமையாக இருந்தது.,डेटा का उनका विश्लेषण गहन था।
+W147,Advanced,Beginner (A1),Selection,He isn't here; he ___ (must/can) be lost.,He isn't here; he must be lost.,அவர் இங்கு இல்லை; அவர் வழிதவறியிருக்க வேண்டும்.,वह यहाँ नहीं है; वह ज़रूर खो गया होगा।
+W148,Advanced,Beginner (A1),Fill in Blank,He is ___ (a/the) Shakespeare of our time.,He is the Shakespeare of our time.,அவர் நம் காலத்தின் ஷேக்ஸ்பியர்.,वह हमारे समय के शेक्सपियर हैं।
+W149,Advanced,Beginner (A1),Selection,"___ the weather, we stayed home.","By dint of the bad weather, we stayed home.","மோசமான வானிலை காரணமாக, நாங்கள் வீட்டிலேயே இருந்தோம்।",खराब मौसम के कारण हम घर पर ही रहे।
+W150,Advanced,Beginner (A1),Completion,"By next year, I ___ (finish) the course.","By next year, I will have finished the course.","அடுத்த ஆண்டுக்குள், நான் படிப்பை முடித்திருப்பேன்.","अगले साल तक, मैं कोर्स पूरा कर चुका हूँगा।"
+W151,Beginner,Beginner (A1),Fill in Blank,I see him ___ (on/at) Mondays.,I see him on Mondays.,நான் அவரைத் திங்கட்கிழமைகளில் பார்க்கிறேன்.,मैं उससे सोमवार को मिलता हूँ।
+W152,Beginner,Beginner (A1),Selection,Is this pen ___ (your/yours)?,Is this pen yours?,இந்தப் பேனா உன்னுடையதா?,क्या यह पेन तुम्हारा है?
+W153,Beginner,Beginner (A1),Correction,A red big apple.,A big red apple.,ஒரு பெரிய சிவப்பு ஆப்பிள்.,एक बड़ा लाल सेब।
+W154,Beginner,Beginner (A1),Completion,They ___ (be) my friends.,They are my friends.,அவர்கள் என் நண்பர்கள்.,वे मेरे दोस्त हैं।
+W155,Beginner,Beginner (A1),Correction,There are five boxs.,There are five boxes.,அங்கு ஐந்து பெட்டிகள் உள்ளன.,वहाँ पाँच बक्से हैं।
+W156,Intermediate,Beginner (A1),Transformation,I want to talk to you.,I would like to discuss this with you.,நான் இதை உங்களுடன் விவாதிக்க விரும்புகிறேன்.,मैं इस बारे में आपसे चर्चा करना चाहूंगा।
+W157,Intermediate,Beginner (A1),Fill in Blank,The movie was very ___ (excite).,The movie was very exciting.,அந்தத் திரைப்படம் மிகவும் உற்சாகமாக இருந்தது.,फिल्म बहुत रोमांचक थी।
+W158,Intermediate,Beginner (A1),Fill in Blank,It is ___ (possible) to finish now.,It is impossible to finish now.,இப்போது முடிப்பது சாத்தியமில்லை.,अब पूरा करना असंभव है।
+W159,Intermediate,Beginner (A1),Selection,I ___ (can/could) swim when I was 5.,I could swim when I was 5.,எனக்கு 5 வயதாக இருந்தபோது என்னால் நீந்த முடிந்தது.,जब मैं 5 साल का था तब मैं तैर सकता था।
+W160,Intermediate,Beginner (A1),Completion,"___ it was raining, we went out.","Although it was raining, we went out.","மழை பெய்து கொண்டிருந்த போதிலும், நாங்கள் வெளியே சென்றோம்.","हालाँकि बारिश हो रही थी, फिर भी हम बाहर गए।"
+W161,Intermediate,Beginner (A1),Transformation,The mail was sent by me.,I sent the mail.,நான் அந்த மின்னஞ்சலை அனுப்பினேன்.,मैंने मेल भेजा।
+W162,Intermediate,Beginner (A1),Selection,I have ___ (a few/a little) friends.,I have a few friends.,எனக்குச் சில நண்பர்கள் உள்ளனர்.,मेरे कुछ दोस्त हैं।
+W163,Intermediate,Beginner (A1),Correction,This is the most baddest day.,This is the worst day.,இது மிகவும் மோசமான நாள்.,यह सबसे बुरा दिन है।
+W164,Intermediate,Beginner (A1),Completion,Please ___ (look) the word in the dictionary.,Please look up the word in the dictionary.,அகராதியில் அந்த வார்த்தையைத் தேடுங்கள்.,कृपया शब्दकोश में शब्द देखें।
+W165,Intermediate,Beginner (A1),Completion,"If I won the lottery, I ___ (travel).","If I won the lottery, I would travel.","நான் லாட்டரி வென்றால், நான் பயணம் செய்வேன்.","अगर मैं लॉटरी जीतता, तो मैं यात्रा करता।"
+W166,Advanced,Beginner (A1),Correction,"He likes to run, swim, and hiking.","He likes to run, swim, and hike.","அவருக்கு ஓட, நீந்த மற்றும் மலையேற பிடிக்கும்.","उसे दौड़ना, तैरना और लंबी पैदल यात्रा करना पसंद है।"
+W167,Advanced,Beginner (A1),Transformation,Give me the report.,Please provide the report.,தயவுசெய்து அறிக்கையை வழங்கவும்.,कृपया रिपोर्ट प्रदान करें।
+W168,Advanced,Beginner (A1),Completion,"I need three things: a pen, paper, and ink.","I need three things**: a pen, paper, and ink.**","எனக்கு மூன்று விஷயங்கள் தேவை: பேனா, காகிதம் மற்றும் மை.","मुझे तीन चीजों की जरूरत है: एक पेन, कागज और स्याही।"
+W169,Advanced,Beginner (A1),Correction,Every one of the students are here.,Every one of the students is here.,மாணவர்கள் ஒவ்வொருவரும் இங்கே இருக்கிறார்கள்.,छात्रों में से हर एक यहाँ है।
+W170,Advanced,Beginner (A1),Selection,The drought ___ (affected/effected) the crops.,The drought affected the crops.,வறட்சி பயிர்களைப் பாதித்தது.,सूखे ने फसलों को प्रभावित किया।
+W171,Advanced,Beginner (A1),Transformation,"""Will you help me?"" she asked.",She asked if I would help her.,எனக்கு உதவுவீர்களா என்று அவள் கேட்டாள்.,उसने पूछा कि क्या मैं उसकी मदद करूँगा।
+W172,Advanced,Beginner (A1),Correction,It is vital that he is informed.,It is vital that he be informed.,அவருக்குத் தெரிவிக்கப்படுவது முக்கியம்.,यह महत्वपूर्ण है कि उसे सूचित किया जाए।
+W173,Advanced,Beginner (A1),Transformation,The flat was small in size.,The flat was small.,அந்த வீடு சிறியதாக இருந்தது.,फ्लैट छोटा था।
+W174,Advanced,Beginner (A1),Completion,He decided to call it a ___.,He decided to call it a day.,அவர் அன்றைய வேலையை நிறுத்த முடிவு செய்தார்.,उसने काम बंद करने का फैसला किया।
+W175,Advanced,Beginner (A1),Transformation,People say he is rich.,He is said to be rich.,அவர் பணக்காரர் என்று சொல்லப்படுகிறது.,कहा जाता है कि वह अमीर है।
+W176,Beginner,Beginner (A1),Correction,how are u?,How are you?,நீங்கள் எப்படி இருக்கிறீர்கள்?,आप कैसे हैं?
+W177,Beginner,Beginner (A1),Fill in Blank,I have ___ (3) brothers.,I have three brothers.,எனக்கு மூன்று சகோதரர்கள் உள்ளனர்.,मेरे तीन भाई हैं।
+W178,Beginner,Beginner (A1),Transformation,She eats meat.,She does not eat meat.,அவள் இறைச்சி சாப்பிடுவதில்லை.,वह मांस नहीं खाती है।
+W179,Beginner,Beginner (A1),Selection,Look at ___ (this/that) bird in the sky.,Look at that bird in the sky.,வானத்தில் இருக்கும் அந்தப் பறவையைப் பார்.,आकाश में उस पक्षी को देखो।
+W180,Beginner,Beginner (A1),Fill in Blank,I ___ hungry.,I am hungry.,எனக்குப் பசிக்கிறது.,मुझे भूख लगी है।
+W181,Intermediate,Beginner (A1),Selection,I waited ___ (until/since) 5 PM.,I waited until 5 PM.,நான் மாலை 5 மணி வரை காத்திருந்தேன்.,मैंने शाम 5 बजे तक इंतजार किया।
+W182,Intermediate,Beginner (A1),Selection,This is the car ___ I bought.,This is the car that I bought.,இது நான் வாங்கிய கார்.,यह वह कार है जो मैंने खरीदी है।
+W183,Intermediate,Beginner (A1),Selection,___ I leave early?,May I leave early?,நான் சீக்கிரம் கிளம்பலாமா?,क्या मैं जल्दी निकल सकता हूँ?
+W184,Intermediate,Beginner (A1),Correction,She sings good.,She sings well.,அவள் நன்றாகப் பாடுகிறாள்.,वह अच्छा गाती है।
+W185,Intermediate,Beginner (A1),Fill in Blank,Silver is ___ (cheap) than gold.,Silver is cheaper than gold.,வெள்ளியை விட தங்கம் விலை குறைவானது.,चांदी सोने से सस्ती है।
+W186,Advanced,Beginner (A1),Transformation,"At this point in time, we are ready.","Now, we are ready.",இப்போது நாம் தயாராக உள்ளோம்.,अब हम तैयार हैं।
+W187,Advanced,Beginner (A1),Selection,"___ the costs, the project is worth it.","Despite the costs, the project is worth it.","செலவுகள் இருந்தாலும், இந்தத் திட்டம் பயனுள்ளது.","लागत के बावजूद, परियोजना इसके लायक है।"
+W188,Advanced,Beginner (A1),Correction,The goal—success—is near.,The goal**—success—**is near.,குறிக்கோள்—வெற்றி—அருகில் உள்ளது.,लक्ष्य—सफलता—करीब है।
+W189,Advanced,Beginner (A1),Correction,I found a gold man's ring.,I found a man's gold ring.,நான் ஒரு மனிதனின் தங்க மோதிரத்தைக் கண்டெடுத்தேன்.,मुझे एक आदमी की सोने की अंगूठी मिली।
+W190,Advanced,Beginner (A1),Correction,The team was disinterested.,The team was uninterested.,அந்த அணிக்கு ஆர்வமில்லை.,टीम को कोई दिलचस्पी नहीं थी।
+W191,Beginner,Beginner (A1),Fill in Blank,He ___ a blue shirt.,He has a blue shirt.,அவரிடம் நீல நிற சட்டை உள்ளது.,उसके पास नीली कमीज है।
+W192,Beginner,Beginner (A1),Selection,She is ___ teacher.,She is a teacher.,அவள் ஒரு ஆசிரியை.,वह एक शिक्षिका है।
+W193,Beginner,Beginner (A1),Capitalization,my birthday is in june.,My birthday is in June.,எனது பிறந்த நாள் ஜூன் மாதத்தில் வருகிறது.,मेरा जन्मदिन जून में है।
+W194,Beginner,Beginner (A1),Selection,___ (He/Him) is my brother.,He is my brother.,அவர் என் சகோதரர்.,वह मेरा भाई है।
+W195,Beginner,Beginner (A1),Transformation,I am not coming.,I'm not coming.,நான் வரவில்லை.,मैं नहीं आ रहा हूँ।
+W196,Intermediate,Beginner (A1),Transformation,They make tea here.,Tea is made here.,இங்கு தேநீர் தயாரிக்கப்படுகிறது.,यहाँ चाय बनाई जाती है।
+W197,Intermediate,Beginner (A1),Fill in Blank,Have you ___ (be) to Paris?,Have you been to Paris?,நீங்கள் பாரிஸுக்குச் சென்றிருக்கிறீர்களா?,क्या आप पेरिस गए हैं?
+W198,Intermediate,Beginner (A1),Completion,"You don't smoke, ___?","You don't smoke, do you?","நீ புகைபிடிக்க மாட்டாய், அல்லவா?","तुम धूम्रपान नहीं करते, है ना?"
+W199,Advanced,Beginner (A1),Transformation,He rarely goes out.,Rarely does he go out.,அவர் அரிதாகவே வெளியே செல்வார்.,वह शायद ही कभी बाहर जाता है।
+W200,Advanced,Beginner (A1),Punctuation,"He was tired, therefore he slept.","He was tired**; therefore,** he slept.","அவர் சோர்வாக இருந்தார், அதனால் தூங்கினார்.","वह थका हुआ था, इसलिए सो गया।"
+W201,Beginner,Beginner (A1),Completion,I ___ (swim) very well.,I can swim very well.,என்னால் நன்றாக நீந்த முடியும்.,मैं बहुत अच्छी तरह तैर सकता हूँ।
+W202,Beginner,Beginner (A1),Selection,Give the book to ___ (she/her).,Give the book to her.,புத்தகத்தை அவளிடம் கொடுங்கள்.,किताब उसे दे दो।
+W203,Beginner,Beginner (A1),Correction,The sun rise in the east.,The sun rises in the east.,சூரியன் கிழக்கில் உதிக்கிறது.,सूर्य पूर्व में उगता है।
+W204,Beginner,Beginner (A1),Fill in Blank,My birthday is ___ May.,My birthday is in May.,எனது பிறந்தநாள் மே மாதத்தில் வருகிறது.,मेरा जन्मदिन मई में है।
+W205,Beginner,Beginner (A1),Completion,"___ (close) the door, please.","Close the door, please.",தயவுசெய்து கதவை மூடு.,कृपया दरवाजा बंद करें।
+W206,Intermediate,Beginner (A1),Transformation,He lived in London before.,He used to live in London.,அவர் முன்பு லண்டனில் வசித்து வந்தார்.,वह पहले लंदन में रहा करता था।
+W207,Intermediate,Beginner (A1),Fill in Blank,We ___ (know) him for years.,We have known him for years.,எங்களுக்கு அவரை பல ஆண்டுகளாகத் தெரியும்.,हम उसे सालों से जानते हैं।
+W208,Intermediate,Beginner (A1),Correction,He speaks fluently English.,He speaks English fluently.,அவர் சரளமாக ஆங்கிலம் பேசுகிறார்.,वह धाराप्रवाह अंग्रेजी बोलता है।
+W209,Intermediate,Beginner (A1),Selection,You ___ (ought to/must) rest more.,You ought to rest more.,நீங்கள் இன்னும் ஓய்வெடுக்க வேண்டும்.,आपको अधिक आराम करना चाहिए।
+W210,Intermediate,Beginner (A1),Selection,He ___ (told/said) that he was busy.,He said that he was busy.,தான் வேலையாக இருப்பதாக அவர் கூறினார்.,उसने कहा कि वह व्यस्त था।
+W211,Intermediate,Beginner (A1),Selection,That house is ___ (our/ours).,That house is ours.,அந்த வீடு எங்களுடையது.,वह घर हमारा है।
+W212,Intermediate,Beginner (A1),Completion,I hurt ___ while playing.,I hurt myself while playing.,விளையாடும்போது எனக்கு நானே காயப்படுத்திக் கொண்டேன்.,खेलते समय मुझे चोट लग गई।
+W213,Intermediate,Beginner (A1),Correction,This car is more cheap than that.,This car is cheaper than that.,இந்த கார் அதை விட மலிவானது.,यह कार उससे सस्ती है।
+W214,Intermediate,Beginner (A1),Completion,The train ___ (leave) before I arrived.,The train had left before I arrived.,நான் வருவதற்கு முன்பே ரயில் கிளம்பிவிட்டது.,मेरे पहुँचने से पहले ही ट्रेन छूट चुकी थी।
+W215,Intermediate,Beginner (A1),Completion,"She is a doctor, ___?","She is a doctor, isn't she?","அவள் ஒரு மருத்துவர், அல்லவா?","वह एक डॉक्टर है, है ना?"
+W216,Advanced,Beginner (A1),Correction,I like to read and writing.,I like reading and writing.,எனக்குப் படிக்கவும் எழுதவும் பிடிக்கும்.,मुझे पढ़ना और लिखना पसंद है।
+W217,Advanced,Beginner (A1),Transformation,"If I was rich, I would help.","If I were rich, I would help.","நான் பணக்காரனாக இருந்தால், நான் உதவுவேன்.","अगर मैं अमीर होता, तो मैं मदद करता।"
+W218,Advanced,Beginner (A1),Correction,I don't know nothing.,I don't know anything.,எனக்கு ஒன்றும் தெரியாது.,मुझे कुछ नहीं पता।
+W219,Advanced,Beginner (A1),Transformation,I have never been so happy.,Never have I been so happy.,நான் இவ்வளவு மகிழ்ச்சியாக இருந்ததே இல்லை.,मैं इतना खुश कभी नहीं रहा।
+W220,Advanced,Beginner (A1),Transformation,The project was finished by him.,He finished the project.,அவர் திட்டத்தை முடித்தார்.,उसने प्रोजेक्ट पूरा किया।
+W221,Beginner,Intermediate (B1),Fill in Blank,___ (There is/There are) a bird.,There is a bird.,அங்கே ஒரு பறவை இருக்கிறது.,वहाँ एक पक्षी है।
+W222,Beginner,Intermediate (B1),Completion,The grass is ___.,The grass is green.,புல் பச்சை நிறத்தில் உள்ளது.,घास हरी है।
+W223,Beginner,Intermediate (B1),Selection,___ (I/Me) am a student.,I am a student.,நான் ஒரு மாணவன்.,मैं एक छात्र हूँ।
+W224,Beginner,Intermediate (B1),Fill in Blank,Three ___ (man) are here.,Three men are here.,மூன்று ஆண்கள் இங்கே இருக்கிறார்கள்.,तीन आदमी यहाँ हैं।
+W225,Beginner,Intermediate (B1),Transformation,I like milk.,I do not like milk.,எனக்குப் பால் பிடிக்காது.,मुझे दूध पसंद नहीं है।
+W226,Intermediate,Intermediate (B1),Completion,"If you study, you ___ (pass).","If you study, you will pass.","நீ படித்தால், நீ தேர்ச்சி பெறுவாய்.","अगर तुम पढ़ोगे, तो तुम पास हो जाओगे।"
+W227,Intermediate,Intermediate (B1),Fill in Blank,I ___ (work) at 10 AM tomorrow.,I will be working at 10 AM tomorrow.,நாளை காலை 10 மணிக்கு நான் வேலை செய்து கொண்டிருப்பேன்.,मैं कल सुबह 10 बजे काम कर रहा हूँगा।
+W228,Intermediate,Intermediate (B1),Fill in Blank,Please ___ (put) your shoes.,Please put on your shoes.,தயவுசெய்து உங்கள் காலணிகளை அணியுங்கள்.,कृपया अपने जूते पहन लें।
+W229,Intermediate,Intermediate (B1),Selection,The book ___ you gave me is good.,The book which/that you gave me is good.,நீங்கள் எனக்குக் கொடுத்த புத்தகம் நன்றாக இருக்கிறது.,जो किताब आपने मुझे दी वह अच्छी है।
+W230,Intermediate,Intermediate (B1),Completion,I want ___ (go) home.,I want to go home.,நான் வீட்டிற்குச் செல்ல விரும்புகிறேன்.,मैं घर जाना चाहता हूँ।
+W231,Advanced,Intermediate (B1),Selection,The rain was ___ (continuous/continual).,The rain was continual.,மழை விட்டு விட்டுப் பெய்தது.,बारिश रुक-रुक कर हो रही थी।
+W232,Advanced,Intermediate (B1),Transformation,I love the music.,It is the music that I love.,நான் விரும்புவது அந்த இசையைத்தான்.,वह संगीत ही है जिसे मैं प्यार करता हूँ।
+W233,Advanced,Intermediate (B1),Transformation,To smoke is bad.,Smoking is bad.,புகைபிடித்தல் ஆரோக்கியத்திற்குத் தீங்கானது.,धूम्रपान करना बुरा है।
+W234,Advanced,Intermediate (B1),Transformation,"In the near future, we will meet.","Soon, we will meet.",விரைவில் சந்திப்போம்.,जल्द ही हम मिलेंगे।
+W235,Advanced,Intermediate (B1),Correction,Its a nice day.,It's a nice day.,இது ஒரு நல்ல நாள்.,यह एक अच्छा दिन है।
+W236,Beginner,Intermediate (B1),Fill in Blank,I ___ (have got) a car.,I have got a car.,என்னிடம் ஒரு கார் இருக்கிறது.,मेरे पास एक कार है।
+W237,Beginner,Intermediate (B1),Fill in Blank,It is a ___ (big) house.,It is a big house.,அது ஒரு பெரிய வீடு.,यह एक बड़ा घर है।
+W238,Beginner,Intermediate (B1),Transformation,He is happy.,Is he happy?,அவர் மகிழ்ச்சியாக இருக்கிறாரா?,क्या वह खुश है?
+W239,Beginner,Intermediate (B1),Correction,I have a pencl.,I have a pencil.,என்னிடம் ஒரு பென்சில் இருக்கிறது.,मेरे पास एक पेंसिल है।
+W240,Beginner,Intermediate (B1),Selection,Red ___ Blue.,Red and Blue.,சிவப்பு மற்றும் நீலம்.,लाल और नीला।
+W241,Intermediate,Intermediate (B1),Transformation,Someone stole my bike.,My bike was stolen.,எனது மிதிவண்டி திருடப்பட்டது.,मेरी साइकिल चोरी हो गई।
+W242,Intermediate,Intermediate (B1),Selection,It's dark; it ___ (must/can) be late.,It's dark; it must be late.,இருட்டாக இருக்கிறது; நேரம் ஆகியிருக்க வேண்டும்.,अंधेरा है; ज़रूर देर हो गई होगी।
+W243,Intermediate,Intermediate (B1),Transformation,"""Where is he?"" she asked.",She asked where he was.,அவர் எங்கே என்று அவள் கேட்டாள்.,उसने पूछा कि वह कहाँ था।
+W244,Intermediate,Intermediate (B1),Fill in Blank,I am interested ___ art.,I am interested in art.,எனக்குக் கலையில் ஆர்வம் உண்டு.,मेरी कला में रुचि है।
+W245,Intermediate,Intermediate (B1),Completion,I ___ (finish) it by Monday.,I will have finished it by Monday.,திங்கட்கிழமைக்குள் நான் அதை முடித்திருப்பேன்.,मैं इसे सोमवार तक पूरा कर लूंगा।
+W246,Advanced,Intermediate (B1),Transformation,He is very rich.,He is wealthy/affluent.,அவர் மிகவும் செல்வந்தர்.,वह बहुत धनी है।
+W247,Advanced,Intermediate (B1),Correction,"She liked the cake, and he liked it too.","She liked the cake, and so did he.","அவளுக்குக் கேக் பிடித்திருந்தது, அவனுக்கும் தான்.","उसे केक पसंद आया, और उसे भी।"
+W248,Advanced,Intermediate (B1),Selection,"___ the heat, we ran.","Despite the heat, we ran.","வெப்பம் இருந்தபோதிலும், நாங்கள் ஓடினோம்.",गर्मी के बावजूद हम दौड़े।
+W249,Advanced,Intermediate (B1),Completion,He failed—or so it seemed.,He failed**—or so it seemed.**,அவர் தோல்வியடைந்தார்—அல்லது அப்படித் தோன்றியது.,वह असफल रहा—या ऐसा लग रहा था।
+W250,Advanced,Intermediate (B1),Correction,Please except my apology.,Please accept my apology.,எனது மன்னிப்பை ஏற்றுக்கொள்.,कृपया मेरी माफी स्वीकार करें।
+W251,Beginner,Intermediate (B1),Spelling,I have 12 apples.,I have twelve apples.,என்னிடம் பன்னிரண்டு ஆப்பிள்கள் உள்ளன.,मेरे पास बारह सेब हैं।
+W252,Beginner,Intermediate (B1),Fill in Blank,We ___ (watch) TV now.,We are watching TV now.,நாங்கள் இப்போது தொலைக்காட்சி பார்த்துக் கொண்டிருக்கிறோம்.,हम अभी टीवी देख रहे हैं।
+W253,Beginner,Intermediate (B1),Selection,The book is ___ (on/in) the bag.,The book is in the bag.,புத்தகம் பையினுள் இருக்கிறது.,किताब बैग में है।
+W254,Beginner,Intermediate (B1),Transformation,You like tea.,Do you like tea?,உனக்குத் தேநீர் பிடிக்குமா?,क्या तुम्हें चाय पसंद है?
+W255,Beginner,Intermediate (B1),Correction,This is a small house big.,This is a big small house.,இது ஒரு பெரிய சிறிய வீடு.,यह एक बड़ा छोटा घर है।
+W256,Intermediate,Intermediate (B1),Transformation,Fix the problem.,Resolve the issue.,சிக்கலைத் தீர்க்கவும்.,समस्या का समाधान करें।
+W257,Intermediate,Intermediate (B1),Selection,You ___ (need to/can) sign here.,You need to sign here.,நீங்கள் இங்கே கையெழுத்திட வேண்டும்.,आपको यहाँ हस्ताक्षर करने की आवश्यकता है।
+W258,Intermediate,Intermediate (B1),Placement,He goes often there.,He often goes there.,அவர் அடிக்கடி அங்கு செல்கிறார்.,वह अक्सर वहां जाता है।
+W259,Intermediate,Intermediate (B1),Completion,He was tired ___ he stayed up.,He was tired yet he stayed up.,அவர் சோர்வாக இருந்தபோதிலும் விழித்திருந்தார்.,वह थका हुआ था फिर भी जागा रहा।
+W260,Intermediate,Intermediate (B1),Transformation,People speak English here.,English is spoken here.,இங்கு ஆங்கிலம் பேசப்படுகிறது.,यहाँ अंग्रेजी बोली जाती है।
+W261,Intermediate,Intermediate (B1),Fill in Blank,Never ___ (give) on your dreams.,Never give up on your dreams.,உங்கள் கனவுகளை ஒருபோதும் விட்டுவிடாதீர்கள்.,अपने सपनों को कभी मत छोड़ो।
+W262,Intermediate,Intermediate (B1),Completion,"If he had run, he ___ (catch) it.","If he had run, he would have caught it.","அவர் ஓடியிருந்தால், அதைப் பிடித்திருப்பார்.","अगर वह दौड़ता, तो उसे पकड़ लेता।"
+W263,Intermediate,Intermediate (B1),Completion,"They won't come, ___?","They won't come, will they?","அவர்கள் வரமாட்டார்கள், அல்லவா?","वे नहीं आएंगे, है ना?"
+W264,Intermediate,Intermediate (B1),Selection,I need some ___ (advice/advise).,I need some advice.,எனக்குச் சில ஆலோசனைகள் தேவை.,मुझे कुछ सलाह चाहिए।
+W265,Intermediate,Intermediate (B1),Fill in Blank,___ (exercise) is good for health.,Exercising is good for health.,உடற்பயிற்சி செய்வது ஆரோக்கியத்திற்கு நல்லது.,व्यायाम करना स्वास्थ्य के लिए अच्छा है।
+W266,Advanced,Intermediate (B1),Transformation,We decided to cancel the plan.,The cancellation of the plan was necessary.,திட்டத்தை ரத்து செய்வது அவசியமாக இருந்தது.,योजना को रद्द करना आवश्यक था।
+W267,Advanced,Intermediate (B1),Correction,She likes to sing and dancing.,She likes singing and dancing.,அவளுக்குப் பாடுவதும் ஆடுவதும் பிடிக்கும்.,उसे गाना और नाचना पसंद है।
+W268,Advanced,Intermediate (B1),Correction,I wish I was taller.,I wish I were taller.,நான் இன்னும் உயரமாக இருக்க விரும்புகிறேன்.,काश मैं और लंबा होता।
+W269,Advanced,Intermediate (B1),Selection,The view was ___ (breathless/breathtaking).,The view was breathtaking.,அந்த காட்சி மூச்சடைக்கக் கூடியதாக இருந்தது.,दृश्य मनमोहक था।
+W270,Advanced,Intermediate (B1),Transformation,You should not do this under any circumstances.,Under no circumstances should you do this.,எந்தச் சூழ்நிலையிலும் நீங்கள் இதைச் செய்யக்கூடாது.,किसी भी परिस्थिति में आपको ऐसा नहीं करना चाहिए।
+W271,Beginner,Intermediate (B1),Selection,___ Sun is hot.,The Sun is hot.,சூரியன் வெப்பமாக இருக்கிறது.,सूरज गर्म है।
+W272,Beginner,Intermediate (B1),Selection,___ (That/Those) stars are bright.,Those stars are bright.,அந்த நட்சத்திரங்கள் பிரகாசமாக உள்ளன.,वे तारे चमक रहे हैं।
+W273,Beginner,Intermediate (B1),Fill in Blank,This is my sister. ___ is 10.,She is 10.,இவள் என் சகோதரி. அவளுக்கு வயது 10.,यह मेरी बहन है। वह 10 साल की है।
+W274,Beginner,Intermediate (B1),Correction,good nite.,Good night.,இனிய இரவு வணக்கம்.,शुभ रात्रि।
+W275,Beginner,Intermediate (B1),Fill in Blank,Birds ___ (fly).,Birds fly.,பறவைகள் பறக்கின்றன.,पक्षी उड़ते हैं।
+W276,Intermediate,Intermediate (B1),Transformation,I fixed my car.,I had my car fixed.,நான் என் காரை பழுது பார்த்தேன்.,मैंने अपनी कार ठीक करवाई।
+W277,Intermediate,Intermediate (B1),Completion,"By 2030, I ___ (graduate).","By 2030, I will have graduated.",2030-க்குள் நான் பட்டம் பெற்றிருப்பேன்.,"2030 तक, मैं स्नातक हो चुका हूँगा।"
+W278,Intermediate,Intermediate (B1),Punctuation,It's cold I'll wear a coat.,It's cold**;** I'll wear a coat.,குளிர்ச்சியாக இருக்கிறது; நான் ஒரு கோட் அணிவேன்.,ठंड है; मैं कोट पहनूंगा।
+W279,Intermediate,Intermediate (B1),Selection,He is a ___ (slow/slowly) driver.,He is a slow driver.,அவர் மெதுவாக வாகனம் ஓட்டுபவர்.,वह एक धीमा ड्राइवर है।
+W280,Intermediate,Intermediate (B1),Completion,I ___ (should/must) have studied more.,I should have studied more.,நான் இன்னும் அதிகமாகப் படித்திருக்க வேண்டும்.,मुझे और अधिक पढ़ाई करनी चाहिए थी।
+W281,Advanced,Intermediate (B1),Transformation,"Everyone likes it, so it's good.",Just because it is popular does not mean it is good.,அது பிரபலமாக இருப்பதால் மட்டும் அது நல்லது என்று அர்த்தமல்ல.,"सिर्फ इसलिए कि वह लोकप्रिय है, इसका मतलब यह नहीं है कि वह अच्छा है।"
+W282,Advanced,Intermediate (B1),Transformation,He is a man who has a lot of courage.,He is a courageous man.,அவர் ஒரு தைரியமான மனிதர்.,वह एक साहसी व्यक्ति है।
+W283,Advanced,Intermediate (B1),Fill in Blank,"If I had won, I ___ (be) happy now.","If I had won, I would be happy now.","நான் வெற்றி பெற்றிருந்தால், இப்போது மகிழ்ச்சியாக இருந்திருப்பேன்.","अगर मैं जीत जाता, तो मैं अब खुश होता।"
+W284,Advanced,Intermediate (B1),Selection,"___ the rain, we played.","Despite the rain, we played.","மழை பெய்த போதிலும், நாங்கள் விளையாடினோம்.",बारिश के बावजूद हम खेले।
+W285,Advanced,Intermediate (B1),Correction,The car was stationary.,The car was stationary.,கார் நிலையாக (ஒரே இடத்தில்) இருந்தது.,कार स्थिर थी।
+W286,Beginner,Intermediate (B1),Correction,He don't know.,He doesn't know.,அவருக்குத் தெரியாது.,उसे नहीं पता।
+W287,Beginner,Intermediate (B1),Fill in Blank,See you ___ 5 PM.,See you at 5 PM.,மாலை 5 மணிக்குச் சந்திப்போம்.,आपसे शाम 5 बजे मिलते हैं।
+W288,Beginner,Intermediate (B1),Completion,___ brothers do you have?,How many brothers do you have?,உனக்கு எத்தனை சகோதரர்கள் உள்ளனர்?,आपके कितने भाई हैं?
+W289,Beginner,Intermediate (B1),Correction,Becuse it's late.,Because it's late.,தாமதமாகிவிட்டதால்.,क्योंकि देर हो गई है।
+W290,Beginner,Intermediate (B1),Fill in Blank,Five ___ (fish).,Five fish/fishes.,ஐந்து மீன்கள்.,पाँच मछलियाँ।
+W291,Intermediate,Intermediate (B1),Transformation,"""Go away!"" he said.",He told me to go away.,என்னை அங்கிருந்து போகுமாறு அவர் கூறினார்.,उसने मुझे चले जाने को कहा।
+W292,Intermediate,Intermediate (B1),Selection,The girl ___ lives next door is nice.,The girl who lives next door is nice.,பக்கத்து வீட்டில் வசிக்கும் பெண் நல்லவர்.,जो लड़की बगल में रहती है वह अच्छी है।
+W293,Intermediate,Intermediate (B1),Fill in Blank,I'm good ___ math.,I'm good at math.,நான் கணிதத்தில் வல்லவன்.,मैं गणित में अच्छा हूँ।
+W294,Intermediate,Intermediate (B1),Selection,You ___ (mustn't/don't have to) park here.,You mustn't park here.,நீங்கள் இங்கே வாகனத்தை நிறுத்தக்கூடாது.,आपको यहाँ पार्क नहीं करना चाहिए।
+W295,Intermediate,Intermediate (B1),Fill in Blank,What ___ you (do) yesterday?,What were you doing yesterday?,நேற்று நீங்கள் என்ன செய்து கொண்டிருந்தீர்கள்?,कल आप क्या कर रहे थे?
+W296,Advanced,Intermediate (B1),Transformation,I need more time.,What I need is more time.,எனக்குத் தேவையானது கூடுதல் நேரம்.,मुझे जिसकी ज़रूरत है वह है और समय।
+W297,Advanced,Intermediate (B1),Transformation,People assume he is lying.,It is assumed that he is lying.,அவர் பொய் சொல்கிறார் என்று கருதப்படுகிறது.,यह माना जाता है कि वह झूठ बोल रहा है।
+W298,Advanced,Intermediate (B1),Correction,Bread and butter are my breakfast.,Bread and butter is my breakfast.,ரொட்டியும் வெண்ணெயும் எனது காலை உணவு.,ब्रेड और मक्खन मेरा नाश्ता है।
+W299,Advanced,Intermediate (B1),Selection,He is a ___ (notorious/famous) criminal.,He is a notorious criminal.,அவர் ஒரு மோசமான (அறியப்பட்ட) குற்றவாளி.,वह एक कुख्यात अपराधी है।
+W300,Advanced,Intermediate (B1),Transformation,Finish the task.,Ensure the task is completed.,பணி முடிக்கப்பட்டதை உறுதி செய்யவும்.,सुनिश्चित करें कि कार्य पूरा हो गया है।
+W301,Beginner,Intermediate (B1),Correction,"hi mr smith,","Dear Mr. Smith,","மதிப்பிற்குரிய திரு. ஸ்மித் அவர்களுக்கு,","प्रिय श्री स्मिथ,"
+W302,Beginner,Intermediate (B1),Format,8 in the morning.,8:00 AM,காலை 8:00 மணி.,सुबह के 8:00 बजे।
+W303,Beginner,Intermediate (B1),Selection,The dog ___ (bark/barks).,The dog barks.,அந்த நாய் குரைக்கிறது.,कुत्ता भौंकता है।
+W304,Beginner,Intermediate (B1),Capitalization,the weather is nice.,The weather is nice.,வானிலை நன்றாக இருக்கிறது.,मौसम अच्छा है।
+W305,Beginner,Intermediate (B1),Punctuation,I like milk bread eggs.,"I like milk, bread, and eggs.","எனக்குப் பால், ரொட்டி மற்றும் முட்டை பிடிக்கும்.","मुझे दूध, ब्रेड और अंडे पसंद हैं।"
+W306,Intermediate,Intermediate (B1),Transformation,This is the reason.,This appears to be the reason.,இதுதான் காரணமாகத் தோன்றுகிறது.,यह कारण प्रतीत होता है।
+W307,Intermediate,Intermediate (B1),Fill in Blank,I ___ (live) here since 2010.,I have lived here since 2010.,நான் 2010 முதல் இங்கு வசித்து வருகிறேன்.,मैं 2010 से यहाँ रह रहा हूँ।
+W308,Intermediate,Intermediate (B1),Selection,He ___ (raised/rose) his hand.,He raised his hand.,அவர் கையை உயர்த்தினார்.,उसने अपना हाथ उठाया।
+W309,Intermediate,Intermediate (B1),Transformation,The food was very good.,The food was delicious/exquisite.,உணவு மிகவும் சுவையாக இருந்தது.,खाना बहुत स्वादिष्ट था।
+W310,Intermediate,Intermediate (B1),Transformation,You know the way.,Do you know the way?,உங்களுக்கு வழி தெரியுமா?,क्या आप रास्ता जानते हैं?
+W311,Intermediate,Intermediate (B1),Selection,Make a ___ (decision/choice).,Make a decision.,ஒரு முடிவு எடுங்கள்.,एक निर्णय लें।
+W312,Intermediate,Intermediate (B1),Selection,It was late; ___ we left.,"It was late; therefore, we left.","நேரமாகிவிட்டது; எனவே, நாங்கள் கிளம்பினோம்.","देर हो चुकी थी; इसलिए, हम चले गए।"
+W313,Intermediate,Intermediate (B1),Transformation,He is happy.,His happiness is visible.,அவருடைய மகிழ்ச்சி தெளிவாகத் தெரிகிறது.,उसकी खुशी दिखाई दे रही है।
+W314,Intermediate,Intermediate (B1),Fill in Blank,This task is ___ (easy) than that.,This task is easier than that.,இந்தப் பணி அதை விட எளிதானது.,यह कार्य उस कार्य से आसान है।
+W315,Intermediate,Intermediate (B1),Fill in Blank,Don't ___ (wait) for me.,Don't wait up for me.,எனக்காகக் காத்திருக்க வேண்டாம்.,मेरा इंतज़ार मत करो।
+W316,Advanced,Intermediate (B1),Correction,"Reading is easy, but to write is hard.","Reading is easy, but writing is hard.","படிப்பது எளிது, ஆனால் எழுதுவது கடினம்.","पढ़ना आसान है, लेकिन लिखना कठिन है।"
+W317,Advanced,Intermediate (B1),Transformation,It's not bad.,It is quite good.,அது மிகவும் நன்றாக உள்ளது.,यह काफी अच्छा है।
+W318,Advanced,Intermediate (B1),Correction,"Covered in rust, he sold the car.","He sold the car, which was covered in rust.",துருப்பிடித்த அந்த காரை அவர் விற்றார்.,"उसने वह कार बेच दी, जो जंग से ढकी हुई थी।"
+W319,Advanced,Intermediate (B1),Selection,___ (Go/Begone) from here!,Begone from here!,இங்கிருந்து வெளியேறு!,यहाँ से चले जाओ!
+W320,Advanced,Intermediate (B1),Correction,I wish he comes.,I wish he would come.,அவர் வர வேண்டும் என்று நான் விரும்புகிறேன்.,काश वह आ पाता।
+W321,Beginner,Intermediate (B1),Selection,___ is that?,Who is that?,அது யார்?,वह कौन है?
+W322,Beginner,Intermediate (B1),Correction,A man old.,An old man.,ஒரு முதியவர்.,एक बूढ़ा आदमी।
+W323,Beginner,Intermediate (B1),Fill in Blank,Many ___ (woman).,Many women.,பல பெண்கள்.,कई महिलाएँ।
+W324,Beginner,Intermediate (B1),Transformation,I saw it.,I did not see it.,நான் அதைப் பார்க்கவில்லை.,मैंने उसे नहीं देखा।
+W325,Beginner,Intermediate (B1),Preposition,Turn ___ the left.,Turn to the left.,இடது பக்கம் திரும்பவும்.,बाईं ओर मुड़ें।
+W326,Intermediate,Intermediate (B1),Transformation,"""Sit down,"" the teacher said.",The teacher ordered me to sit down.,ஆசிரியர் என்னை உட்காரச் சொன்னார்.,शिक्षक ने मुझे बैठने का आदेश दिया।
+W327,Intermediate,Intermediate (B1),Transformation,We will build the house.,The house will be built.,அந்த வீடு கட்டப்படும்.,घर बनाया जाएगा।
+W328,Intermediate,Intermediate (B1),Completion,That is the house ___ I live.,That is the house where I live.,அதுதான் நான் வசிக்கும் வீடு.,यह वही घर है जहाँ मैं रहता हूँ।
+W329,Intermediate,Intermediate (B1),Selection,You ___ (cannot/shouldn't) enter.,You cannot enter.,நீங்கள் நுழைய முடியாது.,आप प्रवेश नहीं कर सकते।
+W330,Intermediate,Intermediate (B1),Correction,I have saw him.,I have seen him.,நான் அவரைப் பார்த்திருக்கிறேன்.,मैंने उसे देखा है।
+W331,Advanced,Intermediate (B1),Transformation,I had never felt so alone.,Never had I felt so alone.,நான் இவ்வளவு தனிமையாக உணர்ந்ததே இல்லை.,मैंने कभी इतना अकेला महसूस नहीं किया था।
+W332,Advanced,Intermediate (B1),Correction,The affect was huge.,The effect was huge.,அதன் விளைவு மிகப்பெரியதாக இருந்தது.,इसका प्रभाव बहुत बड़ा था।
+W333,Advanced,Intermediate (B1),Completion,The wind ___.,The wind whispered.,காற்று கிசுகிசுத்தது.,हवा फुसफुसाई।
+W334,Advanced,Intermediate (B1),Transformation,He is a person who works hard.,He is a hardworking person.,அவர் ஒரு கடின உழைப்பாளி.,वह एक मेहनती व्यक्ति है।
+W335,Advanced,Intermediate (B1),Punctuation,Paris France London UK.,"Paris, France**;** London, UK.","பாரிஸ், பிரான்ஸ்; லண்டன், இங்கிலாந்து.","पेरिस, फ्रांस; लंदन, यूके।"
+W336,Beginner,Intermediate (B1),Selection,___ is my bag.,There is my bag.,அங்கே என் பை இருக்கிறது.,वहाँ मेरा बैग है।
+W337,Beginner,Intermediate (B1),Fill in Blank,It ___ (rain) today.,It is raining today.,இன்று மழை பெய்து கொண்டிருக்கிறது.,आज बारिश हो रही है।
+W338,Beginner,Intermediate (B1),Fill in Blank,I am ___ home.,I am at home.,நான் வீட்டில் இருக்கிறேன்.,मैं घर पर हूँ।
+W339,Beginner,Intermediate (B1),Correction,The boys hats.,The boys' hats.,சிறுவர்களின் தொப்பிகள்.,लड़कों की टोपियाँ।
+W340,Beginner,Intermediate (B1),Transformation,It is cold.,Is it cold?,குளிர்ச்சியாக இருக்கிறதா?,क्या ठंड है?
+W341,Intermediate,Advanced (C1),Completion,"If I knew, I ___ (tell) you.","If I knew, I would tell you.","எனக்குத் தெரிந்திருந்தால், நான் உன்னிடம் சொல்லியிருப்பேன்.","अगर मुझे पता होता, तो मैं तुम्हें बता देता।"
+W342,Intermediate,Advanced (C1),Selection,He ran ___ (fastly/at speed).,He ran at high speed.,அவர் அதிவேகத்தில் ஓடினார்.,वह तेज गति से दौड़ा।
+W343,Intermediate,Advanced (C1),Transformation,He was a teacher.,He used to be a teacher.,அவர் ஒரு ஆசிரியராக இருந்தார்.,वह एक शिक्षक हुआ करता था।
+W344,Intermediate,Advanced (C1),Transformation,I gave a pen to him.,I gave him a pen.,நான் அவருக்கு ஒரு பேனா கொடுத்தேன்.,मैंने उसे एक पेन दिया।
+W345,Intermediate,Advanced (C1),Correction,Gold is more heavy than iron.,Gold is heavier than iron.,இரும்பை விட தங்கம் அதிக எடை கொண்டது.,सोना लोहे से भारी होता है।
+W346,Advanced,Advanced (C1),Transformation,I think the data is wrong.,The data suggests an inconsistency.,தரவுகள் ஒரு முரண்பாட்டை உணர்த்துகின்றன.,डेटा एक विसंगति का सुझाव देता है।
+W347,Advanced,Advanced (C1),Transformation,We need water.,What we need is water.,எங்களுக்குத் தேவையானது தண்ணீர்.,हमें जिसकी ज़रूरत है वह पानी है।
+W348,Advanced,Advanced (C1),Correction,"I like tea, and he likes coffee.","I like tea; he, coffee.",எனக்குத் தேநீர் பிடிக்கும்; அவருக்குக் காபி.,मुझे चाय पसंद है; उसे कॉफी।
+W349,Advanced,Advanced (C1),Selection,It was an ___ (easy/effortless) win.,It was an effortless win.,அது ஒரு சிரமமில்லாத வெற்றி.,यह एक सहज जीत थी।
+W350,Advanced,Advanced (C1),Transformation,Finish it.,Bring it to a conclusion.,அதை ஒரு முடிவுக்குக் கொண்டு வாருங்கள்.,इसे निष्कर्ष पर लाएं।
+W301,Beginner,Advanced (C1),Correction,"hi mr smith,","Dear Mr. Smith,","மதிப்பிற்குரிய திரு. ஸ்மித் அவர்களுக்கு,","प्रिय श्री स्मिथ,"
+W302,Beginner,Advanced (C1),Format,8 in the morning.,8:00 AM,காலை 8:00 மணி.,सुबह के 8:00 बजे।
+W303,Beginner,Advanced (C1),Selection,The dog ___ (bark/barks).,The dog barks.,அந்த நாய் குரைக்கிறது.,कुत्ता भौंकता है।
+W304,Beginner,Advanced (C1),Capitalization,the weather is nice.,The weather is nice.,வானிலை நன்றாக இருக்கிறது.,मौसम अच्छा है।
+W305,Beginner,Advanced (C1),Punctuation,I like milk bread eggs.,"I like milk, bread, and eggs.","எனக்குப் பால், ரொட்டி மற்றும் முட்டை பிடிக்கும்.","मुझे दूध, ब्रेड और अंडे पसंद हैं।"
+W306,Intermediate,Advanced (C1),Transformation,This is the reason.,This appears to be the reason.,இதுதான் காரணமாகத் தோன்றுகிறது.,यह कारण प्रतीत होता है।
+W307,Intermediate,Advanced (C1),Fill in Blank,I ___ (live) here since 2010.,I have lived here since 2010.,நான் 2010 முதல் இங்கு வசித்து வருகிறேன்.,मैं 2010 से यहाँ रह रहा हूँ।
+W308,Intermediate,Advanced (C1),Selection,He ___ (raised/rose) his hand.,He raised his hand.,அவர் கையை உயர்த்தினார்.,उसने अपना हाथ उठाया।
+W309,Intermediate,Advanced (C1),Transformation,The food was very good.,The food was delicious/exquisite.,உணவு மிகவும் சுவையாக இருந்தது.,खाना बहुत स्वादिष्ट था।
+W310,Intermediate,Advanced (C1),Transformation,You know the way.,Do you know the way?,உங்களுக்கு வழி தெரியுமா?,क्या आप रास्ता जानते हैं?
+W311,Intermediate,Advanced (C1),Selection,Make a ___ (decision/choice).,Make a decision.,ஒரு முடிவு எடுங்கள்.,एक निर्णय लें।
+W312,Intermediate,Advanced (C1),Selection,It was late; ___ we left.,"It was late; therefore, we left.","நேரமாகிவிட்டது; எனவே, நாங்கள் கிளம்பினோம்.","देर हो चुकी थी; इसलिए, हम चले गए।"
+W313,Intermediate,Advanced (C1),Transformation,He is happy.,His happiness is visible.,அவருடைய மகிழ்ச்சி தெளிவாகத் தெரிகிறது.,उसकी खुशी दिखाई दे रही है।
+W314,Intermediate,Advanced (C1),Fill in Blank,This task is ___ (easy) than that.,This task is easier than that.,இந்தப் பணி அதை விட எளிதானது.,यह कार्य उस कार्य से आसान है।
+W315,Intermediate,Advanced (C1),Fill in Blank,Don't ___ (wait) for me.,Don't wait up for me.,எனக்காகக் காத்திருக்க வேண்டாம்.,मेरा इंतज़ार मत करो।
+W316,Advanced,Advanced (C1),Correction,"Reading is easy, but to write is hard.","Reading is easy, but writing is hard.","படிப்பது எளிது, ஆனால் எழுதுவது கடினம்.","पढ़ना आसान है, लेकिन लिखना कठिन है।"
+W317,Advanced,Advanced (C1),Transformation,It's not bad.,It is quite good.,அது மிகவும் நன்றாக உள்ளது.,यह काफी अच्छा है।
+W318,Advanced,Advanced (C1),Correction,"Covered in rust, he sold the car.","He sold the car, which was covered in rust.",துருப்பிடித்த அந்த காரை அவர் விற்றார்.,"उसने वह कार बेच दी, जो जंग से ढकी हुई थी।"
+W319,Advanced,Advanced (C1),Selection,___ (Go/Begone) from here!,Begone from here!,இங்கிருந்து வெளியேறு!,यहाँ से चले जाओ!
+W320,Advanced,Advanced (C1),Correction,I wish he comes.,I wish he would come.,அவர் வர வேண்டும் என்று நான் விரும்புகிறேன்.,काश वह आ पाता।
+W321,Beginner,Advanced (C1),Selection,___ is that?,Who is that?,அது யார்?,वह कौन है?
+W322,Beginner,Advanced (C1),Correction,A man old.,An old man.,ஒரு முதியவர்.,एक बूढ़ा आदमी।
+W323,Beginner,Advanced (C1),Fill in Blank,Many ___ (woman).,Many women.,பல பெண்கள்.,कई महिलाएँ।
+W324,Beginner,Advanced (C1),Transformation,I saw it.,I did not see it.,நான் அதைப் பார்க்கவில்லை.,मैंने उसे नहीं देखा।
+W325,Beginner,Advanced (C1),Preposition,Turn ___ the left.,Turn to the left.,இடது பக்கம் திரும்பவும்.,बाईं ओर मुड़ें।
+W326,Intermediate,Advanced (C1),Transformation,"""Sit down,"" the teacher said.",The teacher ordered me to sit down.,ஆசிரியர் என்னை உட்காரச் சொன்னார்.,शिक्षक ने मुझे बैठने का आदेश दिया।
+W327,Intermediate,Advanced (C1),Transformation,We will build the house.,The house will be built.,அந்த வீடு கட்டப்படும்.,घर बनाया जाएगा।
+W328,Intermediate,Advanced (C1),Completion,That is the house ___ I live.,That is the house where I live.,அதுதான் நான் வசிக்கும் வீடு.,यह वही घर है जहाँ मैं रहता हूँ।
+W329,Intermediate,Advanced (C1),Selection,You ___ (cannot/shouldn't) enter.,You cannot enter.,நீங்கள் நுழைய முடியாது.,आप प्रवेश नहीं कर सकते।
+W330,Intermediate,Advanced (C1),Correction,I have saw him.,I have seen him.,நான் அவரைப் பார்த்திருக்கிறேன்.,मैंने उसे देखा है।
+W331,Advanced,Advanced (C1),Transformation,I had never felt so alone.,Never had I felt so alone.,நான் இவ்வளவு தனிமையாக உணர்ந்ததே இல்லை.,मैंने कभी इतना अकेला महसूस नहीं किया था।
+W332,Advanced,Advanced (C1),Correction,The affect was huge.,The effect was huge.,அதன் விளைவு மிகப்பெரியதாக இருந்தது.,इसका प्रभाव बहुत बड़ा था।
+W333,Advanced,Advanced (C1),Completion,The wind ___.,The wind whispered.,காற்று கிசுகிசுத்தது.,हवा फुसफुसाई।
+W334,Advanced,Advanced (C1),Transformation,He is a person who works hard.,He is a hardworking person.,அவர் ஒரு கடின உழைப்பாளி.,वह एक मेहनती व्यक्ति है।
+W335,Advanced,Advanced (C1),Punctuation,Paris France London UK.,"Paris, France**;** London, UK.","பாரிஸ், பிரான்ஸ்; லண்டன், இங்கிலாந்து.","पेरिस, फ्रांस; लंदन, यूके।"
+W336,Beginner,Advanced (C1),Selection,___ is my bag.,There is my bag.,அங்கே என் பை இருக்கிறது.,वहाँ मेरा बैग है।
+W337,Beginner,Advanced (C1),Fill in Blank,It ___ (rain) today.,It is raining today.,இன்று மழை பெய்து கொண்டிருக்கிறது.,आज बारिश हो रही है।
+W338,Beginner,Advanced (C1),Fill in Blank,I am ___ home.,I am at home.,நான் வீட்டில் இருக்கிறேன்.,मैं घर पर हूँ।
+W339,Beginner,Advanced (C1),Correction,The boys hats.,The boys' hats.,சிறுவர்களின் தொப்பிகள்.,लड़कों की टोपियाँ।
+W340,Beginner,Advanced (C1),Transformation,It is cold.,Is it cold?,குளிர்ச்சியாக இருக்கிறதா?,क्या ठंड है?
+W341,Intermediate,Advanced (C1),Completion,"If I knew, I ___ (tell) you.","If I knew, I would tell you.","எனக்குத் தெரிந்திருந்தால், நான் உன்னிடம் சொல்லியிருப்பேன்.","अगर मुझे पता होता, तो मैं तुम्हें बता देता।"
+W342,Intermediate,Advanced (C1),Selection,He ran ___ (fastly/at speed).,He ran at high speed.,அவர் அதிவேகத்தில் ஓடினார்.,वह तेज गति से दौड़ा।
+W343,Intermediate,Advanced (C1),Transformation,He was a teacher.,He used to be a teacher.,அவர் ஒரு ஆசிரியராக இருந்தார்.,वह एक शिक्षक हुआ करता था।
+W344,Intermediate,Advanced (C1),Transformation,I gave a pen to him.,I gave him a pen.,நான் அவருக்கு ஒரு பேனா கொடுத்தேன்.,मैंने उसे एक पेन दिया।
+W345,Intermediate,Advanced (C1),Correction,Gold is more heavy than iron.,Gold is heavier than iron.,இரும்பை விட தங்கம் அதிக எடை கொண்டது.,सोना लोहे से भारी होता है।
+W346,Advanced,Advanced (C1),Transformation,I think the data is wrong.,The data suggests an inconsistency.,தரவுகள் ஒரு முரண்பாட்டை உணர்த்துகின்றன.,डेटा एक विसंगति का सुझाव देता है।
+W347,Advanced,Advanced (C1),Transformation,We need water.,What we need is water.,எங்களுக்குத் தேவையானது தண்ணீர்.,हमें जिसकी ज़रूरत है वह पानी है।
+W348,Advanced,Advanced (C1),Correction,"I like tea, and he likes coffee.","I like tea; he, coffee.",எனக்குத் தேநீர் பிடிக்கும்; அவருக்குக் காபி.,मुझे चाय पसंद है; उसे कॉफी।
+W349,Advanced,Advanced (C1),Selection,It was an ___ (easy/effortless) win.,It was an effortless win.,அது ஒரு சிரமமில்லாத வெற்றி.,यह एक सहज जीत थी।
+W350,Advanced,Advanced (C1),Transformation,Finish it.,Bring it to a conclusion.,அதை ஒரு முடிவுக்குக் கொண்டு வாருங்கள்.,इसे निष्कर्ष पर लाएं।

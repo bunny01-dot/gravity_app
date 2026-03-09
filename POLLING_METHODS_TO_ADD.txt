@@ -1,0 +1,17 @@
+// ADD THESE TWO METHODS TO lib/dashboard.dart
+// Location: After line 1505 (after the _checkDailyProgress method ends)
+// Before line 1507 (before _buildDailyChecklist method starts)
+
+  void _startProgressPolling() {
+    _stopProgressPolling();
+    _progressPollingTimer = Timer.periodic(const Duration(seconds: 3), (timer) {
+      if (mounted) _checkDailyProgress();
+    });
+    debugPrint('📊 Started daily progress polling');
+  }
+
+  void _stopProgressPolling() {
+    _progressPollingTimer?.cancel();
+    _progressPollingTimer = null;
+    debugPrint('⏹️ Stopped daily progress polling');
+  }

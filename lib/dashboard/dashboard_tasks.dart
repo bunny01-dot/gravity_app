@@ -4,15 +4,17 @@ part of 'dashboard_screen.dart';
 
 extension DashboardTasks on _DashboardScreenState {
   Widget _buildTeacherLibraryTab() {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return SingleChildScrollView(
       padding: const EdgeInsets.all(24.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DashboardSectionHeader(title: "Library Management"),
-          const Text(
+          Text(
             "Manage app content and datasets from here.",
-            style: TextStyle(color: Colors.white54),
+            style: TextStyle(color: colorScheme.onSurfaceVariant),
           ),
           const SizedBox(height: 24),
 
@@ -87,10 +89,10 @@ extension DashboardTasks on _DashboardScreenState {
 
           const SizedBox(height: 32),
           const DashboardSectionHeader(title: "Current Assets"),
-          const Text(
+          Text(
             "Assets are served from device storage if available (via Cloud Sync), or fallback to bundled assets.",
             style: TextStyle(
-              color: Colors.white38,
+              color: colorScheme.onSurfaceVariant.withValues(alpha: 0.8),
               fontStyle: FontStyle.italic,
             ),
           ),
@@ -109,18 +111,26 @@ extension DashboardTasks on _DashboardScreenState {
     IconData icon = Icons.lock_rounded,
     Color accentColor = const Color(0xFF4FACFE),
   }) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+
     return SingleChildScrollView(
       padding: const EdgeInsets.all(24.0),
       child: Center(
         child: Container(
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: const Color(0xFF1E1E2C).withValues(alpha: 0.9),
+            color: isDark
+                ? colorScheme.surfaceContainerHigh.withValues(alpha: 0.92)
+                : colorScheme.surface,
             borderRadius: BorderRadius.circular(24),
             border: Border.all(color: accentColor.withValues(alpha: 0.4)),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withValues(alpha: 0.3),
+                color: colorScheme.shadow.withValues(
+                  alpha: isDark ? 0.25 : 0.1,
+                ),
                 blurRadius: 20,
                 offset: const Offset(0, 12),
               ),
@@ -141,8 +151,8 @@ extension DashboardTasks on _DashboardScreenState {
               Text(
                 title,
                 textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: colorScheme.onSurface,
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
@@ -151,8 +161,8 @@ extension DashboardTasks on _DashboardScreenState {
               Text(
                 message,
                 textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white70,
+                style: TextStyle(
+                  color: colorScheme.onSurfaceVariant,
                   fontSize: 14,
                   height: 1.4,
                 ),
@@ -229,7 +239,11 @@ extension DashboardTasks on _DashboardScreenState {
 
   Future<void> _checkDailyProgress() async {
     final prefs = await SharedPreferences.getInstance();
-    final stage = await _stageService.getCurrentStage(prefs: prefs);
+    int stage = await _stageService.getCurrentStage(prefs: prefs);
+
+    // Repair stale assessment state (older threshold mismatch) and unlock if eligible.
+    await _reconcileAssessmentUnlockIfNeeded(prefs: prefs, stage: stage);
+    stage = await _stageService.getCurrentStage(prefs: prefs);
 
     // Read values
     final bool vocabDone =
@@ -263,9 +277,9 @@ extension DashboardTasks on _DashboardScreenState {
       }
     }
 
-    debugPrint(
-      "DailyProgress Check (Level $stage): Vocab=$vocabDone, Verbs=$verbsDone, Speaking=$speakingDone, Assessment=$quizDone ($quizPercent%)",
-    );
+    // debugPrint(
+    //   "DailyProgress Check (Level $stage): Vocab=$vocabDone, Verbs=$verbsDone, Speaking=$speakingDone, Assessment=$quizDone ($quizPercent%)",
+    // );
 
     final bool vocabJustCompleted = vocabDone && !_isVocabDone;
     final bool verbsJustCompleted = verbsDone && !_isVerbsDone;
@@ -312,6 +326,46 @@ extension DashboardTasks on _DashboardScreenState {
 
     _hasLoadedDailyProgress = true;
     await _updateCurrentDayLabel(prefs: prefs);
+  }
+
+  Future<void> _reconcileAssessmentUnlockIfNeeded({
+    required SharedPreferences prefs,
+    required int stage,
+  }) async {
+    if (stage <= 0) return;
+
+    final assessmentKey = _stageService.assessmentCompletedKey(stage);
+    final passedKey = _stageService.quizPassedKey(stage);
+    final alreadyCompleted =
+        (prefs.getBool(assessmentKey) ?? false) ||
+        (prefs.getBool(passedKey) ?? false);
+    if (alreadyCompleted) return;
+
+    final score = prefs.getInt(_stageService.quizScoreKey(stage));
+    final total = prefs.getInt(_stageService.quizTotalKey(stage));
+    if (score == null || total == null || total <= 0) return;
+
+    final passed = _stageService.isAssessmentPassed(score, total);
+    if (!passed) return;
+
+    await prefs.setBool(assessmentKey, true);
+    await prefs.setBool(passedKey, true);
+    unawaited(_dataService.saveProgressToCloud(assessmentKey, true));
+    unawaited(_dataService.saveProgressToCloud(passedKey, true));
+
+    final hasVocab = prefs.getBool(_stageService.vocabTaskKey(stage)) ?? false;
+    final hasVerbs = prefs.getBool(_stageService.verbsTaskKey(stage)) ?? false;
+    final hasSpeaking =
+        prefs.getBool(_stageService.speakingTaskKey(stage)) ?? false;
+    if (!(hasVocab && hasVerbs && hasSpeaking)) return;
+
+    final currentStage = await _stageService.getCurrentStage(prefs: prefs);
+    if (currentStage != stage) return;
+
+    final nextStage = await _stageService.incrementStage(prefs: prefs);
+    unawaited(
+      _dataService.saveProgressToCloud('current_learning_stage', nextStage),
+    );
   }
 
   void _showAssessmentReadySnackBar() {

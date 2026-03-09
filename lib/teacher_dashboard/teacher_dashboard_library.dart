@@ -4,12 +4,13 @@ part of 'teacher_dashboard_screen.dart';
 
 extension TeacherDashboardLibrary on _TeacherDashboardState {
   Widget _buildLevelHeader(String title) {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
     return Padding(
       padding: const EdgeInsets.only(top: 8, bottom: 12, left: 4),
       child: Text(
         title.toUpperCase(),
-        style: const TextStyle(
-          color: Colors.white38,
+        style: TextStyle(
+          color: onSurface.withValues(alpha: 0.42),
           fontSize: 12,
           fontWeight: FontWeight.bold,
           letterSpacing: 1.0,
@@ -70,6 +71,10 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
   }
 
   Widget _buildItemCard(Map<String, String> item, int index) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
+
     String title =
         item['word'] ??
         item['title'] ??
@@ -104,9 +109,15 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
         margin: const EdgeInsets.only(bottom: 12),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: const Color(0xFF1E1E2C),
+          color: isDark
+              ? const Color(0xFF1E1E2C)
+              : Colors.white.withValues(alpha: 0.96),
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: Colors.white.withValues(alpha: 0.05)),
+          border: Border.all(
+            color: isDark
+                ? Colors.white.withValues(alpha: 0.05)
+                : onSurface.withValues(alpha: 0.1),
+          ),
         ),
         child: Row(
           children: [
@@ -116,8 +127,8 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
                 children: [
                   Text(
                     title,
-                    style: const TextStyle(
-                      color: Colors.white,
+                    style: TextStyle(
+                      color: onSurface,
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
@@ -127,7 +138,7 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
                     Text(
                       subtitle,
                       style: TextStyle(
-                        color: Colors.white.withValues(alpha: 0.6),
+                        color: onSurface.withValues(alpha: 0.62),
                         fontSize: 13,
                       ),
                     ),
@@ -165,15 +176,21 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
               padding: const EdgeInsets.only(bottom: 12.0),
               child: TextField(
                 controller: entry.value,
-                style: const TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onSurface,
+                ),
                 decoration: InputDecoration(
                   labelText: entry.key.toUpperCase(),
-                  labelStyle: const TextStyle(
-                    color: Colors.white54,
+                  labelStyle: TextStyle(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.62),
                     fontSize: 10,
                   ),
                   filled: true,
-                  fillColor: Colors.white.withValues(alpha: 0.05),
+                  fillColor: Theme.of(context).brightness == Brightness.dark
+                      ? Colors.white.withValues(alpha: 0.05)
+                      : Colors.white.withValues(alpha: 0.9),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
                     borderSide: BorderSide.none,
@@ -216,19 +233,32 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+              Text(
                 "CSV URL",
-                style: TextStyle(color: Colors.white70, fontSize: 12),
+                style: TextStyle(
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.onSurface.withValues(alpha: 0.72),
+                  fontSize: 12,
+                ),
               ),
               const SizedBox(height: 8),
               TextField(
                 controller: urlController,
-                style: const TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onSurface,
+                ),
                 decoration: InputDecoration(
                   hintText: "https://example.com/data.csv",
-                  hintStyle: const TextStyle(color: Colors.white30),
+                  hintStyle: TextStyle(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.4),
+                  ),
                   filled: true,
-                  fillColor: Colors.white.withValues(alpha: 0.05),
+                  fillColor: Theme.of(context).brightness == Brightness.dark
+                      ? Colors.white.withValues(alpha: 0.05)
+                      : Colors.white.withValues(alpha: 0.9),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
                     borderSide: BorderSide.none,
@@ -236,23 +266,34 @@ extension TeacherDashboardLibrary on _TeacherDashboardState {
                 ),
               ),
               const SizedBox(height: 16),
-              const Text(
+              Text(
                 "Data Type",
-                style: TextStyle(color: Colors.white70, fontSize: 12),
+                style: TextStyle(
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.onSurface.withValues(alpha: 0.72),
+                  fontSize: 12,
+                ),
               ),
               const SizedBox(height: 8),
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 12),
                 decoration: BoxDecoration(
-                  color: Colors.white.withValues(alpha: 0.05),
+                  color: Theme.of(context).brightness == Brightness.dark
+                      ? Colors.white.withValues(alpha: 0.05)
+                      : Colors.white.withValues(alpha: 0.9),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: DropdownButton<String>(
                   value: selectedType,
-                  dropdownColor: const Color(0xFF2C2C3E),
+                  dropdownColor: Theme.of(context).brightness == Brightness.dark
+                      ? const Color(0xFF2C2C3E)
+                      : Colors.white,
                   isExpanded: true,
                   underline: const SizedBox(),
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onSurface,
+                  ),
                   items: _categories
                       .map(
                         (c) => DropdownMenuItem(

@@ -1,0 +1,14 @@
+﻿Image Prompt Export Summary (Filtered to Remaining Lessons)
+Updated On: 2026-02-25 22:03:09
+
+Filter Basis:
+- guide/image_generation_manifest_2026_02_05.md
+- guide/image_generation_resume.md
+
+Remaining lesson prompt files:
+- Lesson_14_Question_Types.txt | Lesson: Lesson_14_Question_Types
+- Lesson_05_Tense_Future__02_Future_Continuous.txt | Lesson: Lesson_05_Tense_Future\02_Future_Continuous
+- Lesson_05_Tense_Future__03_Future_Perfect.txt | Lesson: Lesson_05_Tense_Future\03_Future_Perfect
+- Lesson_05_Tense_Future__04_Future_Perfect_Continuous.txt | Lesson: Lesson_05_Tense_Future\04_Future_Perfect_Continuous
+- Lesson_04_Irregular_Verbs.txt | Lesson: Lesson_04_Irregular_Verbs
+- Lesson_28_Linking_Words.txt | Lesson: Lesson_28_Linking_Words

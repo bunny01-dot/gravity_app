@@ -1,0 +1,74 @@
+story_id,story_title,step_id,step_order,text,choice_a_text,choice_a_next,choice_b_text,choice_b_next,choice_c_text,choice_c_next,is_ending,ending_summary
+david,David and the Big Man,d1,1,"David hears a big man laugh at his people. He can run or trust God.","Run to the hills",d2,"Stand and trust God",d3,,,false,
+david,David and the Big Man,d2,2,"David hides with the people. He feels afraid.","Stay hidden",d4,"Return and help",d3,,,false,
+david,David and the Big Man,d3,3,"David picks five small stones and walks to the big man.","Speak with faith",d5,"Stay quiet",d6,,,false,
+david,David and the Big Man,d4,4,"David stays hidden. The people lose hope.",,,,,"",,true,"You chose safety over courage. Try again to see what happens when you trust God."
+david,David and the Big Man,d5,5,"David says, I trust God. The big man runs toward him.","Throw a stone",d7,"Wait and pray",d6,,,false,
+david,David and the Big Man,d6,6,"David is quiet. The big man keeps laughing.","Throw a stone now",d7,"Walk away",d4,,,false,
+david,David and the Big Man,d7,7,"David throws a stone. The big man falls.","Help the people",d8,"Go home",d9,,,false,
+david,David and the Big Man,d8,8,"David helps the people. They are safe and thank him.",,,,,"",,true,"You chose courage and help. Try again to see a different path."
+david,David and the Big Man,d9,9,"David goes home. The people are safe, and he rests.",,,,,"",,true,"You chose a quiet ending after a brave act. Try again to help longer."
+jonah,Jonah and the Storm,j1,1,"Jonah hears God call him to go to a city.","Go now",j2,"Run away",j3,,,false,
+jonah,Jonah and the Storm,j2,2,"Jonah goes to the city.","Speak to the people",j4,"Stay quiet",j5,,,false,
+jonah,Jonah and the Storm,j3,3,"Jonah runs to the sea and finds a boat.","Get on the boat",j6,"Stop and pray",j2,,,false,
+jonah,Jonah and the Storm,j4,4,"The people listen and turn from wrong.","Stay and speak",j10,"Go to the sea",j11,,,false,
+jonah,Jonah and the Storm,j5,5,"Jonah stays quiet. The city does not change.","Speak now",j10,"Go to the sea",j11,,,false,
+jonah,Jonah and the Storm,j6,6,"A storm comes. Jonah feels afraid.","Tell what is right",j7,"Hide what is right",j8,,,false,
+jonah,Jonah and the Storm,j7,7,"Jonah tells what is right. The storm stops.",,,,,"",,true,"You chose honesty and learned to obey."
+jonah,Jonah and the Storm,j8,8,"Jonah hides what is right. The storm grows.","Pray and speak",j7,"Stay silent",j9,,,false,
+jonah,Jonah and the Storm,j9,9,"Jonah stays silent. He feels alone.",,,,,"",,true,"You chose to stay afraid. Try again to speak."
+jonah,Jonah and the Storm,j10,10,"Jonah stays. The people listen.",,,,,"",,true,"You chose early obedience. Try again to see what happens if you run."
+jonah,Jonah and the Storm,j11,11,"Jonah goes to the sea. He feels alone.",,,,,"",,true,"You chose to go to the sea. Try again to speak."
+esther,Esther and the King,e1,1,"Esther is queen. Her people are in danger.","Stay silent",e2,"Speak with courage",e3,,,false,
+esther,Esther and the King,e2,2,"Esther stays silent. The danger grows.","Speak now",e3,"Keep silent",e4,,,false,
+esther,Esther and the King,e3,3,"Esther asks the king to listen.","Speak now",e5,"Invite the king to a meal",e8,,,false,
+esther,Esther and the King,e4,4,"Esther keeps silent. Her people feel alone.",,,,,"",,true,"You chose easy life over courage. Try again to speak."
+esther,Esther and the King,e5,5,"Esther tells what is right about her people.","Ask for help",e6,"Step back",e7,,,false,
+esther,Esther and the King,e6,6,"The king helps her people. They are safe.",,,,,"",,true,"You chose courage and care. Try again to see another ending."
+esther,Esther and the King,e7,7,"Esther steps back. The king is unsure.",,,,,"",,true,"You chose caution. Try again to ask for help."
+esther,Esther and the King,e8,8,"At the meal, Esther feels afraid but keeps calm.","Speak what is right",e5,"Stay quiet",e2,,,false,
+lost_wallet,The Lost Wallet,lw1,1,"Sam walks home after work. He sees a wallet on the road.","Pick up the wallet",lw2,"Walk away",lw3,,,false,
+lost_wallet,The Lost Wallet,lw2,2,"Sam opens the wallet. There is money and an ID card.","Look for the owner",lw4,"Keep the money",lw5,,,false,
+lost_wallet,The Lost Wallet,lw3,3,"Sam walks away. After a few steps, he feels bad.","Go back",lw2,"Go home",lw9,,,false,
+lost_wallet,The Lost Wallet,lw4,4,"Sam goes to the address on the ID card. A woman opens the door.","Give the wallet",lw6,"Ask questions first",lw7,,,false,
+lost_wallet,The Lost Wallet,lw5,5,"Sam keeps the money and goes home. He feels afraid.","Return the wallet later",lw4,"Hide the wallet",lw8,,,false,
+lost_wallet,The Lost Wallet,lw6,6,"The woman smiles. She thanks Sam with kind words.",,,,,"",,true,"You chose honesty. This path shows care and courage. Try again to see what happens if you choose an easy life."
+lost_wallet,The Lost Wallet,lw7,7,"The woman answers calmly. Sam listens.","Give the wallet",lw6,,,,"",,false,
+lost_wallet,The Lost Wallet,lw8,8,"Sam hides the wallet. He cannot sleep well at night.",,,,,"",,true,"You chose an easy life over honesty. This path brings worry. Try again to see how honesty changes the story."
+lost_wallet,The Lost Wallet,lw9,9,"Sam goes home without the wallet. He keeps thinking about it.",,,,,"",,true,"You chose to walk away. This path shows missed chances. Try again to see what happens if you act."
+peter_on_water,Peter and the Water,pw1,1,"Peter is in a boat at night. The wind is strong.","Look at the sea",pw2,"Look at Jesus",pw3,,,false,
+peter_on_water,Peter and the Water,pw2,2,"Peter sees the waves. He feels afraid.","Stay in the boat",pw4,"Call out to Jesus",pw5,,,false,
+peter_on_water,Peter and the Water,pw3,3,"Peter looks at Jesus on the water. He feels hope.","Step out of the boat",pw6,"Stay in the boat",pw4,,,false,
+peter_on_water,Peter and the Water,pw4,4,"Peter stays in the boat. The storm continues.","Pray for help",pw5,"Wait and feel afraid",pw9,,,false,
+peter_on_water,Peter and the Water,pw5,5,"Peter calls out. Jesus speaks kind words.","Trust the words",pw6,"Feel unsure",pw7,,,false,
+peter_on_water,Peter and the Water,pw6,6,"Peter steps on the water. He walks toward Jesus.","Keep looking at Jesus",pw8,"Look at the waves",pw7,,,false,
+peter_on_water,Peter and the Water,pw7,7,"Peter looks at the waves. He begins to sink.",,,,,"",,true,"You looked at the waves and felt afraid. Try again to keep looking at Jesus."
+peter_on_water,Peter and the Water,pw8,8,"Jesus helps Peter. The storm becomes calm.",,,,,"",,true,"You chose trust. This path shows courage in hard times. Try again to see what happens when you feel afraid."
+peter_on_water,Peter and the Water,pw9,9,"Peter stays in the boat. The night feels long.",,,,,"",,true,"You stayed in the boat and felt afraid. Try again to step out with trust."
+joseph_forgiveness,Joseph and Peace,jf1,1,"Joseph sees his family again. They do not know him.","Stay calm",jf2,"Feel angry",jf3,,,false,
+joseph_forgiveness,Joseph and Peace,jf2,2,"Joseph stays calm. He listens to his family speak.","Help them",jf4,"Wait and listen",jf5,,,false,
+joseph_forgiveness,Joseph and Peace,jf3,3,"Joseph feels angry. He feels the past pain.","Stay quiet",jf5,"Stay angry",jf6,,,false,
+joseph_forgiveness,Joseph and Peace,jf4,4,"Joseph gives them food. He listens again.","Tell the truth",jf7,"Wait again",jf5,,,false,
+joseph_forgiveness,Joseph and Peace,jf5,5,"Joseph waits to see if they are kind.","Be kind",jf7,"Keep waiting",jf6,,,false,
+joseph_forgiveness,Joseph and Peace,jf6,6,"Joseph stays alone. The pain stays.","Choose peace",jf8,"Leave",jf9,,,false,
+joseph_forgiveness,Joseph and Peace,jf7,7,"Joseph tells the truth. He makes peace with his family.",,,,,"",,true,"You choose peace. The family stays calm. Try again."
+joseph_forgiveness,Joseph and Peace,jf8,8,"Joseph helps his family and stays close.",,,,,"",,true,"You help the family. You stay close. Try again."
+joseph_forgiveness,Joseph and Peace,jf9,9,"Joseph leaves. The family stays alone.",,,,,"",,true,"You leave. The family stays alone. Try again."
+esther_courage,Esther is Strong,ec1,1,"Esther hears about danger for her people. She feels afraid.","Stay quiet",ec2,"Think about what to do",ec3,,,false,
+esther_courage,Esther is Strong,ec2,2,"Esther stays quiet. The danger does not stop.","Stay quiet",ec9,"Think again",ec3,,,false,
+esther_courage,Esther is Strong,ec3,3,"Esther thinks about her people. She wants to help.","Ask for help",ec4,"Act alone",ec5,,,false,
+esther_courage,Esther is Strong,ec4,4,"Esther asks for help. She feels strong.","Speak to the king",ec6,"Wait longer",ec2,,,false,
+esther_courage,Esther is Strong,ec5,5,"Esther acts alone. She feels afraid.","Go back",ec4,"Say nothing",ec9,,,false,
+esther_courage,Esther is Strong,ec6,6,"Esther goes to the king. She speaks in a strong way.","Tell what is right",ec7,"Speak with calm",ec8,,,false,
+esther_courage,Esther is Strong,ec7,7,"The king listens. Help comes to the people.",,,,,"",,true,"You chose to act. This path brings hope and help. Try again to see what happens when you stay quiet."
+esther_courage,Esther is Strong,ec8,8,"The king listens with calm. Peace comes.",,,,,"",,true,"You chose calm and care. Peace comes. Try again to see another way."
+esther_courage,Esther is Strong,ec9,9,"Esther stays quiet. The danger stays.",,,,,"",,true,"You chose to stay quiet. The danger stays. Try again to see what happens when you act."
+missed_call,The Phone Number,mc1,1,"Liam sees a phone number from his friend on his phone.","Use the phone now",mc2,"Wait",mc3,,,false,
+missed_call,The Phone Number,mc2,2,"Liam uses the phone. His friend is not calm.","Listen",mc4,"Talk about Liam",mc5,,,false,
+missed_call,The Phone Number,mc3,3,"Liam waits. The friend is alone.","Send a short answer",mc6,"Stay quiet",mc9,,,false,
+missed_call,The Phone Number,mc4,4,"Liam listens. His friend has a problem.","Help",mc7,"Give a short answer",mc5,,,false,
+missed_call,The Phone Number,mc5,5,"Liam talks but does not listen. The friend is alone.","Listen again",mc4,"End the talk",mc8,,,false,
+missed_call,The Phone Number,mc6,6,"Liam sends a short answer. The friend stays quiet.","Use the phone",mc2,"Stay quiet",mc9,,,false,
+missed_call,The Phone Number,mc7,7,"Liam helps. The friend has hope.",,,,,"",,true,"You chose to help and listen. Trust is strong. Try again to see what happens when you stay quiet."
+missed_call,The Phone Number,mc8,8,"Liam ends the talk. The friend is alone.",,,,,"",,true,"You chose to end the talk. This path is quiet. Try again to listen and help."
+missed_call,The Phone Number,mc9,9,"Liam stays quiet. The friend is alone.",,,,,"",,true,"You chose to stay quiet. This path feels weak. Try again to use the phone and listen."

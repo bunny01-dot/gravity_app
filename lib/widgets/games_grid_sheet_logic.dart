@@ -13,8 +13,7 @@ extension GamesGridSheetLogic on _GamesGridSheetState {
     final learnedCount = learnedSet.length;
     final learnedVerbs = await DataService().getLearnedVerbItems();
     final learnedItemCount = learnedItems.length;
-    final synonymCapableCount = _countSynonymCapableWords(learnedItems);
-    final antonymCapableCount = _countAntonymCapableWords(learnedItems);
+
     final wordSearchAvailability = _getWordSearchAvailability(learnedItems);
     final fillTheGapCount = _countFillTheGapQuestions(learnedItems);
     final partsOfSpeechCount = _countPartsOfSpeechQuestions(
@@ -51,8 +50,6 @@ extension GamesGridSheetLogic on _GamesGridSheetState {
       learnedItems,
       learnedSet,
     );
-    final tongueTwisterCount =
-        (await TongueTwisterContentService().getEligiblePhrases()).length;
     final readAloudCount =
         (await ReadAloudContentService().getEligibleItems()).length;
     final dictationCount =
@@ -76,37 +73,55 @@ extension GamesGridSheetLogic on _GamesGridSheetState {
         learnedVerbs.length >= 2;
     final hasTenseWarmup =
         learnedVerbs.length >= _GamesGridSheetState._minTenseWarmupVerbs;
+    final _ = (
+      learnedCount: learnedCount,
+      wordSearchAvailability: wordSearchAvailability,
+      fillTheGapCount: fillTheGapCount,
+      partsOfSpeechCount: partsOfSpeechCount,
+      grammarChoiceCount: grammarChoiceCount,
+      tenseTrainerCount: tenseTrainerCount,
+      sentenceBuilderCount: sentenceBuilderCount,
+      sentenceScrambleCount: sentenceScrambleCount,
+      errorHuntCount: errorHuntCount,
+      repeatAfterMeCount: repeatAfterMeCount,
+      pronunciationMatchCount: pronunciationMatchCount,
+      readAloudCount: readAloudCount,
+      dictationCount: dictationCount,
+      audioGuessCount: audioGuessCount,
+      conversationCatchCount: conversationCatchCount,
+      hangmanCount: hangmanCount,
+      quizBattleCount: quizBattleCount,
+      storyAdventureCount: storyAdventureCount,
+      hasGrammarWarmup: hasGrammarWarmup,
+      hasSentenceScrambleWarmup: hasSentenceScrambleWarmup,
+      hasTenseWarmup: hasTenseWarmup,
+    );
     if (!mounted) return;
     setState(() {
       _isFlashcardLocked = false;
-      _isWordBuilderLocked =
-          learnedCount < _GamesGridSheetState._minWordBuilderWords;
-      _isSynonymSwapLocked =
-          synonymCapableCount < _GamesGridSheetState._minSynonymSwapWords;
-      _isAntonymAttackLocked =
-          antonymCapableCount < _GamesGridSheetState._minAntonymAttackWords;
-      _isWordSearchLocked = wordSearchAvailability.isLocked;
-      _isFillTheGapLocked = fillTheGapCount == 0;
-      _isPartsOfSpeechLocked = partsOfSpeechCount == 0 && !hasGrammarWarmup;
-      _isGrammarChoiceLocked = grammarChoiceCount == 0 && !hasGrammarWarmup;
-      _isTenseTrainerLocked = tenseTrainerCount == 0 && !hasTenseWarmup;
-      _isSentenceBuilderLocked = sentenceBuilderCount == 0 && !hasGrammarWarmup;
-      _isSentenceScrambleLocked =
-          sentenceScrambleCount == 0 && !hasSentenceScrambleWarmup;
-      _isErrorHuntLocked = errorHuntCount == 0 && !hasGrammarWarmup;
-      _isRepeatAfterMeLocked = repeatAfterMeCount == 0;
-      _isPronunciationMatchLocked = pronunciationMatchCount == 0;
-      _isTongueTwisterLocked = tongueTwisterCount == 0;
-      _isReadAloudLocked = readAloudCount == 0;
-      _isDictationLocked = dictationCount == 0;
-      _isAudioGuessLocked = audioGuessCount == 0;
-      _isConversationCatchLocked = conversationCatchCount == 0;
-      _isHangmanLocked = hangmanCount == 0;
-      _isQuizBattleLocked = quizBattleCount < 10;
-      _isStoryAdventureLocked = storyAdventureCount == 0;
-      _isSpeedVocabLocked =
-          learnedItemCount < _GamesGridSheetState._minSpeedVocabWords;
-      _isWordRaceLocked = learnedItemCount == 0;
+      _isWordBuilderLocked = false;
+      _isSynonymSwapLocked = false;
+      _isAntonymAttackLocked = false;
+      _isWordSearchLocked = false;
+      _isFillTheGapLocked = false;
+      _isPartsOfSpeechLocked = false;
+      _isGrammarChoiceLocked = false;
+      _isTenseTrainerLocked = false;
+      _isSentenceBuilderLocked = false;
+      _isSentenceScrambleLocked = false;
+      _isErrorHuntLocked = false;
+      _isRepeatAfterMeLocked = false;
+      _isPronunciationMatchLocked = false;
+      _isTongueTwisterLocked = false;
+      _isReadAloudLocked = false;
+      _isDictationLocked = false;
+      _isAudioGuessLocked = false;
+      _isConversationCatchLocked = false;
+      _isHangmanLocked = false;
+      _isQuizBattleLocked = false;
+      _isStoryAdventureLocked = false;
+      _isSpeedVocabLocked = false;
+      _isWordRaceLocked = false;
       _isAvailabilityLoading = false;
     });
   }
@@ -115,79 +130,6 @@ extension GamesGridSheetLogic on _GamesGridSheetState {
     if (_isAvailabilityLoading) return 'Checking availability...';
     if (hasContent) return readyText;
     return 'Learn a few words to play this mode.';
-  }
-
-  int _countSynonymCapableWords(List<VocabularyItem> items) {
-    final learnedMap = <String, VocabularyItem>{};
-    for (final item in items) {
-      learnedMap[_normalize(item.word)] = item;
-    }
-
-    int count = 0;
-    for (final item in items) {
-      final pos = item.pos.trim().toLowerCase();
-      if (pos.isEmpty) continue;
-      final synonyms = item.synonyms
-          .map(_normalize)
-          .where((syn) => syn.isNotEmpty && syn != _normalize(item.word))
-          .toList();
-      if (synonyms.isEmpty) continue;
-
-      final antonyms = item.antonyms
-          .map(_normalize)
-          .where((ant) => ant.isNotEmpty)
-          .toSet();
-
-      final hasValidSynonym = synonyms.any((syn) {
-        final match = learnedMap[syn];
-        if (match == null) return false;
-        if (antonyms.contains(syn)) return false;
-        return match.pos.trim().toLowerCase() == pos;
-      });
-
-      if (hasValidSynonym) {
-        count++;
-      }
-    }
-
-    return count;
-  }
-
-  int _countAntonymCapableWords(List<VocabularyItem> items) {
-    final learnedMap = <String, VocabularyItem>{};
-    for (final item in items) {
-      learnedMap[_normalize(item.word)] = item;
-    }
-
-    int count = 0;
-    for (final item in items) {
-      final pos = item.pos.trim().toLowerCase();
-      if (pos.isEmpty) continue;
-      final antonyms = item.antonyms
-          .map(_normalize)
-          .where((ant) => ant.isNotEmpty && ant != _normalize(item.word))
-          .toList();
-      if (antonyms.isEmpty) continue;
-
-      final synonyms = item.synonyms
-          .map(_normalize)
-          .where((syn) => syn.isNotEmpty)
-          .toSet();
-
-      final hasValidAntonym = antonyms.any((ant) {
-        final match = learnedMap[ant];
-        if (match == null) return false;
-        if (synonyms.contains(ant)) return false;
-        if (_isMorphologicalVariant(item.word, ant)) return false;
-        return true;
-      });
-
-      if (hasValidAntonym) {
-        count++;
-      }
-    }
-
-    return count;
   }
 
   String _normalize(String value) {
@@ -897,24 +839,6 @@ extension GamesGridSheetLogic on _GamesGridSheetState {
       return word.substring(0, word.length - 1);
     }
     return word;
-  }
-
-  String _canonicalForm(String value) {
-    var normalized = _normalize(value);
-    if (normalized.length > 4 && normalized.endsWith('ing')) {
-      normalized = normalized.substring(0, normalized.length - 3);
-    } else if (normalized.length > 3 && normalized.endsWith('ed')) {
-      normalized = normalized.substring(0, normalized.length - 2);
-    } else if (normalized.length > 3 && normalized.endsWith('es')) {
-      normalized = normalized.substring(0, normalized.length - 2);
-    } else if (normalized.length > 2 && normalized.endsWith('s')) {
-      normalized = normalized.substring(0, normalized.length - 1);
-    }
-    return normalized;
-  }
-
-  bool _isMorphologicalVariant(String a, String b) {
-    return _canonicalForm(a) == _canonicalForm(b);
   }
 
   int _countRepeatAfterMeItems(

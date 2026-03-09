@@ -66,7 +66,6 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
   static const Duration _coldStartRecoveryTimeout = Duration(seconds: 10);
   static const Duration _startupEscapeTimeout = Duration(seconds: 18);
   static const Duration _recoveryStateMaxAge = Duration(hours: 6);
-  static const String _currentStageKey = 'current_learning_stage';
   static const String _lastHomeRouteKey = 'last_home_route';
   static const String _lastHomeRouteTsKey = 'last_home_route_ts';
   static const String _backgroundFlagKey = 'app_in_background';
@@ -241,15 +240,38 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
     // Recovery overlay strategy:
     // - BOOTING: full-screen loading surface (no ready UI exists yet)
     // - RECOVERING: keep last known good ready UI mounted; block interaction with overlay
+    final Widget phaseBase = isBootingPhase
+        ? RecoveryLoadingScreen(
+            phaseName: _appPhase.name,
+            instanceId: _instanceId,
+            recoverySerial: _recoveryOverlaySerial,
+          )
+        : readyHomeScreen;
     final Widget phaseSurface = Stack(
       children: [
-        isBootingPhase
-            ? RecoveryLoadingScreen(
-                phaseName: _appPhase.name,
-                instanceId: _instanceId,
-                recoverySerial: _recoveryOverlaySerial,
-              )
-            : readyHomeScreen,
+        AnimatedSwitcher(
+          duration: const Duration(milliseconds: 420),
+          switchInCurve: Curves.easeOutCubic,
+          switchOutCurve: Curves.easeInCubic,
+          transitionBuilder: (child, animation) {
+            final scale = Tween<double>(
+              begin: 0.985,
+              end: 1.0,
+            ).animate(animation);
+            return FadeTransition(
+              opacity: animation,
+              child: ScaleTransition(scale: scale, child: child),
+            );
+          },
+          child: KeyedSubtree(
+            key: ValueKey<String>(
+              isBootingPhase
+                  ? 'phase_booting'
+                  : 'phase_ready_${homeRoute}_${_appRestartToken}_$_recoveryOverlaySerial',
+            ),
+            child: phaseBase,
+          ),
+        ),
         if (isRecoveringPhase)
           BlockingRecoveryOverlay(
             phaseName: _appPhase.name,
@@ -273,23 +295,26 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
       onPointerDown: (_) => StudentDataPreloader().onUserInteraction(),
       onPointerMove: (_) => StudentDataPreloader().onUserInteraction(),
       onPointerUp: (_) => StudentDataPreloader().onUserInteraction(),
-      child: MaterialApp(
-        key: ValueKey(_appRestartToken),
-        title: 'English Learning App',
-        debugShowCheckedModeBanner: false,
-        navigatorKey: _navigatorKey,
-        navigatorObservers: [
-          _navigatorReadyObserver,
-          SoundNavigationObserver(),
-          routeObserver,
-        ], // Issue 2: Nav Sounds
-        builder: (context, child) {
-          return Stack(
-            children: [if (child != null) child, const GlobalXpOverlay()],
-          );
-        },
-        themeMode: ThemeMode.system,
-        theme: ThemeData(
+      child: ValueListenableBuilder<ThemeMode>(
+        valueListenable: AppThemeService.themeModeNotifier,
+        builder: (context, activeThemeMode, _) {
+          return MaterialApp(
+            key: ValueKey(_appRestartToken),
+            title: 'English Learning App',
+            debugShowCheckedModeBanner: false,
+            navigatorKey: _navigatorKey,
+            navigatorObservers: [
+              _navigatorReadyObserver,
+              SoundNavigationObserver(),
+              routeObserver,
+            ], // Issue 2: Nav Sounds
+            builder: (context, child) {
+              return Stack(
+                children: [if (child != null) child, const GlobalXpOverlay()],
+              );
+            },
+            themeMode: activeThemeMode,
+            theme: ThemeData(
           useMaterial3: true,
           brightness: Brightness.light,
           fontFamily: 'Inter',
@@ -375,7 +400,7 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
             ),
           ),
         ),
-        darkTheme: ThemeData(
+            darkTheme: ThemeData(
           useMaterial3: true,
           brightness: Brightness.dark,
           fontFamily: 'Inter',
@@ -461,8 +486,14 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
             ),
           ),
         ),
-        home: _NeverBlankRootShell(child: phaseSurface),
+            home: _NeverBlankRootShell(child: phaseSurface),
+          );
+        },
       ),
     );
+  }
+
+  void _handleThemeModeChanged(ThemeMode mode) {
+    unawaited(AppThemeService.setThemeMode(mode));
   }
 }

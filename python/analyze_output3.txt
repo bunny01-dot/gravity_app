@@ -1,0 +1,231 @@
+﻿Analyzing lib...                                                
+
+warning - Dead code - lib\features\gamification\widgets\leaderboard_tab.dart:96:29 - dead_code
+warning - Dead code - lib\features\gamification\widgets\leaderboard_tab.dart:98:30 - dead_code
+warning - Dead code - lib\features\gamification\widgets\leaderboard_tab.dart:144:33 - dead_code
+   info - Use a function declaration rather than a variable assignment to bind a function to a name - lib\mastery\listening_screen.dart:229:15 - prefer_function_declarations_over_variables
+   info - Use a function declaration rather than a variable assignment to bind a function to a name - lib\mastery\listening_screen.dart:255:13 - prefer_function_declarations_over_variables
+   info - Use a function declaration rather than a variable assignment to bind a function to a name - lib\mastery\listening_screen.dart:363:15 - prefer_function_declarations_over_variables
+   info - Use interpolation to compose strings and values - lib\mastery\listening_screen.dart:1309:34 - prefer_interpolation_to_compose_strings
+   info - Statements in a for should be enclosed in a block - lib\mastery\listening_screen.dart:1669:44 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\mastery\listening_screen.dart:1693:46 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\mastery\reading_screen.dart:139:9 - use_build_context_synchronously
+   info - Statements in a for should be enclosed in a block - lib\mastery\reading_screen.dart:557:45 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\mastery\reading_screen.dart:571:47 - curly_braces_in_flow_control_structures
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\mastery\speaking_screen.dart:427:23 - deprecated_member_use
+   info - 'cancelOnError' is deprecated and shouldn't be used. Use SpeechListenOptions.cancelOnError instead - lib\mastery\speaking_screen.dart:431:23 - deprecated_member_use
+   info - 'listenMode' is deprecated and shouldn't be used. Use SpeechListenOptions.listenMode instead - lib\mastery\speaking_screen.dart:432:23 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\mastery\writing_screen.dart:168:42 - use_build_context_synchronously
+warning - The value of the local variable 'uniqueId' isn't used - lib\mastery\writing_screen.dart:351:18 - unused_local_variable
+   info - Statements in an if should be enclosed in a block - lib\mastery\writing_screen.dart:563:25 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\mastery\writing_screen.dart:565:25 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\screens\account_blocked_screen.dart:34:20 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\screens\difficulty_settings_screen.dart:159:17 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\difficulty_settings_screen.dart:161:17 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\difficulty_settings_screen.dart:163:17 - curly_braces_in_flow_control_structures
+   info - The local variable '_getMeaning' starts with an underscore - lib\screens\focused_quiz_screen.dart:47:12 - no_leading_underscores_for_local_identifiers
+   info - Statements in a while should be enclosed in a block - lib\screens\focused_quiz_screen.dart:113:34 - curly_braces_in_flow_control_structures
+warning - The value of the field '_streak' isn't used - lib\screens\games\antonym_attack_screen.dart:37:7 - unused_field
+   info - Statements in an if should be enclosed in a block - lib\screens\games\casual\hangman_game_screen.dart:56:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\casual\quiz_battle_screen.dart:216:21 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\casual\quiz_battle_screen.dart:220:21 - curly_braces_in_flow_control_structures
+   info - Unnecessary use of 'toList' in a spread - lib\screens\games\casual\story_choice_screen.dart:160:18 - unnecessary_to_list_in_spreads
+   info - Statements in an if should be enclosed in a block - lib\screens\games\grammar\error_hunt_screen.dart:57:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\grammar\error_hunt_screen.dart:62:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\grammar\error_hunt_screen.dart:69:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\grammar\error_hunt_screen.dart:76:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\grammar\error_hunt_screen.dart:164:7 - curly_braces_in_flow_control_structures
+   info - Use interpolation to compose strings and values - lib\screens\games\grammar\grammar_choice_screen.dart:51:15 - prefer_interpolation_to_compose_strings
+   info - Use interpolation to compose strings and values - lib\screens\games\grammar\grammar_choice_screen.dart:53:54 - prefer_interpolation_to_compose_strings
+   info - Use interpolation to compose strings and values - lib\screens\games\grammar\grammar_choice_screen.dart:57:18 - prefer_interpolation_to_compose_strings
+   info - Use interpolation to compose strings and values - lib\screens\games\grammar\grammar_choice_screen.dart:58:28 - prefer_interpolation_to_compose_strings
+   info - 'onWillAccept' is deprecated and shouldn't be used. Use onWillAcceptWithDetails instead. This callback is similar to onWillAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre - lib\screens\games\grammar\sentence_scramble_screen.dart:245:15 - deprecated_member_use
+   info - 'onAccept' is deprecated and shouldn't be used. Use onAcceptWithDetails instead. This callback is similar to onAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre - lib\screens\games\grammar\sentence_scramble_screen.dart:246:15 - deprecated_member_use
+warning - The '!' will have no effect because the receiver can't be null - lib\screens\games\grammar\tense_trainer_screen.dart:102:37 - unnecessary_non_null_assertion
+   info - Statements in a for should be enclosed in a block - lib\screens\games\speaking\pronunciation_match_screen.dart:154:35 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\screens\games\speaking\pronunciation_match_screen.dart:162:37 - curly_braces_in_flow_control_structures
+   info - 'listenMode' is deprecated and shouldn't be used. Use SpeechListenOptions.listenMode instead - lib\screens\games\speaking\read_aloud_screen.dart:54:11 - deprecated_member_use
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\screens\games\speaking\read_aloud_screen.dart:55:11 - deprecated_member_use
+   info - 'cancelOnError' is deprecated and shouldn't be used. Use SpeechListenOptions.cancelOnError instead - lib\screens\games\speaking\read_aloud_screen.dart:56:11 - deprecated_member_use
+   info - Statements in a for should be enclosed in a block - lib\screens\games\speaking\repeat_after_me_screen.dart:190:35 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\screens\games\speaking\repeat_after_me_screen.dart:198:37 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\speaking\repeat_after_me_screen.dart:341:21 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\speaking\repeat_after_me_screen.dart:343:21 - curly_braces_in_flow_control_structures
+   info - The private field _stopwatch could be 'final' - lib\screens\games\speaking\tongue_twister_screen.dart:22:13 - prefer_final_fields
+   info - Statements in an if should be enclosed in a block - lib\screens\games\speaking\tongue_twister_screen.dart:96:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\speaking\tongue_twister_screen.dart:98:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\word_builder_screen.dart:404:21 - curly_braces_in_flow_control_structures
+warning - The value of the field '_draggedItem' isn't used - lib\screens\games\word_categories_screen.dart:32:25 - unused_field
+warning - The value of the field '_isGameOver' isn't used - lib\screens\games\word_categories_screen.dart:35:8 - unused_field
+   info - 'onWillAccept' is deprecated and shouldn't be used. Use onWillAcceptWithDetails instead. This callback is similar to onWillAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre - lib\screens\games\word_categories_screen.dart:226:21 - deprecated_member_use
+   info - 'onAccept' is deprecated and shouldn't be used. Use onAcceptWithDetails instead. This callback is similar to onAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre - lib\screens\games\word_categories_screen.dart:227:21 - deprecated_member_use
+   info - The private field _gridSize could be 'final' - lib\screens\games\word_search_screen.dart:19:7 - prefer_final_fields
+   info - Statements in an if should be enclosed in a block - lib\screens\games\word_search_screen.dart:134:11 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\games\word_search_screen.dart:141:11 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\screens\games\word_search_screen.dart:242:42 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\screens\games\word_search_screen.dart:247:42 - curly_braces_in_flow_control_structures
+warning - The value of the local variable 'selectedWord' isn't used - lib\screens\games\word_search_screen.dart:263:12 - unused_local_variable
+warning - The value of the local variable 'assetPath' isn't used - lib\screens\lesson_active_passive_screen.dart:277:18 - unused_local_variable
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:285:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:285:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:285:67 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:291:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:291:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:298:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:298:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:298:72 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:305:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:305:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:312:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:312:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:312:61 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:319:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:319:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:326:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:326:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:326:58 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:333:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:333:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:340:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:340:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:340:63 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:347:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:347:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:354:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:354:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:354:60 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:361:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:361:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:371:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:371:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:371:58 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:373:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:373:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:387:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:387:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:387:64 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:389:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:389:7 - expected_token
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:403:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:403:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:403:63 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:405:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:405:7 - expected_token
+  error - The named parameter 'prompts' is required, but there's no corresponding argument - lib\screens\lesson_active_passive_screen.dart:408:7 - missing_required_argument
+  error - The named parameter 'summaryPoints' is required, but there's no corresponding argument - lib\screens\lesson_active_passive_screen.dart:408:7 - missing_required_argument
+  error - Undefined name '$' - lib\screens\lesson_active_passive_screen.dart:410:23 - undefined_identifier
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:410:24 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:410:64 - unterminated_string_literal
+  error - Expected a string literal - lib\screens\lesson_active_passive_screen.dart:423:7 - expected_string_literal
+  error - Expected to find '}' - lib\screens\lesson_active_passive_screen.dart:423:7 - expected_token
+  error - Unterminated string literal - lib\screens\lesson_active_passive_screen.dart:1714:3 - unterminated_string_literal
+  error - Expected a method, getter, setter or operator declaration - lib\screens\lesson_active_passive_screen.dart:1715:1 - expected_executable
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_articles_screen.dart:1798:37 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_articles_screen.dart:1823:41 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_articles_screen.dart:1990:35 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_articles_screen.dart:2064:35 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_future_perfect_continuous_screen.dart:652:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\lesson_future_perfect_screen.dart:627:25 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_parts_of_speech_screen.dart:1004:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_parts_of_speech_screen.dart:1006:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_present_perfect_screen.dart:1316:17 - curly_braces_in_flow_control_structures
+   info - The local variable '_parseText' starts with an underscore - lib\screens\lesson_present_tense_screen.dart:630:20 - no_leading_underscores_for_local_identifiers
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_present_tense_screen.dart:661:21 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_present_tense_screen.dart:989:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_present_tense_screen.dart:991:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_present_tense_screen.dart:993:21 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_subjects_screen.dart:1009:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\screens\lesson_subjects_screen.dart:1011:23 - curly_braces_in_flow_control_structures
+   info - The private field _selectedIds could be 'final' - lib\screens\notifications_screen.dart:21:15 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\sfx_settings_screen.dart:48:38 - use_build_context_synchronously
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\sfx_settings_screen.dart:105:15 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\sfx_settings_screen.dart:183:15 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\sfx_settings_screen.dart:201:15 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\sfx_settings_screen.dart:368:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\sound_settings_screen.dart:57:38 - use_build_context_synchronously
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\sound_settings_screen.dart:319:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\sound_settings_screen.dart:344:13 - deprecated_member_use
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\screens\speaking_practice_screen.dart:224:11 - deprecated_member_use
+   info - 'cancelOnError' is deprecated and shouldn't be used. Use SpeechListenOptions.cancelOnError instead - lib\screens\speaking_practice_screen.dart:225:11 - deprecated_member_use
+   info - 'listenMode' is deprecated and shouldn't be used. Use SpeechListenOptions.listenMode instead - lib\screens\speaking_practice_screen.dart:226:11 - deprecated_member_use
+   info - Statements in a for should be enclosed in a block - lib\screens\speaking_practice_screen.dart:287:35 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\screens\speaking_practice_screen.dart:295:37 - curly_braces_in_flow_control_structures
+   info - The private field _selectedIds could be 'final' - lib\screens\teacher_notifications_screen.dart:21:15 - prefer_final_fields
+   info - The private field _daysToShow could be 'final' - lib\screens\vocabulary_history_screen.dart:21:7 - prefer_final_fields
+   info - Unnecessary use of 'toList' in a spread - lib\screens\vocabulary_history_screen.dart:584:14 - unnecessary_to_list_in_spreads
+   info - Unnecessary use of 'toList' in a spread - lib\screens\vocabulary_history_screen.dart:731:16 - unnecessary_to_list_in_spreads
+   info - Statements in an if should be enclosed in a block - lib\services\audio_guess_content_service.dart:264:33 - curly_braces_in_flow_control_structures
+  error - Target of URI doesn't exist: 'package:gravity_app/core/config/app_config.dart' - lib\services\data_service.dart:13:8 - uri_does_not_exist
+  error - Undefined name 'AppConfig' - lib\services\data_service.dart:1445:27 - undefined_identifier
+  error - Undefined name 'AppConfig' - lib\services\data_service.dart:1446:15 - undefined_identifier
+  error - Undefined name 'AppConfig' - lib\services\data_service.dart:1540:13 - undefined_identifier
+  error - Undefined name 'AppConfig' - lib\services\data_service.dart:1605:11 - undefined_identifier
+  error - Undefined name 'AppConfig' - lib\services\data_service.dart:1632:13 - undefined_identifier
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:747:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:749:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:751:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:753:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:755:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:757:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:823:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:825:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:827:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:829:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:993:13 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:995:13 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\data_service_cloud_sync.dart:997:13 - curly_braces_in_flow_control_structures
+  error - Undefined name 'featureId_v' - lib\services\feature_highlight_service.dart:14:26 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:75:26 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:77:22 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:85:7 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:134:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:135:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:152:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:194:50 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\gamification_service.dart:195:52 - use_build_context_synchronously
+  error - Undefined name 'zipKey_temp' - lib\services\lesson_content_service.dart:523:56 - undefined_identifier
+  error - Undefined name 'gameId_level' - lib\services\level_manager.dart:31:28 - undefined_identifier
+  error - Undefined name 'gameId_level' - lib\services\level_manager.dart:36:35 - undefined_identifier
+  error - Undefined name 'gameId_level' - lib\services\level_manager.dart:38:29 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:gravity_app/core/config/app_config.dart' - lib\services\safe_game_content_provider.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'AppConfig' - lib\services\safe_game_content_provider.dart:126:11 - undefined_identifier
+warning - The value of the local variable 'learnedCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:13:11 - unused_local_variable
+warning - The value of the local variable 'wordSearchAvailability' isn't used - lib\widgets\games_grid_sheet_logic.dart:17:11 - unused_local_variable
+warning - The value of the local variable 'fillTheGapCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:18:11 - unused_local_variable
+warning - The value of the local variable 'partsOfSpeechCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:19:11 - unused_local_variable
+warning - The value of the local variable 'grammarChoiceCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:23:11 - unused_local_variable
+warning - The value of the local variable 'tenseTrainerCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:27:11 - unused_local_variable
+warning - The value of the local variable 'sentenceBuilderCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:31:11 - unused_local_variable
+warning - The value of the local variable 'sentenceScrambleCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:35:11 - unused_local_variable
+warning - The value of the local variable 'errorHuntCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:39:11 - unused_local_variable
+warning - The value of the local variable 'repeatAfterMeCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:44:11 - unused_local_variable
+warning - The value of the local variable 'pronunciationMatchCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:49:11 - unused_local_variable
+warning - The value of the local variable 'readAloudCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:53:11 - unused_local_variable
+warning - The value of the local variable 'dictationCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:55:11 - unused_local_variable
+warning - The value of the local variable 'audioGuessCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:57:11 - unused_local_variable
+warning - The value of the local variable 'conversationCatchCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:59:11 - unused_local_variable
+warning - The value of the local variable 'hangmanCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:62:11 - unused_local_variable
+warning - The value of the local variable 'quizBattleCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:64:11 - unused_local_variable
+warning - The value of the local variable 'storyAdventureCount' isn't used - lib\widgets\games_grid_sheet_logic.dart:66:11 - unused_local_variable
+warning - The value of the local variable 'hasGrammarWarmup' isn't used - lib\widgets\games_grid_sheet_logic.dart:68:11 - unused_local_variable
+warning - The value of the local variable 'hasSentenceScrambleWarmup' isn't used - lib\widgets\games_grid_sheet_logic.dart:70:11 - unused_local_variable
+warning - The value of the local variable 'hasTenseWarmup' isn't used - lib\widgets\games_grid_sheet_logic.dart:74:11 - unused_local_variable
+warning - The value of the field '_minWordBuilderWords' isn't used - lib\widgets\games_hub_card.dart:284:20 - unused_field
+warning - The value of the field '_minSynonymSwapWords' isn't used - lib\widgets\games_hub_card.dart:286:20 - unused_field
+warning - The value of the field '_minAntonymAttackWords' isn't used - lib\widgets\games_hub_card.dart:288:20 - unused_field
+warning - The value of the field '_minSpeedVocabWords' isn't used - lib\widgets\games_hub_card.dart:310:20 - unused_field
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\lesson_scaffold.dart:230:11 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\widgets\lesson_scaffold.dart:1484:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\widgets\lesson_scaffold.dart:1726:37 - use_build_context_synchronously
+
+flutter : 217 issues found. (ran in 7.1s)
+At line:1 char:1
++ flutter analyze lib --no-pub 2>&1 | Out-File 
+-FilePath "e:\Apps\gravi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (21 
+   7 issues found. (ran in 7.1s):String) [], R  
+  emoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 

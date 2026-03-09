@@ -5,6 +5,10 @@ part of 'teacher_dashboard_screen.dart';
 extension TeacherDashboardTabs on _TeacherDashboardState {
   // --- Dashboard Tab ---
   Widget _buildDashboardTab() {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
+    final colorScheme = theme.colorScheme;
     return Stack(
       children: [
         RefreshIndicator(
@@ -20,12 +24,12 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
               children: [
                 TeacherWelcomeCard(email: _userEmail),
                 const SizedBox(height: 32),
-                const Text(
+                Text(
                   "Quick Actions",
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: onSurface,
                   ),
                 ),
                 const SizedBox(height: 16),
@@ -67,14 +71,16 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                           vertical: 10,
                         ),
                         decoration: BoxDecoration(
-                          color: const Color(
-                            0xFF11131A,
-                          ).withValues(alpha: 0.86),
+                          color: isDark
+                              ? const Color(0xFF11131A).withValues(alpha: 0.86)
+                              : Colors.white.withValues(alpha: 0.95),
                           borderRadius: BorderRadius.circular(16),
                           border: Border.all(
-                            color: const Color(
-                              0xFFFFD700,
-                            ).withValues(alpha: 0.42),
+                            color:
+                                (isDark
+                                        ? const Color(0xFFFFD700)
+                                        : colorScheme.primary)
+                                    .withValues(alpha: 0.42),
                           ),
                         ),
                         child: Row(
@@ -106,15 +112,17 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
   }
 
   Widget _buildAttendanceSection() {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
+    final colorScheme = Theme.of(context).colorScheme;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        Text(
           "Today's Attendance",
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: onSurface,
           ),
         ),
         const SizedBox(height: 16),
@@ -126,17 +134,17 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return _buildAsyncLoader(
                   label: "Loading attendance...",
-                  textColor: Colors.white70,
+                  textColor: onSurface.withValues(alpha: 0.72),
                 );
               }
 
               final attendees = snapshot.data ?? [];
 
               if (attendees.isEmpty) {
-                return const Center(
+                return Center(
                   child: Text(
                     "No students present yet today.",
-                    style: TextStyle(color: Colors.white54),
+                    style: TextStyle(color: onSurface.withValues(alpha: 0.62)),
                   ),
                 );
               }
@@ -149,18 +157,18 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                     children: [
                       Text(
                         "Present: ${attendees.length}",
-                        style: const TextStyle(
-                          color: Color(0xFF4FACFE),
+                        style: TextStyle(
+                          color: colorScheme.primary,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const Icon(
+                      Icon(
                         Icons.people_alt_rounded,
-                        color: Colors.white54,
+                        color: onSurface.withValues(alpha: 0.62),
                       ),
                     ],
                   ),
-                  const Divider(color: Colors.white24, height: 24),
+                  Divider(color: onSurface.withValues(alpha: 0.24), height: 24),
                   ListView.builder(
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),
@@ -189,8 +197,8 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                         ),
                         title: Text(
                           displayName,
-                          style: const TextStyle(
-                            color: Colors.white,
+                          style: TextStyle(
+                            color: onSurface,
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
                           ),
@@ -200,7 +208,7 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                             ? Text(
                                 email,
                                 style: TextStyle(
-                                  color: Colors.white.withValues(alpha: 0.5),
+                                  color: onSurface.withValues(alpha: 0.5),
                                   fontSize: 12,
                                 ),
                               )
@@ -219,7 +227,10 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
 
   // --- Students Tab ---
   Widget _buildStudentsTab() {
-    // âœ… ZERO-COST: Use StudentsCache instead of real-time listener
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
+    // ZERO-COST: Use StudentsCache instead of real-time listener
     return FutureBuilder<List<Map<String, dynamic>>>(
       future: StudentsCache().getStudents(page: 0, pageSize: 100),
       builder: (context, snapshot) {
@@ -335,7 +346,7 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                       final assessmentLabel =
                           "${metrics.assessmentCompleted}/${metrics.assessmentTotal}";
                       final tooltipText =
-                          "Level ${metrics.currentStage} â€¢ Completed ${metrics.completedStages} â€¢ Assessments $assessmentLabel";
+                          "Level ${metrics.currentStage} | Completed ${metrics.completedStages} | Assessments $assessmentLabel";
                       return Tooltip(
                         message: tooltipText,
                         triggerMode: TooltipTriggerMode.tap,
@@ -348,10 +359,10 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                     padding: EdgeInsets.zero,
                     icon: Icon(
                       Icons.more_vert_rounded,
-                      color: Colors.white.withValues(alpha: 0.5),
+                      color: onSurface.withValues(alpha: 0.5),
                       size: 20,
                     ),
-                    color: const Color(0xFF2A2A3E),
+                    color: isDark ? const Color(0xFF2A2A3E) : Colors.white,
                     onSelected: (value) => _handleStudentMenuSelection(
                       context,
                       value,
@@ -373,10 +384,7 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                             const SizedBox(width: 12),
                             Text(
                               "Change Difficulty",
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                              ),
+                              style: TextStyle(color: onSurface, fontSize: 14),
                             ),
                           ],
                         ),
@@ -397,50 +405,41 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                             const SizedBox(width: 12),
                             Text(
                               data['isBlocked'] == true ? "Unblock" : "Block",
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                              ),
+                              style: TextStyle(color: onSurface, fontSize: 14),
                             ),
                           ],
                         ),
                       ),
-                      const PopupMenuItem(
+                      PopupMenuItem(
                         value: 'reset',
                         child: Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.playlist_remove_rounded,
                               color: Colors.orangeAccent,
                               size: 18,
                             ),
-                            SizedBox(width: 12),
+                            const SizedBox(width: 12),
                             Text(
                               "Reset Progress",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                              ),
+                              style: TextStyle(color: onSurface, fontSize: 14),
                             ),
                           ],
                         ),
                       ),
-                      const PopupMenuItem(
+                      PopupMenuItem(
                         value: 'deactivate',
                         child: Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.lock_person_rounded,
                               color: Colors.redAccent,
                               size: 18,
                             ),
-                            SizedBox(width: 12),
+                            const SizedBox(width: 12),
                             Text(
                               "Deactivate",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                              ),
+                              style: TextStyle(color: onSurface, fontSize: 14),
                             ),
                           ],
                         ),
@@ -476,6 +475,9 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
 
   // --- Library Tab (Main Feature) ---
   Widget _buildLibraryTab() {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final onSurface = theme.colorScheme.onSurface;
     return Column(
       children: [
         Padding(
@@ -489,9 +491,17 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                     child: FilledButton.icon(
                       onPressed: _handleImportCsvTap,
                       style: FilledButton.styleFrom(
-                        backgroundColor: const Color(0xFF1E1E2C),
-                        foregroundColor: const Color(0xFFFFD700),
-                        side: const BorderSide(color: Color(0xFFFFD700)),
+                        backgroundColor: isDark
+                            ? const Color(0xFF1E1E2C)
+                            : Colors.white.withValues(alpha: 0.94),
+                        foregroundColor: isDark
+                            ? const Color(0xFFFFD700)
+                            : const Color(0xFF0F4AA1),
+                        side: BorderSide(
+                          color: isDark
+                              ? const Color(0xFFFFD700)
+                              : const Color(0xFF4FACFE),
+                        ),
                         padding: const EdgeInsets.symmetric(vertical: 16),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(16),
@@ -553,9 +563,7 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
                 return Center(
                   child: Text(
                     "No items in $_selectedCategory",
-                    style: TextStyle(
-                      color: Colors.white.withValues(alpha: 0.5),
-                    ),
+                    style: TextStyle(color: onSurface.withValues(alpha: 0.5)),
                   ),
                 );
               }
@@ -588,6 +596,7 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
   // --- Settings Tab ---
   // --- Settings Tab ---
   Widget _buildSettingsTab() {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
     return SingleChildScrollView(
       padding: const EdgeInsets.all(24.0),
       child: Column(
@@ -598,15 +607,18 @@ extension TeacherDashboardTabs on _TeacherDashboardState {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
+                Text(
                   "Email",
-                  style: TextStyle(color: Colors.white54, fontSize: 12),
+                  style: TextStyle(
+                    color: onSurface.withValues(alpha: 0.62),
+                    fontSize: 12,
+                  ),
                 ),
                 const SizedBox(height: 4),
                 Text(
                   _userEmail,
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: onSurface,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),

@@ -1,0 +1,829 @@
+Serial Number,Day Number,English Word,Part of Speech,Difficulty,Tamil Translation,Hindi Translation,English Example,Tamil Example,Hindi Example,Synonyms,Tamil Meaning
+1,Day 1,Fight,Verb,Beginner,சண்டை,लड़ना [Ladna],Do not fight with others.,மற்றவர்களுடன் சண்டை போடாதீர்கள்.,दूसरों के साथ मत लड़ो।,"Battle, Conflict",போர்
+2,Day 1,Peace,Noun,Beginner,அமைதி,शांति [Shanti],Everyone wants peace.,அனைவரும் அமைதியை விரும்புகிறார்கள்.,हर कोई शांति चाहता है।,"Calm, Quiet",நிம்மதி
+3,Day 1,Noise,Noun,Beginner,சத்தம்,शोर [Shor],Stop making that noise.,அந்த சத்தத்தை நிறுத்துங்கள்.,वह शोर करना बंद करो।,"Sound, Racket",இறைச்சல்
+4,Day 1,School,Noun,Beginner,பள்ளி,स्कूल [School],I go to school daily.,நான் தினமும் பள்ளிக்குச் செல்கிறேன்.,मैं रोज़ स्कूल जाता हूँ।,"Academy, College",பள்ளி
+5,Day 1,Road,Noun,Beginner,சாலை,सड़क [Sadak],The road is very wide.,சாலை மிகவும் விரிவானது.,सड़क बहुत चौड़ी है।,"Street, Path",வீதி
+6,Day 2,Sand,Noun,Beginner,மணல்,रेत [Ret],We played in the sand.,நாங்கள் மணலில் விளையாடினோம்.,हम रेत में खेले।,"Dust, Grains",துகள்
+7,Day 2,Stone,Noun,Beginner,கல்,पत्थर [Patthar],He threw a stone.,அவன் ஒரு கல்லை எறிந்தான்.,उसने एक पत्थर फेंका।,"Rock, Pebble",பாறை / சிறுபாறை
+8,Day 2,Air,Noun,Beginner,காற்று,हवा [Hawa],We need air to breathe.,சுவாசிக்க நமக்கு காற்று தேவை.,हमें सांस लेने के लिए हवा चाहिए।,"Wind, Breeze",வளி
+9,Day 2,Cloud,Noun,Beginner,மேகம்,बादल [Baadal],Look at the white cloud.,வெள்ளை மேகத்தைப் பாருங்கள்.,सफेद बादल को देखो।,"Mist, Vapor",கொண்டல்
+10,Day 2,Money,Noun,Beginner,பணம்,पैसा [Paisa],I have no money now.,என்னிடம் இப்போது பணம் இல்லை.,मेरे पास अभी पैसे नहीं हैं।,"Cash, Wealth",காசு / கிரயம்
+11,Day 3,Cost,Noun,Beginner,விலை,कीमत [Keemat],What is the cost of this?,இதனுடைய விலை என்ன?,इसकी कीमत क्या है?,"Price, Value",கட்டணம்
+12,Day 3,Rich,Adjective,Beginner,பணக்காரர்,अमीर [Ameer],He is a rich merchant.,அவர் ஒரு பணக்கார வணிகர்.,वह एक अमीर व्यापारी है।,"Wealthy, Well-off",செல்வந்தர்
+13,Day 3,Poor,Adjective,Beginner,ஏழை,गरीब [Gareeb],Help the poor people.,ஏழை மக்களுக்கு உதவுங்கள்.,गरीब लोगों की मदद करें।,"Needy, Destitute",வறியவர்
+14,Day 3,Win,Verb,Beginner,வெற்றி,जीतना [Jeetna],We want to win the game.,நாங்கள் ஆட்டத்தில் வெல்ல விரும்புகிறோம்.,हम खेल जीतना चाहते हैं।,"Victory, Succeed",வாகை
+15,Day 3,Lose,Verb,Beginner,தோல்வி,हारना [Haarna],Do not lose your hope.,உங்கள் நம்பிக்கையை இழக்காதீர்கள்.,अपनी हिम्मत मत हारो।,"Forfeit, Drop",இழப்பு
+16,Day 4,Smile,Verb,Beginner,புன்னகை,मुस्कुराना [Muskurana],Always keep a smile.,எப்போதும் புன்னகையுடன் இருங்கள்.,हमेशा मुस्कुराते रहो।,"Grin, Beam",சிரிப்பு
+17,Day 4,Cry,Verb,Beginner,அழு,रोना [Rona],Why did the baby cry?,குழந்தை ஏன் அழுதது?,बच्चा क्यों रोया?,"Weep, Sob",புலம்பு
+18,Day 4,Home,Noun,Beginner,இல்லம்,घर [Ghar],I am going home now.,நான் இப்போது வீட்டிற்குச் செல்கிறேன்.,मैं अब घर जा रहा हूँ।,"House, Abode",வீடு
+19,Day 4,Name,Noun,Beginner,பெயர்,नाम [Naam],My name is Kumar.,என் பெயர் குமார்.,मेरा नाम कुमार है।,"Identity, Title",நாமம்
+20,Day 4,Age,Noun,Beginner,வயது,उम्र [Umra],What is your age?,உங்கள் வயது என்ன?,तुम्हारी उम्र क्या है?,"Years, Era",பிராயம்
+21,Day 5,Boy,Noun,Beginner,சிறுவன்,लड़का [Ladka],He is a brave boy.,அவன் ஒரு தைரியமான சிறுவன்.,वह एक बहादुर लड़का है।,"Lad, Youth",பையன்
+22,Day 5,Girl,Noun,Beginner,சிறுமி,लड़की [Ladki],The girl is singing.,சிறுமி பாடிக்கொண்டிருக்கிறாள்.,लड़की गा रही है।,"Lass, Maiden",பெண்
+23,Day 5,Man,Noun,Beginner,மனிதன்,आदमी [Aadmi],The man is working.,அந்த மனிதன் வேலை செய்கிறான்.,आदमी काम कर रहा है।,"Male, Adult",ஆள்
+24,Day 5,Woman,Noun,Beginner,பெண்,औरत [Aurat],She is a strong woman.,அவள் ஒரு வலிமையான பெண்.,वह एक मजबूत औरत है।,"Female, Lady",மங்கை
+25,Day 5,Think,Verb,Beginner,யோசி,सोचना [Sochna],Think before you act.,செயல்படும் முன் யோசியுங்கள்.,करने से पहले सोचो।,"Ponder, Reflect",சிந்தி
+26,Day 6,Know,Verb,Beginner,தெரியும்,जानना [Jaanna],I know the truth.,எனக்கு உண்மை தெரியும்.,मुझे सच पता है।,"Realize, Aware",அறி
+27,Day 6,Hope,Noun,Beginner,நம்பிக்கை,आशा [Aasha],Never lose hope.,நம்பிக்கையை ஒருபோதும் இழக்காதே.,कभी उम्मीद मत हारो।,"Wish, Trust",விசுவாசம்
+28,Day 6,Need,Verb,Beginner,தேவை,ज़रूरत [Zaroorat],I need some water.,எனக்கு கொஞ்சம் தண்ணீர் தேவை.,मुझे थोड़े पानी की ज़रूरत है।,"Require, Lack",அவசியம்
+29,Day 6,Want,Verb,Beginner,விருப்பம்,चाहना [Chaahna],I want to learn.,நான் கற்றுக்கொள்ள விரும்புகிறேன்.,मैं सीखना चाहता हूँ।,"Desire, Wish",விழை
+30,Day 6,Feel,Verb,Beginner,உணர்,महसूस [Mehsoos],I feel tired now.,நான் இப்போது சோர்வாக உணர்கிறேன்.,मैं अब थकान महसूस कर रहा हूँ।,"Sense, Perceive",உணர்ச்சி
+31,Day 7,Watch,Verb,Beginner,கவனி,देखना [Dekhna],Watch the movie.,படத்தைப் பாருங்கள்.,फिल्म देखो।,"Observe, View",நோக்கு
+32,Day 7,Use,Verb,Beginner,பயன்படுத்து,उपयोग [Upayog],Use this tool.,இந்தக் கருவியைப் பயன்படுத்தவும்.,इस उपकरण का उपयोग करें।,"Utilize, Apply",கையாளு
+33,Day 7,Have,Verb,Beginner,வைத்திரு,पास होना [Paas],I have a sister.,எனக்கு ஒரு சகோதரி இருக்கிறாள்.,मेरी एक बहन है।,"Possess, Own",பெற்றுக்கொள்
+34,Day 7,Put,Verb,Beginner,வை,रखना [Rakhna],Put it on the table.,அதை மேஜையில் வை.,इसे मेज पर रख दो।,"Place, Set",நிறுவு
+35,Day 7,Get,Verb,Beginner,பெறு,मिलना [Milna],Did you get it?,உனக்கு அது கிடைத்ததா?,क्या तुम्हें यह मिला?,"Obtain, Acquire",அடை
+36,Day 8,Live,Verb,Beginner,வாழ்,जीना [Jeena],Live your life.,உங்கள் வாழ்க்கையை வாழுங்கள்.,अपना जीवन जियो।,"Exist, Dwell",வாழ்தல் / வசித்தல்
+37,Day 8,Die,Verb,Beginner,இற,मरना [Marna],Flowers die soon.,பூக்கள் விரைவில் இறந்துவிடும்.,फूल जल्दी मर जाते हैं।,"Perish, Expire",மடி
+38,Day 8,Born,Verb,Beginner,பிறப்பு,जन्म [Janm],He was born here.,அவன் இங்கே பிறந்தான்.,उसका जन्म यहाँ हुआ था।,"Arise, Begin",உதயம்
+39,Day 8,Great,Adjective,Beginner,சிறந்த,महान [Mahaan],That is a great idea.,அது ஒரு சிறந்த யோசனை.,यह एक महान विचार है।,"Grand, Superb",மேலான
+40,Day 8,Fine,Adjective,Beginner,நலம்,ठीक [Theek],I am feeling fine.,நான் நலமாக உணர்கிறேன்.,मैं ठीक महसूस कर रहा हूँ।,"Okay, Well",ஆரோக்கியம்
+41,Day 9,Hello,Interjection,Beginner,வணக்கம்,नमस्ते [Namaste],"Hello, how are you?","வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?","नमस्ते, आप कैसे हैं?",Greetings,வாழ்த்து
+42,Day 9,Bye,Interjection,Beginner,விடைபெறு,अलविदा [Alvida],"Bye, see you later.","விடைபெறு, பிறகு பார்ப்போம்.","अलविदा, बाद में मिलते हैं।",Farewell,போயிட்டு வருகிறேன்
+43,Day 9,Yes,Adverb,Beginner,ஆம்,हाँ [Haan],"Yes, I can do it.","ஆம், என்னால் செய்ய முடியும்.","हाँ, मैं यह कर सकता हूँ।",Agreed,சரி
+44,Day 9,No,Adverb,Beginner,இல்லை,नहीं [Nahi],"No, I am busy.","இல்லை, நான் பிஸியாக இருக்கிறேன்.","नहीं, मैं व्यस्त हूँ।",Nay,கிடையாது
+45,Day 9,Maybe,Adverb,Beginner,ஒருவேளை,शायद [Shayad],Maybe it is true.,ஒருவேளை அது உண்மையாக இருக்கலாம்.,शायद यह सच है।,Perhaps,சாத்தியம் / ஒருவேளை
+46,Day 10,Always,Adverb,Beginner,எப்போதும்,हमेशा [Hamesha],Always be kind.,எப்போதும் அன்பாக இருங்கள்.,हमेशा दयालु बनो।,Constantly,எக்காலமும்
+47,Day 10,Never,Adverb,Beginner,ஒருபோதும்,कभी नहीं [Kabhi nahi],Never tell a lie.,ஒருபோதும் பொய் சொல்லாதே.,कभी झूठ मत बोलो।,At no time,அறவே
+48,Day 10,Today,Noun,Beginner,இன்று,आज [Aaj],Today is Monday.,இன்று திங்கட்கிழமை.,आज सोमवार है।,Present day,இப்போழுது
+49,Day 10,Tomorrow,Noun,Beginner,நாளை,कल [Kal],Come back tomorrow.,நாளை மீண்டும் வாருங்கள்.,कल वापस आना।,Future,மறுநாள்
+50,Day 10,Yesterday,Noun,Beginner,நேற்று,कल [Kal],I saw him yesterday.,நான் அவரை நேற்று பார்த்தேன்.,मैंने उसे कल देखा था।,Past day,கடந்த நாள்
+51,Day 11,Week,Noun,Beginner,வாரம்,हफ्ता [Hafta],Next week is busy.,அடுத்த வாரம் பிஸியாக இருக்கும்.,अगला हफ्ता व्यस्त है।,Seven days,ஏழு நாட்கள்
+52,Day 11,Month,Noun,Beginner,மாதம்,महीना [Mahina],This is a busy month.,இது ஒரு பிஸியான மாதம்.,यह एक व्यस्त महीना है।,period,திங்கள்
+53,Day 11,Year,Noun,Beginner,வருடம்,साल [Saal],I met him last year.,நான் அவரை கடந்த வருடம் சந்தித்தேன்.,நான் அவரை கடந்த வருடம் சந்தித்தேன்.,Annual,ஆண்டு
+54,Day 11,Time,Noun,Beginner,நேரம்,समय [Samay],What is the time?,இப்பொழுது நேரம் என்ன?,समय क्या हुआ है?,"Period, Duration",காலம்
+55,Day 11,Clock,Noun,Beginner,கடிகாரம்,घड़ी [Ghadi],The clock is on the wall.,கடிகாரம் சுவரில் உள்ளது.,दीवार पर घड़ी है।,Timepiece,சுவர்கடிகாரம்
+56,Day 12,Hand,Noun,Beginner,கை,हाथ [Haath],Wash your hand.,உங்கள் கையை கழுவவும்.,अपना हाथ धोएं।,Palm,கரம்
+57,Day 12,Foot,Noun,Beginner,கால்,पैर [Pair],My foot is hurting.,என் கால் வலிக்கிறது.,मेरे पैर में दर्द हो रहा है।,"Paw, Step",பாதம்
+58,Day 12,Head,Noun,Beginner,தலை,सिर [Sir],He bowed his head.,அவன் தலையை வணங்கினான்.,उसने अपना सिर झुकाया।,Skull,உச்சி
+59,Day 12,Eye,Noun,Beginner,கண்,आँख [Aankh],Close your eyes.,கண்களை மூடிக்கொள்.,अपनी आँखें बंद करो।,Vision,நயனம்
+60,Day 12,Mouth,Noun,Beginner,வாய்,मुँह [Munh],Open your mouth.,வாயைத் திறக்கவும்.,अपना मुँह खोलो।,Oral,அதரம்
+61,Day 13,Sun,Noun,Beginner,சூரியன்,सूरज [Suraj],The sun is bright.,சூரியன் பிரகாசமாக உள்ளது.,सूरज चमकदार है।,Star,கதிரவன்
+62,Day 13,Moon,Noun,Beginner,நிலா,चाँद [Chaand],Look at the moon.,நிலாவைப் பாருங்கள்.,चाँद को देखो।,Lunar,சந்திரன்
+63,Day 13,Light,Noun,Beginner,ஒளி,रोशनी [Roshni],Turn on the light.,விளக்கை ஆன் செய்யவும்.,लाइट जलाओ।,Brightness,வெளிச்சம்
+64,Day 13,Dark,Adjective,Beginner,இருள்,अंधेरा [Andhera],It is dark outside.,வெளியே இருட்டாக இருக்கிறது.,बाहर अंधेरा है।,Shadowy,கருமை
+65,Day 13,Happy,Adjective,Beginner,மகிழ்ச்சி,खुश [Khush],I am so happy today.,நான் இன்று மிகவும் மகிழ்ச்சியாக இருக்கிறேன்.,मैं आज बहुत खुश हूँ।,"Joyful, Glad",சந்தோஷம்
+66,Day 14,See,Verb,Beginner,பார்,देखना [Dekhna],I see a bird.,நான் ஒரு பறவையைப் பார்க்கிறேன்.,मैं एक पक्षी देखता हूँ।,"View, Observe",காண்
+67,Day 14,Look,Verb,Beginner,பார்,देखना [Dekhna],Look at the sky.,வானத்தைப் பாருங்கள்.,आसमान की ओर देखो।,"Gaze, Glance",நோக்கு
+68,Day 14,Take,Verb,Beginner,எடு,लेना [Lena],Take your medicine.,உங்கள் மருந்தை எடுத்துக் கொள்ளுங்கள்.,अपनी दवा लें।,"Grab, Pick",கொள்
+69,Day 14,Give,Verb,Beginner,கொடு,देना [Dena],Give me your book.,உன் புத்தகத்தை எனக்குக் கொடு.,मुझे अपनी किताब दो।,"Grant, Hand",வழங்கு
+70,Day 14,Wait,Verb,Beginner,காத்திரு,इंतज़ार [Intezaar],Wait for the bus.,பேருந்துக்காகக் காத்திருங்கள்.,बस का इंतज़ार करें।,"Stay, Delay",பொறு
+71,Day 15,Find,Verb,Beginner,கண்டுபிடி,ढूँढना [Dhoondhna],Find the hidden key.,மறைந்துள்ள சாவியைக் கண்டுபிடி.,छिपी हुई चाबी ढूँढो।,"Locate, Spot",தேடு
+72,Day 15,Lost,Adjective,Beginner,தொலைந்தது,खो गया [Kho gaya],I found my lost dog.,எனது தொலைந்த நாயைக் கண்டுபிடித்தேன்.,मुझे मेरा खोया हुआ कुत्ता मिल गया।,"Missing, Gone",காணாமல்போன
+73,Day 15,Clean,Adjective,Beginner,சுத்தம்,साफ़ [Saaf],Keep the room clean.,அறையைச் சுத்தமாக வைத்திருங்கள்.,कमरे को साफ़ रखें।,"Tidy, Neat",தூய்மை
+74,Day 15,Dirty,Adjective,Beginner,அழுக்கு,गंदा [Ganda],His shirt is dirty.,அவனது சட்டை அழுக்காக இருக்கிறது.,उसकी कमीज़ गंदी है।,"Messy, Filthy",அசுத்தம்
+75,Day 15,Key,Noun,Beginner,சாவி,चाबी [Chaabi],This is the car key.,இது கார் சாவி.,यह कार की चाबी है।,Opener,திறவுகோல்
+76,Day 16,Lock,Noun,Beginner,பூட்டு,ताला [Taala],Check the door lock.,கதவு பூட்டைச் சரிபார்க்கவும்.,दरवाजे का ताला चेक करें।,"Latch, Bolt",முடக்கு
+77,Day 16,Box,Noun,Beginner,பெட்டி,डिब्बा [Dibba],Put it in the box.,அதை பெட்டியில் போடுங்கள்.,इसे डिब्बे में डाल दो।,"Case, Carton",பேழை
+78,Day 16,Play,Verb,Beginner,விளையாடு,खेलना [Khelna],Children play outside.,குழந்தைகள் வெளியே விளையாடுகிறார்கள்.,बच्चे बाहर खेलते हैं।,"Sport, Frolic",ஆடு
+79,Day 16,Stop,Verb,Beginner,நிறுத்து,रुकना [Rukna],Stop at the red light.,சிவப்பு விளக்கில் நிறுத்தவும்.,लाल बत्ती पर रुकें।,"Halt, Cease",தவிர்
+80,Day 16,Start,Verb,Beginner,தொடங்கு,शुरू [Shuru],Start the engine now.,இன்ஜினை இப்போது தொடங்குங்கள்.,अब इंजन शुरू करें।,"Begin, Launch",ஆரம்பி
+81,Day 17,Finish,Verb,Beginner,முடி,खत्म [Khatam],Finish your homework.,உங்கள் வீட்டுப்பாடத்தை முடிக்கவும்.,अपना होमवर्क खत्म करो।,"End, Complete",தீர்த்துவிடு
+82,Day 17,Read,Verb,Beginner,படி,पढ़ना [Padhna],I read every night.,நான் ஒவ்வொரு இரவும் படிக்கிறேன்.,मैं हर रात पढ़ता हूँ।,"Study, Peruse",வாசி
+83,Day 17,Write,Verb,Beginner,எழுது,लिखना [Likhna],Write your name.,உங்கள் பெயரை எழுதுங்கள்.,अपना नाम लिखें।,"Note, Inscribe",வரை
+84,Day 17,Sleep,Verb,Beginner,தூங்கு,सोना [Sona],Go to sleep now.,இப்போது தூங்கப் போ.,अब सोने जाओ।,"Nap, Rest",துயில்
+85,Day 17,Wake,Verb,Beginner,எழு,जागना [Jaagna],Wake up at six.,ஆறு மணிக்கு எழுந்திருங்கள்.,छह बजे जागो।,"Arise, Awaken",விழி
+86,Day 18,Cold,Adjective,Beginner,குளிர்,ठंडा [Thanda],The water is cold.,தண்ணீர் குளிர்ச்சியாக உள்ளது.,पानी ठंडा है।,"Chilly, Icy",சீதளம்
+87,Day 18,Hot,Adjective,Beginner,சூடு,गर्म [Garm],The tea is hot.,தேநீர் சூடாக இருக்கிறது.,चाय गर्म है।,"Burning, Warm",வெப்பம்
+88,Day 18,New,Adjective,Beginner,புதிய,नया [Naya],I bought a new car.,நான் ஒரு புதிய கார் வாங்கினேன்.,मैंने एक नई कार खरीदी।,"Fresh, Modern",நவீனம்
+89,Day 18,Old,Adjective,Beginner,பழைய,पुराना [Purana],This is an old book.,இது ஒரு பழைய புத்தகம்.,यह एक पुरानी किताब है।,"Aged, Ancient",பழமை
+90,Day 18,Buy,Verb,Beginner,வாங்கு,खरीदना [Khareedna],I want to buy this.,நான் இதை வாங்க விரும்புகிறேன்.,मैं इसे खरीदना चाहता हूँ।,Purchase,கொள்முதல்
+91,Day 19,Sell,Verb,Beginner,விற்பனை,बेचना [Bechna],Do you sell fruits?,நீங்கள் பழங்களை விற்கிறீர்களா?,क्या आप फल बेचते हैं?,"Trade, Vend",விற்றுவிடு
+92,Day 19,Open,Verb,Beginner,திற,खोलना [Kholna],Open the window.,ஜன்னலைத் திறக்கவும்.,खिड़की खोलें।,"Unlock, Unfold",திறந்த
+93,Day 19,Close,Verb,Beginner,மூடு,बंद करना [Band],Close the door.,கதவை மூடு.,दरवाजा बंद करो।,"Shut, Seal",மூடிய
+94,Day 19,Work,Verb,Beginner,வேலை,काम [Kaam],I work in an office.,நான் ஒரு அலுவலகத்தில் வேலை செய்கிறேன்.,मैं एक ऑफिस में काम करता हूँ।,"Job, Task",பணி
+95,Day 19,Push,Verb,Beginner,தள்ளு,धकेलना [Dhakelna],Push the door to open.,திறக்க கதவைத் தள்ளுங்கள்.,खोलने के लिए दरवाजा धकेलें।,"Shove, Press",உந்து
+96,Day 20,Pull,Verb,Beginner,இழு,खींचना [Kheenchna],Pull the rope hard.,கயிற்றை பலமாக இழுக்கவும்.,रस्सी को ज़ोर से खींचो।,"Drag, Tug",ஈர்ப்பு
+97,Day 20,Hear,Verb,Beginner,கேள்,सुनना [Sunna],I can hear music.,என்னால் இசையைக் கேட்க முடிகிறது.,मैं संगीत सुन सकता हूँ।,Listen,செவிமடு
+98,Day 20,Go,Verb,Beginner,போ,जाना [Jaana],Go to your room.,உன் அறைக்குச் செல்.,अपने कमरे में जाओ।,"Leave, Move",செல்
+99,Day 20,Come,Verb,Beginner,வா,आना [Aana],Come here quickly.,இங்கே சீக்கிரம் வாருங்கள்.,यहाँ जल्दी आओ।,Arrive,வருகை
+100,Day 20,Here,Adverb,Beginner,இங்கே,यहाँ [Yahan],Sit here with me.,என்னுடன் இங்கே அமருங்கள்.,यहाँ मेरे पास बैठो।,Local,இங்கே / இவ்விடம்
+101,Day 21,There,Adverb,Beginner,அங்கே,वहाँ [Wahan],Put it over there.,அதை அங்கே வையுங்கள்.,इसे वहाँ रख दो।,Yonder,அங்கே / அவ்விடம்
+102,Day 21,Up,Adverb,Beginner,மேலே,ऊपर [Oopar],Look up at the sky.,வானத்தை மேலே பாருங்கள்.,आसमान की ओर ऊपर देखो।,"Above, High",மேல்
+103,Day 21,Down,Adverb,Beginner,கீழே,नीचे [Neeche],Please sit down.,தயவுசெய்து கீழே அமருங்கள்.,कृपया नीचे बैठें।,"Below, Low",கீழ்
+104,Day 21,Love,Verb,Beginner,நேசி,प्यार करना [Pyaar],Love your neighbors.,உங்கள் அண்டை வீட்டாரை நேசியுங்கள்.,अपने पड़ोसियों से प्यार करो।,"Adore, Like",அன்பு
+105,Day 21,Hate,Verb,Beginner,வெறுப்பு,नफरत [Nafrat],I hate cold weather.,எனக்கு குளிர் காலநிலை பிடிக்காது.,मुझे ठंडे मौसम से नफरत है।,"Dislike, Scorn",கசப்பு
+106,Day 22,Help,Verb,Beginner,உதவி,मदद [Madad],Can you help me?,எனக்கு உதவ முடியுமா?,क्या आप मेरी मदद कर सकते हैं?,"Assist, Aid",ஒத்தாசை
+107,Day 22,Car,Noun,Beginner,கார்,कार [Car],I drive a small car.,நான் ஒரு சிறிய கார் ஓட்டுகிறேன்.,मैं एक छोटी कार चलाता हूँ।,"Auto, Vehicle",மகிழுந்து
+108,Day 22,Bus,Noun,Beginner,பேருந்து,बस [Bus],The bus is late.,பேருந்து தாமதமாக வருகிறது.,बस देर से आई है।,Coach,வண்டி / பேருந்து
+109,Day 22,Walk,Verb,Beginner,நட,चलना [Chalna],Walk to the park.,பூங்காவிற்கு நடந்து செல்லுங்கள்.,पार्क तक पैदल चलें।,"Stroll, March",உலாத்து
+110,Day 22,Sing,Verb,Beginner,பாடு,गाना [Gaana],She likes to sing.,அவளுக்குப் பாடப் பிடிக்கும்.,उसे गाना पसंद है।,Vocalize,கானம்
+111,Day 23,Dance,Verb,Beginner,ஆடு,नाचना [Naachna],They dance together.,அவர்கள் சேர்ந்து ஆடுகிறார்கள்.,वे साथ में नाचते हैं।,Sway,நடனம்
+112,Day 23,Friend,Noun,Beginner,நண்பன்,दोस्त [Dost],He is my friend.,அவன் என் நண்பன்.,वह मेरा दोस्त है।,"Buddy, Mate",தோழன்
+113,Day 23,Family,Noun,Beginner,குடும்பம்,परिवार [Parivaar],I love my family.,என் குடும்பத்தை நேசிக்கிறேன்.,मुझे अपने परिवार से प्यार है।,"Kin, Clan",சுற்றம்
+114,Day 23,Mother,Noun,Beginner,அம்மா,माँ [Maa],My mother is kind.,என் அம்மா அன்பானவர்.,मेरी माँ दयालु हैं।,"Mom, Parent",தாய்
+115,Day 23,Father,Noun,Beginner,அப்பா,पिता [Pita],My father is tall.,என் அப்பா உயரமாக இருக்கிறார்.,मेरे पिता लंबे हैं।,"Dad, Parent",தந்தை
+116,Day 24,Brother,Noun,Beginner,சகோதரன்,भाई [Bhai],I have one brother.,எனக்கு ஒரு சகோதரன் இருக்கிறான்.,मेरा एक भाई है।,Sibling,தம்பி/அண்ணன்
+117,Day 24,Sister,Noun,Beginner,சகோதரி,बहन [Behen],My sister is smart.,என் சகோதரி புத்திசாலி.,मेरी बहन समझदार है।,Sibling,தங்கை/அக்கா
+118,Day 24,Learn,Verb,Beginner,கற்றுக்கொள்,सीखना [Seekhna],I want to learn Tamil.,நான் தமிழ் கற்றுக்கொள்ள விரும்புகிறேன்.,मैं तमिल सीखना चाहता हूँ।,"Study, Acquire",பயில்
+119,Day 24,Teach,Verb,Beginner,கற்றுக்கொடு,सिखाना [Sikhana],Teach me a song.,எனக்கு ஒரு பாட்டு கற்றுக்கொடுங்கள்.,मुझे एक गाना सिखाओ।,"Educate, Train",போதி
+120,Day 24,Ask,Verb,Beginner,கேள்,पूछना [Poochna],Ask him a question.,அவரிடம் ஒரு கேள்வி கேளுங்கள்.,उससे एक सवाल पूछो।,"Inquire, Query",வினவு
+121,Day 25,Answer,Noun/Verb,Beginner,பதில்,जवाब [Jawaab],Write the correct answer.,சரியான பதிலை எழுதுங்கள்.,सही जवाब लिखें।,"Reply, Respond",விடை
+122,Day 25,Quick,Adjective,Beginner,விரைவான,जल्दी [Jaldi],"Be quick, we are late.","சீக்கிரம், நமக்கு நேரமாகிவிட்டது.","जल्दी करो, हमें देर हो रही है।","Fast, Rapid",வேகம்
+123,Day 25,Eat,Verb,Beginner,சாப்பிடு,खाना [Khana],Eat your breakfast.,உங்கள் காலை உணவை சாப்பிடுங்கள்.,अपना नाश्ता खाओ।,"Consume, Dine",புசி
+124,Day 25,Drink,Verb,Beginner,குடி,पीना [Peena],Drink plenty of water.,நிறைய தண்ணீர் குடியுங்கள்.,खूब पानी पिएं।,"Sip, Gulp",அருந்து
+125,Day 25,Chair,Noun,Beginner,நாற்காலி,कुर्सी [Kursi],Sit on the chair.,நாற்காலியில் அமருங்கள்.,कुर्सी पर बैठो।,Seat,ஆசனம்
+126,Day 26,Sky,Noun,Beginner,வானம்,आसमान [Aasman],The sky is blue and clear.,வானம் நீலமாகவும் தெளிவாகவும் உள்ளது.,आसमान नीला और साफ है।,Heavens,ஆகாயம்
+127,Day 26,Believe,Verb,Beginner,நம்பு,विश्वास करना [Vishvaas Karna],I believe in his honesty.,நான் அவரது நேர்மையில் நம்புகிறேன்.,मुझे उसकी ईमानदारी पर विश्वास है।,Trust,உறுதி
+128,Day 26,Benefit,Noun,Beginner,நன்மை,लाभ [Laabh],Exercise gives many health benefits.,உடற்பயிற்சி பல ஆரோக்கிய நன்மைகளை அளிக்கிறது.,व्यायाम से कई स्वास्थ्य लाभ मिलते हैं।,Advantage,பயன்
+129,Day 26,Careful,Adjective,Beginner,கவனமான,सावधान [Saavadhaan],Be careful when crossing the road.,சாலையைக் கடக்கும்போது கவனமாக இருங்கள்.,सड़क पार करते समय सावधान रहें।,Cautious,எச்சரிக்கை
+130,Day 26,Common,Adjective,Beginner,பொதுவான,सामान्य [Saamaanya],This is a very common mistake.,இது ஒரு பொதுவான தவறு.,यह ஒரு बहुत ही सामान्य गलती है।,Usual,சாதாரணம்
+131,Day 27,Compare,Verb,Beginner,ஒப்பிடு,तुलना करना [Tulna Karna],Compare the prices before buying.,வாங்குவதற்கு முன் விலைகளை ஒப்பிடு.,खरीदने से पहले कीमतों की तुलना करें।,Match,சீர்தூக்கிப்பார்
+132,Day 27,Decide,Verb,Beginner,முடிவு செய்,तय करना [Tay Karna],Have you decided what to wear?,என்ன அணிய வேண்டும் என்று நீங்கள் முடிவு செய்தீர்களா?,क्या आपने तय किया है कि क्या पहनना है?,Determine,தீர்மானி
+133,Day 27,Effort,Noun,Beginner,முயற்சி,प्रयास [Prayaas],Your effort is appreciated.,உங்கள் முயற்சி பாராட்டப்படுகிறது.,आपके प्रयास की सराहना की जाती है।,Attempt,பிரயத்தனம்
+134,Day 27,Explain,Verb,Beginner,விளக்கு,समझाना [Samjhaana],Can you explain this rule?,இந்த விதியை உங்களால் விளக்க முடியுமா?,क्या आप इस नियम को समझा सकते हैं?,Clarify,விவரி
+135,Day 27,Focus,Noun/Verb,Beginner,கவனம்,ध्यान केंद्रित करना [Dhyaan Kendrit Karna],Keep your focus on the road.,சாலையில் உங்கள் கவனத்தை வைத்திருங்கள்.,सड़क पर अपना ध्यान केंद्रित रखें।,Concentration,ஊன்றுகவனி
+136,Day 28,Guess,Verb,Beginner,யூகி,अनुमान लगाना [Anumaan Lagaana],Guess what I bought today.,நான் இன்று என்ன வாங்கினேன் என்று யூகி.,अंदाज़ा लगाओ कि मैंने आज क्या खरीदा।,Estimate,கணி
+137,Day 28,Imagine,Verb,Beginner,கற்பனை செய்,कल्पना करना [Kalpana Karna],Try to imagine a different world.,ஒரு வித்தியாசமான உலகத்தை கற்பனை செய்து பாருங்கள்.,एक अलग दुनिया की कल्पना करने की कोशिश करें।,Envision,பாவனை செய்
+138,Day 28,Join,Verb,Beginner,சேர்,शामिल होना [Shaamil Hona],Will you join our team?,நீங்கள் எங்கள் குழுவில் சேருவீர்களா?,क्या आप हमारी टीम में शामिल होंगे?,Connect,இணை
+139,Day 28,Kind,Adjective,Beginner,கனிவான,दयालु [Dayaalu],She is a very kind person.,அவள் மிகவும் அன்பான நபர்.,वह बहुत दयालु व्यक्ति है।,Gentle,கனிவான
+140,Day 28,Listen,Verb,Beginner,கவனி,सुनना [Sunna],Please listen carefully to the instructions.,அறிவுறுத்தல்களைக் கவனமாகக் கேளுங்கள்.,कृपया निर्देशों को ध्यान से सुनें।,Hear,செவிமடு
+141,Day 29,Matter,Noun/Verb,Beginner,விஷயம்,मामला [Maamlaa],It is a serious matter.,இது ஒரு தீவிரமான விஷயம்.,यह एक गंभीर मामला है।,Issue,விவகாரம்
+142,Day 29,Move,Verb,Beginner,நகர்,हिलना [Hilnaa],Please move your car.,உங்கள் காரை நகர்த்தவும்.,कृपया अपनी कार हटाएँ।,Shift,இடம் மாறு
+143,Day 29,Place,Noun/Verb,Beginner,இடம்,जगह [Jagaah],This is a beautiful place.,இது ஒரு அழகான இடம்.,यह एक सुंदर जगह है।,Location,தலம்
+144,Day 29,Practice,Noun/Verb,Beginner,பயிற்சி,अभ्यास करना [Abhyaas Karna],You need to practice every day.,நீங்கள் தினமும் பயிற்சி செய்ய வேண்டும்.,आपको हर दिन अभ्यास करने की ज़रूरत है।,Exercise,பழகுக
+145,Day 29,Present,Adjective/Noun,Beginner,தற்போதுள்ள,वर्तमान [Vartamaan],He was present at the event.,அவர் நிகழ்வில் கலந்து கொண்டார்.,वह कार्यक्रम में उपस्थित थे।,Attend,முன்னிலை
+146,Day 30,Ready,Adjective,Beginner,தயாராக,तैयार [Taiyaar],Are you ready to leave now?,நீங்கள் இப்போது கிளம்ப தயாரா?,क्या आप अब जाने के लिए तैयार हैं?,Prepared,ஆயத்தம்
+147,Day 30,Remember,Verb,Beginner,நினைவில் கொள்,याद रखना [Yaad Rakhna],Always remember your promises.,உங்கள் வாக்குறுதிகளை எப்போதும் நினைவில் கொள்ளுங்கள்.,हमेशा अपने वादों को याद रखें।,Recall,ஞாபகம் வை
+148,Day 30,Respond,Verb,Beginner,பதிலளி,जवाब देना [Jawaab Dena],Please respond to the email soon.,மின்னஞ்சலுக்கு விரைவில் பதிலளிக்கவும்.,कृपया जल्द ही ईमेल का उत्तर दें।,Reply,விடையளி
+149,Day 30,Result,Noun,Beginner,விளைவு,परिणाम [Parinaam],The result of the test was positive.,தேர்வின் முடிவு சாதகமாக இருந்தது.,परीक्षा का परिणाम सकारात्मक रहा।,Outcome,தேர்ச்சி
+150,Day 30,Simple,Adjective,Beginner,எளிய,सरल [Saral],It is a very simple question.,இது ஒரு மிக எளிமையான கேள்வி.,यह एक बहुत ही सरल प्रश्न है।,Easy,சுலபமான
+151,Day 31,Speak,Verb,Beginner,பேசு,बोलना [Bolnaa],Can you speak English fluently?,உங்களால் சரளமாக ஆங்கிலம் பேச முடியுமா?,क्या आप धाराप्रवाह अंग्रेजी बोल सकते हैं?,Talk,உரையாடு
+152,Day 31,Trust,Noun/Verb,Beginner,நம்பிக்கை,भरोसा [Bharosaa],I place my full trust in him.,நான் அவர் மீது முழு நம்பிக்கை வைத்திருக்கிறேன்.,मुझे उस पर पूरा भरोसा है।,Faith,உறுதி
+153,Day 31,Understand,Verb,Beginner,புரிந்துகொள்,समझना [Samajhnaa],Do you understand the instructions?,உங்களுக்கு அறிவுறுத்தல்கள் புரிகிறதா?,क्या आप निर्देशों को समझते हैं?,Comprehend,உணர்
+154,Day 31,Value,Noun/Verb,Beginner,மதிப்பு,मूल्य [Moolya],The watch has high monetary value.,இந்த கடிகாரம் அதிக பண மதிப்பு கொண்டது.,इस घड़ी का मौद्रिक मूल्य अधिक है।,Worth,கிரயம்
+155,Day 31,Wish,Noun/Verb,Beginner,விருப்பம்,इच्छा [Ichchhaa],I wish you all the best.,உங்களுக்கு எனது நல்வாழ்த்துகள்.,मैं आपके मंगल भविष्य की कामना करता हूँ।,Desire,ஆசை / விருப்பம்
+156,Day 32,Accept,Verb,Beginner,ஏற்றுக்கொள்,स्वीकार करना [Sveekaar Karna],He decided to accept the offer.,அவர் அந்த சலுகையை ஏற்க முடிவு செய்தார்.,उन्होंने प्रस्ताव स्वीकार करने का निर्णय लिया।,Approve,சம்மதி
+157,Day 32,Avoid,Verb,Beginner,தவிர்த்துவிடு,टालना [Taalnaa],Try to avoid unnecessary conflict.,தேவையற்ற மோதல்களைத் தவிர்க்க முயற்சி செய்யுங்கள்.,अनावश्यक संघर्ष से बचने की कोशिश करें।,Shun,விலகு
+158,Day 32,Danger,Noun,Beginner,ஆபத்து,खतरा [Khatraa],Smoking is a danger to health.,புகைபிடித்தல் ஆரோக்கியத்திற்கு ஆபத்தானது.,धूम्रपान स्वास्थ्य के लिए खतरा है।,Risk,இடர்
+159,Day 32,Enjoy,Verb,Beginner,மகிழ்,आनंद लेना [Aanand Lenaa],Did you enjoy the party?,நீங்கள் விருந்தை ரசித்தீர்களா?,क्या आपने पार्टी का आनंद लिया?,Relish,கொண்டாடு
+160,Day 32,Large,Adjective,Beginner,பெரிய,बड़ा [Badaa],We saw a large building downtown.,நகரத்தின் மையப்பகுதியில் ஒரு பெரிய கட்டிடத்தைப் பார்த்தோம்.,हमने शहर के बीचों-बीच एक बड़ी इमारत देखी।,Structure,மாளிகை
+161,Day 33,Quiet,Adjective,Beginner,அமைதியான,शांत [Shaant],Please keep your voice quiet.,தயவுசெய்து உங்கள் குரலை அமைதியாக வைத்திருக்கவும்.,कृपया अपनी आवाज़ धीमी रखें।,Silent,நிசப்தம்
+162,Day 33,Show,Verb,Beginner,காட்டு,दिखाना [Dikhaana],Can you show me the way?,எனக்கு வழி காட்ட முடியுமா?,क्या आप मुझे रास्ता दिखा सकते हैं?,Guide,பாதை
+163,Day 33,Aware,Adjective,Beginner,அறிந்த,अवगत [Avagat],I was aware of the problem.,எனக்கு அந்தப் பிரச்சனை தெரிந்திருந்தது.,मुझे समस्या के बारे में पता था।,Informed,விழிப்புணர்வு
+164,Day 33,Chance,Noun,Beginner,வாய்ப்பு,मौका [Mauka],This is your last chance.,இது உனக்குக் கடைசி வாய்ப்பு.,यह आपका आखिरी मौका है।,Opportunity,சந்தர்ப்பம்
+165,Day 33,Create,Verb,Beginner,உருவாக்கு,बनाना [Banaana],She wants to create a new design.,அவள் ஒரு புதிய வடிவமைப்பை உருவாக்க விரும்புகிறாள்.,वह एक नया डिज़ाइन बनाना चाहती है।,Produce,உருவாக்கு
+166,Day 34,Enough,Adjective,Beginner,போதுமான,पर्याप्त [Paryaapt],Do we have enough time?,எங்களிடம் போதுமான நேரம் இருக்கிறதா?,क्या हमारे पास पर्याप्त समय है?,Sufficient,தாராளமான
+167,Day 34,Grow,Verb,Beginner,வளர்,बढ़ना [Badhnaa],The plant grows quickly.,செடி வேகமாக வளர்கிறது.,पौधा तेजी से बढ़ता है।,Rapidly,விரைவாக
+168,Day 34,Half,Noun,Beginner,பாதி,आधा [Aadhaa],Give me half of the cake.,கேக்கில் பாதியை எனக்குக் கொடுங்கள்.,मुझे केक का आधा हिस्सा दो।,Fraction,பாதி
+169,Day 34,Important,Adjective,Beginner,முக்கியமான,महत्वपूर्ण [Mahatvapoorn],This information is very important.,இந்தத் தகவல் மிகவும் முக்கியமானது.,यह जानकारी बहुत महत्वपूर्ण है।,Vital,முக்கியம்
+170,Day 34,Inside,Preposition,Beginner,உள்ளே,अंदर [Andar],The cat is inside the box.,பூனை பெட்டிக்குள் இருக்கிறது.,बिल्ली डिब्बे के अंदर है।,Within,உள்ளே
+171,Day 35,Last,Adjective,Beginner,கடைசி,अंतिम [Antim],This is the last page.,இது கடைசிப் பக்கம்.,यह आखिरी पन्ना है।,Final,இறுதி
+172,Day 35,Leave,Verb,Beginner,புறப்படு,छोड़ना [Chhodnaa],When did he leave the house?,அவர் எப்போது வீட்டை விட்டு வெளியேறினார்?,वह घर से कब निकला?,Depart,புறப்படு
+173,Day 35,Mind,Noun,Beginner,மனம்,मन [Man],He has a clear mind.,அவருக்குத் தெளிவான சிந்தனை உள்ளது.,उसका मन साफ है।,Lucid,தெளிவு
+174,Day 35,Next,Adjective,Beginner,அடுத்த,अगला [Aglaa],Who is the next speaker?,அடுத்த பேச்சாளர் யார்?,अगला वक्ता कौन है?,Following,அடுத்து
+175,Day 35,Often,Adverb,Beginner,அடிக்கடி,अक्सर [Aksar],I often visit this place.,நான் அடிக்கடி இந்த இடத்திற்கு வருகிறேன்.,मैं अक्सर इस जगह पर आता हूँ।,Frequently,அடிக்கடி
+176,Day 36,Past,Noun,Beginner,கடந்த காலம்,अतीत [Ateet],Learn from the past.,கடந்த காலத்திலிருந்து கற்றுக்கொள்ளுங்கள்.,अतीत से सीखें।,History,கடந்த காலம்
+177,Day 36,Point,Noun,Beginner,புள்ளி,बिंदु [Bindu],You missed the main point.,நீங்கள் முக்கிய விஷயத்தைத் தவறவிட்டீர்கள்.,आपने मुख्य बात छोड़ दी।,Primary,முதன்மையான
+178,Day 36,Possible,Adjective,Beginner,சாத்தியமான,संभव [Sambhav],Is it possible to finish today?,இன்று முடிக்க முடியுமா?,क्या आज खत्म करना संभव है?,Feasible,சாத்தியம்
+179,Day 36,Question,Noun,Beginner,கேள்வி,प्रश्न [Prashn],I have a quick question.,என்னிடம் ஒரு விரைவான கேள்வி உள்ளது.,मेरा एक छोटा सा सवाल है।,Rapid,வேகம்
+180,Day 36,Right,Noun,Beginner,உரிமை,अधिकार [Adhikaar],Everyone has the right to speak.,பேசும் உரிமை அனைவருக்கும் உண்டு.,बोलने का अधिकार सबको है।,Justice,உரிமை
+181,Day 37,Safety,Noun,Beginner,பாதுகாப்பு,सुरक्षा [Surakshaa],Safety comes first.,பாதுகாப்புதான் முதன்மையானது.,सुरक्षा सबसे पहले आती है।,Protection,பாதுகாப்பு
+182,Day 37,Say,Verb,Beginner,சொல்,कहना [Kahnaa],What did he say?,அவர் என்ன சொன்னார்?,उसने क्या कहा?,State,கூறு
+183,Day 37,Sense,Noun,Beginner,உணர்வு,इंद्रिय [Indriya],It makes no sense.,இதில் எந்த அர்த்தமும் இல்லை.,इसका कोई मतलब नहीं है।,Logic,உணர்வு
+184,Day 37,Share,Verb,Beginner,பகிர்,साझा करना [Saajhaa Karna],Please share your food.,தயவுசெய்து உங்கள் உணவைப் பகிர்ந்து கொள்ளுங்கள்.,कृपया अपना खाना साझा करें।,Divide,பகிர்
+185,Day 37,Stay,Verb,Beginner,தங்கு,ठहरना [Thaharnaa],We will stay here tonight.,நாங்கள் இன்று இரவு இங்கே தங்குவோம்.,हम आज रात यहीं रुकेंगे।,Remain,தங்கு
+186,Day 38,Story,Noun,Beginner,கதை,कहानी [Kahaanee],Tell me a short story.,எனக்கு ஒரு குட்டி கதை சொல்லுங்கள்.,मुझे एक छोटी कहानी सुनाओ।,Brief,சுருக்கமான
+187,Day 38,Strong,Adjective,Beginner,வலுவான,मजबूत [Majaboot],He has strong opinions.,அவருக்கு உறுதியான கருத்துக்கள் உள்ளன.,उसकी राय बहुत पक्की है।,Firm,பலமான
+188,Day 38,Suddenly,Adverb,Beginner,திடீரென,अचानक [Achaanak],The light suddenly went out.,திடீரென்று விளக்கு அணைந்தது.,अचानक बत्ती गुल हो गई।,Abruptly,சடுதியாக
+189,Day 38,Suggest,Verb,Beginner,ஆலோசனை கூறு,सुझाव देना [Sujaav Denaa],I suggest we take a break.,நாம் ஒரு இடைவேளை எடுக்கலாம் என்று நான் பரிந்துரைக்கிறேன்.,मेरा सुझाव है कि हम थोड़ा ब्रेक लें।,Propose,ஆலோசனை
+190,Day 38,Sure,Adjective,Beginner,உறுதியான,निश्चित [Nishchit],Are you sure about that?,அதில் நீங்கள் உறுதியாக இருக்கிறீர்களா?,क्या आप उस बारे में सुनिश्चित हैं?,Certain,நிச்சயம்
+191,Day 39,Talk,Verb,Beginner,பேசு,बात करना [Baat Karna],Let's talk about the plan.,திட்டத்தைப் பற்றி பேசலாம்.,चलो योजना के बारे में बात करते हैं।,Discuss,உரையாடல்
+192,Day 39,Thing,Noun,Beginner,விஷயம்,चीज़ [Cheez],That's the main thing.,அதுதான் முக்கியமான விஷயம்.,वही मुख्य बात है।,Principal,பிரதானம்
+193,Day 39,Travel,Verb,Beginner,பயணம் செய்,यात्रा करना [Yaatraa Karna],We plan to travel next year.,அடுத்த ஆண்டு பயணம் செய்யத் திட்டமிட்டுள்ளோம்.,हम अगले साल यात्रा करने की योजना बना रहे हैं।,Journey,பயணம்
+194,Day 39,TRUE,Adjective,Beginner,உண்மை,सत्य [Satya],The story is true.,கதை உண்மை.,कहानी सच है।,Fact,உண்மை
+195,Day 39,Voice,Noun,Beginner,குரல்,आवाज़ [Aavaaz],She has a beautiful voice.,அவளுக்கு அழகான குரல் இருக்கிறது.,उसकी आवाज़ बहुत सुंदर है।,Sound,குரல்
+196,Day 40,Way,Noun,Beginner,வழி,रास्ता [Raastaa],Show me the way to the station.,நிலையத்திற்குச் செல்லும் வழியை எனக்குக் காட்டுங்கள்.,मुझे स्टेशन का रास्ता दिखाओ।,Route,வழி
+197,Day 40,Whole,Adjective,Beginner,முழு,पूरा [Pooraa],He ate the whole pizza.,அவன் முழு பீட்சாவையும் சாப்பிட்டான்.,उसने पूरा पिज्जा खा लिया।,Entire,முழுவதும்
+198,Day 40,Why,Adverb,Beginner,ஏன்,क्यों [Kyon],Why did you do that?,நீங்கள் ஏன் அதைச் செய்தீர்கள்?,आपने ऐसा क्यों किया?,Reason,காரணம்
+199,Day 40,Young,Adjective,Beginner,இளமையான,युवा [Yuvaa],She is a very young student.,அவள் மிகவும் இளைய மாணவி.,वह बहुत छोटी छात्रा है।,Youthful,இளமை
+200,Day 40,Zero,Noun,Beginner,பூஜ்ஜியம்,शून्य [Shoonya],The score was zero.,மதிப்பெண் பூஜ்ஜியம்.,स्कोर शून्य था।,Naught,பூஜ்ஜியம்
+201,Day 41,Above,Preposition,Beginner,மேலே,ऊपर [Oopar],The sun is above the clouds.,சூரியன் மேகங்களுக்கு மேலே உள்ளது.,सूरज बादलों के ऊपर है।,Overhead,மேலே
+202,Day 41,Afraid,Adjective,Beginner,பயம்,भयभीत [Bhayabheet],I am afraid of spiders.,எனக்குச் சிலந்திகளைக் கண்டால் பயம்.,मुझे मकड़ियों से डर लगता है।,Scared,அச்சம்
+203,Day 41,Along,Preposition,Beginner,சேர்ந்து,साथ-साथ [Saath-Saath],We walked along the beach.,நாங்கள் கடற்கரையோரம் நடந்தோம்.,हम समुद्र तट के किनारे चले।,Beside,ஓரமாக
+204,Day 41,Amount,Noun,Beginner,அளவு,मात्रा [Maatraa],He donated a large amount of money.,அவர் ஒரு பெரிய தொகையை நன்கொடையாக அளித்தார்.,उसने बड़ी रकम दान की।,Quantity,அளவு
+205,Day 41,Begin,Verb,Beginner,தொடங்கு,शुरू करना [Shuru Karna],Let the games begin.,விளையாட்டுகள் தொடங்கட்டும்.,खेल शुरू होने दो।,Start,தொடங்கு
+206,Day 42,Between,Preposition,Beginner,இடையில்,बीच में [Beech Mein],The town is between two rivers.,நகரம் இரண்டு ஆறுகளுக்கு இடையில் உள்ளது.,शहर दो नदियों के बीच में है।,Middle,இடையில்
+207,Day 42,Building,Noun,Beginner,கட்டிடம்,इमारत [Imaarat],That is a tall building.,அது ஒரு உயரமான கட்டிடம்.,वह एक ऊंची इमारत है।,High,நெடிய
+208,Day 42,Class,Noun,Beginner,வகுப்பு,कक्षा [Kakshaa],I have a math class now.,எனக்கு இப்போது கணித வகுப்பு உள்ளது.,मेरी अभी गणित की क्लास है।,Lesson,வகுப்பு
+209,Day 42,Customer,Noun,Beginner,வாடிக்கையாளர்,ग्राहक [Graahak],The customer bought a new phone.,வாடிக்கையாளர் புதிய போன் வாங்கினார்.,ग्राहक ने एक नया फोन खरीदा।,Buyer,வாடிக்கையாளர்
+210,Day 42,Difference,Noun,Beginner,வித்தியாசம்,अंतर [Antar],What is the difference in price?,விலையில் என்ன வித்தியாசம்?,कीमत में क्या अंतर है?,Contrast,வேறுபாடு
+211,Day 43,Door,Noun,Beginner,கதவு,दरवाज़ा [Darvaazaa],Please knock on the door.,தயவுசெய்து கதவைத் தட்டுங்கள்.,कृपया दरवाजा खटखटाएं।,Tap,தட்டு
+212,Day 43,Dream,Noun/Verb,Beginner,கனவு,सपना [Sapnaa],I had a strange dream last night.,நேற்று இரவு எனக்கு ஒரு விசித்திரமான கனவு வந்தது.,मुझे कल रात एक अजीब सपना आया।,Odd,விசித்திரமான
+213,Day 43,End,Noun/Verb,Beginner,முடிவு,अंत [Ant],The movie will end soon.,படம் விரைவில் முடிவடையும்.,फिल्म जल्द ही खत्म हो जाएगी।,Finish,முடிவு
+214,Day 43,Experience,Noun,Beginner,அனுபவம்,अनुभव [Anubhav],He has many years of experience.,அவருக்குப் பல வருட அனுபவம் உள்ளது.,उनके पास कई वर्षों का अनुभव है।,Expertise,அனுபவம்
+215,Day 43,Famous,Adjective,Beginner,பிரபலமான,प्रसिद्ध [Prasiddh],He is a famous writer.,அவர் ஒரு பிரபலமான எழுத்தாளர்.,वह एक प्रसिद्ध लेखक हैं।,Well-known,புகழ்பெற்ற
+216,Day 44,Future,Noun,Beginner,எதிர்காலம்,भविष्य [Bhavishya],We should plan for the future.,எதிர்காலத்திற்காக நாம் திட்டமிட வேண்டும்.,हमें भविष्य की योजना बनानी चाहिए।,Hereafter,எதிர்காலம்
+217,Day 44,Ground,Noun,Beginner,தரை,ज़मीन [Zameen],The book fell to the ground.,புத்தகம் தரையில் விழுந்தது.,किताब जमीन पर गिर गई।,Floor,தரை
+218,Day 44,Heavy,Adjective,Beginner,கனமான,भारी [Bhaaree],This box is very heavy.,இந்தப் பெட்டி மிகவும் கனமானது.,यह बक्सा बहुत भारी है।,Weighty,பாரமான
+219,Day 44,Human,Noun,Beginner,மனிதன்,मानव [Maanav],Every human makes mistakes.,ஒவ்வொரு மனிதனும் தவறு செய்கிறான்.,हर इंसान गलती करता है।,Person,மனிதன்
+220,Day 44,Journey,Noun,Beginner,பயணம்,यात्रा [Yaatraa],We had a long journey.,எங்களுக்கு ஒரு நீண்ட பயணம் இருந்தது.,हमारी यात्रा लंबी थी।,Trip,பயணம்
+221,Day 45,Keep,Verb,Beginner,வை,रखना [Rakhnaa],Keep the change.,மீதிச் சில்லறையை வைத்துக்கொள்.,खुले पैसे रख लो।,Balance,சில்லறை
+222,Day 45,Life,Noun,Beginner,வாழ்க்கை,जीवन [Jeevan],Life is a precious gift.,வாழ்க்கை ஒரு விலைமதிப்பற்ற பரிசு.,जीवन एक बहुमूल्य उपहार है।,Valuable,அருமையான
+223,Day 45,Machine,Noun,Beginner,இயந்திரம்,मशीन [Masheen],The machine is very old.,இயந்திரம் மிகவும் பழையது.,मशीन बहुत पुरानी है।,Device,கருவி
+224,Day 45,Meet,Verb,Beginner,சந்தி,मिलना [Milnaa],I will meet him tomorrow.,நான் அவரை நாளை சந்திப்பேன்.,मैं उससे कल मिलूँगा।,Encounter,சந்திப்பு
+225,Day 45,Moment,Noun,Beginner,கணம்,पल [Pal],Wait a moment.,ஒரு நிமிடம் காத்திருங்கள்.,एक पल रुको।,Instant,கணம்
+226,Day 46,Morning,Noun,Beginner,காலை,सुबह [Subah],Good morning.,காலை வணக்கம்.,शुभ प्रभात।,Greeting,காலை வணக்கம்
+227,Day 46,Nature,Noun,Beginner,இயற்கை,प्रकृति [Prakrti],I love spending time in nature.,நான் இயற்கையோடு நேரத்தைச் செலவிட விரும்புகிறேன்.,मुझे प्रकृति में समय बिताना पसंद है।,Environment,இயற்கை
+228,Day 46,Near,Preposition,Beginner,அருகில்,पास [Paas],The park is near my house.,பூங்கா என் வீட்டிற்கு அருகில் உள்ளது.,पार्क मेरे घर के पास है।,Close,அருகில்
+229,Day 46,Office,Noun,Beginner,அலுவலகம்,कार्यालय [Kaaryaalay],He works in a big office.,அவர் ஒரு பெரிய அலுவலகத்தில் பணிபுரிகிறார்.,वह एक बड़े कार्यालय में काम करता है।,Workplace,அலுவலகம்
+230,Day 46,Paper,Noun,Beginner,காகிதம்,कागज़ [Kaagaz],Write your name on the paper.,காகிதத்தில் உங்கள் பெயரை எழுதுங்கள்.,कागज पर अपना नाम लिखो।,Sheet,தாள்
+231,Day 47,Parent,Noun,Beginner,பெற்றோர்,माता-पिता [Maataa-Pitaa],Respect your parents.,உங்கள் பெற்றோரை மதிக்கவும்.,अपने माता-पिता का सम्मान करें।,Honor,மரியாதை
+232,Day 47,Power,Noun,Beginner,சக்தி,शक्ति [Shakti],The country has great power.,நாட்டுக்குச் சிறந்த அதிகாரம் உள்ளது.,देश के पास बड़ी शक्ति है।,Strength,வலிமை
+233,Day 47,Problem,Noun,Beginner,பிரச்சனை,समस्या [Samasyaa],We need to solve this problem.,இந்தப் பிரச்சனைக்கு நாம் தீர்வு காண வேண்டும்.,हमें इस समस्या को हल करने की आवश्यकता है।,Resolve,தீர்வு
+234,Day 47,Protect,Verb,Beginner,பாதுகா,रक्षा करना [Rakshaa Karna],Protect your skin from the sun.,சூரியனிடமிருந்து உங்கள் சருமத்தைப் பாதுகாக்கவும்.,अपनी त्वचा को धूप से बचाएं।,Guard,பாதுகாத்தல்
+235,Day 47,Public,Adjective,Beginner,பொது,सार्वजनिक [Saarvajanik],The library is open to the public.,நூலகம் பொதுமக்களுக்காகத் திறந்து வைக்கப்பட்டுள்ளது.,पुस्तकालय जनता के लिए खुला है।,People,பொதுஜனம்
+236,Day 48,Reason,Noun,Beginner,காரணம்,कारण [Kaaran],Tell me the reason why.,அதற்கான காரணத்தைச் சொல்லுங்கள்.,मुझे कारण बताओ कि क्यों।,Cause,காரணம்
+237,Day 48,Room,Noun,Beginner,அறை,कमरा [Kamraa],Clean your room.,உங்கள் அறையைச் சுத்தம் செய்யுங்கள்.,अपना कमरा साफ करो।,Tidy,சுத்தம்
+238,Day 48,Rule,Noun,Beginner,விதி,नियम [Niyam],You must follow the rules.,நீங்கள் விதிகளைப் பின்பற்ற வேண்டும்.,आपको नियमों का पालन करना चाहिए।,Regulation,விதிமுறை
+239,Day 48,Secret,Noun,Beginner,இரகசியம்,रहस्य [Rahasy],Keep this a secret.,இதை ரகசியமாக வைத்திருங்கள்.,इसे गुप्त रखें।,Hidden,ரகசியம்
+240,Day 48,Side,Noun,Beginner,பக்கம்,तरफ [Taraf],The house is on the right side.,வீடு வலது பக்கத்தில் உள்ளது.,घर दाहिनी ओर है।,Direction,பக்கம்
+241,Day 49,Space,Noun,Beginner,விண்வெளி,अंतरिक्ष [Antariksh],We need more space in the car.,காரில் எங்களுக்குக் கூடுதல் இடம் தேவை.,हमें कार में और जगह चाहिए।,Room,இடைவெளி
+242,Day 49,Special,Adjective,Beginner,சிறப்பு,विशेष [Vishesh],Today is a special day.,இன்று ஒரு சிறப்பான நாள்.,आज एक विशेष दिन है।,Unique,விசேஷம்
+243,Day 49,Success,Noun,Beginner,வெற்றி,सफलता [Saphaltaa],Hard work leads to success.,கடின உழைப்பு வெற்றிக்கு வழிவகுக்கும்.,कड़ी मेहनत सफलता की ओर ले जाती है।,Victory,வெற்றி
+244,Day 49,Together,Adverb,Beginner,ஒன்றாக,साथ में [Saath Mein],We should work together.,நாம் இணைந்து செயல்பட வேண்டும்.,हमें साथ मिलकर काम करना चाहिए।,Jointly,இணைந்து
+245,Day 49,Usual,Adjective,Beginner,வழக்கமான,सामान्य [Saamaanya],This is the usual weather for June.,ஜூன் மாதத்திற்கு இது வழக்கமான வானிலை.,जून के लिए यह सामान्य मौसम है।,Normal,வழக்கம்
+246,Day 50,View,Noun/Verb,Beginner,பார்வை,दृश्य [Drishya],We enjoyed the view from the top.,மேலிருந்து வரும் காட்சியை நாங்கள் ரசித்தோம்.,हमने ऊपर से दृश्य का आनंद लिया।,Scene,தோற்றம்
+247,Day 50,Warm,Adjective,Beginner,சூடான,गर्म [Garm],Wear a warm coat in winter.,குளிர்காலத்தில் கதகதப்பான கோட் அணியுங்கள்.,सर्दियों में गर्म कोट पहनें।,Heat,வெப்பம்
+248,Day 50,Will,Noun/Modal,Beginner,விருப்பம்,इच्छा [Ichchhaa],She has a strong will.,அவளுக்கு உறுதியான மன உறுதி இருக்கிறது.,उसकी इच्छाशक्ति बहुत मजबूत है।,Determination,விருப்பம்
+249,Day 50,Window,Noun,Beginner,ஜன்னல்,खिड़की [Khidkee],Open the window for fresh air.,சுத்தமான காற்றுக்காக ஜன்னலைத் திறக்கவும்.,ताजी हवा के लिए खिड़की खोलें।,Casement,ஜன்னல்
+250,Day 50,Word,Noun,Beginner,சொல்,शब्द [Shabd],Spell the word correctly.,வார்த்தையைச் சரியாக உச்சரிக்கவும்.,शब्द की वर्तनी सही लिखें।,Phrasing,எழுத்துக்கூட்டு
+251,Day 51,Worry,Noun/Verb,Beginner,கவலை,चिंता करना [Chintaa Karna],Don't worry about the small things.,சிறிய விஷயங்களைப் பற்றிக் கவலைப்பட வேண்டாம்.,छोटी-छोटी बातों की चिंता न करें।,Fret,கவலை
+252,Day 51,Across,Preposition,Beginner,முழுவதும்,उस पार [Us Paar],We walked across the bridge.,நாங்கள் பாலத்தைக் கடந்து நடந்தோம்.,हम पुल के पार चले।,Over,குறுக்காக
+253,Day 51,Agree,Verb,Beginner,ஒப்புக்கொள்,सहमत होना [Sehmat Honaa],I agree with your plan.,உங்கள் திட்டத்தை நான் ஏற்றுக்கொள்கிறேன்.,मैं आपकी योजना से सहमत हूँ।,Consent,சம்மதி
+254,Day 51,Appear,Verb,Beginner,தோன்று,प्रकट होना [Prakat Honaa],A strange light appeared in the sky.,வானத்தில் ஒரு விசித்திரமான ஒளி தோன்றியது.,आकाश में एक अजीब रोशनी दिखाई दी।,Emerged,தோன்று
+255,Day 51,Arm,Noun,Beginner,கை,बांह [Baanh],He broke his left arm.,அவன் இடது கையை உடைத்துக் கொண்டான்.,उसने अपना बायां हाथ तोड़ लिया।,Limb,புஜம்
+256,Day 52,Beauty,Noun,Beginner,அழகு,सुंदरता [Sundarta],She is a woman of great beauty.,அவள் மிகுந்த அழகு கொண்ட பெண்.,वह बहुत सुंदर महिला है।,Grace,அழகு
+257,Day 52,Blood,Noun,Beginner,இரத்தம்,खून [Khoon],He lost a lot of blood.,அவருக்கு ரத்தம் அதிகம் வெளியேறியது.,उसका काफी खून बह गया।,Gore,குருதி
+258,Day 52,Catch,Verb,Beginner,பிடி,पकड़ना [Pakadnaa],Can you catch the ball?,உங்களால் பந்தைப் பிடிக்க முடியுமா?,क्या आप गेंद पकड़ सकते हैं?,Seize,பிடி
+259,Day 52,College,Noun,Beginner,கல்லூரி,कॉलेज [College],He is studying in college.,அவர் கல்லூரியில் படித்துக் கொண்டிருக்கிறார்.,वह कॉलेज में पढ़ रहा है।,Institute,கல்லூரி
+260,Day 52,Detail,Noun,Beginner,விவரம்,विवरण [Vivaran],I need more detail about the plan.,திட்டத்தைப் பற்றி எனக்குக் கூடுதல் விவரம் தேவை.,मुझे योजना के बारे में और अधिक विवरण चाहिए।,Particulars,விபரம்
+261,Day 53,Drop,Verb,Beginner,விடு,गिराना [Giraanaa],Be careful not to drop the glass.,கண்ணாடி கீழே விழாமல் கவனமாக இருங்கள்.,सावधान रहें कि गिलास गिर न जाए।,Release,விடுவி
+262,Day 53,Else,Adverb,Beginner,வேறு,और [Aur],Who else is coming?,வேறு யார் வருகிறார்கள்?,और कौन आ रहा है?,Additionally,மற்றபடி
+263,Day 53,Entry,Noun,Beginner,நுழைவு,प्रवेश [Pravesh],The entry is free.,நுழைவு இலவசம்.,प्रवेश निःशुल्क है।,Access,அனுமதி
+264,Day 53,Evening,Noun,Beginner,மாலை,शाम [Shaam],I will call you in the evening.,நான் உங்களை மாலையில் அழைக்கிறேன்.,मैं तुम्हें शाम को फोन करूँगा।,Twilight,மாலை
+265,Day 53,Example,Noun,Beginner,உதாரணம்,उदाहरण [Udaaharan],Give me an example of the rule.,விதிக்கு ஒரு உதாரணம் கொடுங்கள்.,मुझे नियम का एक उदाहरण दें।,Instance,உதாரணம்
+266,Day 54,Floor,Noun,Beginner,தளம்,फर्श [Farsh],He dropped the book on the floor.,புத்தகத்தைத் தரையில் போட்டான்.,उसने किताब फर्श पर गिरा दी।,Ground,தரை
+267,Day 54,Gain,Verb,Beginner,பெறு,प्राप्त करना [Praapt Karna],What do you hope to gain?,நீங்கள் எதைப் பெற விரும்புகிறீர்கள்?,आप क्या हासिल करने की उम्मीद करते हैं?,Profit,லாபம்
+268,Day 54,General,Adjective,Beginner,பொதுவான,सामान्य [Saamaany],This is a general rule.,இது ஒரு பொதுவான விதி.,यह एक सामान्य नियम है।,Universal,பொதுவான
+269,Day 54,Goal,Noun,Beginner,குறிக்கோள்,लक्ष्य [Lakshy],Set clear goals for yourself.,உங்களுக்கெனத் தெளிவான இலக்குகளை நிர்ணயியுங்கள்.,अपने लिए स्पष्ट लक्ष्य निर्धारित करें।,Aim,இலக்கு
+270,Day 54,Group,Noun,Beginner,குழு,समूह [Samooh],The group went on a trip.,அந்தக் குழு ஒரு பயணத்திற்குச் சென்றது.,समूह एक यात्रा पर गया था।,Bunch,குழு
+271,Day 55,Hide,Verb,Beginner,மறை,छिपाना [Chhipaanaa],Where did you hide the key?,சாவியை எங்கே மறைத்து வைத்தாய்?,तुमने चाबी कहाँ छुपाई?,Conceal,மறை
+272,Day 55,Idea,Noun,Beginner,யோசனை,विचार [Vichaar],That's a clever idea.,அது ஒரு புத்திசாலித்தனமான யோசனை.,वह एक चतुर विचार है।,Intelligent,புத்திசாலி
+273,Day 55,Issue,Noun,Beginner,பிரச்சினை,मुद्दा [Muddaa],The issue is very complicated.,இந்த விவகாரம் மிகவும் சிக்கலானது.,मामला बहुत पेचीदा है।,Problem,சிக்கல்
+274,Day 55,Job,Noun,Beginner,வேலை,नौकरी [Naukaree],He has a new job.,அவனுக்குப் புதிய வேலை கிடைத்துள்ளது.,उसके पास नई नौकरी है।,Task,பணி
+275,Day 55,Judge,Verb,Beginner,தீர்ப்பு வழங்கு,न्याय करना [Nyaay Karna],Do not judge a book by its cover.,ஒரு புத்தகத்தை அதன் அட்டையை வைத்து எடை போடாதீர்கள்.,किसी किताब को उसके कवर से न आंकें।,Assess,மதிப்பிடு
+276,Day 56,Kick,Verb,Beginner,உதை,मारना [Maarnaa],He will kick the ball.,அவன் பந்தை உதைப்பான்.,वह गेंद को लात मारेगा।,Strike,உதை
+277,Day 56,Law,Noun,Beginner,சட்டம்,कानून [Kaanoon],Everyone must obey the law.,அனைவரும் சட்டத்திற்குக் கீழ்ப்படிய வேண்டும்.,सभी को कानून का पालन करना चाहिए।,Statute,சட்டம்
+278,Day 56,Letter,Noun,Beginner,கடிதம்,पत्र [Patr],She wrote a long letter.,அவள் ஒரு நீண்ட கடிதம் எழுதினாள்.,उसने एक लंबा पत्र लिखा।,Message,கடிதம்
+279,Day 56,Long,Adjective,Beginner,நீண்ட,लंबा [Lamba],It was a very long day.,அது ஒரு மிக நீண்ட நாள்.,वह बहुत लंबा दिन था।,Lengthy,நீளமான
+280,Day 56,Loss,Noun,Beginner,இழப்பு,हानि [Haani],The company reported a huge loss.,நிறுவனம் பெரிய நஷ்டத்தைப் பதிவு செய்தது.,कंपनी ने भारी नुकसान की सूचना दी।,Deficit,நஷ்டம்
+281,Day 57,Mark,Noun/Verb,Beginner,குறி,निशान [Nishaan],Put a mark on the correct answer.,சரியான பதிலில் ஒரு அடையாளத்தை இடவும்.,सही उत्तर पर निशान लगाएँ।,Sign,குறி
+282,Day 57,Nobody,Pronoun,Beginner,யாரும் இல்லை,कोई नहीं [Koee Naheen],Nobody answered the phone.,யாரும் போனை எடுக்கவில்லை.,किसी ने फोन नहीं उठाया।,None,எவரும் இல்லை
+283,Day 57,Note,Noun/Verb,Beginner,குறிப்பு,नोट [Note],Write a quick note.,ஒரு சிறு குறிப்பை எழுதுங்கள்.,एक छोटी नोट लिखो।,Memo,குறிப்பு
+284,Day 57,Number,Noun,Beginner,எண்,संख्या [Sankhyaa],What is your phone number?,உங்கள் தொலைபேசி எண் என்ன?,आपका फोन नंबर क्या है?,Digit,எண்
+285,Day 57,Offer,Noun/Verb,Beginner,சலுகை,पेशकश [Peshkash],I received a job offer.,எனக்கு வேலை வாய்ப்பு கிடைத்தது.,मुझे नौकरी का प्रस्ताव मिला।,Proposal,வாய்ப்பு
+286,Day 58,Own,Verb,Beginner,சொந்தமான,मालिक होना [Maalik Honaa],Do you own this house?,இந்த வீடு உங்களுக்குச் சொந்தமானதா?,क्या यह घर आपका है?,Possess,உரிமையாளர்
+287,Day 58,Person,Noun,Beginner,நபர்,व्यक्ति [Vyakti],He is a very smart person.,அவர் மிகவும் புத்திசாலித்தனமான நபர்.,वह बहुत होशियार व्यक्ति है।,Clever,கெட்டிக்காரன்
+288,Day 58,Plan,Noun/Verb,Beginner,திட்டம்,योजना [Yojanaa],What is the plan for tomorrow?,நாளைக்கு என்ன திட்டம்?,कल की क्या योजना है?,Strategy,திட்டம்
+289,Day 58,Purpose,Noun,Beginner,நோக்கம்,उद्देश्य [Uddeshy],What is the purpose of this meeting?,இந்தக் கூட்டத்தின் நோக்கம் என்ன?,इस बैठक का उद्देश्य क्या है?,Intent,நோக்கம்
+290,Day 58,Real,Adjective,Beginner,உண்மையான,असली [Aslee],Is that a real diamond?,அது உண்மையான வைரமா?,क्या वह असली हीरा है?,Genuine,நிஜமான
+291,Day 59,Report,Noun/Verb,Beginner,அறிக்கை,रिपोर्ट [Report],Please submit your report by Friday.,வெள்ளிக்கிழமைக்குள் உங்கள் அறிக்கையைச் சமர்ப்பிக்கவும்.,कृपया शुक्रवार तक अपनी रिपोर्ट जमा करें।,Account,அறிக்கை
+292,Day 59,Serve,Verb,Beginner,சேவை செய்,सेवा करना [Sevaa Karna],He serves the community.,அவர் சமூகத்திற்குச் சேவை செய்கிறார்.,वह समुदाय की सेवा करता है।,Aid,பணிசெய்
+293,Day 59,Social,Adjective,Beginner,சமூக,सामाजिक [Saamaajik],Humans are social animals.,மனிதர்கள் சமூக விலங்குகள்.,मनुष्य एक सामाजिक प्राणी है।,Civic,சமூகம்
+294,Day 59,Soon,Adverb,Beginner,விரைவில்,जल्द ही [Jald Hee],I will be back soon.,நான் விரைவில் திரும்புவேன்.,मैं जल्द ही वापस आऊंगा।,Shortly,விரைவில்
+295,Day 59,Store,Noun/Verb,Beginner,கடை,दुकान [Dukaan],The store opens at 9 am.,கடை காலை 9 மணிக்குத் திறக்கும்.,दुकान सुबह 9 बजे खुलती है।,Shop,அங்காடி
+296,Day 60,System,Noun,Beginner,அமைப்பு,प्रणाली [Pranaalee],The new system is more efficient.,புதிய முறை மிகவும் திறமையானது.,नई प्रणाली अधिक कुशल है।,Method,முறை
+297,Day 60,Until,Preposition,Beginner,வரை,तक [Tak],I will wait until noon.,நான் மதியம் வரை காத்திருப்பேன்.,मैं दोपहर तक इंतजार करूँगा।,Midday,நண்பகல்
+298,Day 60,War,Noun,Beginner,போர்,युद्ध [Yuddh],The country was at war.,அந்த நாடு போரில் இருந்தது.,देश युद्ध में था।,Conflict,போர்
+299,Day 60,White,Adjective,Beginner,வெள்ளை,सफेद [Saphed],She wore a white dress.,அவள் வெள்ளை உடை அணிந்திருந்தாள்.,उसने सफेद कपड़े पहने थे।,Attire,ஆடை
+300,Day 60,Again,Adverb,Beginner,மீண்டும்,फिर से [Phir Se],Please say that again.,தயவுசெய்து அதை மீண்டும் சொல்லுங்கள்.,कृपया उसे फिर से कहें।,Repeat,சொல்லு
+301,Day 61,Alone,Adjective,Beginner,தனியாக,अकेला [Akelaa],She lives alone in the big house.,அவள் பெரிய வீட்டில் தனியாக வசிக்கிறாள்.,वह बड़े घर में अकेली रहती है।,Solitary,தனிமை
+302,Day 61,Already,Adverb,Beginner,ஏற்கனவே,पहले से ही [Pahale Se Hee],I have already finished the task.,நான் ஏற்கனவே பணியை முடித்துவிட்டேன்.,मैंने काम पहले ही पूरा कर लिया है।,Previously,ஏற்கனவே
+303,Day 61,Both,Determiner,Beginner,இரண்டும்,दोनों [Donon],Both of them are correct.,அவர்கள் இருவருமே சொல்வது சரி.,वे दोनों सही हैं।,Pair,இருவரும்
+304,Day 61,Change,Verb,Beginner,மாற்று,बदलना [Badalnaa],The weather changes quickly.,வானிலை வேகமாக மாறுகிறது.,मौसम जल्दी बदलता है।,Vary,மாற்றம்
+305,Day 61,Clear,Adjective,Beginner,தெளிவான,स्पष्ट [Spasht],The instructions are very clear.,அறிவுறுத்தல்கள் மிகவும் தெளிவாக உள்ளன.,निर्देश बहुत स्पष्ट हैं।,Lucid,தெளிவு
+306,Day 62,Face,Noun,Beginner,முகம்,चेहरा [Chehraa],Wash your face before bed.,படுக்கைக்கு முன் முகத்தைக் கழுவவும்.,सोने से पहले अपना चेहरा धो लें।,Cleanse,கழுவு
+307,Day 62,Follow,Verb,Beginner,பின்பற்று,पालन करना [Paalan Karna],Always follow the safety rules.,எப்போதும் பாதுகாப்பு விதிகளைப் பின்பற்றுங்கள்.,हमेशा सुरक्षा नियमों का पालन करें।,Protocol,விதிமுறை
+308,Day 62,Fruit,Noun,Beginner,பழம்,फल [Phal],,,,,
+309,Day 62,Apple,Noun,Beginner,ஆப்பிள்,सेब [Seb],,,,,
+310,Day 62,Bread,Noun,Beginner,ரொட்டி,रोटी [Roti],I like toasted bread.,எனக்கு வறுத்த ரொட்டி பிடிக்கும்.,मुझे टोस्ट की हुई रोटी पसंद है।,Grain,அன்னம்
+311,Day 63,Milk,Noun,Beginner,பால்,दूध [Doodh],Drink milk for health.,ஆரோக்கியத்திற்காக பால் குடியுங்கள்.,सेहत के लिए दूध पिएं।,Sodium,லவணம்
+312,Day 63,Rice,Noun,Beginner,அரிசி,चावल [Chawal],We eat rice for lunch.,நாங்கள் மதிய உணவிற்கு அரிசி சாப்பிடுகிறோம்.,हम दोपहर के भोजन में चावल खाते हैं।,Sweetener,இனிப்பு
+313,Day 63,Salt,Noun,Beginner,உப்பு,नमक [Namak],Don't add too much salt.,அதிக உப்பு சேர்க்க வேண்டாம்.,ज्यादा नमक मत डालो।,Fowl,புள்
+314,Day 63,Sugar,Noun,Beginner,சர்க்கரை,चीनी [Cheeni],I want sugar in my tea.,என் தேநீரில் சர்க்கரை வேண்டும்.,मुझे अपनी चाय में चीनी चाहिए।,Aquatic,மச்சம்
+315,Day 63,Bird,Noun,Beginner,பறவை,पक्षी [Pakshi],The bird is flying.,பறவை பறந்து கொண்டிருக்கிறது.,पक्षी उड़ रहा है।,Bloom,மலர்
+316,Day 64,Fish,Noun,Beginner,மீன்,मछली [Machli],Fish live in water.,மீன்கள் தண்ணீரில் வாழ்கின்றன.,मछलियाँ पानी में रहती हैं।,Turf,அருகம்புல்
+317,Day 64,Flower,Noun,Beginner,பூ,फूल [Phool],This flower smells good.,இந்த பூ நல்ல வாசனையாக இருக்கிறது.,इस फूल की महक अच्छी है।,Shower,மாரி
+318,Day 64,Grass,Noun,Beginner,புல்,घास [Ghaas],The grass is green.,புல் பச்சையாக உள்ளது.,घास हरी है।,Frost,உறைபனி
+319,Day 64,Rain,Noun,Beginner,மழை,बारिश [Baarish],I love the rain.,எனக்கு மழை பிடிக்கும்.,मुझे बारिश पसंद है।,Peak,கிரி
+320,Day 64,Snow,Noun,Beginner,பனி,बर्फ [Barf],Look at the white snow.,வெள்ளை பனியைப் பாருங்கள்.,सफेद बर्फ को देखो।,Stream,நதி
+321,Day 65,Mountain,Noun,Beginner,மலை,पहाड़ [Pahaad],That mountain is high.,அந்த மலை உயரமாக உள்ளது.,वह पहाड़ ऊँचा है।,Ocean,ஆழி
+322,Day 65,River,Noun,Beginner,ஆறு,नदी [Nadi],The river flows fast.,ஆறு வேகமாக ஓடுகிறது.,नदी तेज़ बहती है।,Town,மாநகரம்
+323,Day 65,Sea,Noun,Beginner,கடல்,समुद्र [Samudra],The sea is very deep.,கடல் மிகவும் ஆழமானது.,समुद्र बहुत गहरा है।,Hamlet,ஊர்
+324,Day 65,City,Noun,Beginner,நகரம்,शहर [Shehar],I live in a big city.,நான் ஒரு பெரிய நகரத்தில் வசிக்கிறேன்.,मैं एक बड़े शहर में रहता हूँ।,Top,அங்கி
+325,Day 65,Village,Noun,Beginner,கிராமம்,गाँव [Gaon],My village is beautiful.,என் கிராமம் அழகாக இருக்கிறது.,मेरा गाँव सुंदर है।,Footwear,செருப்பு
+326,Day 66,Shirt,Noun,Beginner,சட்டை,कमीज़ [Kameez],This shirt is new.,இந்த சட்டை புதியது.,यह कमीज़ नई है।,Cap,குல்லாய்
+327,Day 66,Shoes,Noun,Beginner,காலணிகள்,जूते [Joote],Put on your shoes.,உங்கள் காலணிகளை அணியுங்கள்.,अपने जूते पहन लो।,Garments,உடுப்பு
+328,Day 66,Hat,Noun,Beginner,தொப்பி,टोपी [Topi],Wear a hat in the sun.,வெயிலில் தொப்பி அணியுங்கள்.,धूप में टोपी पहनें।,Physique,மெய்
+329,Day 66,Clothes,Noun,Beginner,ஆடைகள்,कपड़े [Kapde],Wash your clothes.,உங்கள் ஆடைகளைத் துவையுங்கள்.,अपने कपड़े धो लो।,Hearing,செவி
+330,Day 66,Body,Noun,Beginner,உடல்,शरीर [Shareer],Keep your body healthy.,உங்கள் உடலை ஆரோக்கியமாக வைத்திருங்கள்.,अपने शरीर को स्वस्थ रखें।,Nasal,நாசி
+331,Day 67,Ear,Noun,Beginner,காது,कान [Kaan],I hear with my ears.,நான் என் காதுகளால் கேட்கிறேன்.,मैं अपने कानों से सुनता हूँ।,Limb,அவயவம்
+332,Day 67,Nose,Noun,Beginner,மூக்கு,नाक [Naak],Smell with your nose.,உங்கள் மூக்கால் முகர்ந்து பாருங்கள்.,अपनी नाक से सूंघो।,Sack,கோணி
+333,Day 67,Leg,Noun,Beginner,கால்,टांग [Taang],He broke his leg.,அவன் காலை உடைத்துக்கொண்டான்.,उसकी टांग टूट गई।,Couch,படுக்கை
+334,Day 67,Bag,Noun,Beginner,பை,थैला [Thaila],Carry your school bag.,உங்கள் பள்ளிப் பையைச் சுமந்து செல்லுங்கள்.,अपना स्कूल बैग ले जाओ।,Lantern,தீபம்
+335,Day 67,Bed,Noun,Beginner,கட்டில்,बिस्तर [Bistar],Sit on the bed.,கட்டிலில் அமருங்கள்.,बिस्तर पर बैठो।,Mobile,பேசி
+336,Day 68,Lamp,Noun,Beginner,விளக்கு,चिराग [Chiraag],Light the lamp.,விளக்கை ஏற்றுங்கள்.,चिराग जलाओ।,Aurum,பொன்
+337,Day 68,Phone,Noun,Beginner,தொலைபேசி,फोन [Phone],My phone is ringing.,என் போன் ஒலிக்கிறது.,मेरा फोन बज रहा है।,Argentum,ரஜதம்
+338,Day 68,Gold,Noun,Beginner,தங்கம்,सोना [Sona],Gold is expensive.,தங்கம் விலை உயர்ந்தது.,सोना महंगा है।,Foe,பகைவன்
+339,Day 68,Silver,Noun,Beginner,வெள்ளி,चाँदी [Chaandi],This ring is silver.,இந்த மோதிரம் வெள்ளி.,यह अंगूठी चाँदी की है।,Kid,மகவு
+340,Day 68,Enemy,Noun,Beginner,எதிரி,दुश्मन [Dushman],Forgive your enemy.,உங்கள் எதிரியை மன்னியுங்கள்.,अपने दुश्मन को माफ कर दो।,Tutor,குரு
+341,Day 69,Child,Noun,Beginner,குழந்தை,बच्चा [Baccha],The child is sleeping.,குழந்தை தூங்கிக் கொண்டிருக்கிறது.,बच्चा सो रहा है।,Learner,சீடன்
+342,Day 69,Teacher,Noun,Beginner,ஆசிரியர்,शिक्षक [Shikshak],The teacher is kind.,ஆசிரியர் அன்பானவர்.,शिक्षक दयालु हैं।,Physician,வைத்யர்
+343,Day 69,Student,Noun,Beginner,மாணவன்,छात्र [Chhatra],He is a clever student.,அவன் ஒரு புத்திசாலி மாணவன்.,वह एक चतुर छात्र है।,Officer,காவல்காரர்
+344,Day 69,Doctor,Noun,Beginner,மருத்துவர்,डॉक्टर [Doctor],Go see a doctor.,ஒரு மருத்துவரைப் போய்ப் பார்.,डॉक्टर को दिखाने जाओ।,Sugary,மதுரம்
+345,Day 69,Police,Noun,Beginner,காவல்துறை,पुलिस [Police],Call the police.,காவல்துறையை அழைக்கவும்.,पुलिस को बुलाओ।,Tart,காடி
+346,Day 70,Sweet,Adjective,Beginner,இனிப்பு,मीठा [Meetha],This cake is sweet.,இந்த கேக் இனிப்பானது.,यह केक मीठा है।,Sharp,துவர்ப்பு
+347,Day 70,Sour,Adjective,Beginner,புளிப்பு,खट्टा [Khatta],Lemon is sour.,எலுமிச்சை புளிப்பானது.,नींबू खट्टा है।,"Breeze, Gale",தென்றல்
+348,Day 70,Bitter,Adjective,Beginner,கசப்பு,कड़वा [Kadwa],Medicine is bitter.,மருந்து கசப்பானது.,दवाई कड़वी है।,"Planet, Aster",விண்மீன்
+349,Day 70,Wind,Noun,Beginner,காற்று,हवा [Hawa],The wind is blowing hard.,காற்று பலமாக வீசுகிறது.,हवा तेज़ चल रही है।,"World, Globe",உலகம்
+350,Day 70,Star,Noun,Beginner,நட்சத்திரம்,तारा [Taara],The stars are bright.,நட்சத்திரங்கள் பிரகாசமாக உள்ளன.,तारे चमक रहे हैं।,Overpass,அணை
+351,Day 71,Earth,Noun,Beginner,பூமி,पृथ्वी [Prithvi],The Earth is round.,பூமி உருண்டையானது.,पृथ्वी गोल है।,Express,தொடர்வண்டி
+352,Day 71,Bridge,Noun,Beginner,பாலம்,पुल [Pul],Cross the bridge carefully.,பாலத்தை கவனமாக கடக்கவும்.,पुल को सावधानी से पार करें।,Aircraft,வான்ஊர்தி
+353,Day 71,Train,Noun,Beginner,ரயில்,ट्रेन [Train],The train is on time.,ரயில் சரியான நேரத்திற்கு வருகிறது.,ट्रेन समय पर है।,"Ship, Vessel",தோணி
+354,Day 71,Plane,Noun,Beginner,விமானம்,विमान [Vimaan],The plane is flying high.,விமானம் உயரத்தில் பறக்கிறது.,विमान ऊँचा उड़ रहा है।,Bike,ஈருருளி
+355,Day 71,Boat,Noun,Beginner,படகு,नाव [Naav],The boat is on the lake.,படகு ஏரியில் உள்ளது.,नाव झील पर है।,"Prepare, Bake",ஆக்கு
+356,Day 72,Bicycle,Noun,Beginner,மிதிவண்டி,साइकिल [Cycle],I ride my bicycle to work.,நான் வேலைக்கு மிதிவண்டியில் செல்கிறேன்.,मैं साइकिल से काम पर जाता हूँ।,"Clean, Rinse",நீராட்டு
+357,Day 72,Cook,Verb,Beginner,சமை,पकाना [Pakaana],My mom will cook dinner.,என் அம்மா இரவு உணவு சமைப்பார்.,मेरी माँ रात का खाना पकाएँगी।,"Arid, Parched",வறண்ட
+358,Day 72,Wash,Verb,Beginner,கழுவு,धोना [Dhona],Wash your face.,உன் முகத்தைக் கழுவு.,अपना चेहरा धो लो।,Complete,நிறைவான
+359,Day 72,Dry,Adjective,Beginner,உலர்,सूखा [Sookha],The clothes are dry.,துணிகள் காய்ந்துவிட்டன.,कपड़े सूख गए हैं।,Vacant,வெற்று
+360,Day 72,Full,Adjective,Beginner,முழு,पूरा [Poora],The glass is full of water.,கிளாஸ் தண்ணீரில் நிரம்பியுள்ளது.,गिलास पानी से भरा है।,"High, Lofty",நெடிய
+361,Day 73,Empty,Adjective,Beginner,காலியான,खाली [Khaali],The room is empty.,அறை காலியாக உள்ளது.,कमरा खाली है।,"Brief, Small",சிறிய
+362,Day 73,Tall,Adjective,Beginner,உயரமான,लंबा [Lamba],He is a tall man.,அவர் உயரமான மனிதர்.,वह एक लंबा आदमी है।,Smooth,மிருதுவான
+363,Day 73,Short,Adjective,Beginner,குட்டையான,छोटा [Chota],The pencil is short.,பென்சில் குட்டையாக உள்ளது.,पेंसिल छोटी है।,"Firm, Solid",திண்ணிய
+364,Day 73,Soft,Adjective,Beginner,மென்மையான,कोमल [Komal],The pillow is soft.,தலையணை மென்மையாக உள்ளது.,तकिया कोमल है।,Desk,பலகை
+365,Day 73,Hard,Adjective,Beginner,கடினமான,सख्त [Sakht],The rock is hard.,பாறை கடினமானது.,पत्थर सख्त है।,Ceiling,மேல்கூரை
+366,Day 74,Table,Noun,Beginner,மேஜை,मेज [Mej],The food is on the table.,உணவு மேஜையில் உள்ளது.,खाना मेज पर है।,Grower,உழவன்
+367,Day 74,Roof,Noun,Beginner,கூரை,छत [Chhat],The roof is leaking.,கூரை கசிகிறது.,छत टपक रही है।,Store,அங்காடி
+368,Day 74,Farmer,Noun,Beginner,விவசாயி,किसान [Kisaan],The farmer works hard.,விவசாயி கடினமாக உழைக்கிறார்.,किसान कड़ी मेहनत करता है।,Cost,கட்டணம்
+369,Day 74,Shop,Noun,Beginner,கடை,दुकान [Dukaan],Go to the shop.,கடைக்குச் செல்லுங்கள்.,दुकान पर जाओ।,Metal,அயம்பு
+370,Day 74,Price,Noun,Beginner,விலை,दाम [Daam],What is the price?,விலை என்ன?,दाम क्या है?,Timber,தடி
+371,Day 75,Iron,Noun,Beginner,இரும்பு,लोहा [Loha],Iron is used in buildings.,கட்டிடங்களில் இரும்பு பயன்படுத்தப்படுகிறது.,इमारतों में लोहे का उपयोग किया जाता है।,Crystal,பளிங்கு
+372,Day 75,Wood,Noun,Beginner,மரம்/கட்டை,लकड़ी [Lakdi],The chair is made of wood.,நாற்காலி மரத்தால் ஆனது.,कुर्सी लकड़ी की बनी है।,Synthetic,பிளாஸ்டிக்
+373,Day 75,Glass,Noun,Beginner,கண்ணாடி,काँच [Kaanch],The window is made of glass.,ஜன்னல் கண்ணாடியால் ஆனது.,खिड़की काँच की बनी है।,Stitch,துன்னு
+374,Day 75,Plastic,Noun,Beginner,நெகிழி,प्लास्टिक [Plastic],Avoid using plastic bags.,பிளாஸ்டிக் பைகளைப் பயன்படுத்துவதைத் தவிர்க்கவும்.,प्लास्टिक के थैलों का प्रयोग न करें।,Attempt,ஏலனம்
+375,Day 75,Sew,Verb,Beginner,தை,सीना [Seena],She can sew her own dress.,அவள் தனது உடையை தானே தைக்க முடியும்.,वह अपनी ड्रेस खुद सी सकती है।,Chuckle,நையாண்டி
+376,Day 76,Try,Verb,Beginner,முயற்சி செய்,कोशिश करना [Koshish],Always try your best.,எப்போதும் உங்கள் சிறந்த முயற்சியைச் செய்யுங்கள்.,हमेशा अपना सर्वश्रेष्ठ प्रयास करें।,Look for,நாடு
+377,Day 76,Laugh,Verb,Beginner,சிரி,हँसना [Hasna],Children laugh loudly.,குழந்தைகள் சத்தமாக சிரிக்கிறார்கள்.,बच्चे ज़ोर से हँसते हैं।,Dispatch,விடு
+378,Day 76,Search,Verb,Beginner,தேடு,खोजना [Khojna],Search for the lost key.,தொலைந்த சாவியைத் தேடுங்கள்.,खोई हुई चाबी खोजो।,Get,அடை
+379,Day 76,Send,Verb,Beginner,அனுப்பு,भेजना [Bhejna],Send a message to him.,அவருக்கு ஒரு செய்தி அனுப்புங்கள்.,उसे एक संदेश भेजें।,Neglect,கைவிடு
+380,Day 76,Receive,Verb,Beginner,பெறு,प्राप्त करना [Praapt],I did not receive the mail.,எனக்கு மெயில் வரவில்லை.,मुझे मेल प्राप्त नहीं हुआ।,Incorrect,தப்பு
+381,Day 77,Forget,Verb,Beginner,மறந்துவிடு,भूलना [Bhoolna],Do not forget the keys.,சாவிகளை மறந்துவிடாதீர்கள்.,चाबियाँ मत भूलना।,Right,துல்லியமான
+382,Day 77,FALSE,Adjective,Beginner,பொய்,झूठ [Jhooth],This statement is false.,இந்த அறிக்கை பொய்யானது.,यह बयान गलत है।,Mistaken,பிழை
+383,Day 77,Correct,Adjective,Beginner,சரி,सही [Sahi],This is the correct answer.,இது சரியான பதில்.,यह सही जवाब है।,Distant,சேய்மை
+384,Day 77,Wrong,Adjective,Beginner,தவறு,गलत [Galat],You are going the wrong way.,நீங்கள் தவறான வழியில் செல்கிறீர்கள்.,आप गलत रास्ते पर जा रहे हैं।,Prompt,விடியற்காலை
+385,Day 77,Far,Adjective,Beginner,தொலைவில்,दूर [Door],The city is far from here.,நகரம் இங்கிருந்து தொலைவில் உள்ளது.,शहर यहाँ से दूर है।,Delayed,பிந்தி
+386,Day 78,Early,Adverb,Beginner,சீக்கிரம்,जल्दी [Jaldi],Come home early today.,இன்று சீக்கிரம் வீட்டிற்கு வாருங்கள்.,आज जल्दी घर आ जाओ।,"Mad, Irritated",சினம்
+387,Day 78,Late,Adverb,Beginner,தாமதமாக,देर से [Der],Don't be late for the meeting.,கூட்டத்திற்குத் தாமதமாக வராதீர்கள்.,मीटिंग के लिए देर मत करो।,Courageous,வீரம்
+388,Day 78,Angry,Adjective,Beginner,கோபம்,गुस्सा [Gussa],He is angry with me.,அவன் என் மீது கோபமாக இருக்கிறான்.,वह मुझसे गुस्सा है।,"Idle, Inactive",மந்தம்
+389,Day 78,Brave,Adjective,Beginner,தைரியமான,बहादुर [Bahadur],She is a brave girl.,அவள் ஒரு தைரியமான சிறுமி.,वह एक बहादुर लड़की है।,Intelligent,மேதை
+390,Day 78,Lazy,Adjective,Beginner,சோம்பேறி,आलसी [Aalsi],Don't be so lazy.,அவ்வளவு சோம்பேறியாக இருக்காதே.,इतने आलसी मत बनो।,Lovely,எழில்
+391,Day 79,Smart,Adjective,Beginner,புத்திசாலி,चतुर [Chatur],He is a smart student.,அவன் ஒரு புத்திசாலி மாணவன்.,वह एक चतुर छात्र है।,Unattractive,அவலட்சணம்
+392,Day 79,Beautiful,Adjective,Beginner,அழகான,सुंदर [Sundar],This is a beautiful flower.,இது ஒரு அழகான பூ.,यह एक सुंदर फूल है।,Secure,பத்திரம்
+393,Day 79,Ugly,Adjective,Beginner,அசிங்கமான,बदसूरत [Badsurat],That was an ugly scene.,அது ஒரு அசிங்கமான காட்சி.,वह एक बदसूरत दृश्य था।,Fortunate,பாக்கியசாலி
+394,Day 79,Safe,Adjective,Beginner,பாதுகாப்பான,सुरक्षित [Surakshit],Stay safe at home.,வீட்டில் பாதுகாப்பாக இருங்கள்.,घर पर सुरक्षित रहें।,"Fit, Well",சுகம்
+395,Day 79,Lucky,Adjective,Beginner,அதிர்ஷ்டசாலி,भाग्यशाली [Bhagyashali],You are very lucky.,நீங்கள் மிகவும் அதிர்ஷ்டசாலி.,तुम बहुत भाग्यशाली हो।,"Unwell, Ill",பிணி
+396,Day 80,Healthy,Adjective,Beginner,ஆரோக்கியமான,स्वस्थ [Swasth],Eat healthy food.,ஆரோக்கியமான உணவை உண்ணுங்கள்.,स्वस्थ भोजन खाएं।,Temperature,வெப்பசுரம்
+397,Day 80,Sick,Adjective,Beginner,நோய்வாய்ப்பட்ட,बीमार [Beemar],He has been sick for days.,அவன் பல நாட்களாக நோய்வாய்ப்பட்டுள்ளான்.,वह कई दिनों से बीमार है।,"Ache, Hurt",வேதனை
+398,Day 80,Fever,Noun,Beginner,காய்ச்சல்,बुखार [Bukhaar],I have a high fever.,எனக்கு கடுமையான காய்ச்சல் உள்ளது.,मुझे तेज़ बुखार है।,"Cure, Drug",ஔடதம்
+399,Day 80,Pain,Noun,Beginner,வலி,दर्द [Dard],I feel pain in my back.,என் முதுகில் வலி உணர்கிறேன்.,मुझे अपनी पीठ में दर्द महसूस हो रहा है।,Clinic,ஆஸ்பத்திரி
+400,Day 80,Medicine,Noun,Beginner,மருந்து,दवाई [Dawai],Take your medicine on time.,மருந்தை சரியான நேரத்தில் எடுத்துக் கொள்ளுங்கள்.,समय पर अपनी दवाई लें।,Cyclone,சூறாவளி
+401,Day 81,Hospital,Noun,Beginner,மருத்துவமனை,अस्पताल [Aspataal],The hospital is nearby.,மருத்துவமனை அருகில் உள்ளது.,अस्पताल पास ही है।,Rumble,முழக்கம்
+402,Day 81,Storm,Noun,Beginner,புயல்,तूफान [Toofaan],A big storm is coming.,ஒரு பெரிய புயல் வருகிறது.,एक बड़ा तूफान आ रहा है।,Flash,மின்
+403,Day 81,Thunder,Noun,Beginner,இடி,गर्जन [Garjan],I heard a loud thunder.,பலத்த இடி சத்தத்தைக் கேட்டேன்.,मैंने तेज़ गर्जना सुनी।,"Woods, Jungle",வனம்
+404,Day 81,Lightning,Noun,Beginner,மின்னல்,बिजली [Bijli],Lightning struck the tree.,மரத்தில் மின்னல் தாக்கியது.,पेड़ पर बिजली गिरी।,Isle,துருத்தி
+405,Day 81,Forest,Noun,Beginner,காடு,जंगल [Jangal],Many animals live in the forest.,காட்டில் பல விலங்குகள் வாழ்கின்றன.,जंगल में कई जानवर रहते हैं।,Wasteland,பாறை நிலம்
+406,Day 82,Island,Noun,Beginner,தீவு,द्वीप [Dweep],They live on a small island.,அவர்கள் ஒரு சிறிய தீவில் வசிக்கிறார்கள்.,वे एक छोटे द्वीप पर रहते हैं।,Sea,மாகடல்
+407,Day 82,Desert,Noun,Beginner,பாலைவனம்,रेगिस्तान [Registaan],Camels live in the desert.,ஒட்டகங்கள் பாலைவனத்தில் வாழ்கின்றன.,ऊँट रेगिस्तान में रहते हैं।,Earth,புவி
+408,Day 82,Ocean,Noun,Beginner,பெருங்கடல்,महासागर [Mahasagar],The ocean is vast.,பெருங்கடல் பரந்த அளவில் உள்ளது.,महासागर विशाल है।,Win,வாகை
+409,Day 82,World,Noun,Beginner,உலகம்,दुनिया [Duniya],The world is beautiful.,உலகம் அழகானது.,दुनिया सुंदर है।,Loss,பின்னடைவு
+410,Day 82,Victory,Noun,Beginner,வெற்றி,विजय [Vijay],We celebrated our victory.,நாங்கள் எங்கள் வெற்றியைக் கொண்டாடினோம்.,हमने अपनी जीत का जश्न मनाया।,Past events,சரித்திரம்
+411,Day 83,Defeat,Noun,Beginner,தோல்வி,हार [Haar],Accept defeat gracefully.,தோல்வியை கண்ணியமாக ஏற்றுக்கொள்ளுங்கள்.,हार को शालीनता से स्वीकार करें।,Melody,கானம்
+412,Day 83,History,Noun,Beginner,வரலாறு,इतिहास [Itihaas],We study history in school.,நாங்கள் பள்ளியில் வரலாறு படிக்கிறோம்.,हम स्कूल में इतिहास पढ़ते हैं।,Anthem,கவிதை
+413,Day 83,Music,Noun,Beginner,இசை,संगीत [Sangeet],I like listening to music.,எனக்கு இசை கேட்பது பிடிக்கும்.,मुझे संगीत सुनना पसंद है।,Tool,உபகரணம்
+414,Day 83,Song,Noun,Beginner,பாடல்,गाना [Gaana],Sing a sweet song.,ஒரு இனிமையான பாடலைப் பாடுங்கள்.,एक मधुर गाना गाओ।,Craft,நுண்கலை
+415,Day 83,Instrument,Noun,Beginner,கருவி,यंत्र [Yantra],He plays a musical instrument.,அவர் ஒரு இசைக் கருவியை வாசிக்கிறார்.,वह एक वाद्य यंत्र बजाता है।,Image,ஓவியம்
+416,Day 84,Art,Noun,Beginner,கலை,कला [Kala],Painting is a beautiful art.,ஓவியம் வரைவது ஒரு அழகான கலை.,पेंटिंग एक सुंदर कला है।,Hues,வண்ணங்கள்
+417,Day 84,Picture,Noun,Beginner,படம்,चित्र [Chitra],Draw a picture of a tree.,ஒரு மரத்தின் படத்தை வரையவும்.,पेड़ का चित्र बनाओ।,Shade,பிம்பம்
+418,Day 84,Colors,Noun,Beginner,நிறங்கள்,रंग [Rang],The rainbow has seven colors.,வானவில் ஏழு நிறங்களைக் கொண்டுள்ளது.,इंद्रधनुष में सात रंग होते हैं।,Gloom,காரிருள்
+419,Day 84,Shadow,Noun,Beginner,நிழல்,छाया [Chhaya],The tree has a long shadow.,மரம் நீண்ட நிழலைக் கொண்டுள்ளது.,पेड़ की छाया लंबी है।,Mass,பாரம்
+420,Day 84,Darkness,Noun,Beginner,இருள்,अंधेरा [Andhera],Owls see in the darkness.,ஆந்தைகள் இருட்டில் பார்க்கின்றன.,उल्लू अंधेरे में देखते हैं।,Dimension,பருமன்
+421,Day 85,Weight,Noun,Beginner,எடை,वजन [Vajan],Check the weight of this bag.,இந்தப் பையின் எடையைச் சரிபார்க்கவும்.,इस बैग का वजन चेक करें।,Form,உருவம்
+422,Day 85,Size,Noun,Beginner,அளவு,आकार [Aakar],What is the size of the shirt?,சட்டையின் அளவு என்ன?,शर्ट का आकार क्या है?,Block,கட்டம்
+423,Day 85,Shape,Noun,Beginner,வடிவம்,रूप [Roop],The ball has a round shape.,பந்து உருண்டை வடிவத்தைக் கொண்டுள்ளது.,गेंद का आकार गोल है।,Ring,வளையம்
+424,Day 85,Square,Noun,Beginner,சதுரம்,वर्ग [Varg],A square has four sides.,ஒரு சதுரம் நான்கு பக்கங்களைக் கொண்டுள்ளது.,एक वर्ग की चार भुजाएँ होती हैं।,Speech,பாஷை
+425,Day 85,Circle,Noun,Beginner,வட்டம்,गोला [Gola],Draw a circle on the paper.,காகிதத்தில் ஒரு வட்டத்தை வரையவும்.,कागज़ पर एक गोला बनाओ।,Afraid,பீதி
+426,Day 86,Language,Noun,Beginner,மொழி,भाषा [Bhasha],Tamil is an ancient language.,தமிழ் ஒரு பழமையான மொழி.,तमिल एक प्राचीन भाषा है।,Arrogant,செருக்கு
+427,Day 86,Scared,Adjective,Beginner,பயந்த,डरा हुआ [Dara],He is scared of dogs.,அவன் நாய்களைக் கண்டு பயப்படுகிறான்.,वह कुत्तों से डरता है।,Timid,நாணம்
+428,Day 86,Proud,Adjective,Beginner,பெருமை,गर्व [Garv],I am proud of you.,நான் உன்னைப் பெருமையாகக் கருதுகிறேன்.,मुझे तुम पर गर्व है।,Damp,நனைந்த
+429,Day 86,Shy,Adjective,Beginner,கூச்சம்,शर्मीला [Sharmila],The girl is very shy.,அந்தச் சிறுமி மிகவும் கூச்சப்படுபவள்.,लड़की बहुत शर्मीली है।,Quick,விரைவான
+430,Day 86,Wet,Adjective,Beginner,ஈரமான,गीला [Geela],My hair is wet.,என் முடி ஈரமாக உள்ளது.,मेरे बाल गीले हैं।,Gradual,மந்தமான
+431,Day 87,Fast,Adjective,Beginner,வேகமான,तेज़ [Tez],A cheetah is fast.,சிறுத்தை வேகமானது.,चीता तेज़ होता है।,Profound,அதல
+432,Day 87,Slow,Adjective,Beginner,மெதுவான,धीमा [Dheema],The turtle is slow.,ஆமை மெதுவானது.,कछुआ धीमा होता है।,Flat,தட்டையான
+433,Day 87,Deep,Adjective,Beginner,ஆழமான,गहरा [Gahra],The well is deep.,கிணறு ஆழமானது.,कुआँ गहरा है।,Frail,நலிந்த
+434,Day 87,Shallow,Adjective,Beginner,ஆழமற்ற,उथला [Uthala],The river is shallow.,ஆறு ஆழமற்றது.,नदी उथली है।,Lofty,நெடிய
+435,Day 87,Weak,Adjective,Beginner,பலவீனமான,कमजोर [Kamjor],I feel weak.,நான் பலவீனமாக உணர்கிறேன்.,मैं कमजोरी महसूस कर रहा हूँ।,Base,கீழ்
+436,Day 88,High,Adjective,Beginner,உயர்ந்த,ऊँचा [Ooncha],The mountain is high.,மலை உயரமாக உள்ளது.,पहाड़ ऊँचा है।,Broad,விரிவான
+437,Day 88,Low,Adjective,Beginner,தாழ்ந்த,नीचा [Neecha],The ceiling is low.,கூரை தாழ்வாக உள்ளது.,छत नीची है।,Thin,நெரிசலான
+438,Day 88,Wide,Adjective,Beginner,அகலமான,चौड़ा [Chauda],The road is wide.,சாலை அகலமானது.,सड़क चौड़ी है।,Seldom,அபூர்வமாக
+439,Day 88,Narrow,Adjective,Beginner,குறுகிய,संकरा [Sankara],The lane is narrow.,சந்து குறுகலாக உள்ளது.,गली संकरी है।,Almost,ஏறக்குறைய
+440,Day 88,Rarely,Adverb,Beginner,அரிதாக,कभी-कभी [Kabhikabhi],He rarely shouts.,அவர் அரிதாகவே கத்துகிறார்.,वह शायद ही कभी चिल्लाता है।,Externally,வெளிப்புறம்
+441,Day 89,Nearly,Adverb,Beginner,கிட்டத்தட்ட,लगभग [Lagbhag],It is nearly noon.,கிட்டத்தட்ட மதியம் ஆகிறது.,लगभग दोपहर हो गई है।,Currently,தற்பொழுது
+442,Day 89,Outside,Adverb,Beginner,வெளியே,बाहर [Bahar],Wait outside.,வெளியே காத்திருங்கள்.,बाहर इंतज़ार करें।,Afterward,பின்னர்
+443,Day 89,Now,Adverb,Beginner,இப்பொழுது,अब [Ab],Do it now.,இப்பொழுதே செய்.,इसे अभी करो।,Everyday,நாள்தோறும்
+444,Day 89,Then,Adverb,Beginner,பிறகு,तब [Tab],We went home then.,நாங்கள் பிறகு வீட்டிற்குச் சென்றோம்.,हम तब घर गए।,Midday,நண்பகல்
+445,Day 89,Daily,Adverb,Beginner,தினமும்,रोज़ [Roz],Exercise daily.,தினமும் உடற்பயிற்சி செய்யுங்கள்.,रोज़ व्यायाम करें।,Midnight,கங்குல்
+446,Day 90,Afternoon,Noun,Beginner,மதியம்,दोपहर [Dopehar],Rest in the afternoon.,மதியம் ஓய்வெடுங்கள்.,दोपहर में आराम करो।,Phase,காலப்பகுதி
+447,Day 90,Night,Noun,Beginner,இரவு,रात [Raat],Sleep well at night.,இரவில் நன்றாகத் தூங்குங்கள்.,रात में अच्छी नींद लें।,Moment,துளி
+448,Day 90,Season,Noun,Beginner,பருவம்,मौसम [Mausam],Winter is a cold season.,குளிர்காலம் ஒரு குளிர்ந்த பருவம்.,सर्दी एक ठंडा मौसम है।,Instant,கணம்
+449,Day 90,Minute,Noun,Beginner,நிமிடம்,मिनट [Minute],Wait for one minute.,ஒரு நிமிடம் காத்திருங்கள்.,एक मिनट इंतज़ार करें।,Row,தொடர்
+450,Day 90,Second,Noun,Beginner,விநாடி,सेकंड [Second],Every second counts.,ஒவ்வொரு விநாடியும் முக்கியம்.,हर सेकंड मायने रखता है।,Angle,முடுக்கு
+451,Day 91,Line,Noun,Beginner,வரி/கோடு,रेखा [Rekha],Draw a straight line.,ஒரு நேர்க்கோடு வரையவும்.,एक सीधी रेखा खींचें।,Base,கீழ்
+452,Day 91,Corner,Noun,Beginner,மூலை,कोना [Kona],Stand in the corner.,மூலையில் நில்லுங்கள்.,कोने में खड़े हो जाओ।,Center,மையம்
+453,Day 91,Bottom,Noun,Beginner,அடி,तल [Tal],The key is at the bottom.,சாவி அடியில் உள்ளது.,चाबी तल पर है।,Peak,உச்சி
+454,Day 91,Middle,Noun,Beginner,நடு,मध्य [Madhya],Stand in the middle.,நடுவில் நில்லுங்கள்.,बीच में खड़े हो जाओ।,Spirit,உயிர்
+455,Day 91,Top,Noun,Beginner,மேலடுக்கு,शिखर [Shikhar],He is at the top.,அவர் உச்சியில் இருக்கிறார்.,वह शिखर पर है।,End,மரணம்
+456,Day 92,Soul,Noun,Beginner,ஆன்மா,आत्मा [Aatma],The soul is eternal.,ஆன்மா நித்தியமானது.,आत्मा अमर है।,Shallot,வெங்காயம்
+457,Day 92,Death,Noun,Beginner,இறப்பு,मृत्यु [Mrityu],Life and death are natural.,வாழ்வும் சாவும் இயற்கையானது.,जीवन और मृत्यु स्वाभाविक हैं।,Spud,கிழங்கு
+458,Day 92,Onion,Noun,Beginner,வெங்காயம்,प्याज [Pyaj],Chop the onion.,வெங்காயத்தை நறுக்கவும்.,प्याज काट लें।,Berry,தக்காளி
+459,Day 92,Potato,Noun,Beginner,உருளைக்கிழங்கு,आलू [Aaloo],I like mashed potatoes.,எனக்கு மசிந்த உருளைக்கிழங்கு பிடிக்கும்.,मुझे मैश किए हुए आलू पसंद हैं।,Root vegetable,மஞ்சள் முள்ளங்கி
+460,Day 92,Tomato,Noun,Beginner,தக்காளி,टमाटर [Tamatar],The tomato is red.,தக்காளி சிவப்பு நிறத்தில் உள்ளது.,टमाटर लाल है।,Clove,வெள்ளைப்பூண்டு
+461,Day 93,Carrot,Noun,Beginner,கேரட்,गाजर [Gaajar],Carrots are good for eyes.,கேரட் கண்களுக்கு நல்லது.,गाजर आँखों के लिए अच्छी होती है।,Spice,இஞ்சி
+462,Day 93,Garlic,Noun,Beginner,பூண்டு,लहसुन [Lahsuna],Add garlic to the sauce.,சாஸில் பூண்டு சேர்க்கவும்.,सॉस में लहसुन डालें।,Cole,கோசு
+463,Day 93,Ginger,Noun,Beginner,இஞ்சி,अदरक [Adrak],Ginger tea is tasty.,இஞ்சி டீ சுவையாக இருக்கும்.,अदरक की चाय स्वादिष्ट होती है।,Brassica,பூக்கோசு
+464,Day 93,Cabbage,Noun,Beginner,முட்டைக்கோஸ்,पत्ता गोभी [Patta Gobhi],Cook the cabbage.,முட்டைக்கோஸை சமைக்கவும்.,पत्ता गोभी पकाएं।,Plantain,கதலி
+465,Day 93,Cauliflower,Noun,Beginner,காலிஃபிளவர்,फूलगोभी [Phool Gobhi],Fry the cauliflower.,காலிஃபிளவரை வறுக்கவும்.,फूलगोभी को तलें।,Tropical fruit,மாங்கனி
+466,Day 94,Banana,Noun,Beginner,வாழைப்பழம்,केला [Kela],Eat a banana daily.,தினமும் ஒரு வாழைப்பழம் சாப்பிடுங்கள்.,रोज़ एक केला खाओ।,Citrus,ஆரஞ்சு
+467,Day 94,Mango,Noun,Beginner,மாம்பழம்,आम [Aam],Mango is the king of fruits.,மாம்பழம் பழங்களின் ராஜா.,आम फलों का राजा है।,Vine fruit,கொடிமுந்திரி
+468,Day 94,Orange,Noun,Beginner,ஆரஞ்சு,संतरा [Santara],I drink orange juice.,நான் ஆரஞ்சு ஜூஸ் குடிக்கிறேன்.,मैं संतरे का जूस पीता हूँ।,Ananas,அன்னாசி
+469,Day 94,Grapes,Noun,Beginner,திராட்சை,अंगूर [Angoor],Grapes are sweet.,திராட்சை இனிப்பாக இருக்கும்.,अंगूर मीठे होते हैं।,Melon,கோடைக்கனி
+470,Day 94,Pineapple,Noun,Beginner,அன்னாசி,अनानास [Ananaas],Slice the pineapple.,அன்னாசிப்பழத்தை வெட்டுங்கள்.,अनानास के स्लाइस करें।,Citrus,மிதி
+471,Day 95,Watermelon,Noun,Beginner,தர்பூசணி,तरबूज [Tarbooj],Watermelon is refreshing.,தர்பூசணி புத்துணர்ச்சி அளிக்கிறது.,तरबूज ताज़गी देता है।,Nut,தெங்கு
+472,Day 95,Lemon,Noun,Beginner,எலுமிச்சை,नींबू [Nimbu],Add some lemon juice.,சிறிதளவு எலுமிச்சை சாறு சேர்க்கவும்.,थोड़ा नींबू का रस डालें।,Refrigerator,குளிர்ப்பெட்டி
+473,Day 95,Coconut,Noun,Beginner,தேங்காய்,नारियल [Nariyal],Drink coconut water.,இளநீர் குடியுங்கள்.,नारियल पानी पिएं।,Stove,சூளை
+474,Day 95,Fridge,Noun,Beginner,குளிர்சாதன பெட்டி,फ्रिज [Fridge],Keep milk in the fridge.,பாலை பிரிட்ஜில் வைக்கவும்.,दूध को फ्रिज में रखें।,Electronic oven,நுண்ணலை
+475,Day 95,Oven,Noun,Beginner,அடுப்பு,ओवन [Oven],Bake the cake in the oven.,கேக்கை ஓவனில் சுடவும்.,ओवन में केक बेक करें।,Pot,வெந்நீர் பாத்திரம்
+476,Day 96,Microwave,Noun,Beginner,மைக்ரோவேவ்,माइक्रोवेव [Microwave],Heat the food.,உணவைச் சூடுபடுத்தவும்.,खाना गर्म करें।,Prong,முள்முள்
+477,Day 96,Kettle,Noun,Beginner,கெட்டில்,केतली [Ketli],Boil water in the kettle.,கெட்டிலில் தண்ணீரை கொதிக்க வைக்கவும்.,केतली में पानी उबालें।,Platter,தட்டு
+478,Day 96,Fork,Noun,Beginner,முள் கரண்டி,कांटा [Kaanta],Use a fork for pasta.,பாஸ்தாவிற்கு முள் கரண்டியைப் பயன்படுத்துங்கள்.,पास्ता के लिए कांटे का प्रयोग करें।,Bedding,மெத்தை
+479,Day 96,Tray,Noun,Beginner,தட்டு,ट्रे [Tray],Carry cups on a tray.,கோப்பைகளை தட்டில் எடுத்துச் செல்லுங்கள்.,प्यालों को ट्रे पर ले जाएं।,Closet,பீரோ
+480,Day 96,Mattress,Noun,Beginner,மெத்தை,गद्दा [Gadda],The mattress is soft.,மெத்தை மென்மையாக உள்ளது.,गद्दा कोमल है।,Rack,மாடம்
+481,Day 97,Wardrobe,Noun,Beginner,அலமாரி,अलमारी [Almari],Put clothes in the wardrobe.,துணிகளை அலமாரியில் வைக்கவும்.,कपड़े अलमारी में रखें।,Rug,கம்பளம்
+482,Day 97,Shelf,Noun,Beginner,அடுக்கு,शेल्फ [Shelf],Books are on the shelf.,புத்தகங்கள் அடுக்கில் உள்ளன.,किताबें शेल्फ पर हैं।,Hairbrush,துருத்தி
+483,Day 97,Carpet,Noun,Beginner,விரிப்பு,गलीचा [Galeecha],Clean the carpet.,விரிப்பைச் சுத்தம் செய்யவும்.,गलीचा साफ़ करें।,Bristle,தூரிகை
+484,Day 97,Comb,Noun,Beginner,சீப்பு,कंगा [Kanga],Comb your hair.,தலையைச் சீவுங்கள்.,अपने बाल कंघी करें।,Dental brush,பல்விளக்கி
+485,Day 97,Brush,Noun,Beginner,தூரிகை,ब्रश [Brush],Use a brush to paint.,ஓவியம் வரைய தூரிகையைப் பயன்படுத்தவும்.,पेंट करने के लिए ब्रश का प्रयोग करें।,Dentifrice,பல் மருந்து
+486,Day 98,Toothbrush,Noun,Beginner,பல் துலக்கி,टूथब्रश [Toothbrush],Use a soft toothbrush.,மென்மையான பல் துலக்கியைப் பயன்படுத்தவும்.,सॉफ्ट टूथब्रश का प्रयोग करें।,Hair wash,தலைச் சலவை
+487,Day 98,Toothpaste,Noun,Beginner,பற்பசை,टूथपेस्ट [Toothpaste],Squeeze the toothpaste.,பற்பசையை பிழியவும்.,टूथपेस्ट निचोड़ें।,Journal,நாள்குறிப்பு
+488,Day 98,Shampoo,Noun,Beginner,ஷாம்பு,शैम्पू [Shampoo],Wash hair with shampoo.,ஷாம்பு போட்டுத் தலை குளிக்கவும்.,शैम्पू से बाल धोएं।,Binder,இணைப்பான்
+489,Day 98,Diary,Noun,Beginner,நாட்குறிப்பு,डायरी [Diary],Write in your diary.,உங்கள் நாட்குறிப்பில் எழுதுங்கள்.,अपनी डायरी में लिखें।,Adhesive,வஜ்ரம்
+490,Day 98,Stapler,Noun,Beginner,ஸ்டேப்லர்,स्टेपलर [Stapler],Use the stapler.,ஸ்டேப்லரைப் பயன்படுத்துங்கள்.,स्टेपलर का प्रयोग करें।,Binding,நாடா
+491,Day 99,Glue,Noun,Beginner,பசை,गोंद [Gond],Stick it with glue.,அதை பசையால் ஒட்டவும்.,इसे गोंद से चिपकाएं।,Adder,கணிப்பான்
+492,Day 99,Tape,Noun,Beginner,டேப்,टेप [Tape],Fix it with tape.,அதை டேப்பால் சரிசெய்யவும்.,इसे टेप से ठीक करें।,Portable PC,மடிக்கணினி
+493,Day 99,Calculator,Noun,Beginner,கணிப்பான்,कैलकुलेटर [Calculator],Use a calculator.,கணிப்பானைப் பயன்படுத்துங்கள்.,कैलकुलेटर का प्रयोग करें।,Monitor,திரை
+494,Day 99,Laptop,Noun,Beginner,மடிக்கணினி,लैपटॉप [Laptop],Open your laptop.,உங்கள் மடிக்கணினியைத் திறக்கவும்.,अपना लैपटॉप खोलें।,Lorry,சரக்குந்து
+495,Day 99,Screen,Noun,Beginner,திரை,स्क्रीन [Screen],Look at the screen.,திரையைப் பாருங்கள்.,स्क्रीन की ओर देखो।,Minibus,சிற்றுந்து
+496,Day 100,Truck,Noun,Beginner,லாரி,ट्रक [Truck],The truck is big.,லாரி பெரியது.,ट्रक बड़ा है।,Vehicle,ஜீப்
+497,Day 100,Van,Noun,Beginner,வேன்,वैन [Van],The van is white.,வேன் வெள்ளை நிறத்தில் உள்ளது.,वैन सफेद रंग की है।,Moped,துள்ளுந்து
+498,Day 100,Jeep,Noun,Beginner,ஜீப்,जीप [Jeep],We rode in a jeep.,நாங்கள் ஜீப்பில் சென்றோம்.,हम जीप में सवार हुए।,Bike,ஈருருளி
+499,Day 100,Scooter,Noun,Beginner,ஸ்கூட்டர்,स्कूटर [Scooter],Ride your scooter.,உங்கள் ஸ்கூட்டரை ஓட்டவும்.,अपना स्कूटर चलाएं।,Chopper,உலங்கு வானூர்தி
+500,Day 100,Motorcycle,Noun,Beginner,மோட்டார் சைக்கிள்,मोटरसाइकिल [Motorcycle],He has a motorcycle.,அவரிடம் ஒரு மோட்டார் சைக்கிள் உள்ளது.,उसके पास एक मोटरसाइकिल है।,Missile,ஏவுகணை
+501,Day 101,Helicopter,Noun,Beginner,ஹெலிகாப்டர்,हेलीकॉप्टर [Helicopter],The helicopter is flying.,ஹெலிகாப்டர் பறக்கிறது.,हेलीकॉप्टर उड़ रहा है।,Metro,சுரங்க வழி
+502,Day 101,Rocket,Noun,Beginner,ராக்கெட்,रॉकेट [Rocket],The rocket launched.,ராக்கெட் ஏவப்பட்டது.,रॉकेट लॉन्च हुआ।,Expressway,தடம்
+503,Day 101,Subway,Noun,Beginner,சுரங்கப்பாதை,सबवे [Subway],Take the subway.,சுரங்கப்பாதையில் செல்லுங்கள்.,सबवे लें।,Congestion,இயக்கம்
+504,Day 101,Highway,Noun,Beginner,நெடுஞ்சாலை,राजमार्ग [Rajmarg],Drive on the highway.,நெடுஞ்சாலையில் வாகனம் ஓட்டுங்கள்.,राजमार्ग पर ड्राइव करें।,Technician,தொழில்நுட்ப வல்லுநர்
+505,Day 101,Traffic,Noun,Beginner,போக்குவரத்து,ट्रैफ़िक [Traffic],Avoid heavy traffic.,அதிக போக்குவரத்து நெரிசலைத் தவிர்க்கவும்.,भारी ट्रैफ़िक से बचें।,Painter,ஓவியர்
+506,Day 102,Engineer,Noun,Beginner,பொறியாளர்,इंजीनियर [Engineer],He is an engineer.,அவர் ஒரு பொறியாளர்.,वह एक इंजीनियर है।,Attorney,வக்கீல்
+507,Day 102,Artist,Noun,Beginner,கலைஞர்,कलाकार [Kalakar],The artist is creative.,கலைஞர் படைப்பாற்றல் மிக்கவர்.,कलाकार रचनात्मक है।,Researcher,அறிவியலாளர்
+508,Day 102,Lawyer,Noun,Beginner,வழக்கறிஞர்,वकील [Vakeel],Call a lawyer.,ஒரு வழக்கறிஞரை அழையுங்கள்.,एक वकील को बुलाओ।,Server,வெயிட்டர்
+509,Day 102,Scientist,Noun,Beginner,விஞ்ஞானி,वैज्ञानिक [Vaigyanik],The scientist is testing.,விஞ்ஞானி சோதனை செய்கிறார்.,वैज्ञानिक परीक्षण कर रहा है।,Chauffeur,சாரதி
+510,Day 102,Waiter,Noun,Beginner,ஏவலாளர்,वेटर [Waiter],Ask the waiter.,ஏவலாளரிடம் கேளுங்கள்.,वेटर से पूछो।,Trooper,வீரன்
+511,Day 103,Driver,Noun,Beginner,ஓட்டுநர்,ड्राइवर [Driver],The driver is fast.,ஓட்டுநர் வேகமானவர்.,ड्राइवर तेज़ है।,Clergy,குருமார்
+512,Day 103,Soldier,Noun,Beginner,சிப்பாய்,सैनिक [Sainik],The soldier is brave.,சிப்பாய் தைரியமானவர்.,सैनिक बहादुर है।,Monarch,ராஜா
+513,Day 103,Priest,Noun,Beginner,பூசாரி,पुजारी [Pujari],The priest is inside.,பூசாரி உள்ளே இருக்கிறார்.,पुजारी अंदर है।,Empress,ராணி
+514,Day 103,King,Noun,Beginner,அரசன்,राजा [Raja],The king is wise.,அரசன் புத்திசாலி.,राजा बुद्धिमान है।,Watchman,காவலாளி
+515,Day 103,Queen,Noun,Beginner,அரசி,रानी [Rani],The queen is kind.,அரசி அன்பானவர்.,रानी दयालु है।,Director,நிர்வாகி
+516,Day 104,Guard,Noun,Beginner,காவலர்,गार्ड [Guard],The guard is alert.,காவலர் எச்சரிக்கையாக இருக்கிறார்.,गार्ड सतर्क है।,Woodworker,மரவேலை செய்பவர்
+517,Day 104,Manager,Noun,Beginner,மேலாளர்,मैनेजर [Manager],Talk to the manager.,மேலாளரிடம் பேசுங்கள்.,मैनेजर से बात करें।,Blacksmith,கம்மாளர்
+518,Day 104,Carpenter,Noun,Beginner,தச்சர்,बढ़ई [Badhai],The carpenter works.,தச்சர் வேலை செய்கிறார்.,बढ़ई काम करता है।,Leap,தாண்டு
+519,Day 104,Smith,Noun,Beginner,கொல்லர்,लोहार [Lohar],The smith makes tools.,கொல்லர் கருவிகளைத் தயாரிக்கிறார்.,लोहार औज़ार बनाता है।,Sketch,ஓவியம்
+520,Day 104,Jump,Verb,Beginner,குதி,कूदना [Koodna],Jump high.,உயரமாகக் குதிக்கவும்.,ऊँचा कूदो।,Sprint,விரை
+523,Day 105,Draw,Verb,Beginner,வரை,चित्र बनाना [Chitra banana],Draw a house.,ஒரு வீட்டை வரையவும்.,एक घर का चित्र बनाओ।,Dive,குளி
+530,Day 105,Run,Verb,Beginner,ஓடு,दौड़ना [Daudna],Run fast.,வேகமாக ஓடு.,तेज़ दौड़ो।,Soar,ஏகு
+532,Day 105,Swim,Verb,Beginner,நீந்து,तैरना [Tairna],I can swim.,என்னால் நீந்த முடியும்.,मैं तैर सकता हूँ।,Cosmos,அண்டம்
+533,Day 105,Fly,Verb,Beginner,பற,उड़ना [Udna],Birds fly.,பறவைகள் பறக்கின்றன.,पक्षी उड़ते हैं।,Earth,நிலம்
+541,Day 105,Universe,Noun,Beginner,பேரண்டம்,ब्रह्मांड [Brahmand],The universe is vast and mysterious.,அண்டம் பரந்ததும் மர்மமானதும் ஆகும்.,ब्रह्मांड विशाल और रहस्यमय है।,Cosmos,பிரபஞ்சம்
+542,Day 106,Soil,Noun,Beginner,மண்,मिट्टी [Mitti],The plants grow well in this soil.,இந்த மண்ணில் செடிகள் நன்றாக வளர்கின்றன.,इस मिट्टी में पौधे अच्छी तरह बढ़ते हैं।,Earth,மண்
+543,Day 106,Root,Noun,Beginner,வேர்,जड़ [Jad],The tree has a strong root.,மரத்திற்கு வலிமையான வேர் உள்ளது.,पेड़ की जड़ मजबूत है।,Base,வேர்
+544,Day 106,Leaf,Noun,Beginner,இலை,पत्ती [Patti],The leaf fell from the tree.,மரத்திலிருந்து இலை விழுந்தது.,पेड़ से पत्ता गिर गया।,Frond,இலை
+545,Day 106,Branch,Noun,Beginner,கிளை,शाखा [Shakha],He climbed the branch of the tree.,அவன் மரத்தின் கிளையில் ஏறினான்.,वह पेड़ की शाखा पर चढ़ गया।,Bough,கிளை
+546,Day 106,Seed,Noun,Beginner,விதை,बीज [Beej],Plant the seed in the ground.,விதையைத் தரையில் நடுங்கள்.,बीज को ज़मीन में बोएं।,Grain,விதை
+547,Day 107,Triangle,Noun,Beginner,முக்கோணம்,त्रिकोण [Trikon],A triangle has three sides.,முக்கோணத்திற்கு மூன்று பக்கங்கள் உள்ளன.,त्रिकोण की तीन भुजाएँ होती हैं।,Trigon,முக்கோணம்
+548,Day 107,Birthday,Noun,Beginner,பிறந்தநாள்,जन्मदिन [Janmadin],Happy birthday to you.,உங்களுக்கு இனிய பிறந்தநாள் வாழ்த்துகள்.,आपको जन्मदिन की शुभकामनाएं।,Anniversary,பிறந்தநாள்
+549,Day 107,Wedding,Noun,Beginner,திருமணம்,शादी [Shaadi],I went to a wedding.,நான் ஒரு திருமணத்திற்குச் சென்றேன்.,मैं एक शादी में गया था।,Marriage,கல்யாணம்
+550,Day 107,Holiday,Noun,Beginner,விடுமுறை,छुट्टी [Chutti],Today is a holiday.,இன்று விடுமுறை.,आज छुट्टी है।,Vacation,ஓய்வு / விடுமுறை
+551,Day 107,Coin,Noun,Beginner,நாணயம்,सिक्का [Sikka],I found a coin.,எனக்கு ஒரு நாணயம் கிடைத்தது.,मुझे एक सिक्का मिला।,Currency,காசு
+552,Day 108,Wallet,Noun,Beginner,பணப்பை,बटुआ [Batua],I lost my wallet.,நான் எனது பணப்பையைத் தொலைத்துவிட்டேன்.,मैंने अपना बटुआ खो दिया।,Purse,பை
+553,Day 108,Chest,Noun,Beginner,மார்பு,छाती [Chhati],He felt a pain in his chest.,அவர் மார்பில் வலியை உணர்ந்தார்.,उसने अपनी छाती में दर्द महसूस किया।,Thorax,நெஞ்சு
+554,Day 108,Wrist,Noun,Beginner,மணிக்கட்டு,कलाई [Kalai],Wear the watch on your wrist.,உங்கள் மணிக்கட்டில் கடிகாரத்தை அணியுங்கள்.,अपनी कलाई पर घड़ी पहनें।,Carpus,மணிக்கட்டு
+555,Day 108,Elbow,Noun,Beginner,முழங்கை,कोहनी [Kohani],He hurt his elbow.,அவன் முழங்கையில் காயம் பட்டது.,उसकी कोहनी में चोट लग गई।,Joint,முழங்கை
+556,Day 108,Stomach,Noun,Beginner,வயிறு,पेट [Pet],My stomach is full.,என் வயிறு நிறைந்துவிட்டது.,मेरा पेट भरा हुआ है।,Tummy,வயிறு
+557,Day 109,Pea,Noun,Beginner,பட்டாணி,मटर [Matar],He likes to eat green peas.,அவனுக்குப் பச்சை பட்டாணி சாப்பிடப் பிடிக்கும்.,उसे हरी मटर खाना पसंद है।,Legume,பட்டாணி
+557,Day 109,Ant,Noun,எறும்பு (Erumbu),चींटी (Cheenti),The ant is small.,எறும்பு சிறியது.,चींटी छोटी है।,Insect,சிறிய பூச்சி,
+557,Day 109,Bottle,Noun,பாட்டில் (Baattil),बोतल (Botal),Fill the water bottle.,தண்ணீர் பாட்டிலை நிரப்பவும்.,पानी की बोतल भरें।,Container,கொள்கலன்,
+557,Day 109,Candy,Noun,மிட்டாய் (Mittaai),मिठाई (Mithai),I like sweet candy.,எனக்கு இனிப்பு மிட்டாய் பிடிக்கும்.,मुझे मीठी कैंडी पसंद है।,Sweet,இனிப்பு,
+557,Day 109,Dust,Noun,தூசி (Thoosi),धूल (Dhool),Clean the dust.,தூசியை சுத்தம் செய்யவும்.,धूल साफ करें।,Dirt,அழுக்கு,
+557,Day 110,Egg,Noun,முட்டை (Muttai),अंडा (Anda),I eat an egg.,நான் ஒரு முட்டை சாப்பிடுகிறேன்.,मैं एक अंडा खाता हूँ।,Ovum,சத்துணவு,
+557,Day 110,Fan,Noun,விசிறி / மின்விசிறி (Visiri),पंखा (Pankha),Switch on the fan.,மின்விசிறியை ஆன் செய்யவும்.,पंखा चालू करें।,Blower,காற்றாடி,
+557,Day 110,Gate,Noun,வாயில் கதவு (Vaayil Kadavu),फाटक (Phatak),Close the gate.,வாயில் கதவை மூடவும்.,फाटक बंद करें।,Entrance,நுழைவு வாயில்,
+557,Day 110,Gift,Noun,பரிசு (Parisu),उपहार (Upahaar),This is a gift for you.,இது உங்களுக்கான பரிசு.,यह आपके लिए एक उपहार है।,Present,கொடை,
+557,Day 110,Hammer,Noun,சுத்தியல் (Sutthiyal),हथौड़ा (Hathauda),Use the hammer.,சுத்தியலைப் பயன்படுத்தவும்.,हथौड़े का प्रयोग करें।,Tool,கருவி,
+557,Day 111,Ice,Noun,பனிக்கட்டி (Panikkatti),बर्फ (Barf),Ice is cold.,பனிக்கட்டி குளிர்ச்சியானது.,बर्फ ठंडी होती है।,Frozen water,உறைந்த நீர்,
+557,Day 111,Juice,Noun,சாறு (Saaru),रस (Ras),I want orange juice.,எனக்கு ஆரஞ்சு சாறு வேண்டும்.,मुझे संतरे का रस चाहिए।,Liquid extract,பிழிந்த சாறு,
+557,Day 111,Kite,Noun,பட்டம் (Pattam),पतंग (Patang),Fly the kite.,பட்டம் பறக்கவிடவும்.,पतंग उड़ाओ।,Paper glider,காத்தாடி,
+557,Day 111,Mirror,Noun,கண்ணாடி (Kannaadi),आईना (Aaina),Look at the mirror.,கண்ணாடியைப் பார்.,आईने में देखो।,Glass,முகம் பார்க்கும் கண்ணாடி,
+557,Day 111,Nail,Noun,ஆணி (Aani),कील (Keel),Hit the nail.,ஆணியை அடிக்கவும்.,कील ठोकें।,Spike,இரும்பு ஆணி,
+557,Day 112,Nest,Noun,பறவைக் கூடு (Paravai Koodu),घोंसला (Ghosla),The bird is in the nest.,பறவை கூட்டில் உள்ளது.,पक्षी घोंसले में है।,Bird home,பறவை வாழிடம்,
+557,Day 112,Oil,Noun,எண்ணெய் (Ennai),तेल (Tel),Use cooking oil.,சமையல் எண்ணெய் பயன்படுத்தவும்.,खाना पकाने के तेल का प्रयोग करें।,Fat,நெய்/எண்ணெய்,
+557,Day 112,Pen,Noun,பேனா (Pena),कलम (Kalam),Give me a pen.,எனக்கு ஒரு பேனா கொடுங்கள்.,मुझे एक कलम दो।,Writing tool,எழுதுகோல்,
+557,Day 112,Soap,Noun,சோப்பு (Sopu),साबुन (Saabun),Wash with soap.,சோப்பு போட்டு கழுவவும்.,साबुन से धोएं।,Cleanser,சலவைப்பொருள்,
+557,Day 112,Tail,Noun,வால் (Vaal),पूंछ (Poonch),The dog has a tail.,நாய்க்கு வால் உண்டு.,कुत्ते की एक पूंछ होती है।,Appendage,விலங்கின் உறுப்பு,
+557,Day 113,Toy,Noun,பொம்மை (Bommai),खिलौना (Khilauna),Play with the toy.,பொம்மையுடன் விளையாடு.,खिलौने से खेलो।,Plaything,விளையாட்டுப் பொருள்,
+557,Day 113,Umbrella,Noun,குடை (Kudai),छाता (Chhaata),Take an umbrella.,ஒரு குடை எடுத்துச் செல்லுங்கள்.,एक छाता ले लो।,Parasol,மழைக்கருவி,
+557,Day 113,Wall,Noun,சுவர் (Suvar),दीवार (Deewar),The wall is high.,சுவர் உயரமாக உள்ளது.,दीवार ऊंची है।,Partition,மதில்,
+557,Day 113,Zoo,Noun,விலங்கியல் பூங்கா (Poonga),चिड़ियाघर (Chidiyaghar),We went to the zoo.,நாங்கள் பூங்காவிற்குச் சென்றோம்.,हम चिड़ियाघर गए थे।,Animal park,மிருகக்காட்சிசாலை,
+557,Day 113,Ball,Noun,பந்து (Pandhu),गेंद (Gend),Throw the ball.,பந்தை எறியுங்கள்.,गेंद फेंको।,Sphere,உருண்டை,
+557,Day 114,Cat,Noun,பூனை (Poonai),बिल्ली (Billi),The cat is sleeping.,பூனை தூங்குகிறது.,बिल्ली सो रही है।,Feline,வீட்டு விலங்கு,
+557,Day 114,Dog,Noun,நாய் (Naai),कुत्ता (Kutta),The dog is barking.,நாய் குறைக்கிறது.,कुत्ता भौंक रहा है।,Canine,காவற்பிராணி,
+557,Day 114,Jar,Noun,ஜாடி (Jaadi),जार (Jar),The jar is full.,ஜாடி நிரம்பியுள்ளது.,जार भरा हुआ है।,Pot,பாத்திரம்,
+557,Day 114,Net,Noun,வலை (Valai),जाल (Jaal),Use the net.,வலையைப் பயன்படுத்துங்கள்.,जाल का प्रयोग करें।,Mesh,கண்ணி,
+557,Day 114,Owl,Noun,ஆந்தை (Aandhai),उल्लू (Ullu),The owl stays awake.,ஆந்தை விழித்திருக்கும்.,उल्लू जागता रहता है।,Bird,இரவுப்பறவை,
+557,Day 115,Pig,Noun,பன்றி (Pandri),सुअर (Suar),The pig is fat.,பன்றி குண்டாக இருக்கிறது.,सुअर मोटा है।,Animal,விலங்கு,
+557,Day 115,Rat,Noun,எலி (Eli),चूहा (Chooha),The rat runs fast.,எலி வேகமாக ஓடுகிறது.,चूहा तेज़ भागता है।,Rodent,சுண்டெலி,
+557,Day 115,Tree,Noun,மரம் (Maram),पेड़ (Ped),The tree is tall.,மரம் உயரமாக உள்ளது.,पेड़ ऊंचा है।,Plant,விருட்சம்,
+557,Day 115,Yacht,Noun,படகு (Padagu),नौका (Nauka),The yacht is big.,படகு பெரியது.,नौका बड़ी है।,Boat,உல்லாசப் படகு,
+557,Day 115,Zip,Noun,ஜிப் (Zip),ज़िप (Zip),Close the zip.,ஜிப்பை மூடு.,ज़िप बंद करें।,Fastener,இணைப்பான்,
+557,Day 116,Cup,Noun,கோப்பை (Koppai),कप (Cup),A cup of tea.,ஒரு கோப்பை தேநீர்.,एक कप चाय।,Mug,சிறிய கிண்ணம்,
+557,Day 116,Desk,Noun,மேசை (Maisai),मेज (Mej),Sit at the desk.,மேசையில் அமருங்கள்.,मेज पर बैठो।,Table,அலுவலக மேசை,
+557,Day 116,Gum,Noun,பசை (Pasai),गोंद (Gond),Use some gum.,பசையைப் பயன்படுத்துங்கள்.,थोड़ा गोंद लगाओ।,Glue,ஒட்டும் பொருள்,
+557,Day 116,Ink,Noun,மை (Mai),स्याही (Syahi),The ink is blue.,மை நீல நிறத்தில் உள்ளது.,स्याही नीली है।,Dye,திரவ மை,
+557,Day 116,Mud,Noun,சேறு (Seru),कीचड़ (Keechad),Don't play in mud.,சேற்றில் விளையாடாதே.,कीचड़ में मत खेलो।,Wet dirt,சகதி,
+557,Day 117,Nut,Noun,கொட்டை (Kottai),अखरोट (Akhrot),Eat this nut.,இந்த கொட்டையைச் சாப்பிடு.,यह अखरोट खाओ।,Seed,விதை,
+557,Day 117,Pot,Noun,பானை (Paanai),बर्तन (Bartan),Cook in the pot.,பானையில் சமைக்கவும்.,बर्तन में पकाएं।,Vessel,மண்பாண்டம்,
+557,Day 117,Rope,Noun,கயிறு (Kayiru),रस्सी (Rassi),Tie the rope.,கயிற்றைக் கட்டு.,रस्सी बांधो।,Cord,பாசம்,
+557,Day 117,Ship,Noun,கப்பல் (Kappal),जहाज (Jahaj),The ship is in sea.,கப்பல் கடலில் உள்ளது.,जहाज समुद्र में है।,Vessel,மரக்கலம்,
+557,Day 117,Tub,Noun,தொட்டி (Thotti),टब (Tub),The tub is empty.,தொட்டி காலியாக உள்ளது.,टब खाली है।,Basin,நீர் தொட்டி,
+557,Day 118,Vase,Noun,பூச்சாடி (Poojaadi),गुलदस्ता (Guldasta),Put flowers in vase.,பூச்சாடியில் பூக்களை வை.,गुलदस्ते में फूल रखें।,Flower pot,பூ ஜாடி,
+557,Day 118,Web,Noun,சிலந்தி வலை (Valai),जाल (Jaal),A spider web.,ஒரு சிலந்தி வலை.,मकड़ी का जाला।,Mesh,பின்னல்,
+557,Day 118,Yarn,Noun,நூல் (Nool),धागा (Dhaga),Use the red yarn.,சிவப்பு நூலைப் பயன்படுத்தவும்.,लाल धागे का प्रयोग करें।,Thread,இழை,
+557,Day 118,Bell,Noun,மணி (Mani),घंटी (Ghanti),Ring the bell.,மணியை அடிக்கவும்.,घंटी बजाओ।,Gong,ஓசை தரும் கருவி,
+557,Day 118,Cake,Noun,கேக் (Cake),केक (Cake),Cut the cake.,கேக்கை வெட்டுங்கள்.,केक काटें।,Pastry,இனிப்பு ரொட்டி,
+557,Day 119,Fire,Noun,நெருப்பு (Neruppu),आग (Aag),Fire is hot.,நெருப்பு வெப்பமானது.,आग गर्म है।,Flame,தீ,
+557,Day 119,Hill,Noun,குன்று (Kundru),पहाड़ी (Pahadi),Climb the hill.,குன்றின் மேல் ஏறுங்கள்.,पहाड़ी पर चढ़ो।,Mound,சிறு மலை,
+557,Day 119,Page,Noun,பக்கம் (Pakkam),पृष्ठ (Prishth),Turn the page.,பக்கத்தைத் திருப்புங்கள்.,पन्ना पलटें।,Leaf,தாள்,
+557,Day 119,Rock,Noun,பாறை (Paarai),चट्टान (Chattan),The rock is hard.,பாறை கடினமாக உள்ளது.,चट्टान सख्त है।,Stone,கல்,
+557,Day 119,Tide,Noun,அலை (Alai),ज्वार (Jwar),The tide is high.,அலை அதிகமாக உள்ளது.,ज्वार ऊँचा है।,Wave,ஓதம்,
+557,Day 120,Yard,Noun,முற்றம் (Muttram),आँगन (Aangan),Play in the yard.,முற்றத்தில் விளையாடு.,आँगन में खेलो।,Courtyard,வெளி,
+557,Day 120,Bank,Noun,வங்கி (Vangi),बैंक (Bank),Go to the bank.,வங்கிக்குச் செல்லுங்கள்.,बैंक जाओ।,Finance house,சேமிப்பு நிலையம்,
+557,Day 120,Belt,Noun,பெல்ட் / கச்சை (Katchai),बेल्ट (Belt),Wear your belt.,பெல்ட் அணியுங்கள்.,अपनी बेल्ट पहनें।,Strap,இடுப்பு வார்,
+557,Day 120,Drum,Noun,மேளம் (Melam),ढोल (Dhol),Play the drum.,மேளம் வாசிக்கவும்.,ढोल बजाओ।,Instrument,வாத்தியம்,
+557,Day 120,Frog,Noun,தவளை (Thavalai),मेंढक (Mendhak),The frog jumps.,தவளை குதிக்கிறது.,मेंढक कूदता है।,Amphibian,நீர்நில வாழ்வி,
+557,Day 121,Hose,Noun,குழாய் (Kuzhaai),नली (Nali),Use the water hose.,தண்ணீர்க் குழாயைப் பயன்படுத்தவும்.,पानी की नली का प्रयोग करें।,Pipe,நீர் பீச்சு குழாய்,
+557,Day 121,Joke,Noun,நகைச்சுவை (Nagaichuvai),चुटकुला (Chutkula),Tell a joke.,ஒரு நகைச்சுவை சொல்லுங்கள்.,एक चुटकुला सुनाओ।,Humor,கேலி,
+557,Day 121,Knee,Noun,முழங்கால் (Muzhangaal),घुटना (Ghutna),Bend your knee.,முழங்காலை மடக்குங்கள்.,अपना घुटना मोड़ें।,Joint,உறுப்பு,
+557,Day 121,Mist,Noun,மூடுபனி (Moodupani),कोहरा (Kohra),There is mist.,மூடுபனி இருக்கிறது.,कोहरा छाया है।,Fog,புகைமயம்,
+557,Day 121,Oats,Noun,ஓட்ஸ் (Oats),जई (Jai),Eat oats today.,இன்று ஓட்ஸ் சாப்பிடுங்கள்.,आज जई खाओ।,Cereal,தானியம்,
+557,Day 122,Pear,Noun,பேரிக்காய் (Berikkaai),नाशपाती (Nashpati),I like pear.,எனக்குப் பேரிக்காய் பிடிக்கும்.,मुझे नाशपाती पसंद है।,Fruit,ஒரு வகை பழம்,
+557,Day 122,Rags,Noun,கந்தல் (Kandhal),चिथड़े (Chithade),Use the rags to clean.,சுத்தம் செய்ய கந்தல்களைப் பயன்படுத்தவும்.,सफाई के लिए चिथड़ों का इस्तेमाल करें।,Torn cloth,பழைய துணி,
+557,Day 122,Tent,Noun,கூடாரம் (Koodaram),तंबू (Tambu),Stay in a tent.,கூடாரத்தில் தங்குங்கள்.,तंबू में रहो।,Shelter,தங்குமிடம்,
+557,Day 122,Thin,Adjective,மெலிந்த (Melindha),पतला (Patla),The book is thin.,புத்தகம் மெல்லியது.,किताब पतली है।,Lean,ஒல்லியான,
+557,Day 122,Thick,Adjective,தடிமனான (Thadimanaana),मोटा (Mota),The wall is thick.,சுவர் தடிமனானது.,दीवार मोटी है।,Dense,பருமனான,
+557,Day 123,Loud,Adjective,சத்தமான (Sathamaana),ज़ोरदार (Zordaar),The music is loud.,இசை சத்தமாக இருக்கிறது.,संगीत ज़ोरदार है।,Noisy,உரத்த,
+557,Day 123,Rude,Adjective,முரட்டுத்தனமான (Murattutthanaana),अशिष्ट (Ashisht),Don't be rude.,முரட்டுத்தனமாக இருக்காதே.,अशिष्ट मत बनो।,Impolite,மரியாதையற்ற,
+557,Day 123,Fresh,Adjective,புதிய (Pudhiya),ताज़ा (Taaza),Eat fresh fruit.,புதிய பழங்களைச் சாப்பிடுங்கள்.,ताज़ा फल खाओ।,Natural,பசுமையான,
+557,Day 123,Stale,Adjective,பழைய (Pazhaiya),बासी (Baasi),The bread is stale.,ரொட்டி பழமையானது.,ब्रेड बासी है।,Old,கெட்டுப்போன,
+557,Day 123,Tight,Adjective,இறுக்கமான (Irukkamaana),तंग (Tang),The shoes are tight.,காலணிகள் இறுக்கமாக உள்ளன.,जूते तंग हैं।,Firm,நெருக்கும்,
+557,Day 124,Loose,Adjective,தளர்வான (Thalarvaana),ढीला (Dheela),The shirt is loose.,சட்டை தளர்வாக உள்ளது.,शर्ट ढीली है।,Baggy,தொளதொளப்பான,
+557,Day 124,Bright,Adjective,பிரகாசமான (Pragaasamaana),चमकीला (Chamkeela),The star is bright.,நட்சத்திரம் பிரகாசமாக உள்ளது.,तारा चमकीला है।,Radiant,ஒளிமிக்க,
+557,Day 124,Dim,Adjective,மங்கலான (Mangalaana),धुंधला (Dhundhla),The light is dim.,ஒளி மங்கலாக உள்ளது.,रोशनी धुंधली है।,Faint,தெளிவற்ற,
+557,Day 124,Calm,Adjective,அமைதியான (Amaidhiyaana),शांत (Shant),Keep calm.,அமைதியாக இருங்கள்.,शांत रहो।,Quiet,சலனமற்ற,
+557,Day 124,Horse,Noun,குதிரை (Kudhirai),घोड़ा (Ghoda),Ride the horse.,குதிரை சவாரி செய்யுங்கள்.,घोड़े की सवारी करें।,Stallion,பரி,
+557,Day 125,Elephant,Noun,யானை (Yaanai),हाथी (Haathi),Elephant is big.,யானை பெரியது.,हाथी बड़ा है।,Jumbo,வேழம்,
+557,Day 125,Lion,Noun,சிங்கம் (Singam),शेर (Sher),Lion is king.,சிங்கம் காட்டின் ராஜா.,शेर राजा है।,King of jungle,கேசரி,
+557,Day 125,Tiger,Noun,புலி (Puli),बाघ (Baagh),Tiger is fast.,புலி வேகமானது.,बाघ तेज़ है।,Striped cat,வேங்கை,
+557,Day 125,Bear,Noun,கரடி (Karadi),भालू (Bhalu),The bear is black.,கரடி கருப்பாக உள்ளது.,भालू काला है।,Bruin,எண்கு,
+557,Day 125,Monkey,Noun,குரங்கு (Kurangu),बंदर (Bandar),Monkey jumps.,குரங்கு குதிக்கிறது.,बंदर कूदता है।,Primate,மந்தி,
+557,Day 126,Snake,Noun,பாம்பு (Paambu),साँप (Saanp),Don't touch the snake.,பாம்பைத் தொடாதே.,साँप को मत छुओ।,Serpent,அரவம்,
+557,Day 126,Lake,Noun,ஏரி (Eari),झील (Jheel),The lake is still.,ஏரி அசையாமல் உள்ளது.,झील शांत है।,Pond,தடாகம்,
+557,Day 126,Field,Noun,வயல் (Vayal),खेत (Khet),Cows are in field.,பசுக்கள் வயலில் உள்ளன.,गाय खेत में हैं।,Farm,கழனி,
+557,Day 126,Pencil,Noun,பென்சில் (Pensil),पेंसिल (Pencil),Draw with pencil.,பென்சிலால் வரையுங்கள்.,पेंसिल से चित्र बनाएं।,Sketch tool,கரிக்கோல்,
+557,Day 126,Book,Noun,புத்தகம் (Putthagam),किताब (Kitaab),Read this book.,இந்தப் புத்தகத்தைப் படியுங்கள்.,यह किताब पढ़ें।,Text,நூல்,
+557,Day 127,Bowl,Noun,கிண்ணம் (Kinnam),कटोरा (Katora),Put soup in bowl.,கிண்ணத்தில் சூப் ஊற்றவும்.,कटोरे में सूप डालें।,Dish,வட்டில்,
+557,Day 127,Spoon,Noun,கரண்டி (Karandi),चम्मच (Chammach),Eat with a spoon.,கரண்டியால் சாப்பிடுங்கள்.,चम्मच से खाओ।,Scoop,துடுப்பு,
+557,Day 127,Plate,Noun,தட்டு (Thattu),थाली (Thaali),Wash the plate.,தட்டைக் கழுவவும்.,थाली धो लें।,Platter,ஏனம்,
+557,Day 127,Salty,Adjective,உப்பான (Uppaana),नमकीन (Namkeen),The food is salty.,உணவு உப்பாக உள்ளது.,खाना नमकीन है।,Briny,உவர்ப்பு,
+557,Day 127,Spicy,Adjective,காரமான (Kaaramaana),तीखा (Teekha),The curry is spicy.,குழம்பு காரமாக இருக்கிறது.,करी तीखी है।,Hot,உறைப்பான,
+557,Day 128,Small,Adjective,சிறிய (Siriya),छोटा (Chhota),It is a small bird.,இது ஒரு சிறிய பறவை.,यह एक छोटा पक्षी है।,Little,குட்டி,
+557,Day 128,Big,Adjective,பெரிய (Periya),बड़ा (Bada),I saw a big tree.,ஒரு பெரிய மரத்தைப் பார்த்தேன்.,मैंने एक बड़ा पेड़ देखा।,Large,மாபெரும்,
+557,Day 128,Bite,Verb,கடி (Kadi),काटना (Kaatna),Don't bite your nails.,நகத்தைக் கடிக்காதே.,अपने नाखून मत काटो।,Chew,துண்டித்தல்,
+557,Day 128,Blow,Verb,ஊது (Oodhu),फूँक मारना (Phoonk maarna),Blow out the candle.,மெழுகுவர்த்தியை ஊதி அணைக்கவும்.,मोमबत्ती बुझा दो।,Exhale,காற்று வீசு,
+557,Day 128,Build,Verb,கட்டு (Kattu),बनाना (Banana),They build a house.,அவர்கள் ஒரு வீட்டைக் கட்டுகிறார்கள்.,वे एक घर बनाते हैं।,Construct,உருவாக்கு,
+557,Day 129,Burn,Verb,எரி (Eri),जलना (Jalna),The wood burns.,மரம் எரிகிறது.,लकड़ी जलती है।,Blaze,தீப்பற்று,
+557,Day 129,Care,Verb,கவனி (Kavani),देखभाल करना (Dekhbhal karna),Care for your pets.,உங்கள் செல்லப்பிராணிகளைக் கவனியுங்கள்.,अपने पालतू जानवरों की देखभाल करें।,Look after,அக்கறை,
+557,Day 129,Carry,Verb,சும (Suma),ले जाना (Le jaana),Carry this bag.,இந்தப் பையைச் சுமந்து செல்லுங்கள்.,इस बैग को ले जाओ।,Transport,எடுத்துச்செல்,
+557,Day 129,Choose,Verb,தேர்ந்தெடு (Therndhedu),चुनना (Chunna),Choose one color.,ஒரு வண்ணத்தைத் தேர்ந்தெடுங்கள்.,एक रंग चुनें।,Select,தெரிவு செய்,
+557,Day 129,Climb,Verb,ஏறு (Earu),चढ़ना (Chadhna),Climb the tree.,மரத்தில் ஏறுங்கள்.,पेड़ पर चढ़ो।,Mount,உச்சிக்குச் செல்,
+557,Day 130,Count,Verb,எண்ணு (Ennu),गिनना (Ginna),Count the coins.,நாணயங்களை எண்ணுங்கள்.,सिक्के गिनें।,Tally,கணக்கிடு,
+557,Day 130,Cut,Verb,வெட்டு (Vettu),काटना (Kaatna),Cut the paper.,காகிதத்தை வெட்டுங்கள்.,कागज काटो।,Slice,பிளத்தல்,
+557,Day 130,Dig,Verb,தோண்டு (Thondu),खोदना (Khodna),Dig a hole.,ஒரு பள்ளம் தோண்டுங்கள்.,एक गड्ढा खोदो।,Scoop,அகழ்,
+557,Day 130,Fill,Verb,நிரப்பு (Nirappu),भरना (Bharna),Fill the bottle.,பாட்டிலை நிரப்பவும்.,बोतल भरो।,Load,பூர்த்தி செய்,
+557,Day 130,Fix,Verb,சரிசெய் (Sarisei),ठीक करना (Theek karna),Fix the toy.,பொம்மையைச் சரிசெய்யவும்.,खिलौना ठीक करो।,Repair,திருத்து,
+557,Day 131,Fold,Verb,மடி (Madi),मोड़ना (Modna),Fold the clothes.,துணிகளை மடிக்கவும்.,कपड़े मोड़ो।,Bend,சுருட்டு,
+557,Day 131,Hold,Verb,பிடி (Pidi),थामना (Thamna),Hold my hand.,என் கையைப் பிடித்துக் கொள்ளுங்கள்.,मेरा हाथ थाम लो।,Grip,ஏந்து,
+557,Day 131,Hurry,Verb,அவசரப்படு (Avasarappadu),जल्दी करना (Jaldi karna),Hurry up!,சீக்கிரம்!,जल्दी करो!,Rush,விரைவுபடுத்து,
+557,Day 131,Kiss,Verb,முத்தமிடு (Mutthamidu),चूमना (Choomna),Kiss the baby.,குழந்தைக்கு முத்தமிடுங்கள்.,बच्चे को चूमो।,Peck,அன்பு செய்,
+557,Day 131,Knock,Verb,தட்டு (Thattu),खटखटाना (Khatkhatana),Knock on the door.,கதவைத் தட்டுங்கள்.,दरवाजा खटखटाओ।,Tap,மோது,
+557,Day 132,Lead,Verb,வழிநடத்து (Vazhinadatthu),नेतृत्व करना (Netritva karna),Lead the way.,வழிகாட்டுங்கள்.,रास्ता दिखाओ।,Guide,முன்னே செல்,
+557,Day 132,Lend,Verb,கடன் கொடு (Kadan kodu),उधार देना (Udhaar dena),Lend me a pen.,எனக்கு ஒரு பேனா கடன் கொடுங்கள்.,मुझे एक पेन उधार दो।,Loan,இரவல் கொடு,
+557,Day 132,Lie,Verb,பொய் சொல் (Poi sol),झूठ बोलना (Jhoot bolna),Never lie.,எப்போதும் பொய் சொல்லாதே.,कभी झूठ मत बोलो।,Deceive,ஏமாற்று,
+557,Day 132,Lift,Verb,தூக்கு (Thookku),उठाना (Uthana),Lift the box.,பெட்டியைத் தூக்குங்கள்.,डिब्बा उठाओ।,Raise,மேலெழுப்பு,
+557,Day 132,Make,Verb,செய் / உருவாக்கு (Uruvaakku),बनाना (Banana),Make some tea.,கொஞ்சம் தேநீர் போடுங்கள்.,थोड़ी चाय बनाओ।,Create,இயற்று,
+557,Day 133,Miss,Verb,இழ / தவறவிடு (Thavaravidu),याद करना (Yaad karna),I miss you.,நான் உன்னை இழக்கிறேன்.,मुझे तुम्हारी याद आती है।,Long for,நழுவவிடு,
+557,Day 133,Pay,Verb,செலுத்து (Selutthu),भुगतान करना (Bhugtan karna),Pay the bill.,கட்டணத்தைச் செலுத்துங்கள்.,बिल भरें।,Settle,ஈடு செய்,
+557,Day 133,Pick,Verb,எடு / தேர்ந்தெடு (Edu),उठाना (Uthana),Pick a card.,ஒரு கார்டை எடுங்கள்.,एक कार्ड उठाओ।,Pluck,தெரிவு செய்,
+557,Day 133,Pray,Verb,பிரார்த்தனை செய் (Prartthanai sei),प्रार्थना करना (Prarthana karna),Pray to God.,கடவுளிடம் பிரார்த்தனை செய்யுங்கள்.,भगवान से प्रार्थना करें।,Worship,வேண்டு,
+557,Day 133,Ride,Verb,சவாரி செய் (Savaari sei),सवारी करना (Sawari karna),Ride a bike.,பைக் சவாரி செய்யுங்கள்.,बाइक चलाओ।,Drive,ஏறிச் செல்,
+557,Day 134,Ring,Verb,அடி / ஒலி (Oli),बजाना (Bajana),Ring the bell.,மணியை அடிக்கவும்.,घंटी बजाओ।,Chime,ஒலிக்கச் செய்,
+557,Day 134,Rise,Verb,எழு / உயர் (Uyar),उगना (Ugna),The sun rises.,சூரியன் உதிக்கிறது.,सूरज उगता है।,Ascend,ஓங்கு,
+557,Day 134,Save,Verb,சேமி / காப்பாற்று (Saami),बचाना (Bachana),Save money.,பணம் சேமிக்கவும்.,पैसे बचाओ।,Rescue,பாதுகா,
+557,Day 134,Shut,Verb,மூடு (Moodu),बंद करना (Band karna),Shut your mouth.,வாயை மூடு.,अपना मुँह बंद करो।,Close,அடை,
+557,Day 134,Sit,Verb,உட்கார் (Utkaar),बैठना (Baithna),Sit down.,உட்காருங்கள்.,बैठ जाओ।,Rest,அமர்,
+557,Day 135,Smell,Verb,மண / நுகர் (Nugar),सूंघना (Soonghna),Smell the rose.,ரோஜாவை நுகர்ந்து பார்.,गुलाब सूंघो।,Scent,வாசனை பார்,
+557,Day 135,Spend,Verb,செலவு செய் (Selavu sei),खर्च करना (Kharch karna),Spend some time.,சிறிது நேரம் செலவிடுங்கள்.,थोड़ा समय बिताएं।,Use,கழித்தல்,
+557,Day 135,Stand,Verb,நில் (Nil),खड़ा होना (Khada hona),Stand up.,எழுந்து நில்லுங்கள்.,खड़े हो जाओ।,Rise,நிலைபெறு,
+557,Day 135,Tell,Verb,சொல் (Sol),बताना (Batana),Tell me a story.,எனக்கு ஒரு கதை சொல்லுங்கள்.,मुझे एक कहानी सुनाओ।,Narrate,கூறு,
+557,Day 135,Throw,Verb,எறி (Eri),फेंकना (Phekna),Throw the ball.,பந்தை எறியுங்கள்.,गेंद फेंको।,Cast,வீசு,
+557,Day 136,Touch,Verb,தொடு (Thodu),छूना (Choona),Don't touch that.,அதைத் தொடாதே.,उसे मत छुओ।,Feel,தீண்டு,
+557,Day 136,Turn,Verb,திருப்பு (Thiruppu),मुड़ना (Mudna),Turn left.,இடதுபுறம் திரும்புங்கள்.,बाएँ मुड़ें।,Pivot,சுற்று,
+557,Day 136,Yawn,Verb,கொட்டாவி விடு (Kottaavi vidu),जम्हाई लेना (Jamhai lena),Don't yawn.,கொட்டாவி விடாதே.,जम्हाई मत लो।,Gape,வாய் பிள,
+557,Day 136,Bake,Verb,சுடு (Sudu),पकाना (Pakana),Bake a cake.,ஒரு கேக் சுடுங்கள்.,एक केक पकाएं।,Roast,சமைத்தல்,
+557,Day 136,Bathe,Verb,குளி (Kuli),नहाना (Nahana),Go and bathe.,போய் குளிக்கவும்.,जाओ और नहा लो।,Shower,நீராடல்,
+557,Day 137,Bending,Verb,வளைத்தல் (Valaitthal),झुकना (Jhukna),He is bending down.,அவர் கீழே குனிகிறார்.,वह नीचे झुक रहा है।,Arching,குனிதல்,
+557,Day 137,Blinking,Verb,சிமிட்டுதல் (Simittudhal),पलक झपकना (Palak jhapakna),Stop blinking fast.,வேகமாக சிமிட்டுவதை நிறுத்து.,तेज़ पलक झपकना बंद करो।,Winking,கண் சிமிட்டல்,
+557,Day 137,Boil,Verb,கொதிக்க வை (Kodhika vai),उबालना (Ubalna),Boil the water.,தண்ணீரைக் கொதிக்க வைக்கவும்.,पानी उबालें।,Heat,காய்ச்சுதல்,
+557,Day 137,Borrow,Verb,கடன் வாங்கு (Kadan vaangu),उधार लेना (Udhaar lena),Can I borrow it?,நான் அதை கடன் வாங்கலாமா?,क्या मैं इसे उधार ले सकता हूँ?,Take loan,இரவல் பெறு,
+557,Day 137,Bowling,Verb,பந்து வீசுதல் (Pandhu veesudhal),गेंदबाजी (Gendbaazi),He is bowling now.,அவர் இப்போது பந்து வீசுகிறார்.,वह अब गेंदबाजी कर रहा है।,Pitching,பந்து எறிதல்,
+557,Day 138,Braiding,Verb,பின்னுதல் (Pinnudhal),गूंथना (Goonthna),Braiding the hair.,கூந்தலைப் பின்னுதல்.,बालों को गूंथना।,Weaving,ஜடை பின்னுதல்,
+557,Day 138,Breathing,Verb,சுவாசித்தல் (Suvaasitthal),सांस लेना (Saans lena),Deep breathing is good.,ஆழ்ந்த சுவாசம் நல்லது.,गहरी सांस लेना अच्छा है।,Inhaling,மூச்சு விடுதல்,
+557,Day 138,Camping,Verb,முகாம் இடுதல் (Mugaam idudhal),शिविर लगाना (Shivir lagana),We are camping here.,நாங்கள் இங்கே முகாம் இடுகிறோம்.,हम यहाँ शिविर लगा रहे हैं।,Tenting,தங்குதல்,
+557,Day 138,Chewing,Verb,மெல்லுதல் (Melludhal),चबाना (Chabana),Chew your food.,உணவை மென்று சாப்பிடு.,अपना खाना चबाओ।,Masticating,கடித்தல்,
+557,Day 138,Clapping,Verb,கைதட்டுதல் (Kaithattudhal),ताली बजाना (Taali bajana),Everyone is clapping.,அனைவரும் கைதட்டுகிறார்கள்.,सब ताली बजा रहे हैं।,Applauding,கைகொட்டுதல்,
+557,Day 139,Combing,Verb,சீவுதல் (Seevudhal),कंघी करना (Kanghi karna),Comb your hair.,தலை சீவுங்கள்.,अपने बालों में कंघी करें।,Grooming,தலை வாருதல்,
+557,Day 139,Copying,Verb,நகலெடுத்தல் (Nagal-edutthal),नकल करना (Nakal karna),Stop copying me.,என்னை நகலெடுப்பதை நிறுத்து.,मेरी नकल करना बंद करो।,Mimicking,பிரதி எடுத்தல்,
+557,Day 139,Coughing,Verb,இருமுதல் (Irumudhal),खाँसना (Khansna),He is coughing.,அவர் இருமுகிறார்.,वह खाँस रहा है।,Wheezing,இருமல்,
+557,Day 139,Crawling,Verb,ஊர்ந்து செல்லுதல் (Oorndhu),रेंगना (Rengna),The baby is crawling.,குழந்தை ஊர்ந்து செல்கிறது.,बच्चा रेंग रहा है।,Creeping,தவழ்தல்,
+557,Day 139,Diving,Verb,குதித்தல் (Kuditthal),गोता लगाना (Gota lagana),Diving into water.,தண்ணீரில் குதித்தல்.,पानी में गोता लगाना।,Plunging,முக்குளித்தல்,
+557,Day 140,Dusting,Verb,தூசி தட்டுதல் (Thoosi),धूल झाड़ना (Dhool jhadna),Dusting the table.,மேசையைத் தூசி தட்டுதல்.,मेज की धूल झाड़ना।,Sweeping,துப்புரவு செய்தல்,
+557,Day 140,Escaping,Verb,தப்பித்தல் (Thappitthal),भाग निकलना (Bhag nikalna),The bird is escaping.,பறவை தப்பிக்கிறது.,पक्षी भाग रहा है।,Fleeing,வெளியேறுதல்,
+557,Day 140,Feeding,Verb,ஊட்டுதல் (Oottudhal),खिलाना (Khilana),Feeding the baby.,குழந்தைக்கு ஊட்டுதல்.,बच्चे को खिलाना।,Nursing,உணவு அளித்தல்,
+557,Day 140,Floating,Verb,மிதத்தல் (Midhatthal),तैरना (Tairna),Wood is floating.,மரம் மிதக்கிறது.,लकड़ी तैर रही है।,Drifting,நீர்மேல் இருத்தல்,
+557,Day 140,Freezing,Verb,உறைதல் (Uraidhal),जमना (Jamna),Water is freezing.,தண்ணீர் உறைகிறது.,पानी जम रहा है।,Chilling,பனிக்கட்டியாதல்,
+557,Day 141,Gardening,Verb,தோட்டம் வளர்த்தல் (Thottam),बागवानी (Bagwani),I love gardening.,எனக்கு தோட்டம் வளர்க்க பிடிக்கும்.,मुझे बागवानी पसंद है।,Planting,பயிரிடுதல்,
+557,Day 141,Grilling,Verb,வாட்டுதல் (Vaattudhal),भूनना (Bhoonna),Grilling the meat.,இறைச்சியை வாட்டுதல்.,मांस भूनना।,Broiling,தீயில் சுடுதல்,
+557,Day 141,Hanging,Verb,தொங்குதல் (Thongudhal),लटकना (Latakna),Hanging the coat.,கோட்டைத் தொங்கவிடுதல்.,कोट लटकाना।,Dangling,மாட்டி வைத்தல்,
+557,Day 141,Harvesting,Verb,அறுவடை செய்தல் (Aruvadai),कटाई (Katai),Farmers are harvesting.,விவசாயிகள் அறுவடை செய்கிறார்கள்.,किसान कटाई कर रहे हैं।,Reaping,விளைச்சல் எடுத்தல்,
+557,Day 141,Hiding,Verb,ஒளிதல் (Olidhal),छिपना (Chhipna),Hiding behind door.,கதவுக்கு பின்னால் ஒளிதல்.,दरवाजे के पीछे छिपना।,Concealing,பதுங்குதல்,
+557,Day 142,Hiking,Verb,மலையேறுதல் (Malaiyeirudhal),लंबी पैदल यात्रा (Yatra),Hiking in woods.,காட்டில் மலையேறுதல்.,जंगलों में लंबी पैदल यात्रा।,Trekking,நடைப்பயணம்,
+557,Day 142,Hunting,Verb,வேட்டையாடுதல் (Vettaiyadu),शिकार करना (Shikar karna),Lion is hunting.,சிங்கம் வேட்டையாடுகிறது.,शेर शिकार कर रहा है।,Trapping,வேட்டை,
+557,Day 142,Icing,Verb,ஐஸ் வைத்தல் (Ice vaitthal),बर्फ लगाना (Barf lagana),Icing the wound.,காயத்திற்கு ஐஸ் வைத்தல்.,घाव पर बर्फ लगाना।,Cooling,குளிரூட்டுதல்,
+557,Day 142,Ironing,Verb,இஸ்திரி செய்தல் (Isthiriseidhu),इस्त्री करना (Istri karna),Ironing the shirt.,சட்டை இஸ்திரி செய்தல்.,शर्ट पर इस्त्री करना।,Pressing,தேய்த்தல்,
+557,Day 142,Itching,Verb,அரித்தல் (Arithal),खुजली होना (Khujli hona),My skin is itching.,என் தோல் அரிக்கிறது.,मेरी त्वचा में खुजली हो रही है।,Tingling,நமநமப்பு,
+557,Day 143,Kneeling,Verb,மண்டியிடுதல் (Mandiyidu),घुटने टेकना (Ghutne tekna),Kneeling on floor.,தரையில் மண்டியிடுதல்.,ज़मीन पर घुटने टेकना।,Genuflection,முழங்கால் ஊன்றல்,
+557,Day 143,Knitting,Verb,பின்னுதல் (Pinnudhal),बुनाई (Bunayi),Knitting a sweater.,ஸ்வெட்டர் பின்னுதல்.,स्वेटर बुनना।,Crochet,தையல்,
+557,Day 143,Licking,Verb,நக்குதல் (Nakkudhal),चाटना (Chatna),Dog is licking.,நாய் நக்குகிறது.,कुत्ता चाट रहा है।,Tasting,சுவைத்தல்,
+557,Day 143,Mopping,Verb,துடைத்தல் (Thudaitthal),पोंछा लगाना (Ponchha),Mopping the floor.,தரையைத் துடைத்தல்.,ज़मीन पर पोंछा लगाना।,Wiping,சுத்தம் செய்தல்,
+557,Day 143,Napping,Verb,சிறுதூக்கம் (Siru-thoookkam),झपकी लेना (Jhapki lena),I am napping.,நான் சிறுதூக்கம் போடுகிறேன்.,मैं झपकी ले रहा हूँ।,Dozing,குட்டித் தூக்கம்,
+557,Day 144,Nodding,Verb,தலையாட்டுதல் (Thalaiyaattu),सिर हिलाना (Sir hilana),He is nodding yes.,அவர் ஆம் என்று தலையாட்டுகிறார்.,वह हाँ में सिर हिला रहा है।,Agreeing,சம்மதம் தெரிவித்தல்,
+557,Day 144,Packing,Verb,சிப்பம் கட்டுதல் (Sippam),पैकिंग (Packing),Packing my bags.,என் பைகளை மூட்டைக் கட்டுகிறேன்.,मैं अपना बैग पैक कर रहा हूँ।,Stowing,அடுக்கி வைத்தல்,
+557,Day 144,Peeling,Verb,தோலுரித்தல் (Thooluritthal),छीलना (Chheelna),Peeling the orange.,ஆரஞ்சு தோலுரித்தல்.,संतरा छीलना।,Skinning,தோல் நீக்குதல்,
+557,Day 144,Pouring,Verb,ஊற்றுதல் (Ootttrudhal),डालना (Daalna),Pouring the tea.,தேநீர் ஊற்றுதல்.,चाय डालना।,Spilling,பெய்தல்,
+557,Day 144,Praying,Verb,பிரார்த்தித்தல் (Prartthitthal),प्रार्थना करना (Prarthana),She is praying.,அவள் பிரார்த்தனை செய்கிறாள்.,वह प्रार्थना कर रही है।,Worship,வேண்டுதல்,
+557,Day 145,Quarrel,Verb,தகராறு (Thagaraaru),झगड़ा करना (Jhagda karna),Do not quarrel.,தகராறு செய்யாதீர்கள்.,झगड़ा मत करो।,Arguing,சண்டை,
+557,Day 145,Repair,Verb,பழுதுபார்த்தல் (Pazhudhu),मरम्मत करना (Marammat),Repair the bike.,பைக்கை பழுதுபார்க்கவும்.,बाइक की मरम्मत करें।,Fixing,சீர்செய்தல்,
+557,Day 145,Resting,Verb,ஓய்வெடுத்தல் (Oivedutthal),आराम करना (Aaram karna),Take some resting.,சிறிது ஓய்வெடுங்கள்.,थोड़ा आराम करो।,Relaxing,இளைப்பாறுதல்,
+557,Day 145,Sailing,Verb,கப்பல் பயணம் (Payanam),नौकायन (Naukayan),Sailing in sea.,கடலில் பயணம் செய்தல்.,समुद्र में नौकायन।,Cruising,கடல் வழிச் செல்லல்,
+557,Day 145,Scratch,Verb,கீறுதல் (Keerudhal),खरोंचना (Kharonchna),Don't scratch that.,அதைக் கீறாதே.,उसे खरोंचो मत।,Scrape,உரசுதல்,
+557,Day 146,Shaking,Verb,குலுக்குதல் (Kulukkudhal),हिलाना (Hilana),Shaking the bottle.,பாட்டிலைக் குலுக்குதல்.,बोतल हिलाना।,Jiggling,ஆட்டுதல்,
+557,Day 146,Shaving,Verb,சவரம் செய்தல் (Savaram),शेव करना (Shave karna),He is shaving.,அவர் சவரம் செய்கிறார்.,वह शेव कर रहा है।,Trimming,முடி நீக்கல்,
+557,Day 146,Skating,Verb,சறுக்குதல் (Sarukkudhal),स्केटिंग (Skating),Skating on ice.,பனியில் சறுக்குதல்.,बर्फ पर स्केटिंग।,Gliding,வழுக்குதல்,
+557,Day 146,Skipping,Verb,தாண்டுதல் (Thaandudhal),कूदना (Koodna),Skipping rope.,கயிறு தாண்டுதல்.,रस्सी कूदना।,Leaping,குதித்தல்,
+557,Day 146,Slicing,Verb,நறுக்குதல் (Narukkudhal),काटना (Kaatna),Slicing the bread.,ரொட்டியை நறுக்குதல்.,ब्रेड काटना।,Carving,துண்டு செய்தல்,
+557,Day 147,Slipping,Verb,வழுக்குதல் (Vazhukkudhal),फिसलना (Fisallna),Floor is slipping.,தரை வழுக்குகிறது.,फर्श फिसल रहा है।,Sliding,சறுக்கல்,
+557,Day 147,Sneezing,Verb,தும்முதல் (Thummudhal),छींकना (Chheenkna),He is sneezing.,அவர் தும்முகிறார்.,वह छींक रहा है।,Sniffling,தும்மல்,
+557,Day 147,Soaking,Verb,ஊறவைத்தல் (Oora-vaitthal),भिगोना (Bhigona),Soaking the grains.,தானியங்களை ஊறவைத்தல்.,अनाज भिगोना।,Drenching,நனைத்தல்,
+557,Day 147,Sorting,Verb,வரிசைப்படுத்துதல் (Varisai),छाँटना (Chhaantna),Sorting the mail.,தபால்களை வரிசைப்படுத்துதல்.,मेल छाँटना।,Ordering,வகைப்படுத்துதல்,
+557,Day 147,Spilling,Verb,சிந்துதல் (Sindhudhal),गिरना (Girana),Milk is spilling.,பால் சிந்துது.,दूध गिर रहा है।,Leaking,கொட்டுதல்,
+557,Day 148,Spraying,Verb,தெளித்தல் (Thelitthal),छिड़काव (Chhidkaav),Spraying the water.,தண்ணீர் தெளித்தல்.,पानी का छिड़काव।,Splashing,இறைத்தல்,
+557,Day 148,Stretching,Verb,நீட்டுதல் (Neettudhal),खींचना (Khenchna),Stretching the arms.,கைகளை நீட்டுதல்.,हाथ खींचना।,Extending,விரித்தல்,
+557,Day 148,Stirring,Verb,கலக்குதல் (Kalakkudhal),हिलाना (Hilana),Stirring the soup.,சூப்பைக் கலக்குதல்.,सूप हिलाना।,Mixing,துழாவுதல்,
+557,Day 148,Tapping,Verb,தட்டுதல் (Thattudhal),थपथपाना (Thapthapana),Tapping the desk.,மேசையைத் தட்டுதல்.,मेज थपथपाना।,Knocking,மெல்ல அடித்தல்,
+557,Day 148,Tickling,Verb,கிச்சுக்கிச்சு (Kitchu-kitchu),गुदगुदी करना (Gudgudi),Stop tickling me.,எனக்குக் கிச்சுக்கிச்சு மூட்டுவதை நிறுத்து.,मुझे गुदगुदी करना बंद करो।,Teasing,சிலிர்ப்பு,
+557,Day 149,Tying,Verb,கட்டுதல் (Kattudhal),बाँधना (Baandhna),Tying the laces.,கயிற்றைக் கட்டுதல்.,लेस बाँधना।,Binding,பிணைத்தல்,
+557,Day 149,Whistling,Verb,விசிலடித்தல் (Visil-aditthal),सीटी बजाना (Seeti bajana),He is whistling.,அவர் விசிலடிக்கிறார்.,वह सीटी बजा रहा है।,Tooting,வாய் விசிலடித்தல்,
+557,Day 149,Wiping,Verb,துடைத்தல் (Thudaitthal),पोंछना (Ponchhna),Wiping the glass.,கண்ணாடியைத் துடைத்தல்.,गिलास पोंछना।,Cleaning,சுத்தம் செய்தல்,
+557,Day 149,Wrapping,Verb,சுற்றுதல் (Suttrudhal),लपेटना (Lapetna),Wrapping the gift.,பரிசைச் சுற்றுதல் (பேக் செய்தல்).,उपहार लपेटना।,Covering,பொதிதல்,
+557,Day 149,Yelling,Verb,கத்துதல் (Katthudhal),चिल्लाना (Chillana),Stop yelling!,கத்துவதை நிறுத்து!,चिल्लाना बंद करो!,Shouting,கூச்சலிடுதல்,
+557,Day 150,Ache,Noun,வலி (Vali),दर्द (Dard),I have an ache.,எனக்கு வலி இருக்கிறது.,मुझे दर्द है।,Pain,வேதனை,
+557,Day 150,Breeze,Noun,தென்றல் (Thendral),ठंडी हवा (Thandi hawa),Cool breeze today.,இன்று குளிர்ந்த தென்றல்.,आज ठंडी हवा है।,Gentle wind,இளங்காற்று,
+557,Day 150,Canyon,Noun,பள்ளத்தாக்கு (Pallatthaakku),घाटी (Ghati),The canyon is deep.,பள்ளத்தாக்கு ஆழமானது.,घाटी गहरी है।,Ravine,மலை இடுக்கு,
+557,Day 150,Dew,Noun,பனித்துளி (Panitthulli),ओस (Os),Dew on grass.,புல்லில் பனித்துளி.,घास पर ओस।,Moisture,துளி,
+557,Day 150,Echo,Noun,எதிரொலி (Edhiroli),गूँज (Goonj),Hear the echo.,எதிரொலியைக் கேள்.,गूँज सुनो।,Resonating sound,மாற்று ஒலி,
+557,Day 151,Fern,Noun,பெரணி செடி (Perani),फर्न (Fern),Fern grows here.,பெரணி இங்கே வளர்கிறது.,फर्न यहाँ उगता है।,Green plant,ஒரு வகை செடி,
+557,Day 151,Glow,Noun,ஒளி / பிரகாசம் (Oli),चमक (Chamak),Night glow lamp.,இரவு ஒளி விளக்கு.,नाइट ग्लो लैंप।,Radiance,சுடர்,
+557,Day 151,Hail,Noun,ஆலங்கட்டி மழை (Aalangatti),ओले (Ole),It is hail rain.,இது ஆலங்கட்டி மழை.,ओले गिर रहे हैं।,Ice rain,கல்மழை,
+557,Day 151,Jug,Noun,ஜாடி (Jaadi),जग (Jug),Water in jug.,ஜாடியில் தண்ணீர்.,जग में पानी।,Container,குவளை,
+557,Day 151,Knot,Noun,முடிச்சு (Mudichu),गांठ (Ganth),Tie a knot.,ஒரு முடிச்சு போடு.,गांठ बांधो।,Loop,பிணைப்பு,
+557,Day 152,Log,Noun,மரக்கட்டை (Marakkattai),लट्ठा (Lattha),Heavy wood log.,கனமான மரக்கட்டை.,भारी लकड़ी का लट्ठा।,Timber,தறி,
+557,Day 152,Ore,Noun,தாது (Thaadhu),अयस्क (Ayask),Iron ore.,இரும்பு தாது.,लौह अयस्क।,Mineral,கனிமம்,
+557,Day 152,Pit,Noun,குழி (Kuzhi),गड्ढा (Gaddha),A deep pit.,ஒரு ஆழமான குழி.,एक गहरा गड्ढा।,Hole,பள்ளம்,
+557,Day 152,Quill,Noun,இறகுப் பேனா (Iragu),पंख (Pankh),Use the quill.,இறகுப் பேனாவைப் பயன்படுத்து.,पंख का प्रयोग करें।,Feather pen,தூவி,
+557,Day 152,Rim,Noun,விளிம்பு (Vilimbu),किनारा (Kinara),Rim of wheel.,சக்கரத்தின் விளிம்பு.,पहिये का किनारा।,Edge,ஓரம்,
+557,Day 153,Unit,Noun,அலகு (Alagu),इकाई (Ikai),One unit.,ஒரு அலகு.,एक इकाई।,Measurement,அளவு,
+557,Day 153,Vine,Noun,கொடி (Kodi),बेल (Bel),Grape vine.,திராட்சைக் கொடி.,अंगूर की बेल।,Creeper,படர்கொடி,
+557,Day 153,Wick,Noun,திரி (Thiri),बत्ती (Batti),Lamp wick.,விளக்கின் திரி.,दीये की बत्ती।,Cord,விளக்குத் திரி,
+557,Day 153,Yolk,Noun,கரு (Karu),जर्दी (Zardi),Egg yolk.,முட்டையின் கரு.,अंडे की जर्दी।,Center,மஞ்சள் கரு,
+557,Day 153,Zone,Noun,மண்டலம் (Mandalam),क्षेत्र (Kshetra),Silence zone.,அமைதி மண்டலம்.,मौन क्षेत्र।,Region,பகுதி,
+557,Day 154,Blunt,Adjective,மழுங்கிய (Mazhungiya),कुंद (Kund),Knife is blunt.,கத்தி மழுங்கியுள்ளது.,चाकू कुंद है।,Not sharp,மொண்ணையான,
+557,Day 154,Crisp,Adjective,மொறுமொறுப்பான (Moru),कुरकुरा (Kurkura),Crisp apple.,மொறுமொறுப்பான ஆப்பிள்.,कुरकुरा सेब।,Crunchy,நொறுங்கத்தக்க,
+557,Day 154,Faint,Adjective,மங்கலான (Mangalaana),बेहोश (Behosh),Faint sound.,மங்கலான சத்தம்.,हल्की आवाज़।,Weak,தெளிவற்ற,
+557,Day 154,Greedy,Adjective,பேராசை (Peiraasai),लालची (Laalchi),Don't be greedy.,பேராசைப்படாதே.,लालची मत बनो।,Avaricious,ஆசைப்பிடித்த,
+557,Day 154,Nasty,Adjective,அருவருப்பான (Aruvaruppu),बुरा (Bura),Nasty smell.,அருவருப்பான மணம்.,गंदी गंध।,Offensive,கெட்ட,
+557,Day 155,Plain,Adjective,சமவெளியான / எளிமையான,सादा (Saada),Plain paper.,வெற்றுத்தாள் (எளிமையான).,सादा कागज।,Simple,வெறுமையான,
+557,Day 155,Rough,Adjective,சொரசொரப்பான (Sora),खुरदरा (Khurdara),Rough surface.,சொரசொரப்பான மேற்பரப்பு.,खुरदरी सतह।,Uneven,கரடுமுரடான,
+557,Day 155,Eraser,Noun,அழிப்பான் (Azhippaan),रबड़ (Rabad),Use the eraser.,அழிப்பானைப் பயன்படுத்துங்கள்.,रबड़ का प्रयोग करें।,Rubber,தேய்ப்புக்கருவி,
+557,Day 155,Chalk,Noun,சுண்ணக்கட்டி (Sunnakkatti),चाक (Chalk),Write with chalk.,சுண்ணக்கட்டியால் எழுதுங்கள்.,चाक से लिखें।,Crayon,பலப்பம்,
+557,Day 155,Bench,Noun,பெஞ்ச் / நீண்ட இருக்கை,बेंच (Bench),Sit on the bench.,பெஞ்சில் அமருங்கள்.,बेंच पर बैठो।,Seat,நீண்ட இருக்கை,
+557,Day 156,Map,Noun,வரைபடம் (Varaipadam),नक्शा (Naksha),Look at the map.,வரைபடத்தைப் பாருங்கள்.,नक्शा देखो।,Chart,நிலப்படம்,
+557,Day 156,Globe,Noun,புவி உருண்டை (Puvi),ग्लोब (Globe),Spin the globe.,புவி உருண்டையைச் சுழற்றுங்கள்.,ग्लोब घुमाओ।,Sphere,உலக உருண்டை,
+557,Day 156,Scale,Noun,அளவுகோல் (Alavukol),पैमाना (Paimana),Use a scale.,அளவுகோலைப் பயன்படுத்துங்கள்.,पैमाने का प्रयोग करें।,Ruler,மட்டம்,
+557,Day 156,Library,Noun,நூலகம் (Noolagam),पुस्तकालय (Pustakalay),Go to the library.,நூலகத்திற்குச் செல்லுங்கள்.,पुस्तकालय जाओ।,Bookroom,புத்தக சாலை,
+557,Day 156,Park,Noun,பூங்கா (Poonga),पार्क (Park),Play in the park.,பூங்காவில் விளையாடு.,पार्क में खेलो।,Garden,நந்தவனம்,
+557,Day 157,Market,Noun,சந்தை (Sandhai),बाज़ार (Bazaar),Buy vegetables at the market.,சந்தையில் காய்கறிகள் வாங்குங்கள்.,बाज़ार से सब्ज़ियाँ खरीदें।,Mart,விற்கும் இடம்,
+557,Day 157,Hotel,Noun,விடுதி (Vidudhi),होटल (Hotel),Stay in the hotel.,விடுதியில் தங்குங்கள்.,होटल में ठहरें।,Inn,தங்குமிடம்,
+557,Day 157,Street,Noun,தெரு (Theru),गली (Gali),This is a small street.,இது ஒரு சிறிய தெரு.,यह एक छोटी गली है।,Lane,வீதி,
+557,Day 157,Cinema,Noun,திரையரங்கம் (Thiraiyarangam),सिनेमा (Cinema),Watch a movie at the cinema.,திரையரங்கில் படம் பாருங்கள்.,सिनेमा में फिल्म देखें।,Theater,தியேட்டர்,
+557,Day 157,Temple,Noun,கோவில் (Kovil),मंदिर (Mandir),Go to the temple.,கோவிலுக்குச் செல்லுங்கள்.,मंदिर जाओ।,Shrine,ஆலயம்,
+557,Day 158,Church,Noun,தேவாலயம் (Devaalayam),चर्च (Church),Visit the church.,தேவாலயத்திற்குச் செல்லுங்கள்.,चर्च जाओ।,Cathedral,தொழுகை இடம்,
+557,Day 158,Mosque,Noun,மசூதி (Masoodhi),मस्जिद (Masjid),Locate the mosque.,மசூதியைக் கண்டறியுங்கள்.,मस्जिद का पता लगाएं।,Masjid,பள்ளிவாசல்,
+557,Day 158,Stall,Noun,கடை / கொட்டகை,स्टाल (Stall),Buy tea at the stall.,கடையில் தேநீர் வாங்குங்கள்.,स्टाल पर चाय खरीदें।,Booth,சிற்றங்காடி,
+557,Day 158,Clinic,Noun,மருத்துவமனை (Maruthuvamanai),क्लिनिक (Clinic),Visit the clinic.,மருத்துவமனைக்குச் செல்லுங்கள்.,क्लिनिक जाओ।,Dispensary,சிறிய மருத்துவமனை,
+557,Day 158,Stadium,Noun,விளையாட்டு அரங்கம்,स्टेडियम (Stadium),Go to the stadium.,விளையாட்டு அரங்கிற்குச் செல்லுங்கள்.,स्टेडियम जाओ।,Arena,திடீர்,
+557,Day 159,Pool,Noun,நீச்சல் குளம் (Neechal Kulam),पूल (Pool),Swim in the pool.,நீச்சல் குளத்தில் நீந்துங்கள்.,पूल में तैरें।,Pond,தடாகம்,
+557,Day 159,Mall,Noun,வணிக வளாகம் (Vaniga Valagam),मॉल (Mall),Shop at the mall.,வணிக வளாகத்தில் ஷாப்பிங் செய்யுங்கள்.,मॉल में खरीदारी करें।,Shopping center,கடை வீதி,
+557,Day 159,Smooth,Adjective,மென்மையான (Menmaiyaana),चिकना (Chikna),The paper is smooth.,காகிதம் மென்மையாக இருக்கிறது.,कागज चिकना है।,Silky,வழுவழுப்பான,
+557,Day 159,Sharp,Adjective,கூர்மையான (Koormaiyaana),तेज़ (Tez),The knife is sharp.,கத்தி கூர்மையாக இருக்கிறது.,चाकू तेज़ है।,Pointed,நுனியான,
+557,Day 159,Cheap,Adjective,மலிவான (Malivaana),सस्ता (Sasta),This pen is cheap.,இந்தப் பேனா மலிவானது.,यह पेन सस्ता है।,Inexpensive,விலைகுறைந்த,
+557,Day 160,Dear,Adjective,அன்பான / விலையுயர்ந்த,प्यारा / महँगा,She is a dear friend.,அவள் ஒரு அன்பான தோழி.,वह एक प्यारी सहेली है।,Beloved,பிரியமான,
+557,Day 160,Bored,Adjective,சலிப்பு (Salippu),ऊब गया (Oob gaya),I am bored.,எனக்கு சலிப்பாக இருக்கிறது.,मैं ऊब गया हूँ।,Weary,அலுப்பான,
+557,Day 160,Jealous,Adjective,பொறாமை (Poraamai),ईर्ष्यालु (Eershyalu),She is jealous.,அவள் பொறாமைப்படுகிறாள்.,वह ईर्ष्या करती है।,Envious,காழ்ப்புணர்ச்சி,
+557,Day 160,Nervous,Adjective,பதற்றம் (Padhatram),घबराहट (Ghabrahat),He feels nervous.,அவர் பதற்றமாக உணர்கிறார்.,वह घबराया हुआ महसूस कर रहा है।,Anxious,கலக்கமடைந்த,
+557,Day 160,Lonely,Adjective,தனிமை (Thanimai),अकेला (Akela),I feel lonely.,நான் தனிமையாக உணர்கிறேன்.,मैं अकेला महसूस कर रहा हूँ।,Solitary,ஏகாந்தமான,
+557,Day 161,Silly,Adjective,முட்டாள்தனமான,मूर्खतापूर्ण (Moorkhtapoorna),Stop being silly.,முட்டாள்தனமாக இருப்பதை நிறுத்து.,मूर्खतापूर्ण बातें बंद करो।,Foolish,அறிவற்ற,
+557,Day 161,Timid,Adjective,கோழைத்தனமான,डरपोक (Darpok),The rabbit is timid.,முயல் ஒரு பயந்த சுபாவம் கொண்டது.,खरगोश डरपोक होता है।,Shy,அச்சமுள்ள,
+557,Day 161,Stubborn,Adjective,பிடிவாதம் (Pidivaadham),जिद्दी (Ziddi),Don't be stubborn.,பிடிவாதம் பிடிக்காதே.,जिद्दी मत बनो।,Obstinate,ஒற்றைக்காலில் நிற்றல்,
+557,Day 161,Valley,Noun,பள்ளத்தாக்கு (Pallathaakku),घाटी (Ghati),We live in a valley.,நாங்கள் ஒரு பள்ளத்தாக்கில் வாழ்கிறோம்.,हम एक घाटी में रहते हैं।,Dale,இரு மலைகளுக்கு இடைப்பட்ட பகுதி,
+557,Day 161,Cave,Noun,குகை (Gugai),गुफा (Gufa),The cave is dark.,குகை இருட்டாக இருக்கிறது.,गुफा अँधेरी है।,Grotto,முழை,
+557,Day 162,Shore,Noun,கடற்கரை (Kadarkarai),किनारा (Kinara),Walk along the shore.,கடற்கரையோரம் நடக்கவும்.,किनारे पर चलो।,Coast,கரை,
+557,Day 162,Spring,Noun,வசந்த காலம் (Vasantha kaalam),वसंत (Vasant),Flowers bloom in spring.,வசந்த காலத்தில் பூக்கள் மலரும்.,वसंत में फूल खिलते हैं।,Season,இளவேனில் காலம்,
+557,Day 162,Autumn,Noun,இலையுதிர் காலம்,पतझड़ (Patjhad),Leaves fall in autumn.,இலையுதிர் காலத்தில் இலைகள் உதிரும்.,पतझड़ में पत्ते गिरते हैं।,Fall,கூதிர் காலம்,
+557,Day 162,Winter,Noun,குளிர்காலம் (Kulirkaalam),सर्दी (Sardi),Winter is very cold.,குளிர்காலம் மிகவும் குளிர்ச்சியாக இருக்கும்.,सर्दी बहुत ठंडी होती है।,Cold season,முன்பனிக் காலம்,
+557,Day 162,Summer,Noun,கோடைகாலம் (Kodaikaalam),गर्मी (Garmi),Summer is hot.,கோடைகாலம் வெப்பமானது.,गर्मी गर्म होती है।,Hot season,முதுவேனில் காலம்,
+557,Day 163,Dawn,Noun,விடியற்காலை (Vidiyarkaalai),भोर (Bhor),Wake up at dawn.,விடியற்காலையில் எழுந்திருங்கள்.,भोर में उठो।,Daybreak,அதிகாலை,
+557,Day 163,Dusk,Noun,அந்தி பொழுது (Andhi),शाम (Shaam),Birds return at dusk.,பறவைகள் அந்தி பொழுதில் திரும்பும்.,पक्षी शाम को लौटते हैं।,Twilight,மாலை மயக்கம்,
+557,Day 163,Midnight,Noun,நள்ளிரவு (Nalliravu),आधी रात (Aadhi raat),It is midnight.,இப்போது நள்ளிரவு.,अब आधी रात है।,Deep night,நடுயாமம்,
+557,Day 163,Noon,Noun,நண்பகல் (Nanpagal),दोपहर (Dopahar),Eat lunch at noon.,நண்பகலில் மதிய உணவு சாப்பிடுங்கள்.,दोपहर में लंच करें।,Midday,உச்சிவேளை,
+557,Day 163,Century,Noun,நூற்றாண்டு (Noottraandu),सदी (Sadi),A century is 100 years.,ஒரு நூற்றாண்டு என்பது 100 ஆண்டுகள்.,एक सदी 100 साल की होती है।,Age,நூறு வருடம்,
+557,Day 164,Health,Noun,ஆரோக்கியம் (Aarokkiyam),स्वास्थ्य (Swasthya),Health is wealth.,ஆரோக்கியமே செல்வம்.,स्वास्थ्य ही धन है।,Fitness,சுகாதாரம்,
+557,Day 164,Advice,Noun,அறிவுரை (Arivurai),सलाह (Salah),Follow my advice.,என் அறிவுரையைப் பின்பற்றுங்கள்.,मेरी सलाह मानो।,Suggestion,போதனை,
+557,Day 164,Mistake,Noun,தவறு (Thavaru),गलती (Galti),It was a mistake.,அது ஒரு தவறு.,वह एक गलती थी।,Error,பிழை,
+557,Day 164,Opinion,Noun,கருத்து (Karutthu),राय (Rai),What is your opinion?,உங்கள் கருத்து என்ன?,आपकी राय क्या है?,View,எண்ணம்,
+557,Day 164,Topic,Noun,தலைப்பு (Thalaippu),विषय (Vishay),What is the topic?,தலைப்பு என்ன?,विषय क्या है?,Subject,பொருள்,
+557,Day 165,Habit,Noun,பழக்கம் (Pazhakkam),आदत (Aadat),Reading is a good habit.,வாசிப்பது ஒரு நல்ல பழக்கம்.,पढ़ना एक अच्छी आदत है।,Practice,வழக்கம்,
+557,Day 165,Standard,Noun,தரம் (Tharam),मानक (Manak),Maintain the standard.,தரத்தைப் பராமரிக்கவும்.,मानक बनाए रखें।,Level,அளவு,
+557,Day 165,Duty,Noun,கடமை (Kadamai),कर्तव्य (Kartavya),Do your duty.,உங்கள் கடமையைச் செய்யுங்கள்.,अपना कर्तव्य निभाओ।,Responsibility,பொறுப்பு,
+557,Day 165,Knowledge,Noun,அறிவு (Arivu),ज्ञान (Gyan),Knowledge is power.,அறிவே ஆற்றல்.,ज्ञान ही शक्ति है।,Wisdom,ஞானம்,
+557,Day 165,Skill,Noun,திறன் (Thiran),कौशल (Kaushal),Learn a new skill.,ஒரு புதிய திறனைக் கற்றுக் கொள்ளுங்கள்.,एक नया कौशल सीखें।,Ability,வல்லமை,
+557,Day 166,Truth,Noun,உண்மை (Unmai),सच (Sach),Always tell the truth.,எப்போதும் உண்மையையே சொல்லுங்கள்.,हमेशा सच बोलो।,Fact,மெய்,
+557,Day 166,Choice,Noun,விருப்பம் (Viruppam),चुनाव (Chunav),It is your choice.,இது உங்கள் விருப்பம்.,यह आपकी पसंद है।,Option,தெரிவு,
+557,Day 166,Silence,Noun,அமைதி (Amaidhi),मौन (Maun),Keep silence.,அமைதி காக்கவும்.,मौन रखें।,Quiet,மௌனம்,
