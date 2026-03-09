@@ -10,6 +10,7 @@ import 'package:gravity_app/widgets/language_toggle_icon.dart';
 import 'package:gravity_app/widgets/glass_ui.dart';
 import 'package:gravity_app/services/speech_recognition_service.dart';
 import 'package:gravity_app/services/active_route_service.dart';
+import 'package:gravity_app/core/theme/app_colors.dart';
 
 class LessonScaffold extends StatefulWidget {
   final String lessonId;
@@ -374,7 +375,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
           scale: a1.value,
           child: Dialog(
             backgroundColor: dialogTheme.brightness == Brightness.dark
-                ? const Color(0xFF1E293B)
+                ? AppColors.lessonPanel
                 : dialogTheme.colorScheme.surface,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(24),
@@ -426,7 +427,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                         child: ElevatedButton(
                           onPressed: () => Navigator.pop(context, false),
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.cyanAccent,
+                            backgroundColor: AppColors.lessonAccent,
                             foregroundColor: Colors.black,
                             padding: const EdgeInsets.symmetric(vertical: 16),
                             shape: RoundedRectangleBorder(
@@ -508,13 +509,13 @@ class _LessonScaffoldState extends State<LessonScaffold>
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final scaffoldBg = theme.brightness == Brightness.dark
-        ? const Color(0xFF0F172A)
+        ? AppColors.darkSurface
         : theme.scaffoldBackgroundColor;
     if (_isLoading) {
       return Scaffold(
         backgroundColor: scaffoldBg,
         body: const Center(
-          child: CircularProgressIndicator(color: Colors.cyanAccent),
+          child: CircularProgressIndicator(color: AppColors.lessonAccent),
         ),
       );
     }
@@ -617,7 +618,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
           Text(
             widget.title,
             style: const TextStyle(
-              color: Colors.cyanAccent,
+              color: AppColors.lessonAccent,
               fontSize: 15,
               fontWeight: FontWeight.w600,
             ),
@@ -663,7 +664,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
         child: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.cyanAccent, Colors.cyan.shade300],
+              colors: [AppColors.lessonAccent, Colors.cyan.shade300],
             ),
           ),
         ),
@@ -715,7 +716,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
             width: double.infinity,
             margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
             decoration: BoxDecoration(
-              color: const Color(0xFF1E293B),
+              color: AppColors.lessonPanel,
               borderRadius: BorderRadius.circular(16),
               border: Border.all(color: Colors.white10),
             ),
@@ -730,7 +731,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                         child: Text(
                           slide.title,
                           style: const TextStyle(
-                            color: Colors.cyanAccent,
+                            color: AppColors.lessonAccent,
                             fontSize: 26,
                             fontWeight: FontWeight.w900,
                             letterSpacing: 0.5,
@@ -829,7 +830,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                 width: double.infinity,
                 margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
                 decoration: BoxDecoration(
-                  color: const Color(0xFF1E293B),
+                  color: AppColors.lessonPanel,
                   borderRadius: BorderRadius.circular(16),
                   border: Border.all(color: Colors.white10),
                 ),
@@ -844,7 +845,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                             child: Text(
                               unit.title,
                               style: const TextStyle(
-                                color: Colors.cyanAccent,
+                                color: AppColors.lessonAccent,
                                 fontSize: 22,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -895,7 +896,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                             border: Border.all(
                               color: isRevealed
                                   ? Colors.green
-                                  : Colors.cyanAccent,
+                                  : AppColors.lessonAccent,
                               width: 2,
                             ),
                           ),
@@ -906,7 +907,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                                 style: TextStyle(
                                   color: isRevealed
                                       ? Colors.greenAccent
-                                      : Colors.cyanAccent,
+                                      : AppColors.lessonAccent,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -1006,7 +1007,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
           child: Container(
             margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
             decoration: BoxDecoration(
-              color: const Color(0xFF1E293B),
+              color: AppColors.lessonPanel,
               borderRadius: BorderRadius.circular(16),
               border: Border.all(color: Colors.white10),
             ),
@@ -1046,7 +1047,9 @@ class _LessonScaffoldState extends State<LessonScaffold>
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
                               side: BorderSide(
-                                color: Colors.cyanAccent.withValues(alpha: 0.3),
+                                color: AppColors.lessonAccent.withValues(
+                                  alpha: 0.3,
+                                ),
                               ),
                             ),
                           ),
@@ -1096,7 +1099,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
             width: double.infinity,
             margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
             decoration: BoxDecoration(
-              color: const Color(0xFF1E293B),
+              color: AppColors.lessonPanel,
               borderRadius: BorderRadius.circular(16),
               border: Border.all(color: Colors.white10),
             ),
@@ -1153,13 +1156,13 @@ class _LessonScaffoldState extends State<LessonScaffold>
                                   shape: BoxShape.circle,
                                   color: _isListening
                                       ? Colors.redAccent
-                                      : Colors.cyanAccent,
+                                      : AppColors.lessonAccent,
                                   boxShadow: [
                                     BoxShadow(
                                       color:
                                           (_isListening
                                                   ? Colors.redAccent
-                                                  : Colors.cyanAccent)
+                                                  : AppColors.lessonAccent)
                                               .withValues(alpha: 0.4),
                                       blurRadius: 20,
                                       spreadRadius: _isListening ? 10 : 2,
@@ -1203,7 +1206,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                           const Text(
                             "Live Transcript",
                             style: TextStyle(
-                              color: Colors.cyanAccent,
+                              color: AppColors.lessonAccent,
                               fontSize: 13,
                               fontWeight: FontWeight.w600,
                             ),
@@ -1262,17 +1265,17 @@ class _LessonScaffoldState extends State<LessonScaffold>
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
         decoration: BoxDecoration(
           color: _showTranslation
-              ? Colors.cyanAccent.withValues(alpha: 0.2)
+              ? AppColors.lessonAccent.withValues(alpha: 0.2)
               : Colors.white10,
           borderRadius: BorderRadius.circular(20),
           border: Border.all(
-            color: _showTranslation ? Colors.cyanAccent : Colors.white24,
+            color: _showTranslation ? AppColors.lessonAccent : Colors.white24,
           ),
         ),
         child: LanguageToggleIcon(
           language: _preferredLanguage,
           isActive: _showTranslation,
-          activeColor: Colors.cyanAccent,
+          activeColor: AppColors.lessonAccent,
           inactiveColor: Colors.white54,
           size: 13,
         ),
@@ -1288,9 +1291,11 @@ class _LessonScaffoldState extends State<LessonScaffold>
           margin: const EdgeInsets.all(24),
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: const Color(0xFF1E293B),
+            color: AppColors.lessonPanel,
             borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: Colors.cyanAccent.withValues(alpha: 0.3)),
+            border: Border.all(
+              color: AppColors.lessonAccent.withValues(alpha: 0.3),
+            ),
           ),
           child: Column(
             children: [
@@ -1300,7 +1305,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                   Text(
                     "Question ${_currentQuestionIndex + 1} / ${widget.quizQuestions.length}",
                     style: const TextStyle(
-                      color: Colors.cyanAccent,
+                      color: AppColors.lessonAccent,
                       fontSize: 14,
                       fontWeight: FontWeight.bold,
                     ),
@@ -1311,7 +1316,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                     icon: LanguageToggleIcon(
                       language: _preferredLanguage,
                       isActive: _showTranslation,
-                      activeColor: Colors.cyanAccent,
+                      activeColor: AppColors.lessonAccent,
                       inactiveColor: Colors.white54,
                       size: 16,
                     ),
@@ -1336,7 +1341,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
                       : (question['question_tamil'] ?? ""),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
-                    color: Colors.cyanAccent,
+                    color: AppColors.lessonAccent,
                     fontSize: 18,
                   ),
                 ).animate().fadeIn(),
@@ -1352,7 +1357,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
               final isSelected = _selectedOptionIndex == index;
               final isCorrect = index == question['correct'];
               final showColor = _answerSelected && (isSelected || isCorrect);
-              Color bgColor = const Color(0xFF1E293B);
+              Color bgColor = AppColors.lessonPanel;
               Color borderColor = Colors.white10;
               if (showColor) {
                 bgColor = isCorrect
@@ -1400,7 +1405,7 @@ class _LessonScaffoldState extends State<LessonScaffold>
     final levelColor = percentage >= 80
         ? Colors.amber
         : percentage >= 70
-        ? Colors.cyanAccent
+        ? AppColors.lessonAccent
         : Colors.orangeAccent;
 
     return Center(

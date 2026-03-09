@@ -19,6 +19,8 @@ class AppColors {
   static const Color darkSurface = Color(0xFF0F172A);
   static const Color darkSurfaceStrong = Color(0xFF1A2332);
   static const Color darkCard = Color(0xFF111827);
+  static const Color lessonPanel = Color(0xFF1E293B);
+  static const Color lessonAccent = Color(0xFF18FFFF);
   static const Color darkSnackBackground = Color(0xEE0B1220);
 
   static const Color white = Colors.white;
