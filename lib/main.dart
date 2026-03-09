@@ -53,6 +53,7 @@ part 'main_bootstrap_shell.dart';
 part 'main_app_shell.dart';
 part 'main_app_shell_runtime.dart';
 part 'main_app_shell_runtime_session.dart';
+part 'main_app_shell_runtime_watchdog.dart';
 part 'main_recovery_widgets.dart';
 
 final RouteObserver<ModalRoute<void>> routeObserver =
