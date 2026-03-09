@@ -631,7 +631,7 @@ class _LessonPresentTenseScreenState extends State<LessonPresentTenseScreen> {
     final page = _pages[_currentPage];
 
     // Rich Text Parser for **bold**
-    List<TextSpan> _parseText(String text) {
+    List<TextSpan> parseText(String text) {
       final parts = text.split('**');
       List<TextSpan> spans = [];
       for (int i = 0; i < parts.length; i++) {
@@ -661,8 +661,9 @@ class _LessonPresentTenseScreenState extends State<LessonPresentTenseScreen> {
               IconButton(
                 icon: const Icon(Icons.close, color: Colors.white),
                 onPressed: () async {
-                  if (await _onWillPop() && mounted)
+                  if (await _onWillPop() && mounted) {
                     Navigator.pop(context, true);
+                  }
                 },
               ),
               const Spacer(),
@@ -730,7 +731,7 @@ class _LessonPresentTenseScreenState extends State<LessonPresentTenseScreen> {
                       ),
                       child:
                           Text.rich(
-                                TextSpan(children: _parseText(page.text!)),
+                                TextSpan(children: parseText(page.text!)),
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
                                   color: Colors.white,
@@ -811,7 +812,7 @@ class _LessonPresentTenseScreenState extends State<LessonPresentTenseScreen> {
                           // Teaching Explanation Text
                           Text.rich(
                                 TextSpan(
-                                  children: _parseText(page.teachingText!),
+                                  children: parseText(page.teachingText!),
                                 ),
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
@@ -989,12 +990,14 @@ class _LessonPresentTenseScreenState extends State<LessonPresentTenseScreen> {
                   final isCorrect = index == question['correct'];
                   Color color = Colors.white10;
                   if (_showFeedback) {
-                    if (isCorrect)
+                    if (isCorrect) {
                       color = Colors.green;
-                    else if (isSelected)
+                    } else if (isSelected) {
                       color = Colors.red;
-                  } else if (isSelected)
+                    }
+                  } else if (isSelected) {
                     color = const Color(0xFFFF9966);
+                  }
 
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 12),
