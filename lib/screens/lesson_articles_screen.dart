@@ -1698,10 +1698,10 @@ class _LessonArticlesScreenState extends State<LessonArticlesScreen>
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () async {
+                    final navigator = Navigator.of(context);
                     await _clearActiveState();
-                    if (context.mounted) {
-                      Navigator.pop(context, true);
-                    }
+                    if (!mounted) return;
+                    navigator.pop(true);
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.cyanAccent,
@@ -1723,10 +1723,10 @@ class _LessonArticlesScreenState extends State<LessonArticlesScreen>
                   Expanded(
                     child: OutlinedButton(
                       onPressed: () async {
+                        final navigator = Navigator.of(context);
                         await _clearActiveState();
-                        if (context.mounted) {
-                          Navigator.pop(context, true);
-                        }
+                        if (!mounted) return;
+                        navigator.pop(true);
                       },
                       style: OutlinedButton.styleFrom(
                         foregroundColor: Colors.white,
@@ -1890,10 +1890,10 @@ class _LessonArticlesScreenState extends State<LessonArticlesScreen>
               const SizedBox(height: 16),
               TextButton(
                 onPressed: () async {
+                  final navigator = Navigator.of(context);
                   await _clearActiveState();
-                  if (context.mounted) {
-                    Navigator.pop(context);
-                  }
+                  if (!mounted) return;
+                  navigator.pop();
                 },
                 child: const Text(
                   "Go Back",
@@ -1964,10 +1964,10 @@ class _LessonArticlesScreenState extends State<LessonArticlesScreen>
               const SizedBox(height: 16),
               TextButton(
                 onPressed: () async {
+                  final navigator = Navigator.of(context);
                   await _clearActiveState();
-                  if (context.mounted) {
-                    Navigator.pop(context);
-                  }
+                  if (!mounted) return;
+                  navigator.pop();
                 },
                 child: const Text(
                   "Skip For Now",
