@@ -220,8 +220,6 @@ class DayBasedCurriculumService {
         csvString,
       );
 
-      debugPrint('[COPY] Parsing verbs CSV...');
-
       _verbItems = _parseVerbsCsv(csvData);
 
       _isVerbsLoaded = true;

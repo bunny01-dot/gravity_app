@@ -254,7 +254,6 @@ class DataService {
         final List<List<dynamic>> allRows = [];
         for (final lvl in ['Beginner', 'Intermediate', 'Advanced']) {
           try {
-            debugPrint("DataService: Indexing Vocabulary $lvl");
             final String rawData = await rootBundle.loadString(
               'assets/Master Sheets/Vocabulary $lvl - Sheet.csv',
             );
@@ -267,6 +266,9 @@ class DataService {
           throw Exception("No vocabulary content could be indexed");
         }
         _cachedVocabData = allRows;
+        debugPrint(
+          "DataService: Indexed vocabulary data (${_cachedVocabData!.length} rows).",
+        );
       } catch (e) {
         debugPrint("DataService: Critical Error Loading Vocabs: $e");
         _cachedVocabData = [];
@@ -418,7 +420,6 @@ class DataService {
         final List<List<dynamic>> allRows = [];
         for (final lvl in ['Beginner', 'Intermediate', 'Advanced']) {
           try {
-            debugPrint("DataService: Indexing Verb Forms $lvl");
             final String rawData = await rootBundle.loadString(
               'assets/Master Sheets/Verb Forms $lvl - Sheet.csv',
             );
@@ -431,6 +432,9 @@ class DataService {
           throw Exception("No verb content could be indexed");
         }
         _cachedVerbData = allRows;
+        debugPrint(
+          "DataService: Indexed verb data (${_cachedVerbData!.length} rows).",
+        );
       } catch (e) {
         debugPrint("DataService: Critical Error Loading Verbs: $e");
         _cachedVerbData = [];
@@ -482,12 +486,6 @@ class DataService {
   // Wrappers for existing calls to maintain backward compatibility
   // Level-based replacements for legacy calendar logic.
   Future<List<Map<String, String>>> getDailyVocabulary() async {
-    debugPrint('');
-    debugPrint(
-      'DataService: getDailyVocabulary() now uses stage-based content.',
-    );
-    debugPrint('');
-
     final stage = await StageProgressService().getCurrentStage();
     final preferredLanguage = await getUserLanguage();
     return StageContentService().getVocabularyMapsForStage(
@@ -497,12 +495,6 @@ class DataService {
   }
 
   Future<List<Map<String, String>>> getYesterdayVocabulary() async {
-    debugPrint('');
-    debugPrint(
-      'DataService: getYesterdayVocabulary() now uses previous stage content.',
-    );
-    debugPrint('');
-
     final stageService = StageProgressService();
     final stage = await stageService.getCurrentStage();
     final previousStage = stageService.previousStage(stage);
@@ -515,10 +507,6 @@ class DataService {
   }
 
   Future<List<Map<String, String>>> getDailyVerbs() async {
-    debugPrint('');
-    debugPrint('DataService: getDailyVerbs() now uses stage-based content.');
-    debugPrint('');
-
     final stage = await StageProgressService().getCurrentStage();
     final preferredLanguage = await getUserLanguage();
     return StageContentService().getVerbMapsForStage(
@@ -528,12 +516,6 @@ class DataService {
   }
 
   Future<List<Map<String, String>>> getYesterdayVerbs() async {
-    debugPrint('');
-    debugPrint(
-      'DataService: getYesterdayVerbs() now uses previous stage content.',
-    );
-    debugPrint('');
-
     final stageService = StageProgressService();
     final stage = await stageService.getCurrentStage();
     final previousStage = stageService.previousStage(stage);
