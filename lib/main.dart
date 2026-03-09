@@ -42,6 +42,7 @@ import 'package:gravity_app/widgets/recovery_debug_panel.dart';
 import 'package:gravity_app/widgets/global_xp_overlay.dart';
 import 'package:gravity_app/services/auth_service.dart';
 import 'package:gravity_app/services/app_theme_service.dart';
+import 'package:gravity_app/core/theme/app_theme.dart';
 import 'package:lottie/lottie.dart';
 
 // ...
