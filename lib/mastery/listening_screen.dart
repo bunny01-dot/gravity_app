@@ -154,9 +154,9 @@ class _ListeningScreenState extends State<ListeningScreen> {
       await _ttsService.stop();
 
       if (mounted) {
-        final update = () {
+        void update() {
           _isPlaying = false;
-        };
+        }
 
         setState(update);
 
@@ -171,11 +171,11 @@ class _ListeningScreenState extends State<ListeningScreen> {
     await _ttsService.stop();
 
     if (mounted) {
-      final update = () {
+      void update() {
         _playingIndex = index;
 
         _isPlaying = true;
-      };
+      }
 
       setState(update);
 
@@ -239,9 +239,9 @@ class _ListeningScreenState extends State<ListeningScreen> {
       debugPrint("Playback error: $e");
     } finally {
       if (mounted) {
-        final update = () {
+        void update() {
           _isPlaying = false;
-        };
+        }
 
         setState(update);
 
@@ -913,7 +913,7 @@ class _ListeningScreenState extends State<ListeningScreen> {
 
                     final words = correctAnswer.split(' ');
 
-                    final hint = words.take(3).join(' ') + '...';
+                    final hint = '${words.take(3).join(' ')}...';
 
                     setDialogState(() {
                       // We need a variable to store hint? The Dialog is stateful.
@@ -1159,7 +1159,9 @@ class _ListeningScreenState extends State<ListeningScreen> {
 
     List<int> v1 = List<int>.filled(t.length + 1, 0);
 
-    for (int i = 0; i < t.length + 1; i++) v0[i] = i;
+    for (int i = 0; i < t.length + 1; i++) {
+      v0[i] = i;
+    }
 
     for (int i = 0; i < s.length; i++) {
       v1[0] = i + 1;
@@ -1176,7 +1178,9 @@ class _ListeningScreenState extends State<ListeningScreen> {
         ].reduce((curr, next) => curr < next ? curr : next);
       }
 
-      for (int j = 0; j < t.length + 1; j++) v0[j] = v1[j];
+      for (int j = 0; j < t.length + 1; j++) {
+        v0[j] = v1[j];
+      }
     }
 
     return v1[t.length];
