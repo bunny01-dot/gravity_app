@@ -29,6 +29,8 @@ class LessonHighlightInteraction extends LessonUnit {
   final String introText;
   final List<String> highlightItems;
   final String exampleText;
+  final String? revealText;
+  final String? highlightText;
   final String imagePath;
   final String hindiContent;
   final String tamilContent;
@@ -38,7 +40,9 @@ class LessonHighlightInteraction extends LessonUnit {
     required this.title,
     required this.introText,
     required this.highlightItems,
-    required this.exampleText,
+    this.exampleText = "",
+    this.revealText,
+    this.highlightText,
     required this.imagePath,
     this.hindiContent = "",
     this.tamilContent = "",

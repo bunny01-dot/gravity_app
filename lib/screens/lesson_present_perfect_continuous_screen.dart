@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gravity_app/models/lesson_models.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gravity_app/services/lesson_content_service.dart';
 import 'package:gravity_app/services/sound_service.dart';
@@ -8,92 +9,6 @@ import 'package:gravity_app/widgets/lesson_speaking_practice_panel.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
-// -----------------------------------------------------------------------------
-// DATA MODELS
-// -----------------------------------------------------------------------------
-
-abstract class LessonUnit {}
-
-class LessonSlide extends LessonUnit {
-  final String title;
-  final String content;
-  final String tamilContent;
-  final String hindiContent;
-  final String imagePath;
-  final String? formula;
-  final BoxFit? imageFit;
-
-  LessonSlide({
-    required this.title,
-    required this.content,
-    required this.tamilContent,
-    required this.hindiContent,
-    required this.imagePath,
-    this.formula,
-    this.imageFit,
-  });
-}
-
-class LessonHighlightInteraction extends LessonUnit {
-  final String title;
-  final String introText;
-  final List<String> highlightItems;
-  final String? revealText;
-  final String imagePath;
-  final String highlightText;
-  final String tamilContent;
-  final String hindiContent;
-  final BoxFit? imageFit;
-
-  LessonHighlightInteraction({
-    required this.title,
-    required this.introText,
-    required this.highlightItems,
-    this.revealText,
-    required this.imagePath,
-    required this.highlightText,
-    required this.tamilContent,
-    required this.hindiContent,
-    this.imageFit,
-  });
-}
-
-class LessonQuizInteraction extends LessonUnit {
-  final String title;
-  final String question;
-  final List<String> options;
-  final int correctIndex;
-  final String explanation;
-  final String imagePath;
-  final BoxFit? imageFit;
-
-  LessonQuizInteraction({
-    required this.title,
-    required this.question,
-    required this.options,
-    required this.correctIndex,
-    required this.explanation,
-    required this.imagePath,
-    this.imageFit,
-  });
-}
-
-class LessonSpeakingPractice extends LessonUnit {
-  final String title;
-  final String imagePath;
-  final List<String> prompts;
-  final List<String> summaryPoints;
-  final BoxFit? imageFit;
-
-  LessonSpeakingPractice({
-    required this.title,
-    required this.imagePath,
-    required this.prompts,
-    this.summaryPoints = const [],
-    this.imageFit,
-  });
-}
 
 // -----------------------------------------------------------------------------
 // SCREEN: Present Perfect Continuous (Premium Dark Mode)
@@ -1105,7 +1020,7 @@ class _LessonPresentPerfectContinuousScreenState
                           child: Column(
                             children: [
                               Text(
-                                unit.highlightText,
+                                unit.highlightText ?? unit.exampleText,
                                 style: TextStyle(
                                   color: isRevealed
                                       ? Colors.greenAccent
