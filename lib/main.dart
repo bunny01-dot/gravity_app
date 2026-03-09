@@ -60,6 +60,7 @@ part 'main_app_shell_runtime_restart.dart';
 part 'main_app_shell_runtime_route_resume.dart';
 part 'main_app_shell_runtime_snapshot.dart';
 part 'main_app_shell_runtime_auth.dart';
+part 'main_app_shell_runtime_background.dart';
 part 'main_recovery_widgets.dart';
 
 final RouteObserver<ModalRoute<void>> routeObserver =
