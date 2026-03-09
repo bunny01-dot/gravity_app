@@ -16,9 +16,27 @@ class StageContentService {
       DayBasedCurriculumService();
 
   bool _isInitialized = false;
+  Future<void>? _initializeFuture;
 
   Future<void> initialize() async {
     if (_isInitialized) return;
+    if (_initializeFuture != null) {
+      await _initializeFuture;
+      return;
+    }
+
+    final future = _initializeInternal();
+    _initializeFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_initializeFuture, future)) {
+        _initializeFuture = null;
+      }
+    }
+  }
+
+  Future<void> _initializeInternal() async {
     final vocabLoaded = await _curriculumService.loadVocabularyCsv();
     final verbsLoaded = await _curriculumService.loadVerbsCsv();
     if (!vocabLoaded || !verbsLoaded) {
@@ -29,6 +47,7 @@ class StageContentService {
 
   void reset() {
     _isInitialized = false;
+    _initializeFuture = null;
     _curriculumService.reset();
   }
 

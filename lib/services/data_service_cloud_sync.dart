@@ -1067,7 +1067,34 @@ extension DataServiceCloudSync on DataService {
         (detailed['daily']! * 0.2);
   }
 
-  Future<void> syncProgressFromCloud() async {
+  Future<void> syncProgressFromCloud({bool force = false}) async {
+    if (_progressSyncFuture != null) {
+      await _progressSyncFuture;
+      return;
+    }
+
+    const progressSyncCooldown = Duration(seconds: 15);
+    final now = DateTime.now();
+    if (!force &&
+        _lastProgressSyncAt != null &&
+        now.difference(_lastProgressSyncAt!) < progressSyncCooldown) {
+      debugPrint('Cloud Sync: Skipping duplicate fetch (cooldown).');
+      return;
+    }
+
+    final future = _syncProgressFromCloudCore();
+    _progressSyncFuture = future;
+    try {
+      await future;
+      _lastProgressSyncAt = DateTime.now();
+    } finally {
+      if (identical(_progressSyncFuture, future)) {
+        _progressSyncFuture = null;
+      }
+    }
+  }
+
+  Future<void> _syncProgressFromCloudCore() async {
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) return;
 
@@ -1325,7 +1352,7 @@ extension DataServiceCloudSync on DataService {
     // If missing locally, try cloud sync ONCE to restore
     if (encodedItems == null) {
       debugPrint("BlackHole: Local cache missing. Syncing from cloud...");
-      await syncProgressFromCloud();
+      await syncProgressFromCloud(force: true);
       encodedItems = prefs.getStringList(_blackHoleKey);
     }
 

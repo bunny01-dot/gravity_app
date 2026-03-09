@@ -9,6 +9,28 @@ extension DataServiceMasteryContent on DataService {
         _cachedReadingLevel == level) {
       return;
     }
+    if (_readingLoadFuture != null) {
+      await _readingLoadFuture;
+      return;
+    }
+
+    final future = _loadReadingDataInternal(level);
+    _readingLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_readingLoadFuture, future)) {
+        _readingLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadReadingDataInternal(String level) async {
+    if (_cachedReadingData != null &&
+        _cachedReadingData!.isNotEmpty &&
+        _cachedReadingLevel == level) {
+      return;
+    }
 
     // Check Prefs
     await _loadLocalDataIfExists('reading');
@@ -46,6 +68,28 @@ extension DataServiceMasteryContent on DataService {
   // Writing Logic
   Future<void> _loadWritingData() async {
     final level = await _getLevelSuffix();
+    if (_cachedWritingData != null &&
+        _cachedWritingData!.isNotEmpty &&
+        _cachedWritingLevel == level) {
+      return;
+    }
+    if (_writingLoadFuture != null) {
+      await _writingLoadFuture;
+      return;
+    }
+
+    final future = _loadWritingDataInternal(level);
+    _writingLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_writingLoadFuture, future)) {
+        _writingLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadWritingDataInternal(String level) async {
     if (_cachedWritingData != null &&
         _cachedWritingData!.isNotEmpty &&
         _cachedWritingLevel == level) {
@@ -95,6 +139,28 @@ extension DataServiceMasteryContent on DataService {
         _cachedListeningLevel == level) {
       return;
     }
+    if (_listeningLoadFuture != null) {
+      await _listeningLoadFuture;
+      return;
+    }
+
+    final future = _loadListeningDataInternal(level);
+    _listeningLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_listeningLoadFuture, future)) {
+        _listeningLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadListeningDataInternal(String level) async {
+    if (_cachedListeningData != null &&
+        _cachedListeningData!.isNotEmpty &&
+        _cachedListeningLevel == level) {
+      return;
+    }
     await _loadLocalDataIfExists('listening');
     if (_cachedListeningData != null &&
         _cachedListeningData!.isNotEmpty &&
@@ -132,6 +198,28 @@ extension DataServiceMasteryContent on DataService {
   // Speaking Logic
   Future<void> _loadSpeakingData() async {
     final level = await _getLevelSuffix();
+    if (_cachedSpeakingData != null &&
+        _cachedSpeakingData!.isNotEmpty &&
+        _cachedSpeakingLevel == level) {
+      return;
+    }
+    if (_speakingLoadFuture != null) {
+      await _speakingLoadFuture;
+      return;
+    }
+
+    final future = _loadSpeakingDataInternal(level);
+    _speakingLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_speakingLoadFuture, future)) {
+        _speakingLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadSpeakingDataInternal(String level) async {
     if (_cachedSpeakingData != null &&
         _cachedSpeakingData!.isNotEmpty &&
         _cachedSpeakingLevel == level) {
@@ -175,6 +263,24 @@ extension DataServiceMasteryContent on DataService {
 
   // Quiz Logic
   Future<void> _loadQuizData() async {
+    if (_cachedQuizData != null && _cachedQuizData!.isNotEmpty) return;
+    if (_quizLoadFuture != null) {
+      await _quizLoadFuture;
+      return;
+    }
+
+    final future = _loadQuizDataInternal();
+    _quizLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_quizLoadFuture, future)) {
+        _quizLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadQuizDataInternal() async {
     if (_cachedQuizData != null && _cachedQuizData!.isNotEmpty) return;
 
     final dir = await getApplicationDocumentsDirectory();

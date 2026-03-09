@@ -51,6 +51,15 @@ class DataService {
   String? _cachedListeningLevel;
   List<List<dynamic>>? _cachedQuizData;
   Map<String, List<String>>? _cachedAntonymMap;
+  Future<void>? _vocabLoadFuture;
+  Future<void>? _verbLoadFuture;
+  Future<void>? _readingLoadFuture;
+  Future<void>? _writingLoadFuture;
+  Future<void>? _speakingLoadFuture;
+  Future<void>? _listeningLoadFuture;
+  Future<void>? _quizLoadFuture;
+  Future<void>? _progressSyncFuture;
+  DateTime? _lastProgressSyncAt;
 
   void clearMemoryCache() {
     _cachedVocabData = null;
@@ -65,6 +74,15 @@ class DataService {
     _cachedListeningLevel = null;
     _cachedQuizData = null;
     _cachedAntonymMap = null;
+    _vocabLoadFuture = null;
+    _verbLoadFuture = null;
+    _readingLoadFuture = null;
+    _writingLoadFuture = null;
+    _speakingLoadFuture = null;
+    _listeningLoadFuture = null;
+    _quizLoadFuture = null;
+    _progressSyncFuture = null;
+    _lastProgressSyncAt = null;
     debugPrint("[CLEAN] DataService: Memory cache cleared.");
   }
 
@@ -196,6 +214,26 @@ class DataService {
   // --- Vocabulary Logic ---
 
   Future<void> _loadVocabData() async {
+    if (_cachedVocabData != null && _cachedVocabData!.isNotEmpty) {
+      return;
+    }
+    if (_vocabLoadFuture != null) {
+      await _vocabLoadFuture;
+      return;
+    }
+
+    final future = _loadVocabDataInternal();
+    _vocabLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_vocabLoadFuture, future)) {
+        _vocabLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadVocabDataInternal() async {
     // Attempt Cloud Sync First - DISABLED TO FORCE BEGINNER CSV
     // await _syncWithCloud('custom_vocabulary');
 
@@ -344,6 +382,26 @@ class DataService {
   }
 
   Future<void> _loadVerbData() async {
+    if (_cachedVerbData != null && _cachedVerbData!.isNotEmpty) {
+      return;
+    }
+    if (_verbLoadFuture != null) {
+      await _verbLoadFuture;
+      return;
+    }
+
+    final future = _loadVerbDataInternal();
+    _verbLoadFuture = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_verbLoadFuture, future)) {
+        _verbLoadFuture = null;
+      }
+    }
+  }
+
+  Future<void> _loadVerbDataInternal() async {
     // await _syncWithCloud('custom_verbs');
     // if (_cachedVerbData != null && _cachedVerbData!.isNotEmpty) return;
     try {
@@ -595,8 +653,8 @@ class DataService {
   }
 
   /// Fetches all progress data from Firestore and updates local SharedPreferences.
-  Future<void> syncProgressFromCloud() async {
-    return await DataServiceCloudSync(this).syncProgressFromCloud();
+  Future<void> syncProgressFromCloud({bool force = false}) async {
+    return await DataServiceCloudSync(this).syncProgressFromCloud(force: force);
   }
 
   Future<bool> hasPassedQuizForStage(int stage) async {
