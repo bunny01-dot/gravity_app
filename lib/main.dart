@@ -57,6 +57,7 @@ part 'main_app_shell_runtime_watchdog.dart';
 part 'main_app_shell_runtime_recovery.dart';
 part 'main_app_shell_runtime_lifecycle.dart';
 part 'main_app_shell_runtime_restart.dart';
+part 'main_app_shell_runtime_route_resume.dart';
 part 'main_recovery_widgets.dart';
 
 final RouteObserver<ModalRoute<void>> routeObserver =
