@@ -1000,10 +1000,11 @@ class _LessonSubjectsScreenState extends State<LessonSubjectsScreen> {
                   final isCorrectOption = index == question['correct'];
                   Color color = Colors.white10;
                   if (_showFeedback) {
-                    if (isCorrectOption)
+                    if (isCorrectOption) {
                       color = Colors.green;
-                    else if (isSelected)
+                    } else if (isSelected) {
                       color = Colors.red;
+                    }
                   } else if (isSelected) {
                     color = const Color(0xFF4FACFE);
                   }
