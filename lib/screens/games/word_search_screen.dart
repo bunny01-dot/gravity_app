@@ -16,7 +16,7 @@ class WordSearchScreen extends StatefulWidget {
 }
 
 class _WordSearchScreenState extends State<WordSearchScreen> {
-  int _gridSize = 8;
+  final int _gridSize = 8;
   List<List<String>> _grid = [];
   List<String> _wordsToFind = [];
   List<String> _foundWords = [];
@@ -130,15 +130,17 @@ class _WordSearchScreenState extends State<WordSearchScreen> {
       // Horizontal
       if (col + word.length > _gridSize) return false;
       for (int i = 0; i < word.length; i++) {
-        if (_grid[row][col + i] != '' && _grid[row][col + i] != word[i])
+        if (_grid[row][col + i] != '' && _grid[row][col + i] != word[i]) {
           return false;
+        }
       }
     } else {
       // Vertical
       if (row + word.length > _gridSize) return false;
       for (int i = 0; i < word.length; i++) {
-        if (_grid[row + i][col] != '' && _grid[row + i][col] != word[i])
+        if (_grid[row + i][col] != '' && _grid[row + i][col] != word[i]) {
           return false;
+        }
       }
     }
     return true;
@@ -239,12 +241,16 @@ class _WordSearchScreenState extends State<WordSearchScreen> {
       // Horizontal
       int start = min(c1, c2);
       int end = max(c1, c2);
-      for (int c = start; c <= end; c++) _selectedCells.add(Point(r1, c));
+      for (int c = start; c <= end; c++) {
+        _selectedCells.add(Point(r1, c));
+      }
     } else if (dc == 0) {
       // Vertical
       int start = min(r1, r2);
       int end = max(r1, r2);
-      for (int r = start; r <= end; r++) _selectedCells.add(Point(r, c1));
+      for (int r = start; r <= end; r++) {
+        _selectedCells.add(Point(r, c1));
+      }
     } else if (dr.abs() == dc.abs()) {
       // Diagonal
       int steps = dr.abs();
