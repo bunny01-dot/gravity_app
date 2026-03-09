@@ -134,6 +134,7 @@ class _ReadingScreenState extends State<ReadingScreen> {
   void _openExercise(Map<String, String> exercise) async {
     int currentIndex = _filteredExercises.indexOf(exercise);
     bool keepGoing = true;
+    final navigator = Navigator.of(context);
 
     while (keepGoing && mounted) {
       // Ensure index is valid
@@ -141,8 +142,7 @@ class _ReadingScreenState extends State<ReadingScreen> {
         break;
       }
 
-      final result = await Navigator.push(
-        context,
+      final result = await navigator.push(
         MaterialPageRoute(
           builder: (context) => ExerciseDetailScreen(
             exercise: _filteredExercises[currentIndex],
@@ -580,7 +580,9 @@ class _ExerciseDetailScreenState extends State<ExerciseDetailScreen> {
     List<int> v0 = List<int>.filled(s2.length + 1, 0);
     List<int> v1 = List<int>.filled(s2.length + 1, 0);
 
-    for (int i = 0; i < s2.length + 1; i++) v0[i] = i;
+    for (int i = 0; i < s2.length + 1; i++) {
+      v0[i] = i;
+    }
 
     for (int i = 0; i < s1.length; i++) {
       v1[0] = i + 1;
@@ -594,7 +596,9 @@ class _ExerciseDetailScreenState extends State<ExerciseDetailScreen> {
         ].reduce((curr, next) => curr < next ? curr : next);
       }
 
-      for (int j = 0; j < s2.length + 1; j++) v0[j] = v1[j];
+      for (int j = 0; j < s2.length + 1; j++) {
+        v0[j] = v1[j];
+      }
     }
 
     return v1[s2.length];
