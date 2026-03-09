@@ -25,7 +25,6 @@ class _PictureGuessScreenState extends State<PictureGuessScreen> {
   VocabularyItem? _currentItem;
 
   List<String> _options = [];
-  int _correctIndex = -1;
   bool _isLoading = true;
   bool _answered = false;
   int _score = 0;
@@ -139,7 +138,6 @@ class _PictureGuessScreenState extends State<PictureGuessScreen> {
       }
 
       _options = [correct, ...distractors.take(3)]..shuffle();
-      _correctIndex = _options.indexOf(correct);
     });
   }
 
