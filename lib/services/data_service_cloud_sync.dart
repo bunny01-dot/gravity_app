@@ -743,18 +743,19 @@ extension DataServiceCloudSync on DataService {
 
       if (key == 'custom_vocabulary') {
         _cachedVocabData = validList;
-      } else if (key == 'custom_verbs')
+      } else if (key == 'custom_verbs') {
         _cachedVerbData = validList;
-      else if (key == 'custom_reading')
+      } else if (key == 'custom_reading') {
         _cachedReadingData = validList;
-      else if (key == 'custom_writing')
+      } else if (key == 'custom_writing') {
         _cachedWritingData = validList;
-      else if (key == 'custom_speaking')
+      } else if (key == 'custom_speaking') {
         _cachedSpeakingData = validList;
-      else if (key == 'custom_listening')
+      } else if (key == 'custom_listening') {
         _cachedListeningData = validList;
-      else if (key == 'custom_quiz')
+      } else if (key == 'custom_quiz') {
         _cachedQuizData = validList;
+      }
     } catch (e) {
       debugPrint("Error parsing synced data for $key: $e");
     }
@@ -819,14 +820,15 @@ extension DataServiceCloudSync on DataService {
     int countToUnlock = 0;
     if (level.contains('A1')) {
       countToUnlock = 10; // Start with 10 words
-    } else if (level.contains('A2'))
+    } else if (level.contains('A2')) {
       countToUnlock = 30;
-    else if (level.contains('B1'))
+    } else if (level.contains('B1')) {
       countToUnlock = 60;
-    else if (level.contains('B2'))
+    } else if (level.contains('B2')) {
       countToUnlock = 100;
-    else if (level.contains('C1'))
+    } else if (level.contains('C1')) {
       countToUnlock = 150;
+    }
 
     if (countToUnlock == 0) return;
 
@@ -989,12 +991,13 @@ extension DataServiceCloudSync on DataService {
           String id = key.replaceFirst('mastery_done_', '');
           if (readingIds.contains(id)) {
             cReading++;
-          } else if (writingIds.contains(id))
+          } else if (writingIds.contains(id)) {
             cWriting++;
-          else if (listeningIds.contains(id))
+          } else if (listeningIds.contains(id)) {
             cListening++;
-          else if (speakingIds.contains(id))
+          } else if (speakingIds.contains(id)) {
             cSpeaking++;
+          }
         }
       });
 
