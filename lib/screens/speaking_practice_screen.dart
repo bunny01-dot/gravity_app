@@ -221,9 +221,11 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
           },
           listenFor: const Duration(seconds: 30),
           pauseFor: const Duration(seconds: 2),
-          partialResults: true,
-          cancelOnError: true,
-          listenMode: stt.ListenMode.dictation,
+          listenOptions: stt.SpeechListenOptions(
+            partialResults: true,
+            cancelOnError: true,
+            listenMode: stt.ListenMode.dictation,
+          ),
         );
       }
     } else {
