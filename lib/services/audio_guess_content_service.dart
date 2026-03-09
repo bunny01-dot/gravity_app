@@ -33,8 +33,8 @@ class AudioGuessContentService {
   AudioGuessContentService([
     DataService? dataService,
     DailySentenceService? dailySentenceService,
-  ])  : _dataService = dataService ?? DataService(),
-        _dailySentenceService = dailySentenceService ?? DailySentenceService();
+  ]) : _dataService = dataService ?? DataService(),
+       _dailySentenceService = dailySentenceService ?? DailySentenceService();
 
   Future<List<AudioGuessQuestion>> getEligibleQuestions({
     int maxQuestions = 8,
@@ -110,10 +110,7 @@ class AudioGuessContentService {
     final distractors = _buildDistractors(target, learnedItems);
     if (distractors.length < 2) return null;
 
-    final options = <String>[
-      target.word,
-      ...distractors.take(3),
-    ];
+    final options = <String>[target.word, ...distractors.take(3)];
     options.shuffle();
 
     return AudioGuessQuestion(
@@ -140,7 +137,11 @@ class AudioGuessContentService {
       if (!_isLearnedOnlySentence(rawText, learnedSet)) continue;
       if (_wordCount(rawText) > _maxSentenceWords) continue;
 
-      final targetChoice = _pickTargetForSentence(rawText, itemMap, learnedItems);
+      final targetChoice = _pickTargetForSentence(
+        rawText,
+        itemMap,
+        learnedItems,
+      );
       if (targetChoice == null) continue;
 
       final options = <String>[
@@ -261,7 +262,9 @@ class AudioGuessContentService {
     if (aSyllables == bSyllables) score += 1;
     if (lengthDiff <= 1) {
       score += 1;
-    } else if (lengthDiff <= 2) score += 0.5;
+    } else if (lengthDiff <= 2) {
+      score += 0.5;
+    }
     if (a.isNotEmpty && b.isNotEmpty && a[0] == b[0]) score += 0.5;
 
     final similarity = _similarity(a, b);
@@ -437,9 +440,7 @@ class AudioGuessContentService {
         .toSet();
   }
 
-  Future<List<VocabularyItem>> _getLearnedItems(
-    Set<String> learnedSet,
-  ) async {
+  Future<List<VocabularyItem>> _getLearnedItems(Set<String> learnedSet) async {
     final items = await _dataService.getLearnedVocabularyItems();
     return items
         .where((item) => learnedSet.contains(_normalizeWord(item.word)))
