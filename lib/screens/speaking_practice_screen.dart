@@ -286,7 +286,9 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
     List<int> v0 = List<int>.filled(lb + 1, 0);
     List<int> v1 = List<int>.filled(lb + 1, 0);
 
-    for (int i = 0; i <= lb; i++) v0[i] = i;
+    for (int i = 0; i <= lb; i++) {
+      v0[i] = i;
+    }
 
     for (int i = 0; i < la; i++) {
       v1[0] = i + 1;
@@ -294,7 +296,9 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
         int cost = (a.codeUnitAt(i) == b.codeUnitAt(j)) ? 0 : 1;
         v1[j + 1] = min(v1[j] + 1, min(v0[j + 1] + 1, v0[j] + cost));
       }
-      for (int j = 0; j <= lb; j++) v0[j] = v1[j];
+      for (int j = 0; j <= lb; j++) {
+        v0[j] = v1[j];
+      }
     }
     return v1[lb];
   }
