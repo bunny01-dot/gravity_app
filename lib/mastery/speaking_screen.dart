@@ -447,12 +447,14 @@ class _SpeakingScreenState extends State<SpeakingScreen>
                       pauseFor: const Duration(
                         seconds: 5,
                       ), // Auto-stop after 5s silence - gives user time to think
-                      partialResults: true,
                       onSoundLevelChange: (level) {
                         // Optional: could show sound level visualization
                       },
-                      cancelOnError: true,
-                      listenMode: stt.ListenMode.confirmation,
+                      listenOptions: stt.SpeechListenOptions(
+                        partialResults: true,
+                        cancelOnError: true,
+                        listenMode: stt.ListenMode.confirmation,
+                      ),
                     );
 
                     // Wait for speech to complete (it will auto-stop after pauseFor duration)
