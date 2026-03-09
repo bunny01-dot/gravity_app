@@ -1225,8 +1225,9 @@ class _LessonPresentPerfectScreenState extends State<LessonPresentPerfectScreen>
             if (_answerSelected) {
               if (isCorrect) {
                 color = Colors.green.withValues(alpha: 0.3);
-              } else if (isSelected)
+              } else if (isSelected) {
                 color = Colors.red.withValues(alpha: 0.3);
+              }
             }
 
             return Padding(
