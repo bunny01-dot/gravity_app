@@ -35,7 +35,7 @@ void main() async {
     "https://1drv.ms/u/c/dca3937b157b5f79/IQQXUGEeEzZoSpZGyjtF6in2AbwVeX10yhoit9AUJSuoEi0",
   ];
 
-  print('🔍 Probing ${links.length} links (Fingerprinting)...');
+  stdout.writeln('[INFO] Probing ${links.length} links (fingerprinting)...');
   final client = http.Client();
 
   for (var i = 0; i < links.length; i++) {
@@ -89,18 +89,18 @@ Future<void> probeLink(int index, String url, http.Client client) async {
           }
         }
 
-        print(
+        stdout.writeln(
           'LINK_$index: ZipSize=${res.bodyBytes.length}, Folder=${folder ?? "NONE"}, Files=[$fingerPrint] URL=$url',
         );
       } catch (e) {
-        print(
+        stdout.writeln(
           'LINK_$index: Not a valid zip. ContentType: ${res.headers['content-type']}',
         );
       }
     } else {
-      print('LINK_$index: Failed ${res.statusCode}');
+      stdout.writeln('LINK_$index: Failed ${res.statusCode}');
     }
   } catch (e) {
-    print('LINK_$index: Error $e');
+    stdout.writeln('LINK_$index: Error $e');
   }
 }
