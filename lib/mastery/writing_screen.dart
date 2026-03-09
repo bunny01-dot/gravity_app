@@ -154,6 +154,7 @@ class _WritingScreenState extends State<WritingScreen> {
                 index,
                 setDialogState,
                 onNext: () async {
+                  final messenger = ScaffoldMessenger.of(this.context);
                   Navigator.pop(context); // Close Current Dialog
 
                   // Wait for dialog to fully close and render a frame
@@ -172,7 +173,7 @@ class _WritingScreenState extends State<WritingScreen> {
                       );
                     }
                   } else {
-                    ScaffoldMessenger.of(context).showSnackBar(
+                    messenger.showSnackBar(
                       const SnackBar(
                         content: Text("All missions completed for this level!"),
                         backgroundColor: Color(0xFFFEAC5E),
@@ -565,10 +566,12 @@ class _WritingScreenState extends State<WritingScreen> {
                     builder: (context) {
                       String level = exercise['level'] ?? 'Beginner';
                       Color levelColor = Colors.greenAccent;
-                      if (level.toLowerCase().contains('inter'))
+                      if (level.toLowerCase().contains('inter')) {
                         levelColor = Colors.orangeAccent;
-                      if (level.toLowerCase().contains('adv'))
+                      }
+                      if (level.toLowerCase().contains('adv')) {
                         levelColor = Colors.redAccent;
+                      }
 
                       return Container(
                         padding: const EdgeInsets.symmetric(
