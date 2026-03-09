@@ -2,13 +2,13 @@ import 'dart:io';
 import 'package:path/path.dart' as path;
 
 /// Run this script to generate the asset map for your RemoteAssetService.
-/// Usage: dart scripts/generate_asset_map.dart <project-id> <bucket-name>
-/// Example: dart scripts/generate_asset_map.dart my-app-123 my-app-123.appspot.com
+/// Usage: `dart scripts/generate_asset_map.dart <project-id> <bucket-name>`
+/// Example: `dart scripts/generate_asset_map.dart my-app-123 my-app-123.appspot.com`
 
 void main(List<String> args) {
   if (args.isEmpty) {
-    print('Usage: dart scripts/generate_asset_map.dart <bucket-name>');
-    print(
+    stdout.writeln('Usage: dart scripts/generate_asset_map.dart <bucket-name>');
+    stdout.writeln(
       'Example: dart scripts/generate_asset_map.dart gravity-app.appspot.com',
     );
     return;
@@ -18,12 +18,14 @@ void main(List<String> args) {
   final assetsDir = Directory('assets');
 
   if (!assetsDir.existsSync()) {
-    print('Error: "assets" directory not found in current path.');
+    stdout.writeln('Error: "assets" directory not found in current path.');
     return;
   }
 
-  print('// Copy this map into lib/services/remote_asset_service.dart');
-  print('final Map<String, String> _assetUrls = {');
+  stdout.writeln(
+    '// Copy this map into lib/services/remote_asset_service.dart',
+  );
+  stdout.writeln('final Map<String, String> _assetUrls = {');
 
   final files = assetsDir.listSync(recursive: true).whereType<File>();
 
@@ -47,8 +49,8 @@ void main(List<String> args) {
     final url =
         'https://firebasestorage.googleapis.com/v0/b/$bucketName/o/$urlPath?alt=media';
 
-    print("    '$relativePath': '$url',");
+    stdout.writeln("    '$relativePath': '$url',");
   }
 
-  print('};');
+  stdout.writeln('};');
 }
