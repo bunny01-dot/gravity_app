@@ -557,9 +557,10 @@ class _LessonFuturePerfectContinuousScreenState
       canPop: false,
       onPopInvokedWithResult: (didPop, _) async {
         if (didPop) return;
-        if (await _onWillPop() && mounted) {
-          Navigator.pop(context);
-        }
+        final navigator = Navigator.of(context);
+        final shouldPop = await _onWillPop();
+        if (!mounted || !shouldPop) return;
+        navigator.pop();
       },
       child: Scaffold(
         backgroundColor: Theme.of(context).brightness == Brightness.dark
