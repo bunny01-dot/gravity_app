@@ -12,13 +12,17 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:gravity_app/config/app_config.dart';
 import 'package:gravity_app/data/repositories/csv_repository.dart';
+import 'package:gravity_app/data/repositories/black_hole_repository.dart';
+import 'package:gravity_app/data/repositories/activity_repository.dart';
+import 'package:gravity_app/data/repositories/mastery_progress_repository.dart';
+import 'package:gravity_app/data/repositories/quiz_progress_repository.dart';
+import 'package:gravity_app/data/repositories/user_progress_repository.dart';
 import 'package:gravity_app/models/verb_item.dart';
 import 'package:gravity_app/models/vocabulary_item.dart';
 import 'package:gravity_app/features/daily_sentences/daily_sentence_service.dart';
 import 'package:gravity_app/services/day_based_curriculum_service.dart';
 import 'package:gravity_app/services/data_service_curriculum.dart';
 import 'package:gravity_app/services/data_service_content_loaders.dart';
-import 'package:gravity_app/services/data_service_streak.dart';
 import 'package:gravity_app/services/data_service_text_utils.dart';
 import 'package:gravity_app/services/xp_reward_policy.dart';
 import 'package:gravity_app/services/placement_state_service.dart';
@@ -91,6 +95,14 @@ class DataService {
   }
 
   final CsvRepository _csvRepository = CsvRepository();
+  final BlackHoleRepository _blackHoleRepository = BlackHoleRepository();
+  final ActivityRepository _activityRepository = ActivityRepository();
+  final UserProgressRepository _userProgressRepository =
+      UserProgressRepository();
+  final QuizProgressRepository _quizProgressRepository =
+      QuizProgressRepository();
+  final MasteryProgressRepository _masteryProgressRepository =
+      MasteryProgressRepository();
   StreamSubscription? _userProfileSubscription;
 
   void listenToUserChanges({required Function(String) onLevelChanged}) {
@@ -539,23 +551,19 @@ class DataService {
 
   // Legacy calendar-based compatibility wrappers for older screens.
   Future<bool> hasPassedQuiz(DateTime date) async {
-    final prefs = await SharedPreferences.getInstance();
-    final key = 'quiz_passed_${_legacyDateKey(date)}';
-    return prefs.getBool(key) ?? false;
+    return _quizProgressRepository.hasPassedQuiz(date);
   }
 
   Future<void> saveQuizResult(DateTime date, int score, int total) async {
-    final prefs = await SharedPreferences.getInstance();
-    final dateKey = _legacyDateKey(date);
-    final passed = total > 0 && (score * 100) >= (total * 70);
+    final result = await _quizProgressRepository.saveQuizResult(
+      date,
+      score,
+      total,
+    );
 
-    await prefs.setInt('quiz_score_$dateKey', score);
-    await prefs.setInt('quiz_total_$dateKey', total);
-    await prefs.setBool('quiz_passed_$dateKey', passed);
-
-    await saveProgressToCloud('quiz_score_$dateKey', score);
-    await saveProgressToCloud('quiz_total_$dateKey', total);
-    await saveProgressToCloud('quiz_passed_$dateKey', passed);
+    await saveProgressToCloud('quiz_score_${result.dateKey}', score);
+    await saveProgressToCloud('quiz_total_${result.dateKey}', total);
+    await saveProgressToCloud('quiz_passed_${result.dateKey}', result.passed);
   }
 
   Future<void> addToBlackHole(
@@ -579,28 +587,7 @@ class DataService {
   }
 
   Future<List<DateTime>> getMissedDates() async {
-    final prefs = await SharedPreferences.getInstance();
-    final now = DateTime.now();
-    final today = DateTime(now.year, now.month, now.day);
-    final missed = <DateTime>{};
-
-    for (final key in prefs.getKeys()) {
-      if (!key.startsWith('quiz_passed_')) continue;
-      final passed = prefs.getBool(key) ?? false;
-      if (passed) continue;
-
-      final raw = key.substring('quiz_passed_'.length);
-      final parsed = DateTime.tryParse(raw);
-      if (parsed == null) continue;
-
-      final normalized = DateTime(parsed.year, parsed.month, parsed.day);
-      if (normalized.isBefore(today)) {
-        missed.add(normalized);
-      }
-    }
-
-    final list = missed.toList()..sort((a, b) => b.compareTo(a));
-    return list;
+    return _quizProgressRepository.getMissedDates();
   }
 
   /// Saves a specific progress key to Firestore for the current user.
@@ -626,9 +613,7 @@ class DataService {
   }
 
   Future<int> getStreakCount() async {
-    final prefs = await SharedPreferences.getInstance();
-    return DataServiceStreak.getStreakCount(
-      prefs: prefs,
+    return _userProgressRepository.getStreakCount(
       userId: 'guest',
       now: DateTime.now(),
     );
@@ -640,44 +625,15 @@ class DataService {
   }
 
   Future<bool> hasPassedQuizForStage(int stage) async {
-    final prefs = await SharedPreferences.getInstance();
-    final stageService = StageProgressService();
-    return prefs.getBool(stageService.quizPassedKey(stage)) ?? false;
+    return _quizProgressRepository.hasPassedQuizForStage(stage);
   }
 
   Future<bool> hasAttemptedQuizForStage(int stage) async {
-    final prefs = await SharedPreferences.getInstance();
-    final stageService = StageProgressService();
-    return prefs.containsKey(stageService.quizScoreKey(stage));
+    return _quizProgressRepository.hasAttemptedQuizForStage(stage);
   }
 
   Future<List<int>> getMissedStages() async {
-    final prefs = await SharedPreferences.getInstance();
-    final stageService = StageProgressService();
-    final currentStage = await stageService.getCurrentStage(prefs: prefs);
-
-    final missed = <int>[];
-    for (int stage = 1; stage < currentStage; stage++) {
-      final assessmentCompleted =
-          prefs.getBool(stageService.assessmentCompletedKey(stage)) ?? false;
-      bool quizPassed =
-          prefs.getBool(stageService.quizPassedKey(stage)) ?? false;
-
-      if (!quizPassed) {
-        final score = prefs.getInt(stageService.quizScoreKey(stage));
-        final total = prefs.getInt(stageService.quizTotalKey(stage));
-        if (score != null && total != null && total > 0) {
-          quizPassed = stageService.isAssessmentPassed(score, total);
-        }
-      }
-
-      // Assessment completion (perfect score) clears recovery for this stage.
-      if (!assessmentCompleted && !quizPassed) {
-        missed.add(stage);
-      }
-    }
-
-    return missed;
+    return _quizProgressRepository.getMissedStages();
   }
 
   Future<void> resetMissedLessons() async {
@@ -780,33 +736,47 @@ class DataService {
 
   // --- Black Hole (Difficult Words Bank) ---
 
-  static const String _blackHoleKey = 'black_hole_items';
+  static const String _blackHoleKey = BlackHoleRepository.blackHoleKey;
 
   Future<bool> toggleBlackHoleItem(Map<String, String> item) async {
-    return await DataServiceCloudSync(this).toggleBlackHoleItem(item);
+    return _blackHoleRepository.toggleItem(
+      item,
+      onMissingLocal: () async {
+        await DataServiceCloudSync(this).syncProgressFromCloud(force: true);
+      },
+      onSaveEncoded: (encodedItems) async {
+        await saveProgressToCloud(_blackHoleKey, encodedItems);
+      },
+    );
   }
 
   Future<List<Map<String, String>>> getBlackHoleItems() async {
-    return await DataServiceCloudSync(this).getBlackHoleItems();
+    return _blackHoleRepository.getItems(
+      onMissingLocal: () async {
+        await DataServiceCloudSync(this).syncProgressFromCloud(force: true);
+      },
+    );
   }
 
   Future<bool> isInBlackHole(String id) async {
-    return await DataServiceCloudSync(this).isInBlackHole(id);
+    return _blackHoleRepository.isInBlackHole(
+      id,
+      onMissingLocal: () async {
+        await DataServiceCloudSync(this).syncProgressFromCloud(force: true);
+      },
+    );
   }
 
   // --- Mastery Progress ---
 
   Future<List<String>> getCompletedExerciseIds(String type) async {
-    final prefs = await SharedPreferences.getInstance();
-    final key = 'mastery_${type}_completed';
-    return prefs.getStringList(key) ?? [];
+    return _masteryProgressRepository.getCompletedExerciseIds(type);
   }
 
   Future<double> getMasteryProgress(String type) async {
     // 1. Get Completed Count
-    final prefs = await SharedPreferences.getInstance();
-    final key = 'mastery_${type}_completed';
-    final List<String> completed = prefs.getStringList(key) ?? [];
+    final List<String> completed =
+        await _masteryProgressRepository.getCompletedExerciseIds(type);
     int completedCount = completed.length;
 
     // 2. Get Total Count
@@ -876,7 +846,7 @@ class DataService {
   }
 
   // --- Activity Logging ---
-  static const String _activityKey = 'recent_activity_log';
+  static const String _activityKey = ActivityRepository.activityKey;
 
   Future<void> logActivity({
     required String title,
@@ -884,41 +854,37 @@ class DataService {
     required String iconName, // 'quiz', 'book', 'mic', 'pen'
     required String colorName, // 'red', 'blue', 'green', 'orange', 'purple'
   }) async {
-    return await DataServiceCloudSync(this).logActivity(
+    final logs = await _activityRepository.logActivity(
       title: title,
       subtitle: subtitle,
       iconName: iconName,
       colorName: colorName,
     );
+    saveProgressToCloud(_activityKey, logs);
   }
 
   Future<List<Map<String, dynamic>>> getRecentActivity() async {
-    return await DataServiceCloudSync(this).getRecentActivity();
+    return await _activityRepository.getRecentActivity();
   }
 
   // --- High Scores ---
   Future<int> getHighScore(String gameId) async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt('highscore_$gameId') ?? 0;
+    return _masteryProgressRepository.getHighScore(gameId);
   }
 
   Future<void> saveHighScore(String gameId, int score) async {
-    return await DataServiceCloudSync(this).saveHighScore(gameId, score);
+    final shouldUpdate = await _masteryProgressRepository.isNewHighScore(
+      gameId,
+      score,
+    );
+    if (!shouldUpdate) return;
+    await DataServiceCloudSync(this).saveHighScore(gameId, score);
   }
 
   // --- Gamification Persistence ---
 
   Future<Map<String, int>> getUserLevelData() async {
-    final prefs = await SharedPreferences.getInstance();
-    int level =
-        prefs.getInt('user_xp_level') ?? prefs.getInt('user_level') ?? 1;
-    if (prefs.getInt('user_xp_level') == null &&
-        prefs.getInt('user_level') != null) {
-      await prefs.setInt('user_xp_level', level);
-    }
-    int currentXp = prefs.getInt('user_current_xp') ?? 0;
-    int requiredXp = XpRewardPolicy.requiredXpForLevel(level);
-    return {'level': level, 'currentXp': currentXp, 'requiredXp': requiredXp};
+    return _userProgressRepository.getUserLevelData();
   }
 
   Future<bool> addXp(int amount) async {
@@ -926,33 +892,22 @@ class DataService {
   }
 
   Future<int> getStreak() async {
-    final prefs = await SharedPreferences.getInstance();
-    return DataServiceStreak.getStreak(prefs: prefs, userId: 'guest');
+    return _userProgressRepository.getStreak(userId: 'guest');
   }
 
   Future<void> updateStreak() async {
-    final prefs = await SharedPreferences.getInstance();
-    await DataServiceStreak.updateStreak(
-      prefs: prefs,
+    await _userProgressRepository.updateStreak(
       userId: 'guest',
       now: DateTime.now(),
     );
   }
 
   Future<List<String>> getUnlockedBadges() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getStringList('user_badges') ?? [];
+    return _userProgressRepository.getUnlockedBadges();
   }
 
   Future<bool> unlockBadge(String badgeId) async {
-    final prefs = await SharedPreferences.getInstance();
-    List<String> badges = prefs.getStringList('user_badges') ?? [];
-    if (!badges.contains(badgeId)) {
-      badges.add(badgeId);
-      await prefs.setStringList('user_badges', badges);
-      return true; // New unlock
-    }
-    return false;
+    return _userProgressRepository.unlockBadge(badgeId);
   }
 
   // --- DVS & DVeS Implementation ---

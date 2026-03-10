@@ -27,8 +27,8 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
 
   // --- Pronunciation Variables ---
   late stt.SpeechToText _speech;
-  bool _isListening = false;
-  String _spokenText = "";
+  final ValueNotifier<bool> _isListening = ValueNotifier<bool>(false);
+  final ValueNotifier<String> _spokenText = ValueNotifier<String>("");
   // double _confidence = 1.0; // Unused
 
   // Fallbacks
@@ -184,6 +184,8 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
   @override
   void dispose() {
     _tabController.dispose();
+    _isListening.dispose();
+    _spokenText.dispose();
     _flutterTts.stop();
     _dictationController.dispose();
     super.dispose();
@@ -192,28 +194,32 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
   // --- Pronunciation Logic ---
 
   void _listen() async {
-    if (!_isListening) {
+    if (!_isListening.value) {
       bool available = await _speech.initialize(
         onStatus: (val) {
           if (val == 'done' || val == 'notListening') {
-            setState(() => _isListening = false);
+            _isListening.value = false;
             _calculateScore();
           }
         },
         onError: (val) => debugPrint('onError: $val'),
       );
       if (available) {
-        setState(() => _isListening = true);
-        _hasSpoken = false;
-        _spokenText = "";
+        _isListening.value = true;
+        if (_hasSpoken) {
+          setState(() {
+            _hasSpoken = false;
+          });
+        } else {
+          _hasSpoken = false;
+        }
+        _spokenText.value = "";
         _speech.listen(
           onResult: (val) {
-            setState(() {
-              _spokenText = val.recognizedWords;
-              if (val.hasConfidenceRating && val.confidence > 0) {
-                // _confidence = val.confidence;
-              }
-            });
+            _spokenText.value = val.recognizedWords;
+            if (val.hasConfidenceRating && val.confidence > 0) {
+              // _confidence = val.confidence;
+            }
             // Optional: If we want faster feedback on final result without waiting for status change
             if (val.finalResult) {
               // The status listener will handle the stop and calculation
@@ -229,21 +235,21 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
         );
       }
     } else {
-      setState(() => _isListening = false);
+      _isListening.value = false;
       _speech.stop();
       _calculateScore();
     }
   }
 
   void _calculateScore() {
-    if (_spokenText.isEmpty) return;
+    if (_spokenText.value.isEmpty) return;
 
     // Normalize strings (lowercase, remove punctuation) generally handles basic comparison
     String target = _targetPronunciationPhrase.toLowerCase().replaceAll(
       RegExp(r'[^\w\s]'),
       '',
     );
-    String spoken = _spokenText.toLowerCase().replaceAll(
+    String spoken = _spokenText.value.toLowerCase().replaceAll(
       RegExp(r'[^\w\s]'),
       '',
     );
@@ -483,7 +489,7 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
       _dictationController.clear();
       _dictationResult = [];
       _pronunciationScore = 0.0;
-      _spokenText = "";
+      _spokenText.value = "";
     });
   }
 
@@ -622,44 +628,56 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
           ),
           const SizedBox(height: 40),
           // Dynamic Score Ring or Mic Button
-          GestureDetector(
-            onTap: _listen,
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 300),
-              height: 120,
-              width: 120,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: _isListening ? colorScheme.primary : Colors.transparent,
-                border: Border.all(
-                  color: _isListening
-                      ? colorScheme.primary
-                      : colorScheme.outlineVariant,
-                  width: 3,
-                ),
-                boxShadow: _isListening
-                    ? [
-                        BoxShadow(
-                          color: colorScheme.primary.withValues(alpha: 0.5),
-                          blurRadius: 20,
-                          spreadRadius: 5,
+          ValueListenableBuilder<bool>(
+            valueListenable: _isListening,
+            builder: (context, isListening, _) {
+              return Column(
+                children: [
+                  GestureDetector(
+                    onTap: _listen,
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 300),
+                      height: 120,
+                      width: 120,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color:
+                            isListening ? colorScheme.primary : Colors.transparent,
+                        border: Border.all(
+                          color: isListening
+                              ? colorScheme.primary
+                              : colorScheme.outlineVariant,
+                          width: 3,
                         ),
-                      ]
-                    : [],
-              ),
-              child: Icon(
-                _isListening ? Icons.mic : Icons.mic_none,
-                color: _isListening
-                    ? colorScheme.onPrimary
-                    : colorScheme.onSurface,
-                size: 50,
-              ),
-            ),
-          ),
-          const SizedBox(height: 20),
-          Text(
-            _isListening ? "Listening..." : "Tap to Speak",
-            style: TextStyle(color: colorScheme.onSurfaceVariant),
+                        boxShadow: isListening
+                            ? [
+                                BoxShadow(
+                                  color: colorScheme.primary.withValues(
+                                    alpha: 0.5,
+                                  ),
+                                  blurRadius: 20,
+                                  spreadRadius: 5,
+                                ),
+                              ]
+                            : [],
+                      ),
+                      child: Icon(
+                        isListening ? Icons.mic : Icons.mic_none,
+                        color: isListening
+                            ? colorScheme.onPrimary
+                            : colorScheme.onSurface,
+                        size: 50,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  Text(
+                    isListening ? "Listening..." : "Tap to Speak",
+                    style: TextStyle(color: colorScheme.onSurfaceVariant),
+                  ),
+                ],
+              );
+            },
           ),
           const SizedBox(height: 40),
           if (_hasSpoken) ...[
@@ -679,7 +697,7 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen>
             ),
             const SizedBox(height: 20),
             Text(
-              "App heard: \"$_spokenText\"",
+              "App heard: \"${_spokenText.value}\"",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: colorScheme.onSurfaceVariant,

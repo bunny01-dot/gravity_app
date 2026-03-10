@@ -20,7 +20,7 @@ class _LessonSpeakingPracticePanelState
     extends State<LessonSpeakingPracticePanel> {
   bool _isListening = false;
   bool _hasSpoken = false;
-  String _spokenText = '';
+  final ValueNotifier<String> _spokenText = ValueNotifier<String>('');
   int _speechSessionId = 0;
 
   Future<bool> _ensureMicPermission() async {
@@ -48,9 +48,9 @@ class _LessonSpeakingPracticePanelState
     if (!hasPermission) return;
 
     final sessionId = ++_speechSessionId;
+    _spokenText.value = '';
     setState(() {
       _isListening = true;
-      _spokenText = '';
       _hasSpoken = false;
     });
 
@@ -59,7 +59,7 @@ class _LessonSpeakingPracticePanelState
       pauseFor: widget.pauseFor,
       onPartialResult: (partial) {
         if (!mounted || sessionId != _speechSessionId) return;
-        setState(() => _spokenText = partial);
+        _spokenText.value = partial;
       },
     );
 
@@ -68,7 +68,7 @@ class _LessonSpeakingPracticePanelState
     setState(() {
       _isListening = false;
       if (result != null && result.trim().isNotEmpty) {
-        _spokenText = result.trim();
+        _spokenText.value = result.trim();
         _hasSpoken = true;
       }
     });
@@ -84,6 +84,7 @@ class _LessonSpeakingPracticePanelState
   void dispose() {
     _speechSessionId++;
     SpeechRecognitionService.stop();
+    _spokenText.dispose();
     super.dispose();
   }
 
@@ -127,36 +128,43 @@ class _LessonSpeakingPracticePanelState
           textAlign: TextAlign.center,
         ),
         const SizedBox(height: 12),
-        if (_isListening || _hasSpoken || _spokenText.trim().isNotEmpty)
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.05),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: Colors.white10),
-            ),
-            child: Column(
-              children: [
-                const Text(
-                  'Live Transcript',
-                  style: TextStyle(
-                    color: Colors.cyanAccent,
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600,
+        ValueListenableBuilder<String>(
+          valueListenable: _spokenText,
+          builder: (context, spokenText, _) {
+            if (!_isListening && !_hasSpoken && spokenText.trim().isEmpty) {
+              return const SizedBox.shrink();
+            }
+            return Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.05),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: Colors.white10),
+              ),
+              child: Column(
+                children: [
+                  const Text(
+                    'Live Transcript',
+                    style: TextStyle(
+                      color: Colors.cyanAccent,
+                      fontSize: 13,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  _spokenText.isNotEmpty ? '"$_spokenText"' : 'Listening...',
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: Colors.white70,
-                    fontStyle: FontStyle.italic,
+                  const SizedBox(height: 8),
+                  Text(
+                    spokenText.isNotEmpty ? '"$spokenText"' : 'Listening...',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      color: Colors.white70,
+                      fontStyle: FontStyle.italic,
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ),
+                ],
+              ),
+            );
+          },
+        ),
       ],
     );
   }

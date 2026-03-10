@@ -475,9 +475,7 @@ class _DailySpeakingChallengeScreenState
       pauseFor: const Duration(seconds: 4), // Increased to 4s
       onResult: (val) {
         if (!mounted) return;
-        setState(() {
-          _spokenText = val.recognizedWords;
-        });
+        _spokenText = val.recognizedWords;
         _persistProgressState();
         // Smart Stop: stop early when we reach clear accuracy.
         final currentWord = _sessionWords[_currentIndex];

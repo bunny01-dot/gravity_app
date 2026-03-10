@@ -26,7 +26,7 @@ class _LessonSpeakingCardState extends State<LessonSpeakingCard> {
   late stt.SpeechToText _speech;
   bool _isListening = false;
   bool _isAvailable = false;
-  String _text = "";
+  final ValueNotifier<String> _text = ValueNotifier<String>("");
   // double _confidence = 1.0;
   bool _hasSpoken = false;
 
@@ -71,14 +71,12 @@ class _LessonSpeakingCardState extends State<LessonSpeakingCard> {
       setState(() => _isListening = true);
       _speech.listen(
         onResult: (val) {
-          setState(() {
-            _text = val.recognizedWords;
-            if (val.hasConfidenceRating && val.confidence > 0) {
-              // _confidence = val.confidence;
-            }
-          });
+          _text.value = val.recognizedWords;
+          if (val.hasConfidenceRating && val.confidence > 0) {
+            // _confidence = val.confidence;
+          }
 
-          if (val.finalResult || _text.length > 5) {
+          if (val.finalResult || _text.value.length > 5) {
             _validateAndComplete();
           }
         },
@@ -96,8 +94,8 @@ class _LessonSpeakingCardState extends State<LessonSpeakingCard> {
     // Fallback if mic fails
     setState(() => _isListening = true);
     await Future.delayed(const Duration(seconds: 2));
+    _text.value = "Simulated speech for testing...";
     setState(() {
-      _text = "Simulated speech for testing...";
       _isListening = false;
     });
     _validateAndComplete();
@@ -107,7 +105,7 @@ class _LessonSpeakingCardState extends State<LessonSpeakingCard> {
     if (_hasSpoken) return;
 
     // Exposure mode: any captured speech counts.
-    if (PronunciationFeedbackService.normalizeText(_text).isNotEmpty) {
+    if (PronunciationFeedbackService.normalizeText(_text.value).isNotEmpty) {
       setState(() => _hasSpoken = true);
       SoundService().playCorrect();
       // Auto-advance after a delay
@@ -233,25 +231,36 @@ class _LessonSpeakingCardState extends State<LessonSpeakingCard> {
                   ),
                 ),
 
-                if (_text.isNotEmpty)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0),
-                    child: Text(
-                      "\"$_text\"",
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontStyle: FontStyle.italic,
+                ValueListenableBuilder<String>(
+                  valueListenable: _text,
+                  builder: (context, text, _) {
+                    if (text.isEmpty) return const SizedBox.shrink();
+                    return Padding(
+                      padding: const EdgeInsets.only(top: 8.0),
+                      child: Text(
+                        "\"$text\"",
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontStyle: FontStyle.italic,
+                        ),
+                        textAlign: TextAlign.center,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
-                      textAlign: TextAlign.center,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
+                    );
+                  },
+                ),
               ],
             ),
           ),
         ),
       ],
     );
+  }
+
+  @override
+  void dispose() {
+    _text.dispose();
+    super.dispose();
   }
 }

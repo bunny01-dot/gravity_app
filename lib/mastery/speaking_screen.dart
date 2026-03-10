@@ -21,9 +21,9 @@ class _SpeakingScreenState extends State<SpeakingScreen>
   List<String> _completedIds = []; // Completed tracking
 
   // Track state per exercise
-  final Map<int, bool> _isRecording = {};
-  final Map<int, bool> _showFeedback = {};
-  final Map<int, String> _recognizedText = {}; // Store recognized speech
+  final Map<int, ValueNotifier<bool>> _isRecording = {};
+  final Map<int, ValueNotifier<bool>> _showFeedback = {};
+  final Map<int, ValueNotifier<String>> _recognizedText = {};
 
   // Speech recognition
   late stt.SpeechToText _speech;
@@ -35,6 +35,18 @@ class _SpeakingScreenState extends State<SpeakingScreen>
     _initSpeech();
     _loadSettings();
     _loadCompletedStatus();
+  }
+
+  ValueNotifier<bool> _recordingFor(int index) {
+    return _isRecording.putIfAbsent(index, () => ValueNotifier<bool>(false));
+  }
+
+  ValueNotifier<bool> _feedbackFor(int index) {
+    return _showFeedback.putIfAbsent(index, () => ValueNotifier<bool>(false));
+  }
+
+  ValueNotifier<String> _recognizedFor(int index) {
+    return _recognizedText.putIfAbsent(index, () => ValueNotifier<String>(''));
   }
 
   Future<void> _initSpeech() async {
@@ -119,10 +131,9 @@ class _SpeakingScreenState extends State<SpeakingScreen>
       });
     } else {
       // Speech has stopped, process the result
-      if (mounted && (_isRecording[index] ?? false)) {
-        setState(() {
-          _isRecording[index] = false;
-        });
+      final recording = _recordingFor(index);
+      if (mounted && recording.value) {
+        recording.value = false;
         _processRecognizedSpeech(index, exercise);
       }
     }
@@ -130,16 +141,14 @@ class _SpeakingScreenState extends State<SpeakingScreen>
 
   // Process the recognized speech and show feedback
   void _processRecognizedSpeech(int index, Map<String, String> exercise) {
-    final recognized = _recognizedText[index] ?? '';
+    final recognized = _recognizedFor(index).value;
     final expectedText = exercise['prompt'] ?? '';
 
     debugPrint(
       'Processing speech - Recognized: "$recognized", Expected: "$expectedText"',
     );
 
-    setState(() {
-      _showFeedback[index] = true;
-    });
+    _feedbackFor(index).value = true;
 
     // Mark progress
     // Use robust ID: Trim, and fallback to index if empty (handles missing CSV IDs)
@@ -168,6 +177,20 @@ class _SpeakingScreenState extends State<SpeakingScreen>
   }
 
   int _selectedCategoryIndex = 0;
+
+  @override
+  void dispose() {
+    for (final notifier in _isRecording.values) {
+      notifier.dispose();
+    }
+    for (final notifier in _showFeedback.values) {
+      notifier.dispose();
+    }
+    for (final notifier in _recognizedText.values) {
+      notifier.dispose();
+    }
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -329,290 +352,315 @@ class _SpeakingScreenState extends State<SpeakingScreen>
 
   Widget _buildSpeakingCard(Map<String, String> exercise, int index) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    bool isRec = _isRecording[index] ?? false;
-    bool showFeed = _showFeedback[index] ?? false;
+    final recording = _recordingFor(index);
+    final feedback = _feedbackFor(index);
+    final recognized = _recognizedFor(index);
+    final merged = Listenable.merge([recording, feedback, recognized]);
 
-    return Container(
-      margin: const EdgeInsets.only(bottom: 24),
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(
-        color: isDark
-            ? const Color(0xFF1E1E2C).withValues(alpha: 0.8)
-            : const Color(0xFF2D6FB5).withValues(alpha: 0.94),
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(
-          color: const Color(0xFF4BC0C8).withValues(alpha: 0.3),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: const Color(0xFF4BC0C8).withValues(alpha: 0.1),
-            blurRadius: 16,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          // Header
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 4,
-                ),
-                decoration: BoxDecoration(
-                  color: const Color(0xFF4BC0C8).withValues(alpha: 0.2),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  exercise['task_type'] ?? 'Speaking',
-                  style: const TextStyle(
-                    color: Color(0xFF4BC0C8),
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
+    return AnimatedBuilder(
+      animation: merged,
+      builder: (context, _) {
+        final isRec = recording.value;
+        final showFeed = feedback.value;
+        final recognizedText = recognized.value;
 
-              const Spacer(),
-              Builder(
-                builder: (context) {
-                  final String rawId = exercise['id']?.toString().trim() ?? '';
-                  final String checkId = rawId.isNotEmpty
-                      ? rawId
-                      : index.toString();
-                  final bool isCompleted = _completedIds.contains(checkId);
-
-                  return Icon(
-                    isCompleted
-                        ? Icons.check_circle_rounded
-                        : Icons.record_voice_over,
-                    color: isCompleted ? Colors.green : Colors.white24,
-                    size: 20,
-                  );
-                },
+        return Container(
+          margin: const EdgeInsets.only(bottom: 24),
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: isDark
+                ? const Color(0xFF1E1E2C).withValues(alpha: 0.8)
+                : const Color(0xFF2D6FB5).withValues(alpha: 0.94),
+            borderRadius: BorderRadius.circular(24),
+            border: Border.all(
+              color: const Color(0xFF4BC0C8).withValues(alpha: 0.3),
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: const Color(0xFF4BC0C8).withValues(alpha: 0.1),
+                blurRadius: 16,
+                offset: const Offset(0, 4),
               ),
             ],
           ),
-          const SizedBox(height: 16),
-
-          // Role / Prompt
-          Text(
-            exercise['prompt'] ?? '',
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 18,
-              height: 1.5,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-          const SizedBox(height: 24),
-
-          // Interaction Area
-          if (!showFeed)
-            Center(
-              child: GestureDetector(
-                onTap: () async {
-                  if (!_speechAvailable) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Speech recognition not available'),
-                        backgroundColor: Colors.redAccent,
-                      ),
-                    );
-                    return;
-                  }
-
-                  final isCurrentlyRecording = _isRecording[index] ?? false;
-
-                  if (!isCurrentlyRecording) {
-                    // Start listening
-                    setState(() {
-                      _isRecording[index] = true;
-                      _recognizedText[index] = '';
-                    });
-
-                    await _speech.listen(
-                      onResult: (result) {
-                        setState(() {
-                          _recognizedText[index] = result.recognizedWords;
-                        });
-                        debugPrint('Recognized: ${result.recognizedWords}');
-                      },
-                      listenFor: const Duration(
-                        seconds: 60,
-                      ), // Max listening time - extended for longer exercises
-                      pauseFor: const Duration(
-                        seconds: 5,
-                      ), // Auto-stop after 5s silence - gives user time to think
-                      onSoundLevelChange: (level) {
-                        // Optional: could show sound level visualization
-                      },
-                      listenOptions: stt.SpeechListenOptions(
-                        partialResults: true,
-                        cancelOnError: true,
-                        listenMode: stt.ListenMode.confirmation,
-                      ),
-                    );
-
-                    // Wait for speech to complete (it will auto-stop after pauseFor duration)
-                    Future.delayed(const Duration(milliseconds: 500), () {
-                      _checkSpeechCompletion(index, exercise);
-                    });
-                  } else {
-                    // Manual stop if user taps again
-                    await _speech.stop();
-                    setState(() {
-                      _isRecording[index] = false;
-                    });
-                    _processRecognizedSpeech(index, exercise);
-                  }
-                },
-                child: AnimatedContainer(
-                  duration: const Duration(milliseconds: 300),
-                  width: isRec ? 80 : 70,
-                  height: isRec ? 80 : 70,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: isRec
-                        ? Colors.redAccent.withValues(alpha: 0.2)
-                        : const Color(0xFF4BC0C8).withValues(alpha: 0.2),
-                    border: Border.all(
-                      color: isRec ? Colors.redAccent : const Color(0xFF4BC0C8),
-                      width: 2,
-                    ),
-                    boxShadow: isRec
-                        ? [
-                            BoxShadow(
-                              color: Colors.redAccent.withValues(alpha: 0.4),
-                              blurRadius: 20,
-                              spreadRadius: 5,
-                            ),
-                          ]
-                        : [],
-                  ),
-                  child: Icon(
-                    isRec ? Icons.mic : Icons.mic_none,
-                    color: isRec ? Colors.redAccent : const Color(0xFF4BC0C8),
-                    size: 30,
-                  ),
-                ),
-              ),
-            ),
-
-          if (!showFeed)
-            Padding(
-              padding: const EdgeInsets.only(top: 16.0),
-              child: Column(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // Header
+              Row(
                 children: [
-                  Text(
-                    isRec ? "Listening..." : "Tap mic to speak",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: isRec ? Colors.redAccent : Colors.white38,
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 4,
                     ),
-                  ),
-                  if (isRec && (_recognizedText[index]?.isNotEmpty ?? false))
-                    Padding(
-                      padding: const EdgeInsets.only(top: 8.0),
-                      child: Text(
-                        _recognizedText[index] ?? '',
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          color: Colors.white70,
-                          fontSize: 12,
-                          fontStyle: FontStyle.italic,
-                        ),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFF4BC0C8).withValues(alpha: 0.2),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Text(
+                      exercise['task_type'] ?? 'Speaking',
+                      style: const TextStyle(
+                        color: Color(0xFF4BC0C8),
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
+                  ),
+
+                  const Spacer(),
+                  Builder(
+                    builder: (context) {
+                      final String rawId =
+                          exercise['id']?.toString().trim() ?? '';
+                      final String checkId = rawId.isNotEmpty
+                          ? rawId
+                          : index.toString();
+                      final bool isCompleted = _completedIds.contains(checkId);
+
+                      return Icon(
+                        isCompleted
+                            ? Icons.check_circle_rounded
+                            : Icons.record_voice_over,
+                        color: isCompleted ? Colors.green : Colors.white24,
+                        size: 20,
+                      );
+                    },
+                  ),
                 ],
               ),
-            ),
+              const SizedBox(height: 16),
 
-          // Feedback Section
-          if (showFeed) ...[
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.green.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: Colors.green.withValues(alpha: 0.3)),
+              // Role / Prompt
+              Text(
+                exercise['prompt'] ?? '',
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  height: 1.5,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // What user said
-                  if (_recognizedText[index]?.isNotEmpty ?? false) ...[
-                    Row(
-                      children: const [
-                        Icon(
-                          Icons.record_voice_over,
-                          color: Color(0xFF4BC0C8),
-                          size: 20,
+              const SizedBox(height: 24),
+
+              // Interaction Area
+              if (!showFeed)
+                Center(
+                  child: GestureDetector(
+                    onTap: () async {
+                      if (!_speechAvailable) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Speech recognition not available'),
+                            backgroundColor: Colors.redAccent,
+                          ),
+                        );
+                        return;
+                      }
+
+                      final isCurrentlyRecording = recording.value;
+
+                      if (!isCurrentlyRecording) {
+                        // Start listening
+                        recording.value = true;
+                        recognized.value = '';
+
+                        await _speech.listen(
+                          onResult: (result) {
+                            recognized.value = result.recognizedWords;
+                            debugPrint(
+                              'Recognized: ${result.recognizedWords}',
+                            );
+                          },
+                          listenFor: const Duration(
+                            seconds: 60,
+                          ), // Max listening time - extended for longer exercises
+                          pauseFor: const Duration(
+                            seconds: 5,
+                          ), // Auto-stop after 5s silence - gives user time to think
+                          onSoundLevelChange: (level) {
+                            // Optional: could show sound level visualization
+                          },
+                          listenOptions: stt.SpeechListenOptions(
+                            partialResults: true,
+                            cancelOnError: true,
+                            listenMode: stt.ListenMode.confirmation,
+                          ),
+                        );
+
+                        // Wait for speech to complete (it will auto-stop after pauseFor duration)
+                        Future.delayed(const Duration(milliseconds: 500), () {
+                          _checkSpeechCompletion(index, exercise);
+                        });
+                      } else {
+                        // Manual stop if user taps again
+                        await _speech.stop();
+                        recording.value = false;
+                        _processRecognizedSpeech(index, exercise);
+                      }
+                    },
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 300),
+                      width: isRec ? 80 : 70,
+                      height: isRec ? 80 : 70,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: isRec
+                            ? Colors.redAccent.withValues(alpha: 0.2)
+                            : const Color(0xFF4BC0C8).withValues(alpha: 0.2),
+                        border: Border.all(
+                          color: isRec
+                              ? Colors.redAccent
+                              : const Color(0xFF4BC0C8),
+                          width: 2,
                         ),
-                        SizedBox(width: 8),
-                        Text(
-                          "What you said:",
-                          style: TextStyle(
-                            color: Color(0xFF4BC0C8),
-                            fontWeight: FontWeight.bold,
+                        boxShadow: isRec
+                            ? [
+                                BoxShadow(
+                                  color: Colors.redAccent.withValues(
+                                    alpha: 0.4,
+                                  ),
+                                  blurRadius: 20,
+                                  spreadRadius: 5,
+                                ),
+                              ]
+                            : [],
+                      ),
+                      child: Icon(
+                        isRec ? Icons.mic : Icons.mic_none,
+                        color:
+                            isRec ? Colors.redAccent : const Color(0xFF4BC0C8),
+                        size: 30,
+                      ),
+                    ),
+                  ),
+                ),
+
+              if (!showFeed)
+                Padding(
+                  padding: const EdgeInsets.only(top: 16.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        isRec ? "Listening..." : "Tap mic to speak",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: isRec ? Colors.redAccent : Colors.white38,
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      if (isRec && recognizedText.isNotEmpty)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8.0),
+                          child: Text(
+                            recognizedText,
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              color: Colors.white70,
+                              fontSize: 12,
+                              fontStyle: FontStyle.italic,
+                            ),
                           ),
                         ),
+                    ],
+                  ),
+                ),
+
+              // Feedback Section
+              if (showFeed) ...[
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: Colors.green.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(
+                      color: Colors.green.withValues(alpha: 0.3),
+                    ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // What user said
+                      if (recognizedText.isNotEmpty) ...[
+                        Row(
+                          children: const [
+                            Icon(
+                              Icons.record_voice_over,
+                              color: Color(0xFF4BC0C8),
+                              size: 20,
+                            ),
+                            SizedBox(width: 8),
+                            Text(
+                              "What you said:",
+                              style: TextStyle(
+                                color: Color(0xFF4BC0C8),
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          recognizedText,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                        const SizedBox(height: 16),
+                        const Divider(color: Colors.white12),
+                        const SizedBox(height: 12),
                       ],
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      _recognizedText[index] ?? '',
-                      style: const TextStyle(color: Colors.white, fontSize: 16),
-                    ),
-                    const SizedBox(height: 16),
-                    const Divider(color: Colors.white12),
-                    const SizedBox(height: 12),
-                  ],
-                  // Expected response
-                  Row(
-                    children: const [
-                      Icon(Icons.check_circle, color: Colors.green, size: 20),
-                      SizedBox(width: 8),
+                      // Expected response
+                      Row(
+                        children: const [
+                          Icon(
+                            Icons.check_circle,
+                            color: Colors.green,
+                            size: 20,
+                          ),
+                          SizedBox(width: 8),
+                          Text(
+                            "Expected Response",
+                            style: TextStyle(
+                              color: Colors.green,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 8),
                       Text(
-                        "Expected Response",
-                        style: TextStyle(
-                          color: Colors.green,
-                          fontWeight: FontWeight.bold,
+                        exercise['response'] ?? '',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      const Divider(color: Colors.white12),
+                      const SizedBox(height: 8),
+                      const Text(
+                        "Evaluated on:",
+                        style: TextStyle(color: Colors.white54, fontSize: 12),
+                      ),
+                      Text(
+                        exercise['criteria'] ?? '',
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontSize: 14,
+                          fontStyle: FontStyle.italic,
                         ),
                       ),
                     ],
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    exercise['response'] ?? '',
-                    style: const TextStyle(color: Colors.white, fontSize: 16),
-                  ),
-                  const SizedBox(height: 12),
-                  const Divider(color: Colors.white12),
-                  const SizedBox(height: 8),
-                  const Text(
-                    "Evaluated on:",
-                    style: TextStyle(color: Colors.white54, fontSize: 12),
-                  ),
-                  Text(
-                    exercise['criteria'] ?? '',
-                    style: const TextStyle(
-                      color: Colors.white70,
-                      fontSize: 14,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ],
-      ),
+                ),
+              ],
+            ],
+          ),
+        );
+      },
     );
   }
 }
