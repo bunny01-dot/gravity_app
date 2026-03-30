@@ -65,18 +65,20 @@ android {
             val keyAliasVal = keystoreProperties["keyAlias"] as String? ?: "key"
             val keyPasswordVal = keystoreProperties["keyPassword"] as String? ?: ""
             val storePasswordVal = keystoreProperties["storePassword"] as String? ?: ""
+            val storeFileVal = keystoreProperties["storeFile"] as String?
             
             println("DEBUG: keyAlias=$keyAliasVal")
             println("DEBUG: keyPassword=${if (keyPasswordVal.isNotEmpty()) "***SET***" else "EMPTY"}")
             println("DEBUG: storePassword=${if (storePasswordVal.isNotEmpty()) "***SET***" else "EMPTY"}")
-            println("DEBUG: Forcing storeFile to 'release.keystore'")
+            println("DEBUG: Using storeFile from key.properties")
             
             keyAlias = keyAliasVal
             keyPassword = keyPasswordVal
             storePassword = storePasswordVal
             
-            // Hardcode to the file we know exists in this directory
-            storeFile = file("release.keystore")
+            if (!storeFileVal.isNullOrBlank()) {
+                storeFile = rootProject.file(storeFileVal)
+            }
         }
     }
 
