@@ -5,9 +5,14 @@ extension DashboardActions on _DashboardScreenState {
   void _syncTabPageController(int index, {bool animate = true}) {
     Future<void> move() async {
       if (!mounted || !_tabPageController.hasClients) return;
-      final currentPage = _tabPageController.page?.round();
-      if (currentPage == index) return;
-      if (animate) {
+      final currentPage = _tabPageController.page;
+      final currentPageIndex = currentPage?.round() ?? _currentIndex;
+      if (currentPageIndex == index) return;
+      final shouldAnimatePageTransition =
+          animate &&
+          currentPage != null &&
+          (currentPage - index).abs() <= 1;
+      if (shouldAnimatePageTransition) {
         await _tabPageController.animateToPage(
           index,
           duration: const Duration(milliseconds: 320),
@@ -864,6 +869,8 @@ extension DashboardActions on _DashboardScreenState {
           'id': id.isNotEmpty ? id : dedupeKey,
           'word': word.isNotEmpty ? word : example,
           'english_example': example,
+          'tamil_example': item['tamil_example'] ?? '',
+          'hindi_example': item['hindi_example'] ?? '',
           'tamil_meaning': item['tamil_meaning'] ?? '',
           'hindi_meaning': item['hindi_meaning'] ?? '',
           'meaning': item['meaning'] ?? '',

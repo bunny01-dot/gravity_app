@@ -43,6 +43,7 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
   Timer? _inactiveBackgroundTimer;
   Timer? _blackScreenWatchdog;
   Timer? _startupEscapeTimer;
+  Timer? _startupReadyDelayTimer;
   bool _isBackgrounded = false;
   bool _firstFrameCommitted = false;
   int? _firstFrameCommittedAtMs;
@@ -65,6 +66,7 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
   static const Duration _recoveryHardTimeout = Duration(seconds: 8);
   static const Duration _coldStartRecoveryTimeout = Duration(seconds: 10);
   static const Duration _startupEscapeTimeout = Duration(seconds: 18);
+  static const Duration _minimumColdStartAnimation = Duration(seconds: 3);
   static const Duration _recoveryStateMaxAge = Duration(hours: 6);
   static const String _lastHomeRouteKey = 'last_home_route';
   static const String _lastHomeRouteTsKey = 'last_home_route_ts';
@@ -135,6 +137,7 @@ class _EnglishLearningAppState extends State<EnglishLearningApp>
     _inactiveBackgroundTimer?.cancel();
     _blackScreenWatchdog?.cancel();
     _startupEscapeTimer?.cancel();
+    _startupReadyDelayTimer?.cancel();
     unawaited(_authStateSubscription?.cancel());
     _authStateSubscription = null;
     WidgetsBinding.instance.removeObserver(this);

@@ -152,7 +152,10 @@ class _RecoveryLoadingScreenContentState
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const _RefreshingLottieIndicator(size: 156),
+                const _RefreshingLottieIndicator(
+                  size: 156,
+                  showImmediately: true,
+                ),
                 if (_showSkipButton && widget.onSkip != null) ...[
                   const SizedBox(height: 32),
                   TextButton(

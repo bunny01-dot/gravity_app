@@ -132,6 +132,37 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
   }
 
+  void _showSnackBar(
+    String message, {
+    Color? backgroundColor,
+    Color? foregroundColor,
+  }) {
+    if (!mounted) return;
+
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final snackBarTextStyle = theme.snackBarTheme.contentTextStyle;
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        backgroundColor: backgroundColor,
+        content: Text(
+          message,
+          style:
+              snackBarTextStyle?.copyWith(
+                color:
+                    foregroundColor ??
+                    snackBarTextStyle.color ??
+                    colorScheme.onInverseSurface,
+              ) ??
+              TextStyle(
+                color: foregroundColor ?? colorScheme.onInverseSurface,
+              ),
+        ),
+      ),
+    );
+  }
+
   Future<void> _pickAndUploadImage() async {
     try {
       final theme = Theme.of(context);
@@ -204,17 +235,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
           _avatarSeed = ''; // Clear avatar seed to prefer photo
           _isUploading = false;
         });
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(const SnackBar(content: Text("Profile photo updated!")));
+        _showSnackBar('Profile photo updated!');
       }
     } catch (e) {
       debugPrint("Error uploading photo: $e");
       if (mounted) {
         setState(() => _isUploading = false);
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: Text("Failed to upload photo: $e")));
+        final colorScheme = Theme.of(context).colorScheme;
+        _showSnackBar(
+          'Failed to upload photo: $e',
+          backgroundColor: colorScheme.error,
+          foregroundColor: colorScheme.onError,
+        );
       }
     }
   }
@@ -237,9 +269,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
     if (mounted) {
       Navigator.pop(context);
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text("Profile photo removed.")));
+      _showSnackBar('Profile photo removed.');
     }
   }
 
@@ -365,9 +395,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
 
     if (mounted) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text("Profile Updated!")));
+      _showSnackBar('Profile updated!');
       Navigator.pop(context, true); // Return true to indicate update
     }
   }
@@ -385,11 +413,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
       );
     } catch (e) {
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Logout failed: $e'),
-          backgroundColor: Theme.of(context).colorScheme.error,
-        ),
+      final colorScheme = Theme.of(context).colorScheme;
+      _showSnackBar(
+        'Logout failed: $e',
+        backgroundColor: colorScheme.error,
+        foregroundColor: colorScheme.onError,
       );
     }
   }
@@ -832,15 +860,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
       if (!mounted) return;
       final levelsRemaining =
           _retakePlacementUnlockLevel - _currentLearningStage;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            "Retake unlocks at level $_retakePlacementUnlockLevel. "
-            "$levelsRemaining more levels needed.",
-            style: TextStyle(color: colorScheme.onTertiaryContainer),
-          ),
-          backgroundColor: colorScheme.tertiaryContainer,
-        ),
+      _showSnackBar(
+        "Retake unlocks at level $_retakePlacementUnlockLevel. "
+        "$levelsRemaining more levels needed.",
+        backgroundColor: colorScheme.tertiaryContainer,
+        foregroundColor: colorScheme.onTertiaryContainer,
       );
       return;
     }
@@ -1100,14 +1124,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
           isBug: isBug,
         );
         if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text(
-                successMsg,
-                style: TextStyle(color: colorScheme.onTertiaryContainer),
-              ),
-              backgroundColor: colorScheme.tertiaryContainer,
-            ),
+          _showSnackBar(
+            successMsg,
+            backgroundColor: colorScheme.tertiaryContainer,
+            foregroundColor: colorScheme.onTertiaryContainer,
           );
         }
       },
@@ -1162,11 +1182,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
     } catch (e) {
       debugPrint("Error submitting $collection: $e");
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text("Failed to submit. Please try again."),
-            backgroundColor: Theme.of(context).colorScheme.error,
-          ),
+        final colorScheme = Theme.of(context).colorScheme;
+        _showSnackBar(
+          'Failed to submit. Please try again.',
+          backgroundColor: colorScheme.error,
+          foregroundColor: colorScheme.onError,
         );
       }
     }

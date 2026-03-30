@@ -108,6 +108,38 @@ class _DailySpeakingChallengeScreenState
     return normalized;
   }
 
+  String _sentenceHintFor(Map<String, String> item) {
+    final rawWord = (item['word'] ?? '').trim();
+    final meaning = widget.preferredLanguage == 'Hindi'
+        ? (item['hindi_meaning'] ?? item['meaning'] ?? '').trim()
+        : widget.preferredLanguage == 'Tamil'
+        ? (item['tamil_meaning'] ?? item['meaning'] ?? '').trim()
+        : '';
+    final sentenceTranslation = widget.preferredLanguage == 'Hindi'
+        ? (item['hindi_example'] ?? '').trim()
+        : widget.preferredLanguage == 'Tamil'
+        ? (item['tamil_example'] ?? '').trim()
+        : '';
+
+    if (sentenceTranslation.isNotEmpty) {
+      return sentenceTranslation;
+    }
+    if (meaning.isEmpty) {
+      return rawWord;
+    }
+    return rawWord.isEmpty ? meaning : "$rawWord ($meaning)";
+  }
+
+  String _sentenceHintLabel() {
+    if (widget.preferredLanguage == 'Hindi') {
+      return 'Hindi translation';
+    }
+    if (widget.preferredLanguage == 'Tamil') {
+      return 'Tamil translation';
+    }
+    return 'Hint';
+  }
+
   String _sessionSignatureFor(List<Map<String, String>> words) {
     return words
         .map((item) {
@@ -640,13 +672,8 @@ class _DailySpeakingChallengeScreenState
     // Main Display: The Sentence
     final targetSentence =
         currentWord['english_example'] ?? currentWord['word'] ?? '';
-    final rawWord = currentWord['word'] ?? '';
-    final meaning = widget.preferredLanguage == 'Hindi'
-        ? (currentWord['hindi_meaning'] ?? currentWord['meaning'] ?? '')
-        : widget.preferredLanguage == 'Tamil'
-        ? (currentWord['tamil_meaning'] ?? currentWord['meaning'] ?? '')
-        : '';
-    final displayWord = meaning.isNotEmpty ? "$rawWord ($meaning)" : rawWord;
+    final sentenceHint = _sentenceHintFor(currentWord);
+    final sentenceHintLabel = _sentenceHintLabel();
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
@@ -721,28 +748,46 @@ class _DailySpeakingChallengeScreenState
                           ),
                           textAlign: TextAlign.center,
                         ),
-                        const SizedBox(height: 16),
-                        // Hint: Word + Meaning
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 6,
-                          ),
-                          decoration: BoxDecoration(
-                            color: colorScheme.surfaceContainerHighest
-                                .withValues(alpha: isDark ? 0.66 : 0.8),
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Text(
-                            displayWord,
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: colorScheme.onSurfaceVariant,
-                              fontStyle: FontStyle.italic,
+                        if (sentenceHint.isNotEmpty) ...[
+                          const SizedBox(height: 16),
+                          Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 14,
+                              vertical: 10,
                             ),
-                            textAlign: TextAlign.center,
+                            decoration: BoxDecoration(
+                              color: colorScheme.surfaceContainerHighest
+                                  .withValues(alpha: isDark ? 0.66 : 0.8),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  sentenceHintLabel,
+                                  style: TextStyle(
+                                    fontSize: 11,
+                                    fontWeight: FontWeight.w700,
+                                    letterSpacing: 0.3,
+                                    color: colorScheme.primary,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 6),
+                                Text(
+                                  sentenceHint,
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: colorScheme.onSurfaceVariant,
+                                    height: 1.4,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
+                        ],
                         const SizedBox(height: 30),
 
                         // TTS Button inside card

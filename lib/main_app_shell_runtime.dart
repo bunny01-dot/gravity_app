@@ -23,6 +23,33 @@ extension MainAppShellRuntime on _EnglishLearningAppState {
 
     final previous = _appPhase;
 
+    if (nextPhase != _AppPhase.ready) {
+      _startupReadyDelayTimer?.cancel();
+      _startupReadyDelayTimer = null;
+    } else if (mounted && previous == _AppPhase.booting) {
+      final elapsed = Duration(
+        milliseconds: DateTime.now().millisecondsSinceEpoch -
+            _processStartEpochMs,
+      );
+      final remaining =
+          _EnglishLearningAppState._minimumColdStartAnimation - elapsed;
+      if (remaining > Duration.zero) {
+        _startupReadyDelayTimer?.cancel();
+        _startupReadyDelayTimer = Timer(remaining, () {
+          _startupReadyDelayTimer = null;
+          if (!mounted || _appPhase != _AppPhase.booting) return;
+          _setPhase(
+            _AppPhase.ready,
+            reason: '${reason}_after_startup_animation',
+          );
+        });
+        _logDiagnostic(
+          'phase_transition_delayed instance=$_instanceId from=${previous.name} to=${nextPhase.name} mounted=$mounted reason=$reason remaining_ms=${remaining.inMilliseconds}',
+        );
+        return;
+      }
+    }
+
     if (!mounted) {
       if (nextPhase == _AppPhase.recovering) {
         _recoveryOverlaySerial++;
