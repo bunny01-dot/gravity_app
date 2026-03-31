@@ -22,6 +22,7 @@ class MasteryLevelMap extends StatefulWidget {
   final bool useStarRating;
   final LevelMapLayout layoutType;
   final List<Widget>? actions;
+  final bool showInfoButton;
 
   const MasteryLevelMap({
     super.key,
@@ -38,6 +39,7 @@ class MasteryLevelMap extends StatefulWidget {
     this.useStarRating = false,
     this.layoutType = LevelMapLayout.zigZag,
     this.actions,
+    this.showInfoButton = true,
   });
 
   @override
@@ -65,9 +67,11 @@ class _MasteryLevelMapState extends State<MasteryLevelMap>
     // Create scroll controller with initial offset
     _scrollController = ScrollController();
     // Use post-frame callback for tutorials only
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _checkStarTutorial();
-    });
+    if (widget.showInfoButton) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _checkStarTutorial();
+      });
+    }
   }
 
   void _checkStarTutorial() async {
@@ -347,15 +351,16 @@ class _MasteryLevelMapState extends State<MasteryLevelMap>
                         ),
                       ),
                     ),
-                    IconButton(
-                      icon: Icon(
-                        Icons.info_outline_rounded,
-                        color: onSurface.withValues(alpha: 0.62),
-                        size: 20,
+                    if (widget.showInfoButton)
+                      IconButton(
+                        icon: Icon(
+                          Icons.info_outline_rounded,
+                          color: onSurface.withValues(alpha: 0.62),
+                          size: 20,
+                        ),
+                        onPressed: _showStarSystemInfo,
+                        tooltip: "How to earn stars",
                       ),
-                      onPressed: _showStarSystemInfo,
-                      tooltip: "How to earn stars",
-                    ),
                     if (widget.actions != null) ...widget.actions!,
                   ],
                 ),

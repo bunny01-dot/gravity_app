@@ -18,6 +18,7 @@ import 'package:gravity_app/services/stage_content_service.dart';
 import 'package:gravity_app/screens/daily_vocabulary_list_screen.dart';
 import 'package:gravity_app/screens/daily_verbs_list_screen.dart';
 import 'package:gravity_app/screens/daily_review_screen.dart'; // Import DailyReviewScreen
+import 'package:gravity_app/screens/stage_journey_map_screen.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gravity_app/main.dart';
 import 'package:gravity_app/services/stage_progress_service.dart';

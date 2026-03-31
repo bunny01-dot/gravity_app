@@ -524,12 +524,22 @@ extension DashboardActions on _DashboardScreenState {
     await _checkDailyProgress(); // Refresh upon return
     if (!mounted) return;
     setState(() {}); // Force UI rebuild
+
     if (result is Map && result['nextLevelUnlocked'] == true) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Next level unlocked!'),
-          behavior: SnackBarBehavior.floating,
-          duration: Duration(seconds: 2),
+      final completedStage = result['completedStage'] is int
+          ? result['completedStage'] as int
+          : reviewStage;
+      final nextStage = result['nextStage'] is int
+          ? result['nextStage'] as int
+          : completedStage + 1;
+
+      await Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => StageJourneyMapScreen(
+            completedStage: completedStage,
+            unlockedStage: nextStage,
+          ),
         ),
       );
     }
