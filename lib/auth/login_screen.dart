@@ -25,8 +25,10 @@ class _LoginScreenState extends State<LoginScreen> {
   final _passwordController = TextEditingController();
   bool _isLoading = false;
   bool _isLoginLoading = false;
+  bool _showBlockingLoader = false;
   bool _showTapFlash = false;
   int _loginButtonAnimationNonce = 0;
+  String _blockingLoaderMessage = 'Signing you in...';
   static const Duration _minimumLoginAnimationTime = Duration(
     milliseconds: 900,
   );
@@ -154,11 +156,21 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Future<void> _handleGoogleSignIn() async {
+    if (_isLoading) return;
+    bool didNavigate = false;
     setState(() {
       _isLoading = true;
       _isLoginLoading = false;
+      _showBlockingLoader = true;
+      _blockingLoaderMessage = 'Opening Google sign-in...';
     });
+    await Future<void>.delayed(const Duration(milliseconds: 16));
     try {
+      if (mounted) {
+        setState(() {
+          _blockingLoaderMessage = 'Waiting for Google account...';
+        });
+      }
       final user = await AuthService().signInWithGoogle();
 
       if (user == null) {
@@ -167,9 +179,16 @@ class _LoginScreenState extends State<LoginScreen> {
           setState(() {
             _isLoading = false;
             _isLoginLoading = false;
+            _showBlockingLoader = false;
           });
         }
         return;
+      }
+
+      if (mounted) {
+        setState(() {
+          _blockingLoaderMessage = 'Syncing your account...';
+        });
       }
 
       // Persist Login and User Role
@@ -210,17 +229,22 @@ class _LoginScreenState extends State<LoginScreen> {
       // Navigate to appropriate dashboard based on role
       if (!mounted) return;
       if (userRole == 'teacher') {
+        didNavigate = true;
         Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(builder: (_) => const TeacherDashboard()),
           (route) => false,
         );
       } else {
+        setState(() {
+          _blockingLoaderMessage = 'Preparing your dashboard...';
+        });
         await PlacementStateService.ensureInitialized();
         if (!mounted) return;
         final status = await PlacementStateService.getPlacementQuizStatus();
         if (!mounted) return;
         final hasCompleted = status == PlacementStateService.statusCompleted;
+        didNavigate = true;
         Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
@@ -244,10 +268,11 @@ class _LoginScreenState extends State<LoginScreen> {
         );
       }
     } finally {
-      if (mounted) {
+      if (!didNavigate && mounted) {
         setState(() {
           _isLoading = false;
           _isLoginLoading = false;
+          _showBlockingLoader = false;
         });
       }
     }
@@ -571,6 +596,69 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
           ),
+
+          if (_showBlockingLoader)
+            Positioned.fill(
+              child: AbsorbPointer(
+                absorbing: true,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: Colors.black.withValues(alpha: 0.22),
+                  ),
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
+                    child: Center(
+                      child: Container(
+                        width: 280,
+                        margin: const EdgeInsets.symmetric(horizontal: 24),
+                        padding: const EdgeInsets.fromLTRB(24, 28, 24, 24),
+                        decoration: BoxDecoration(
+                          color: cardFill,
+                          borderRadius: BorderRadius.circular(24),
+                          border: Border.all(color: cardBorder),
+                        ),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const GravityLogo(size: 72),
+                            const SizedBox(height: 20),
+                            SizedBox(
+                              width: 120,
+                              height: 120,
+                              child: Lottie.asset(
+                                'assets/lottie/loading.json',
+                                fit: BoxFit.contain,
+                                repeat: true,
+                              ),
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              _blockingLoaderMessage,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: onSurface,
+                                fontSize: 18,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Please wait while we finish signing you in.',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: onSurface.withValues(alpha: 0.68),
+                                fontSize: 13,
+                                height: 1.35,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
         ],
       ),
     );

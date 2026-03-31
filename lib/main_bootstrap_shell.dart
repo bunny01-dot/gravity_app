@@ -1,5 +1,8 @@
 part of 'main.dart';
 
+const Duration _initialLaunchAnimationDuration = Duration(milliseconds: 2800);
+const Duration _repeatLaunchAnimationDuration = Duration(milliseconds: 1600);
+
 class _ResumePolicyDecision {
   const _ResumePolicyDecision({
     required this.snapshotIsFresh,
@@ -286,9 +289,8 @@ class _AppBootstrapShellState extends State<AppBootstrapShell> {
     final elapsed = DateTime.now().difference(launchStartedAt);
 
     final targetWaitDuration = _isInitialAppLaunch
-        ? const Duration(milliseconds: 6000)
-        : const Duration(milliseconds: 2000);
-
+        ? _initialLaunchAnimationDuration
+        : _repeatLaunchAnimationDuration;
     final remaining = targetWaitDuration - elapsed;
     if (remaining > Duration.zero) {
       await Future<void>.delayed(remaining);
@@ -390,13 +392,11 @@ class _StartupLoadingScreenState extends State<StartupLoadingScreen>
       vsync: this,
       duration: const Duration(milliseconds: 900),
     );
-    final targetAnimDuration = _isInitialAppLaunch
-        ? const Duration(milliseconds: 6000)
-        : const Duration(milliseconds: 2000);
-
     _progressShineController = AnimationController(
       vsync: this,
-      duration: targetAnimDuration,
+      duration: widget.isInitialLaunch
+          ? _initialLaunchAnimationDuration
+          : _repeatLaunchAnimationDuration,
     )..forward();
     _logoOpacity = CurvedAnimation(
       parent: _revealController,
@@ -485,20 +485,13 @@ class _StartupLoadingScreenState extends State<StartupLoadingScreen>
             child: SizedBox(
               width: 200,
               height: 200,
-              child: widget.isInitialLaunch
-                  ? Image.asset(
-                      'assets/images/gemini_logo_anim.webp',
-                      fit: BoxFit.cover,
-                      errorBuilder: (context, error, stackTrace) {
-                        return const GravityLogo(size: 150);
-                      },
-                    )
-                  : Image.asset(
-                      'assets/images/app_logo.png',
-                      fit: BoxFit.cover,
-                      errorBuilder: (context, error, stackTrace) =>
-                          const GravityLogo(size: 150),
-                    ),
+              child: Image.asset(
+                'assets/images/app_logo_anim.webp',
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  return const GravityLogo(size: 150);
+                },
+              ),
             ),
           ),
         ],
